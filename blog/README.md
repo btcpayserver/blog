@@ -1,1 +1,3 @@
 # BTCPay Server Blog
+
+<PostIndex />
