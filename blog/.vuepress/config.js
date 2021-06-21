@@ -59,7 +59,24 @@ module.exports = {
           hostname: baseUrl,
           exclude: ['/404.html']
         },
-      },]
+        directories: [
+          {
+            id: 'post',
+            dirname: '_posts',
+            path: '/',
+            pagination: {
+              lengthPerPage: 2,
+            },
+          },
+        ],
+        frontmatters: [
+          {
+            id: 'category',
+            keys: ['category'],
+            path: '/category/',
+          },
+        ],
+      },],
   ],
   markdown: {
     extendMarkdown (md) {
