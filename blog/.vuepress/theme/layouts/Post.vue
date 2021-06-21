@@ -1,3 +1,3 @@
 <template>
- <IndexPost />
+  <Layout />
 </template>
