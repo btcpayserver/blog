@@ -75,6 +75,11 @@ module.exports = {
             keys: ['category'],
             path: '/category/',
           },
+          {
+            id: 'author',
+            keys: ['author'],
+            path: '/author/',
+          },
         ],
       },],
   ],

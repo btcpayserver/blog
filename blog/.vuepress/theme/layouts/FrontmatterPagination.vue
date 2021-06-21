@@ -1,12 +1,15 @@
 <template>
   <div>
     <div class="theme-default-content">
-      <h1>BTCPay Server Blog</h1>
+      <h1 v-if="this.$page.path.startsWith('/category/')">
+      Category: {{ this.$pagination.pages[0].frontmatter.category }}</h1>
+      <h1 v-else>Author: {{ this.$pagination.pages[0].frontmatter.author }}</h1>
       <hr>
       <div v-for="post in posts">
         <h2 class="index-post-title">
             <router-link :to="post.path">
-              {{ post.frontmatter.title }}</router-link>
+              {{ post.frontmatter.title }}
+            </router-link>
         </h2>
         <p class="meta"> Posted in
           <router-link :to="'/category/' + post.frontmatter.category">
