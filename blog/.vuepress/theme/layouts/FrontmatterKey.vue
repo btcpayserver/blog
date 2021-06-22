@@ -40,9 +40,9 @@ h1 {
   margin-top: -0.5rem !important;
 }
 ul {
-  margin-bottom: 0;
+  margin: 1.2rem 0 0;
 }
 ul:not(:first-child) {
-  margin: 0;
+  margin: 0.5rem 0;
 }
 </style>
