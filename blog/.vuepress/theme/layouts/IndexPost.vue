@@ -55,11 +55,7 @@ export default {
 .index-post-title a {
   font-weight: 600;
 }
-h1 {
-  text-align: center;
-}
 .header-links {
-  text-align: center;
   margin-top: -0.5rem !important;
 }
 </style>
