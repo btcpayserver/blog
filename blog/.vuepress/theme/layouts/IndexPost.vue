@@ -45,6 +45,13 @@ export default {
 </script>
 
 <style scoped>
+h1 {
+  text-align: center;
+}
+.header-links {
+text-align: center;
+  margin-top: -0.5rem !important;
+}
 .meta {
   margin-top: -1.15rem;
   font-style: italic;
@@ -54,8 +61,5 @@ export default {
 }
 .index-post-title a {
   font-weight: 600;
-}
-.header-links {
-  margin-top: -0.5rem !important;
 }
 </style>
