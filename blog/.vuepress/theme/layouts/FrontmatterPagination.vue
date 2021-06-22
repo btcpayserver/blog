@@ -20,7 +20,7 @@
           <router-link :to="'/authors/' + post.frontmatter.author">
             {{ post.frontmatter.author }}</router-link>
           on
-          {{ new Date(post.frontmatter.date).getMonth() }}/{{ new Date(post.frontmatter.date).getDate() + 1 }}/{{ new Date(post.frontmatter.date).getFullYear() }}</p>
+          {{ new Date(post.frontmatter.date).getMonth() + 1 }}/{{ new Date(post.frontmatter.date).getDate() + 1 }}/{{ new Date(post.frontmatter.date).getFullYear() }}</p>
         <p>{{ post.frontmatter.description }}</p>
         <p><router-link :to="post.path">Read More</router-link></p>
         <hr>
