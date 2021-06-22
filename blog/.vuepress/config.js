@@ -63,6 +63,7 @@ module.exports = {
           {
             id: 'post',
             dirname: '_posts',
+            title: '', // effectively sets home page title to just "BTCPay Server Blog"
             path: '/',
             pagination: {
               lengthPerPage: 2,
@@ -72,13 +73,21 @@ module.exports = {
         frontmatters: [
           {
             id: 'category',
-            keys: ['category'],
-            path: '/category/',
+            keys: ['category', 'categories'],
+            path: '/categories/',
+            title: '', // sets extended title of individual author pages (follows author name)
+            frontmatter: {
+              title: 'Categories', // sets title of /categories/ page
+            },
           },
           {
             id: 'author',
-            keys: ['author'],
-            path: '/author/',
+            keys: ['author', 'authors'],
+            path: '/authors/',
+            title: '– Posts', // sets extended title of individual category pages (follows category name)
+            frontmatter: {
+              title: 'Authors', // sets title of /authors/ page
+            },
           },
         ],
       },],

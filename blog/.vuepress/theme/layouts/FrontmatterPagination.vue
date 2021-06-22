@@ -1,9 +1,11 @@
 <template>
   <div>
     <div class="theme-default-content">
-      <h1 v-if="this.$page.path.startsWith('/category/')">
-      Category: {{ this.$pagination.pages[0].frontmatter.category }}</h1>
-      <h1 v-else>Author: {{ this.$pagination.pages[0].frontmatter.author }}</h1>
+      <h1 v-if="this.$page.path.startsWith('/categories/')">{{ this.$pagination.pages[0].frontmatter.category }}</h1>
+      <h1 v-else>Posts by {{ this.$pagination.pages[0].frontmatter.author }}</h1>
+      <p class="header-links">
+        <router-link :to="'/authors/'">Authors</router-link> | <router-link :to="'/categories/'">Categories</router-link>
+      </p>
       <hr>
       <div v-for="post in posts">
         <h2 class="index-post-title">
@@ -12,10 +14,10 @@
             </router-link>
         </h2>
         <p class="meta"> Posted in
-          <router-link :to="'/category/' + post.frontmatter.category">
+          <router-link :to="'/categories/' + post.frontmatter.category">
             {{ post.frontmatter.category }}</router-link>
           by
-          <router-link :to="'/author/' + post.frontmatter.author">
+          <router-link :to="'/authors/' + post.frontmatter.author">
             {{ post.frontmatter.author }}</router-link>
           on
           {{ new Date(post.frontmatter.date).getMonth() }}/{{ new Date(post.frontmatter.date).getDate() + 1 }}/{{ new Date(post.frontmatter.date).getFullYear() }}</p>
@@ -45,6 +47,13 @@ export default {
 </script>
 
 <style scoped>
+h1 {
+  text-align: center;
+}
+.header-links {
+  text-align: center;
+  margin-top: -0.5rem !important;
+}
 .meta {
   margin-top: -1.15rem;
   font-style: italic;

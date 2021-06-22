@@ -2,6 +2,9 @@
   <div>
     <div class="theme-default-content">
       <h1>BTCPay Server Blog</h1>
+      <p class="header-links">
+        <router-link :to="'/authors/'">Authors</router-link> | <router-link :to="'/categories/'">Categories</router-link>
+      </p>
       <hr>
       <div v-for="post in posts">
         <h2 class="index-post-title">
@@ -9,10 +12,10 @@
               {{ post.frontmatter.title }}</router-link>
         </h2>
         <p class="meta"> Posted in
-          <router-link :to="'/category/' + post.frontmatter.category">
+          <router-link :to="'/categories/' + post.frontmatter.category">
             {{ post.frontmatter.category }}</router-link>
           by
-          <router-link :to="'/author/' + post.frontmatter.author">
+          <router-link :to="'/authors/' + post.frontmatter.author">
             {{ post.frontmatter.author }}</router-link>
           on
           {{ new Date(post.frontmatter.date).getMonth() }}/{{ new Date(post.frontmatter.date).getDate() + 1 }}/{{ new Date(post.frontmatter.date).getFullYear() }}</p>
@@ -51,5 +54,12 @@ export default {
 }
 .index-post-title a {
   font-weight: 600;
+}
+h1 {
+  text-align: center;
+}
+.header-links {
+  text-align: center;
+  margin-top: -0.5rem !important;
 }
 </style>
