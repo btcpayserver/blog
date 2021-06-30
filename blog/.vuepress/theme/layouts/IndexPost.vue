@@ -2,9 +2,9 @@
   <div>
     <div class="theme-default-content">
       <h1>BTCPay Server Blog</h1>
-      <p class="header-links">
-        <router-link :to="'/authors/'">Authors</router-link> | <router-link :to="'/categories/'">Categories</router-link>
-      </p>
+
+      <Categories />
+
       <hr>
       <div v-for="post in posts">
         <h2 class="index-post-title">
@@ -36,10 +36,10 @@ export default {
     posts() {
       return this.$pagination.pages
         .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date));
-    }
+    },
   },
   components: {
-    Pagination,
+    Pagination
   }
 }
 </script>
