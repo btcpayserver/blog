@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="theme-default-content">
-      <h1 v-if="this.$page.path.startsWith('/category/')">{{ this.$pagination.pages[0].frontmatter.category }}</h1>
+      <h1 v-if="this.$page.path.startsWith('/category/')">BTCPay Server Blog</h1>
       <h1 v-else>Posts by {{ this.$pagination.pages[0].frontmatter.author }}</h1>
       <Categories v-if="this.$page.path.startsWith('/category/')" />
       <hr>

@@ -30,6 +30,7 @@
   opacity: 0.87;
   cursor: default;
   text-decoration: none !important;
+  border-bottom: 2px solid lightgray;
 }
 
 .page-link, .active-link {

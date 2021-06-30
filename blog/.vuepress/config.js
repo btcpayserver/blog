@@ -107,6 +107,11 @@ module.exports = {
     docsDir: "blog",
     sidebarDepth: 0,
     nav: [
+      { text: 'Announcements', link: `/category/announcements/` },
+      { text: 'Plugins', link: `/category/plugins/`, rel: 'category' },
+      { text: 'Guides', link: `/category/guides/`, rel: 'category' },
+      { text: 'Features', link: `/category/features/`, rel: 'category' },
+      { text: 'Stories', link: `/category/stories/`, rel: 'category' },
       {
         text: "Website",
         link: "https://btcpayserver.org/",
@@ -126,7 +131,7 @@ module.exports = {
         text: "Twitter",
         link: "https://twitter.com/BtcpayServer",
         rel: "noopener noreferrer twitter"
-      }
+      },
     ]
   }
 }

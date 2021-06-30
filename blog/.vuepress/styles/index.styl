@@ -160,6 +160,27 @@ h5, h6 {
     color: var(--btcpay-header-link-accent);
   }
 
+  .nav-item > a:not(.external):hover, .nav-item > a:not(.external).router-link-active {
+    margin-bottom: 0;
+    border-bottom: none;
+  }
+
+  .categories-list {
+    @media (max-width: 899px) {
+      display: none;
+    }
+  }
+
+  a.nav-link:not(.external) {
+    display: none;
+
+    @media (max-width: 899px) {
+      display: block;
+      width: 16.4rem;
+
+    }
+  }
+
   a.nav-link[rel*="website"],
   a.nav-link[rel*="chat"],
   a.nav-link[rel*="github"],
