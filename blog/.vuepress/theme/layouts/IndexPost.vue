@@ -11,11 +11,12 @@
             <router-link :to="post.path">
               {{ post.frontmatter.title }}</router-link>
         </h2>
+        <img v-if="post.frontmatter.teaser" :src="post.frontmatter.teaser" class="teaser">
         <p class="meta"> Posted in
-          <router-link :to="'/categories/' + post.frontmatter.category">
+          <router-link :to="'/category/' + post.frontmatter.category">
             {{ post.frontmatter.category }}</router-link>
           by
-          <router-link :to="'/authors/' + post.frontmatter.author">
+          <router-link :to="'/author/' + post.frontmatter.author">
             {{ post.frontmatter.author }}</router-link>
           on
           {{ new Date(post.frontmatter.date).getMonth() + 1 }}/{{ new Date(post.frontmatter.date).getDate() + 1 }}/{{ new Date(post.frontmatter.date).getFullYear() }}</p>
