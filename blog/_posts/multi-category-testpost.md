@@ -1,6 +1,8 @@
 ---
 title: Multi-Category Test Post
-author: Eddie
+author:
+  - Eddie
+  - Susie
 category:
   - Stories
   - Releases

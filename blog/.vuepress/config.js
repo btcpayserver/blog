@@ -86,7 +86,7 @@ module.exports = {
             id: 'author',
             keys: ['author', 'authors'],
             path: '/author/',
-            title: '– Posts', // sets extended title of individual author pages (follows category name)
+            title: '', // sets extended title of individual author pages (follows category name)
             frontmatter: {
               title: 'Authors', // sets title of /author/ page
             },

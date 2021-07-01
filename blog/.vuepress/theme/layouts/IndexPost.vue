@@ -21,9 +21,16 @@
           </span>
 
           by
-          <router-link :to="'/author/' + post.frontmatter.author">
+
+          <router-link v-if="!Array.isArray(post.frontmatter.author)" :to="'/author/' + post.frontmatter.author">
             {{ post.frontmatter.author }}</router-link>
+
+          <span v-else v-for="(item, index) in post.frontmatter.author" class="category-item">
+            <router-link :to="'/author/' + item">{{ item }}</router-link><span v-if="index != (post.frontmatter.author.length - 1)">, </span>
+          </span>
+
           on
+
           {{ new Date(post.frontmatter.date).getMonth() + 1 }}/{{ new Date(post.frontmatter.date).getDate() + 1 }}/{{ new Date(post.frontmatter.date).getFullYear() }}</p>
         <img v-if="post.frontmatter.postImage" :src="post.frontmatter.postImage" class="post-image">
         <p>{{ post.frontmatter.description }}</p>
