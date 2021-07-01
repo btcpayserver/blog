@@ -1,10 +1,11 @@
 <template>
   <div>
     <div class="theme-default-content">
-      <h1 v-if="this.$page.path.startsWith('/category/')">BTCPay Server Blog</h1>
-      <h1 v-else>Posts by {{ this.$pagination.pages[0].frontmatter.author }}</h1>
-      <Categories v-if="this.$page.path.startsWith('/category/')" />
+      <h1>BTCPay Server Blog</h1>
+      <Categories />
       <hr>
+      <h2 v-if="this.$page.path.startsWith('/author/')" class="post-list-sub-header">Posts by {{ this.$pagination.pages[0].frontmatter.author }}</h2>
+      <h2 v-if="this.$page.path.startsWith('/category/')" class="post-list-sub-header mobile-only">{{ this.$pagination.pages[0].frontmatter.category }}</h2>
       <div v-for="post in posts">
         <h2 class="index-post-title">
             <router-link :to="post.path">
@@ -67,5 +68,17 @@ h1 {
   height: 15rem;
   width: 100%;
   object-fit: cover;
+}
+.post-list-sub-header {
+  border-bottom: none;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+.mobile-only {
+  display: none;
+  @media (max-width: 899px) {
+    display: block;
+  }
 }
 </style>
