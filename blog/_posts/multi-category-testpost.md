@@ -1,9 +1,11 @@
 ---
-title: Releases Test Post
+title: Multi-Category Test Post
 author: Eddie
 category:
+  - Stories
   - Releases
-date: 2021-06-25
+  - Plugins
+date: 2021-06-27
 description:
   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 postImage: https://source.unsplash.com/1600x900/?nature,water
