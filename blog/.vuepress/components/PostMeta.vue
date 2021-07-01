@@ -4,8 +4,14 @@
       {{ $page.frontmatter.title }}
     </h2>
     <p class="meta"> Posted in
-      <router-link :to="'/category/' + $page.frontmatter.category">
+
+      <router-link v-if="!Array.isArray($page.frontmatter.category)" :to="'/category/' + $page.frontmatter.category">
         {{ $page.frontmatter.category }}</router-link>
+
+      <span v-else v-for="(item, index) in $page.frontmatter.category" class="category-item">
+        <router-link :to="'/category/' + item">{{ item }}</router-link><span v-if="index != ($page.frontmatter.category.length - 1)">, </span>
+      </span>
+
       by
       <router-link :to="'/author/' + $page.frontmatter.author">
         {{ $page.frontmatter.author }}</router-link>

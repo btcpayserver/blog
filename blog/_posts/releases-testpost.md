@@ -1,12 +1,13 @@
 ---
-title: Stories Test Post
+title: Releases & Stories Test Post
 author: Eddie
-category: Stories
-date: 2021-06-21
+category:
+  - Stories
+  - Releases
+date: 2021-06-25
 description:
   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 postImage: https://source.unsplash.com/1600x900/?nature,water
-layout: Post
 ---
 
 <PostMeta />

@@ -13,8 +13,14 @@
             </router-link>
         </h2>
         <p class="meta"> Posted in
-          <router-link :to="'/category/' + post.frontmatter.category">
+
+          <router-link v-if="!Array.isArray(post.frontmatter.category)" :to="'/category/' + post.frontmatter.category">
             {{ post.frontmatter.category }}</router-link>
+
+          <span v-else v-for="(item, index) in post.frontmatter.category" class="category-item">
+            <router-link :to="'/category/' + item">{{ item }}</router-link><span v-if="index != (post.frontmatter.category.length - 1)">, </span>
+          </span>
+
           by
           <router-link :to="'/author/' + post.frontmatter.author">
             {{ post.frontmatter.author }}</router-link>

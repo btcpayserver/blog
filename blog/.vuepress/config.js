@@ -20,7 +20,8 @@ module.exports = {
   title,
   description: "Official BTCPay Server Blog",
   head: [
-    ["link", { rel: "stylesheet", href: "/styles/btcpayserver-variables.css" }]
+    ["link", { rel: "stylesheet", href: "/styles/btcpayserver-variables.css" }],
+    ['link', { rel: "shortcut icon", href: "/favicon.ico"}],
   ],
   chainWebpack (config) {
     config.module
@@ -68,6 +69,7 @@ module.exports = {
             pagination: {
               lengthPerPage: 2,
             },
+            itemPermalink: '/:slug',
           },
         ],
         frontmatters: [
@@ -107,11 +109,12 @@ module.exports = {
     docsDir: "blog",
     sidebarDepth: 0,
     nav: [
+      { text: 'Home', link: `/` },
       { text: 'Announcements', link: `/category/announcements/` },
-      { text: 'Plugins', link: `/category/plugins/`, rel: 'category' },
-      { text: 'Guides', link: `/category/guides/`, rel: 'category' },
-      { text: 'Features', link: `/category/features/`, rel: 'category' },
-      { text: 'Stories', link: `/category/stories/`, rel: 'category' },
+      { text: 'Plugins', link: `/category/plugins/` },
+      { text: 'Guides', link: `/category/guides/` },
+      { text: 'Features', link: `/category/features/` },
+      { text: 'Stories', link: `/category/stories/` },
       {
         text: "Website",
         link: "https://btcpayserver.org/",
