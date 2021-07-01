@@ -1,3 +1,5 @@
 <template>
-  <Layout />
+  <Layout>
+    <Content />
+  </Layout>
 </template>

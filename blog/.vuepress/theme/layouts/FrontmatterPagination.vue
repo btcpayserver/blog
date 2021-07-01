@@ -19,6 +19,7 @@
             {{ post.frontmatter.author }}</router-link>
           on
           {{ new Date(post.frontmatter.date).getMonth() + 1 }}/{{ new Date(post.frontmatter.date).getDate() + 1 }}/{{ new Date(post.frontmatter.date).getFullYear() }}</p>
+        <img v-if="post.frontmatter.postImage" :src="post.frontmatter.postImage" class="post-image">
         <p>{{ post.frontmatter.description }}</p>
         <p><router-link :to="post.path">Read More</router-link></p>
         <hr>
@@ -61,5 +62,10 @@ h1 {
 }
 .index-post-title a {
   font-weight: 600;
+}
+.post-image {
+  height: 15rem;
+  width: 100%;
+  object-fit: cover;
 }
 </style>
