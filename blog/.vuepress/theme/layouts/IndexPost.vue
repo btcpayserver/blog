@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="theme-default-content">
-      <h1>BTCPay Server Blog</h1>
+      <h1><router-link :to="'/'" class="home-link">BTCPay Server Blog</router-link></h1>
 
       <Categories />
 
@@ -61,6 +61,13 @@ export default {
 <style scoped>
 h1 {
   text-align: center;
+}
+.home-link {
+  color: var(--btcpay-body-text);
+  font-weight: 600;
+}
+h1 .home-link:hover {
+  text-decoration: none !important;
 }
 .header-links {
   text-align: center;
