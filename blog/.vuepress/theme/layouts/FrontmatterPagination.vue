@@ -71,14 +71,6 @@ h1 {
 }
 .post-list-sub-header {
   border-bottom: none;
-  font-style: italic;
-  font-weight: bold;
   text-align: center;
-}
-.mobile-only {
-  display: none;
-  @media (max-width: 899px) {
-    display: block;
-  }
 }
 </style>
