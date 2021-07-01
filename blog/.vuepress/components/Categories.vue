@@ -8,7 +8,7 @@
             {{ category.name }}
           </span>
 
-          <router-link v-else class="page-link" :to="category.path">
+          <router-link v-else class="page-link" :to="category.path.toLowerCase()">
             {{ category.name }}
           </router-link>
 
@@ -31,9 +31,5 @@
   cursor: default;
   text-decoration: none !important;
   border-bottom: 2px solid lightgray;
-}
-
-.page-link, .active-link {
-  font-size: 1.1rem;
 }
 </style>

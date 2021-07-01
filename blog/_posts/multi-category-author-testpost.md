@@ -1,5 +1,5 @@
 ---
-title: Multi-Category Test Post
+title: Multi-Category, Multi-Author Test Post
 author:
   - Eddie
   - Susie
