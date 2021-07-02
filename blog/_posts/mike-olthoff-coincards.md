@@ -62,7 +62,7 @@ Nicolas was able to get a really good product up and running very quickly. At th
 
 ## The early days of BTCPay?
 
-The early days were very much just “Can we have this feature?” and Nicolas building it into BTCPay. I think Coincards and [Halong Mining](https://halongmining.com) were the first of the larger vendors who utilized BTCPay, so we were able to quickly push a lot of feedback to Nicolas on what was going wrong and why. He also was a star with fixing issues and most issues from the first few weeks of going live were fixed within a day.
+The early days were very much just “Can we have this feature?” and Nicolas building it into BTCPay. I think Coincards and [Halong Mining](http://halongmininginc.com/) were the first of the larger vendors who utilized BTCPay, so we were able to quickly push a lot of feedback to Nicolas on what was going wrong and why. He also was a star with fixing issues and most issues from the first few weeks of going live were fixed within a day.
 
 For the most part, the core of BTCPay has stayed the same: A really amazing payment processor. BTCPay has had so many improvements over the last year it really turned into something that can be almost everything to everyone who needs payments processed.
 
