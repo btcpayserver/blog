@@ -50,7 +50,7 @@ Introducing - **Payment Requests**, a new type of time-sensitive invoice pages b
 2. Customize the design (optional)
 3. Share the URL.
 
-**Creating a payment request in BTCPay:**
+***Creating a payment request in BTCPay:***
 
 ![](/images/BTCPay-payment-Requests.gif)
 
@@ -67,7 +67,7 @@ You can save the invoice for later and preview it, or publish it right away and 
 - Customizable design (css/theme)
 - Custom or fixed amount
 
-**Print invoices with ease:**
+***Print invoices with ease:***
 
 ![](/images/Print-Preview-BItcoin-Invoice.png)
 

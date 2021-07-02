@@ -33,9 +33,7 @@
           on
 
           {{ new Date(post.frontmatter.date).getMonth() + 1 }}/{{ new Date(post.frontmatter.date).getDate() + 1 }}/{{ new Date(post.frontmatter.date).getFullYear() }}</p>
-        <img v-if="post.frontmatter.coverImage" :src="post.frontmatter.coverImage" class="cover-image">
-        <p>{{ post.frontmatter.description }}</p>
-        <p><router-link :to="post.path">Read More</router-link></p>
+        <router-link :to="post.path"><img v-if="post.frontmatter.coverImage" :src="post.frontmatter.coverImage" class="cover-image"></router-link>
         <hr>
       </div>
       <Pagination />
@@ -58,39 +56,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-h1 {
-  text-align: center;
-}
-.home-link {
-  color: var(--btcpay-body-text);
-  font-weight: 600;
-}
-h1 .home-link:hover {
-  text-decoration: none !important;
-}
-.header-links {
-  text-align: center;
-  margin-top: -0.5rem !important;
-}
-.meta {
-  margin-top: -1.15rem;
-  font-style: italic;
-}
-.index-post-title {
-  border: none;
-}
-.index-post-title a {
-  font-weight: 600;
-}
-.cover-image {
-  height: auto;
-  width: 100%;
-  object-fit: cover;
-}
-.post-list-sub-header {
-  border-bottom: none;
-  text-align: center;
-}
-</style>

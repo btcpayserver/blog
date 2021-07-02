@@ -67,7 +67,7 @@ module.exports = {
             title: '', // effectively sets home page title to just "BTCPay Server Blog"
             path: '/',
             pagination: {
-              lengthPerPage: 2,
+              lengthPerPage: 3,
             },
             itemPermalink: '/:slug',
           },
@@ -99,7 +99,8 @@ module.exports = {
       md.use(implicitFigures)
     },
     pageSuffix,
-    slugify
+    slugify,
+    lineNumbers: true,
   },
   themeConfig: {
     domain: baseUrl,

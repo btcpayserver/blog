@@ -92,7 +92,7 @@ We have actually had a lot of issues with our node running C-lightning lately so
 
 We believe that the lightning network will get there one day, but it still has a long way to go before it's used in everyday transactions.
 
-**CoinCards - Early Lightning Network days:**
+***CoinCards - Early Lightning Network days:***
 
 ![](/images/CoinCardsLightningNetwork.jpg)
 
