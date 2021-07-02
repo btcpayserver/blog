@@ -2,8 +2,7 @@
 title: "Debunking BTCPay Server misconceptions"
 author: pavlanex
 date: 2019-03-13
-category:
-  - "Announcements"
+category: announcements
 coverImage: "/images/BTCPay-Server-Myths.jpg"
 permalink: /btcpay-misconceptions
 ---
@@ -99,7 +98,7 @@ The way in which we'll handle altcoins in the future is yet to be determined. It
 
 For now, it does not require effort on our part and it makes some communities happy. More importantly, we must admit that alt developers have helped us out with finding bugs, resolving them and improving performance, especially in NBxplorer.
 
-If you'd like to understand our architecture and stance better just watch Nicolas' [presentation](https://vimeo.com/album/5765075/video/316630434) on Advancing Bitcoin 2019 conference in London.
+If you'd like to understand our architecture and stance better just watch Nicolas' [presentation](https://www.youtube.com/watch?v=Up0dvorzSNM) on Advancing Bitcoin 2019 conference in London.
 
 ## 3\. BTCPay is expensive
 

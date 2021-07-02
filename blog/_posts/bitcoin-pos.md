@@ -2,7 +2,7 @@
 title: "How to create a Bitcoin Point of Sale (PoS)"
 author: pavlanex
 date: 2019-03-12
-category: Guides
+category: guides
 tags:
   - "apps"
   - "pos"

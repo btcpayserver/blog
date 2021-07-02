@@ -2,7 +2,7 @@
 title: "Ride The Lightning: An open-source project making node management easy for everyone"
 author: pavlanex
 date: 2019-03-09
-category: Plugins
+category: plugins
 tags:
   - "lightning-network"
   - "services"
@@ -17,7 +17,7 @@ If you're one of the old-schoolers, you probably used a command line to manage y
 
 Lightning protocol matures at a rapid pace. Applications are built constantly, improvements are made daily and at BTCPay we're happy to be part of the Lightning boom.
 
-Today, BTCPay is one of the easiest ways to [launch](https://docs.btcpayserver.org/deployment/deployment) a self-hosted Lightning node and send or receive payments without the intermediate. Wallet applications like [Zap](https://github.com/LN-Zap/zap-tutorials/blob/master/zap-desktop-btcpay-server.md), [Spark](https://github.com/shesek/spark-wallet), [Joule](https://lightningjoule.com/), [Pebble](https://github.com/IndieSquare/pebblewallet), [Zeus](https://github.com/ZeusLN/zeus) allow seamless integration with BTCPay. All of these wallets provide exceptional user-experience for paying and getting paid, but the node management itself is not the main purpose of any of the wallets, nor it should be.
+Today, BTCPay is one of the easiest ways to [launch](https://docs.btcpayserver.org/deployment/deployment) a self-hosted Lightning node and send or receive payments without the intermediate. Wallet applications like [Zap](https://github.com/LN-Zap/zap-tutorials/blob/master/docs/desktop/btcpay-server.mdx), [Spark](https://github.com/shesek/spark-wallet), [Joule](https://lightningjoule.com/), [Pebble](https://github.com/IndieSquare/pebblewallet), [Zeus](https://github.com/ZeusLN/zeus) allow seamless integration with BTCPay. All of these wallets provide exceptional user-experience for paying and getting paid, but the node management itself is not the main purpose of any of the wallets, nor it should be.
 
 **We're proud to announce that managing your node and channels, without ever leaving your BTCPay is now possible thanks to Ride The Lightning integration.**
 
@@ -100,7 +100,7 @@ In short, we enabled RTL to integrate, by providing application hooks and authen
 
 _Suheb_: We have created a detailed medium post (with screenshots) on how to operate RTL, which users can refer to, to figure out how to perform different operations on RTL.
 
-**Read the [RTL Getting Started Guide](https://medium.com/@suheb.khan/how-to-ride-the-lightning-447af999dcd2)**.
+**Read the [RTL Getting Started Guide](https://medium.com/@suheb__/how-to-ride-the-lightning-447af999dcd2)**.
 
 To deploy [RTL on your BTCPay Server](https://docs.btcpayserver.org/features/lightningnetwork#getting-started-with-btcpay-and-lnd), just update your server and then go to Server Settings >  Services > Ride the Lightning to open the dashboard. You can open it from your mobile phone by scanning a QR code as well.
 
