@@ -6,10 +6,10 @@
     <p class="meta"> Posted in
 
       <router-link v-if="!Array.isArray($page.frontmatter.category)" :to="'/category/' + $page.frontmatter.category">
-        {{ $page.frontmatter.category }}</router-link>
+        {{ $page.frontmatter.category.replace(/^\w/, (c) => c.toUpperCase()) }}</router-link>
 
       <span v-else v-for="(item, index) in $page.frontmatter.category" class="category-item">
-        <router-link :to="'/category/' + item">{{ item }}</router-link><span v-if="index != ($page.frontmatter.category.length - 1)">, </span>
+        <router-link :to="'/category/' + item">{{ item.replace(/^\w/, (c) => c.toUpperCase()) }}</router-link><span v-if="index != ($page.frontmatter.category.length - 1)">, </span>
       </span>
 
       by

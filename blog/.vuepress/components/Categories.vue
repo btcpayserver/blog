@@ -5,11 +5,11 @@
       <li v-for="category in $category.list">
 
           <span v-if="$page.frontmatter.title == (category.name + ' ')" class="active-link">
-            {{ category.name }}
+            {{ category.name.replace(/^\w/, (c) => c.toUpperCase()) }}
           </span>
 
-          <router-link v-else class="page-link" :to="category.path.toLowerCase()">
-            {{ category.name }}
+          <router-link v-else class="page-link" :to="category.path">
+            {{ category.name.replace(/^\w/, (c) => c.toUpperCase()) }}
           </router-link>
 
       </li>

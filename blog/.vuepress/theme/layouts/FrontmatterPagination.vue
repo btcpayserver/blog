@@ -5,7 +5,7 @@
       <Categories />
       <hr>
       <h2 v-if="this.$page.path.startsWith('/author/')" class="post-list-sub-header">Posts by {{ this.$page.frontmatter.title }}</h2>
-      <h2 v-if="this.$page.path.startsWith('/category/')" class="post-list-sub-header mobile-only">{{ this.$page.frontmatter.title }}</h2>
+      <h2 v-if="this.$page.path.startsWith('/category/')" class="post-list-sub-header mobile-only">{{ this.$page.frontmatter.title.replace(/^\w/, (c) => c.toUpperCase()) }}</h2>
       <div v-for="post in posts">
         <h2 class="index-post-title">
             <router-link :to="post.path">
@@ -15,10 +15,10 @@
         <p class="meta"> Posted in
 
           <router-link v-if="!Array.isArray(post.frontmatter.category)" :to="'/category/' + post.frontmatter.category">
-            {{ post.frontmatter.category }}</router-link>
+            {{ post.frontmatter.category.replace(/^\w/, (c) => c.toUpperCase()) }}</router-link>
 
           <span v-else v-for="(item, index) in post.frontmatter.category" class="category-item">
-            <router-link :to="'/category/' + item">{{ item }}</router-link><span v-if="index != (post.frontmatter.category.length - 1)">, </span>
+            <router-link :to="'/category/' + item">{{ item.replace(/^\w/, (c) => c.toUpperCase()) }}</router-link><span v-if="index != (post.frontmatter.category.length - 1)">, </span>
           </span>
 
           by
