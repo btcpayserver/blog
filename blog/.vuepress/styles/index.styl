@@ -473,6 +473,21 @@ h5, h6 {
     max-width: 780px;
   }
 
+  .pagination > li:not(.active) > a {
+    background-color: transparent;
+    border-color: var(--btcpay-body-border-medium);
+  }
+
+  .pagination > .disabled > span,
+  .pagination > .disabled > span:hover,
+  .pagination > .disabled > span:focus,
+  .pagination > .disabled > a,
+  .pagination > .disabled > a:hover,
+  .pagination > .disabled > a:focus {
+    pointer-events: none;
+    color: var(--btcpay-body-text-muted);
+  }
+
   .theme-default-content:not(.custom) {
     padding: 3.5rem 2.5rem 1rem;
   }
