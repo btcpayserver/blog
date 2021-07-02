@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h2 class="index-post-title">
+    <h1 class="index-post-title">
       {{ $page.frontmatter.title }}
-    </h2>
+    </h1>
     <p class="meta"> Posted in
 
       <router-link v-if="!Array.isArray($page.frontmatter.category)" :to="'/category/' + $page.frontmatter.category">
@@ -26,17 +26,6 @@
       {{ new Date($page.frontmatter.date).getMonth() + 1 }}/{{ new Date($page.frontmatter.date).getDate() + 1 }}/{{ new Date($page.frontmatter.date).getFullYear() }}</p>
 
       <img v-if="$page.frontmatter.coverImage" :src="$page.frontmatter.coverImage" class="cover-image">
+
   </div>
 </template>
-
-<style scoped>
-.meta {
-  margin-top: -0.5rem;
-  font-style: italic;
-}
-.cover-image {
-  height: auto;
-  width: 100%;
-  object-fit: cover;
-}
-</style>

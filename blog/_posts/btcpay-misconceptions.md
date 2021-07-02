@@ -5,7 +5,7 @@ date: 2019-03-13
 category:
   - "Announcements"
 coverImage: "/images/BTCPay-Server-Myths.jpg"
-permalink: /brcpay-misconceptions
+permalink: /btcpay-misconceptions
 ---
 <PostMeta />
 
