@@ -17,6 +17,39 @@ h5, h6 {
   font-size: 1rem;
 }
 
+#app {
+  .categories-list {
+    @media (max-width: 899px) {
+      display: none;
+    }
+  }
+
+  .mobile-only {
+    display: none;
+    @media (max-width: 899px) {
+      display: block;
+    }
+  }
+
+  a.nav-link:not(.external) {
+    display: none;
+
+    @media (max-width: 899px) {
+      display: block;
+      width: 16.4rem;
+
+    }
+  }
+
+  iframe {
+    position: relative !important;
+    width: 560px !important;
+    height: 315px !important;
+    max-width: 100% !important;
+    margin: 0 auto;
+  }
+}
+
 // styles originating from .btcpay-header
 .navbar {
   color: var(--btcpay-header-text);
@@ -163,29 +196,6 @@ h5, h6 {
   .nav-item > a:not(.external):hover, .nav-item > a:not(.external).router-link-active {
     margin-bottom: 0;
     border-bottom: none;
-  }
-
-  .categories-list {
-    @media (max-width: 899px) {
-      display: none;
-    }
-  }
-
-  .mobile-only {
-    display: none;
-    @media (max-width: 899px) {
-      display: block;
-    }
-  }
-
-  a.nav-link:not(.external) {
-    display: none;
-
-    @media (max-width: 899px) {
-      display: block;
-      width: 16.4rem;
-
-    }
   }
 
   a.nav-link[rel*="website"],

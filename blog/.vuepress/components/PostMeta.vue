@@ -25,7 +25,7 @@
 
       {{ new Date($page.frontmatter.date).getMonth() + 1 }}/{{ new Date($page.frontmatter.date).getDate() + 1 }}/{{ new Date($page.frontmatter.date).getFullYear() }}</p>
 
-      <img v-if="$page.frontmatter.postImage" :src="$page.frontmatter.postImage" class="post-image">
+      <img v-if="$page.frontmatter.coverImage" :src="$page.frontmatter.coverImage" class="cover-image">
   </div>
 </template>
 
@@ -34,8 +34,8 @@
   margin-top: -0.5rem;
   font-style: italic;
 }
-.post-image {
-  height: 15rem;
+.cover-image {
+  height: auto;
   width: 100%;
   object-fit: cover;
 }
