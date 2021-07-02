@@ -2,7 +2,7 @@
 title: Mike Olthoff from CoinCards.ca is the first ever merchant to use BTCPay. This is his story.
 author: pavlanex
 date: 2019-03-05
-category: Stories
+category: stories
 tags:
   - "bitcoin-merchants"
   - "interview"

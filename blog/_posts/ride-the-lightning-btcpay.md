@@ -2,7 +2,7 @@
 title: "Ride The Lightning: An open-source project making node management easy for everyone"
 author: pavlanex
 date: 2019-03-09
-category: Plugins
+category: plugins
 tags:
   - "lightning-network"
   - "services"

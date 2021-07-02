@@ -2,7 +2,7 @@
 title: Introducing Pay Request - Get paid in BTC by sharing a link
 author: pavlanex
 date: 2019-02-22
-category: Features
+category: features
 coverImage: /images/Screen-Shot-2019-03-05-at-14.01.58.png
 permalink: /payment-requests
 ---
