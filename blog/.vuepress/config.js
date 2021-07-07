@@ -21,15 +21,15 @@ module.exports = {
   description: "Official BTCPay Server Blog",
   head: [
     ["link", { rel: "stylesheet", href: "/styles/btcpayserver-variables.css" }],
-    ['link', { rel: "shortcut icon", href: "/favicon.ico"}],
+    ['link', { rel: "shortcut icon", href: "/favicon.ico" }],
   ],
-  chainWebpack (config) {
+  chainWebpack(config) {
     config.module
       .rule('md')
       .test(/\.md$/)
       .use(preprocessMarkdown)
-        .loader(preprocessMarkdown)
-        .end()
+      .loader(preprocessMarkdown)
+      .end()
   },
   plugins: [
     ['seo', {
@@ -95,7 +95,7 @@ module.exports = {
       },],
   ],
   markdown: {
-    extendMarkdown (md) {
+    extendMarkdown(md) {
       md.use(implicitFigures)
     },
     pageSuffix,

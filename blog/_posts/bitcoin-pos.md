@@ -9,7 +9,6 @@ tags:
 coverImage: /images/Bitcoin-Point-Of-Sale.jpg
 permalink: /bitcoin-pos
 ---
-<PostMeta />
 
 This tutorial shows you how to create a Bitcoin Point of Sale and accept BTC payments (on-chain and via the Lightning Network). When you complete it, hopefully, you'll have a web-based PoS that requires no additional hardware. It will run as a web app from a browser of your mobile phone or tablet.
 

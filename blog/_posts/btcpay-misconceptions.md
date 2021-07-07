@@ -6,7 +6,6 @@ category: announcements
 coverImage: "/images/BTCPay-Server-Myths.jpg"
 permalink: /btcpay-misconceptions
 ---
-<PostMeta />
 
 Got my morning coffee. Started the morning workout.
 

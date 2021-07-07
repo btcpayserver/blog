@@ -9,7 +9,6 @@ tags:
 coverImage: /images/RTL-BTCPay.png
 permalink: /ride-the-lightning-btcpay
 ---
-<PostMeta />
 
 When Lightning Network was first added to BTCPay Server on the February 25th 2018, the user experience was pretty rough for quite a while.
 

@@ -10,7 +10,6 @@ tags:
 coverImage: /images/Screen-Shot-2019-03-05-at-11.03.52.png
 permalink: /mike-olthoff-coincards
 ---
-<PostMeta />
 
 In this interview, we're joined by Mike Olthoff. His business, [CoinCards](https://coincards.ca/) was the first company to implement and use BTCPay Server. They were also among the first few merchants to accept payments via the Lightning Network.
 
