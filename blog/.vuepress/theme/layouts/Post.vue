@@ -66,17 +66,19 @@
 
 .sponsors-logos {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-bottom: 3rem;
+  flex-wrap: wrap;
 }
 
 .sponsor-item {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 5px;
 }
 
 .sponsor-item img {
-  max-width: 65px;
+  max-width: 60px;
 }
 </style>
