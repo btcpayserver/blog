@@ -89,11 +89,11 @@ And I already touched on this above, but I'm really bullish on [Lightning Bank](
 **Where can our readers find you ?**
 
 You can find me on the internet:  
-\- [Bitpaint.club](https://bitpaint.club/)  
-\- [Twitter.com](https://twitter.com/Bitpaintclub)  
-\- [Instagram](https://www.instagram.com/bitpaint.club/)  
-\- [Mastodon](https://bitcoinhackers.org/@bitpaint)  
-\- Tip me using BTCPay Server at [tip.bitpaint.club](http://tip.bitpaint.club)
+- [Bitpaint.club](https://bitpaint.club/)  
+- [Twitter.com](https://twitter.com/Bitpaintclub)  
+- [Instagram](https://www.instagram.com/bitpaint.club/)  
+- [Mastodon](https://bitcoinhackers.org/@bitpaint)  
+- Tip me using BTCPay Server at [tip.bitpaint.club](http://tip.bitpaint.club)
 
 DM's are opens!  
 Thank you a lot for this interview!

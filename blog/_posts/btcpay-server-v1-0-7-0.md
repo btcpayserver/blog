@@ -56,9 +56,9 @@ Previously, the button users clicked on to pay could not be customized.
   
 That is now history. These two apps join the **Payment Button** in their infinite customization possibilities!
 
-- [![Point of Sale customization](/images/POS_QOL.png)](https://blog.btcpayserver.org/wp-content/uploads/2021/03/POS_QOL.png)
+[![Point of Sale customization](/images/POS_QOL.png)](https://blog.btcpayserver.org/wp-content/uploads/2021/03/POS_QOL.png)
     
-- [![Crowdfund app customization](/images/Crowdfunding_customization.png)](https://blog.btcpayserver.org/wp-content/uploads/2021/03/Crowdfunding_customization.png)
+[![Crowdfund app customization](/images/Crowdfunding_customization.png)](https://blog.btcpayserver.org/wp-content/uploads/2021/03/Crowdfunding_customization.png)
     
     Crowdfunding Customization
     
@@ -73,7 +73,7 @@ This is particularly useful for crowdfunding campaign managers that receive fund
 The **Server Settings policies UI** for server administrators has also been dusted out.  
 These settings are now ordered, polished, and hopefully made more clear to users.
 
-- [![Server settings policies](/images/Server_Settings_Policies-1-1024x486.png)](https://blog.btcpayserver.org/wp-content/uploads/2021/03/Server_Settings_Policies-1.png)
+[![Server settings policies](/images/Server_Settings_Policies-1-1024x486.png)](https://blog.btcpayserver.org/wp-content/uploads/2021/03/Server_Settings_Policies-1.png)
     
     Server settings policies
     
