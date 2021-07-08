@@ -53,7 +53,9 @@ Log in into your virtual machine via SSH. If you don't know how to do that you c
 
 Add the following commands. Please make sure to replace example.com with a domain you configured in advance.
 
+```js
 <script src="https://gist.github.com/pavlenex/9474997e9da9cc88ef2fbe3b494d8697.js"></script>
+```
 
 ## Configuring LibrePatron
 
