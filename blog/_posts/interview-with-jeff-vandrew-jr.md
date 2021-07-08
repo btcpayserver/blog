@@ -50,7 +50,7 @@ Interestingly QuickBooks later dropped Bitpay integration, so I believe BTCPay m
 
 ## What is LibrePatron?
 
-_Jeff:_ [LibrePatron](https://librepatron.com/) is the second plugin that I developed for BTCPay. It's a clone of the popular Patreon service.
+_Jeff:_ LibrePatron is the second plugin that I developed for BTCPay. It's a clone of the popular Patreon service.
 
 In addition to accepting Bitcoin, the main difference between LibrePatron and Patreon is that LibrePatron is decentralized and self-hosted, just like BTCPay. As BitPay is to BTCPay, Patreon is to LibrePatron. It even installs using the official BTCPay installer as an additional option, so if you were able to install BTCPay, you're able to install LibrePatron.
 

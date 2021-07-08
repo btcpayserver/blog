@@ -12,7 +12,7 @@ coverImage: "/images/LibrePatron-BTCPay-Featured.jpg"
 
 You've probably heard of Patreon. An online membership service which enables content creators to be paid on a recurring basis by the communities that supports them. While Patreon works well for some people, it's notorious for its censorship of free speech. But like any centralized service, it has a single point of failure where administrators have the power to shut you down at any moment if they deem you a liability. The alternatives for Patreon is growing exponentially but there are still not many existing solutions that are truly censorship-resistant. Patreon also takes a significant chunk of content creators revenue.
 
-[LibrePatron](https://librepatron.com/) is a self-hosted Patreon competitor where creators are owners of the entire platform. The software is free and open-source for anyone to use. LibrePatron uses [BTCPay Server](https://btcpayserver.org) to receive Bitcoin payments on a recurring basis.
+LibrePatron is a self-hosted Patreon competitor where creators are owners of the entire platform. The software is free and open-source for anyone to use. LibrePatron uses [BTCPay Server](https://btcpayserver.org) to receive Bitcoin payments on a recurring basis.
 
 Deploy it, configure it to your needs and receive donations from your supporters. It's that simple. You can accept Bitcoin payments (Lightning Network or on-chain) combined with credit cards payments via Square which makes LibrePatron the only real censorship resistant solution independent of any third-parties.
 

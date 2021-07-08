@@ -69,7 +69,7 @@ Want to see this feature in action? Check out this [Live Payment Request](https:
 
 One way you can accept donations on a regular basis is to use subscriptions + Bitcoin with the LibrePatron feature. At the moment, automatically withdrawing recurring payments in Bitcoin can't be achieved due to protocol limitations, but you can send recurring requests via the email to subscribers using this feature.
 
-[LibrePatron](https://librepatron.com/) is a self-hosted, open-source Patreon competitor where creators are owners of the entire platform. The software is free and open-source for anyone to use. You can easily install a LibrePatron instance as it's a plugin that uses BTCPay Server to receive Bitcoin payments on a recurring basis.
+LibrePatron is a self-hosted, open-source Patreon competitor where creators are owners of the entire platform. The software is free and open-source for anyone to use. You can easily install a LibrePatron instance as it's a plugin that uses BTCPay Server to receive Bitcoin payments on a recurring basis.
 
 ![](/images/Screen-Shot-2019-04-02-at-17.59.17-1024x519.png)
 

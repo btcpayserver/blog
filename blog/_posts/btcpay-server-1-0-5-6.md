@@ -22,7 +22,7 @@ It took us a bit of time to brainstorm an ideal solution that could be built on 
 
 As you may have guessed by now, starting with v1.0.5.6 you can now finally accept Bitcoin payments in your Shopify store via BTCPay Server!
 
-If you own a Shopify store and would like to use BTCPay Server to accept payments, follow our official [Shopify Integration Guide.](http://docs.btcpayserver.org/shopify)
+If you own a Shopify store and would like to use BTCPay Server to accept payments, follow our official [Shopify Integration Guide.](http://docs.btcpayserver.org/shopify/)
 
 The video below showcases the workflow step by step.
 

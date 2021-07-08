@@ -74,11 +74,11 @@ Crowdfunding is an application which you can launch from BTCPay Server interface
 
 <iframe src="https://www.youtube-nocookie.com/embed/tFbfyneDj88" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe>
 
-Users who prefer the re-occurring model and Patreon alternative can use [LibrePatron](https://librepatron.com/) which is a self-hosted Patreon replacement powered by BTCPay.
+Users who prefer the re-occurring model and Patreon alternative can use LibrePatron which is a self-hosted Patreon replacement powered by BTCPay.
 
 ## Pay Per Article (Journalists and bloggers)
 
-Journalists, bloggers and media outlets can lock their articles behind a Lightning Network paywall and request micropayments from their readers. If you-re using c-lightning implementation, you can copy the exposed node settings into the Lightning Publisher for WordPress. From there, the content can be locked with a simple shortcode. This plugin only works on WordPress websites. [Check our demo.](https://store.demo.btcpayserver.org/index.php/pay-per-article-model-btcpay-lightning-publisher/)
+Journalists, bloggers and media outlets can lock their articles behind a Lightning Network paywall and request micropayments from their readers. If you-re using c-lightning implementation, you can copy the exposed node settings into the Lightning Publisher for WordPress. From there, the content can be locked with a simple shortcode. This plugin only works on WordPress websites.
 
 <iframe src="https://www.youtube-nocookie.com/embed/ZbM3jcxau0o" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe>
 

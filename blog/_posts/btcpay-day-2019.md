@@ -11,7 +11,7 @@ On the 16th of September, we're organizing a **BTCPay Day**. The full-day event 
 
 ![](/images/BTCPay-Day-1024x342.jpg)
 
-The event will be held in Riga (Latvia), the day after the [Baltic Honeybadger](https://bh2019.hodlhodl.com/) conference. BTCPay Day starts at [11:00 EEST](https://www.timeanddate.com/worldclock/fixedtime.html?msg=BTCPay+Day+Riga+2019&iso=20190916T11&p1=602&ah=21). The event will be hosted at the [CryptoCash Riga Office (Elizabetes iela 22)](https://goo.gl/maps/5oPnU2JfxU4FkYRH8).
+The event will be held in Riga (Latvia), the day after the Baltic Honeybadger conference. BTCPay Day starts at [11:00 EEST](https://www.timeanddate.com/worldclock/fixedtime.html?msg=BTCPay+Day+Riga+2019&iso=20190916T11&p1=602&ah=21). The event will be hosted at the [CryptoCash Riga Office (Elizabetes iela 22)](https://goo.gl/maps/5oPnU2JfxU4FkYRH8).
 
 [Book a ticket](https://day.btcpayserver.org)
 

@@ -29,7 +29,7 @@ To elaborate on the sailing metaphor, BTCPay enjoyed a powerful tailwind with ou
 
 But we are reaching a limit; it has been a full-time job to channel this energy so that it does not go to waste or is ignored. We need to take advantage of our tailwind and get a bigger sail. We have a plan on how to do this without compromising one satoshi on the ideals that make you love this project.
 
-On September 16th (a day after the [HoneyBadger](https://bh2019.hodlhodl.com/) conference), we are organizing a **BTCPay Day**. Here I will do a presentation and reveal and outline how we plan to sustain and further develop BTCPay in the future. Stay tuned; we have a great journey ahead of us and we cannot wait to show you where it is going.
+On September 16th (a day after the HoneyBadger conference), we are organizing a **BTCPay Day**. Here I will do a presentation and reveal and outline how we plan to sustain and further develop BTCPay in the future. Stay tuned; we have a great journey ahead of us and we cannot wait to show you where it is going.
 
 Apart from myself, many of our contributors will be attending and doing presentations and workshops. This whole-day event, dedicated to BTCPay, will be held in [CryptoCash](https://twitter.com/cryptocash_riga) office (Elizabetes iela22, Rīga, LV) in the city center. We will provide more details very soon.
 

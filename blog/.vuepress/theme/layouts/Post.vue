@@ -11,7 +11,7 @@
         >:
       </p>
       <div class="sponsors-logos">
-        <a href="https://www.kraken.com/" target="_blank" class="sponsor-item">
+        <a href="https://www.kraken.com" target="_blank" class="sponsor-item">
           <img class="logo" src="/images/krakenlogo-150x150.png" />
           Kraken
         </a>
