@@ -3,7 +3,7 @@ title: "Debunking BTCPay Server misconceptions"
 author: pavlenex
 date: 2019-03-13
 category: announcements
-coverImage: "/images/BTCPay-Server-Myths.jpg"
+coverImage: /images/BTCPay-Server-Myths.jpg
 permalink: /btcpay-misconceptions
 ---
 

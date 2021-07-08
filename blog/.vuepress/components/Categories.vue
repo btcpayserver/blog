@@ -1,21 +1,31 @@
 <template>
   <div>
     <ul class="categories-list">
-
       <li v-for="category in $category.list">
+        <span
+          v-if="$page.frontmatter.title == category.name + ' '"
+          class="active-link"
+        >
+          {{ category.name | capitalize }}
+        </span>
 
-          <span v-if="$page.frontmatter.title == (category.name + ' ')" class="active-link">
-            {{ category.name.replace(/^\w/, (c) => c.toUpperCase()) }}
-          </span>
-
-          <router-link v-else class="page-link" :to="category.path">
-            {{ category.name.replace(/^\w/, (c) => c.toUpperCase()) }}
-          </router-link>
-
+        <router-link v-else class="page-link" :to="category.path">
+          {{ category.name | capitalize }}
+        </router-link>
       </li>
     </ul>
   </div>
 </template>
+
+<script>
+export default {
+  filters: {
+    capitalize: function (value) {
+      return value.replace(/^\w/, (c) => c.toUpperCase());
+    },
+  },
+};
+</script>
 
 <style scoped>
 .categories-list {
@@ -26,7 +36,8 @@
   margin-top: -0.5rem !important;
   justify-content: space-around;
 }
-.active-link, .active-link:hover {
+.active-link,
+.active-link:hover {
   opacity: 0.87;
   cursor: default;
   text-decoration: none !important;
