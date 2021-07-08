@@ -2,9 +2,9 @@
 title: "Jeff Vandrew Jr - creator of LibrePatron, Keykeeper IRA, BTCQBO"
 date: 2019-03-26
 author: pavlenex
-category: 
+category:
   - "stories"
-tags: 
+tags:
   - "interview"
   - "plugins"
 coverImage: "/images/YouTube-Thumbnail-BTCPay-Accountig-Template.jpg"
@@ -64,7 +64,7 @@ Recurring payments are tricky with Bitcoin since it's not a credit-based system 
 
 _Jeff:_ I never would have gotten into software development if it weren't for Bitcoin. That's what spurred my interest in it again. Before becoming an Attorney and a CPA, I did complete part of the computer science program at Rutgers University. But that was 20 years ago. So I did have that base when picking it up again to work on Bitcoin, even after a 20 year sabbatical.
 
-_Jeff:_ Justin Moon's [BUIDL Bootcamp](https://buidlbootcamp.com/) is a great resource. I was one of the very early students and loved it, and at this point I would consider Justin a personal friend. I highly recommend it to anyone looking to get into Bitcoin development. If you care about Bitcoin, that's enough, even if you don't have a strong tech background coming in. Justin will help you.
+_Jeff:_ Justin Moon's [BUIDL Bootcamp](https://mooniversity.io/) is a great resource. I was one of the very early students and loved it, and at this point I would consider Justin a personal friend. I highly recommend it to anyone looking to get into Bitcoin development. If you care about Bitcoin, that's enough, even if you don't have a strong tech background coming in. Justin will help you.
 
 ## The Future
 

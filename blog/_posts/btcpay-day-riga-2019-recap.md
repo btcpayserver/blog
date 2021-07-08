@@ -2,9 +2,9 @@
 title: "First BTCPay Day Riga 2019 Recap"
 date: 2019-09-19
 author: pavlenex
-category: 
+category:
   - "stories"
-tags: 
+tags:
   - "btcpayday"
   - "events"
 coverImage: /images/btcpaydayriga2019.jpg
@@ -58,7 +58,7 @@ Ketominer announced their upcoming cloud version of Nodl, offering an enterprise
 
 ![](/images/keto-768x1024.jpg)
 
-Bulletproof BTCPay by [ketominer](https://twitter.com/ketominer) | Video | [Slides](https://ketominer.pw/talks/BTCPayDayRiga2019-ketominer.pdf)
+Bulletproof BTCPay by [ketominer](https://twitter.com/ketominer)
 
 After the lunch break, Christian Moss presented [Nayuta](https://nayuta.co/), a new non-custodial bitcoin and Lightning wallet with BTCPay and Tor support, together with the ability to connect it to your full node.
 

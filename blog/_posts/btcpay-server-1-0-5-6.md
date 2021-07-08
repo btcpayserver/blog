@@ -2,12 +2,12 @@
 title: "BTCPay Server 1.0.5.6 is here!"
 date: 2020-10-01
 author: pavlenex
-category: 
+category:
   - "releases"
 coverImage: "/images/BTCPay10506.png"
 ---
 
-Today we're happy to announce the release of the BTCPay Server v 1.0.5.6. 
+Today we're happy to announce the release of the BTCPay Server v 1.0.5.6.
 The highlight of this version is the long-awaited Shopify support, along with other new features, improvements and bug-fixes.
 
 ## What's new in 1.0.5.6? 🆕
@@ -22,7 +22,7 @@ It took us a bit of time to brainstorm an ideal solution that could be built on 
 
 As you may have guessed by now, starting with v1.0.5.6 you can now finally accept Bitcoin payments in your Shopify store via BTCPay Server!
 
-If you own a Shopify store and would like to use BTCPay Server to accept payments, follow our official [Shopify Integration Guide.](http://docs.btcpayserver.org/shopify/)
+If you own a Shopify store and would like to use BTCPay Server to accept payments, follow our official [Shopify Integration Guide.](http://docs.btcpayserver.org/Shopify/)
 
 The video below showcases the workflow step by step.
 
@@ -41,13 +41,13 @@ The light-view option in the pos app allows you to have a minimal-looking keypad
 In [v1.0.5.0](https://blog.btcpayserver.org/btcpay-server-1-0-5-0/) we introduced invoice refunds, for easier payment management. Sometimes, a merchant needs to issue a refund for a portion of the order. Starting with this release, you will be able to issue partial refunds with a custom amount and currency of your choice.
 
 ![](/images/Screenshot-2020-09-30-at-10.49.34-1024x457.png)
-    
+
 ![](/images/Screenshot-2020-09-30-at-10.49.51-1024x580.png)
-    
+
 
 ### New labels for payment requests, apps and payouts 🏷️
 
-As a part of our ongoing efforts of improving users privacy by providing better UTXO management, we now have new automatic labels for apps and payment requests.  
+As a part of our ongoing efforts of improving users privacy by providing better UTXO management, we now have new automatic labels for apps and payment requests.
 This allows you to use the coin control feature with more clarity on the transaction origins and without having to label them manually.
 
 ![](/images/Screenshot-2020-09-30-at-10.54.00-1024x470.png)
@@ -107,25 +107,25 @@ To [update](https://docs.btcpayserver.org/faq-and-common-issues/faq-serversettin
 
 Huge thanks to all of you who’ve helped in making of the **v1.0.5.6**! We appreciate every single contribution and support.
 
-[apotdevin](https://github.com/apotdevin)  
-[astupidmoose](https://github.com/astupidmoose)  
-[bolatovumar](https://github.com/bolatovumar)  
-[britttttk](https://github.com/britttttk)  
-[dennisreimann](https://github.com/dennisreimann)  
-[dspicher](https://github.com/dspicher)  
-[dstrukt](https://github.com/dstrukt)  
-[eskyee](https://github.com/eskyee/)  
-[kukks](https://github.com/kukks/)  
-[l33d4n](https://github.com/l33d4n/)  
-[maltokyo](https://github.com/maltokyo/)  
-[mariodian](https://github.com/mariodian/)  
-[mlkui](https://github.com/mlkui/)  
-[nicolasdorier](https://github.com/nicolasdorier/)  
-[pageman](https://github.com/pageman/)  
-[pavlenex](https://github.com/pavlenex/)  
-[rockstardev](https://github.com/rockstardev/)  
-[sotblad](https://github.com/sotblad/)  
-[xpayserver](https://github.com/xpayserver/)  
+[apotdevin](https://github.com/apotdevin)
+[astupidmoose](https://github.com/astupidmoose)
+[bolatovumar](https://github.com/bolatovumar)
+[britttttk](https://github.com/britttttk)
+[dennisreimann](https://github.com/dennisreimann)
+[dspicher](https://github.com/dspicher)
+[dstrukt](https://github.com/dstrukt)
+[eskyee](https://github.com/eskyee/)
+[kukks](https://github.com/kukks/)
+[l33d4n](https://github.com/l33d4n/)
+[maltokyo](https://github.com/maltokyo/)
+[mariodian](https://github.com/mariodian/)
+[mlkui](https://github.com/mlkui/)
+[nicolasdorier](https://github.com/nicolasdorier/)
+[pageman](https://github.com/pageman/)
+[pavlenex](https://github.com/pavlenex/)
+[rockstardev](https://github.com/rockstardev/)
+[sotblad](https://github.com/sotblad/)
+[xpayserver](https://github.com/xpayserver/)
 [zaxounette](https://github.com/zaxounette/)
 
 As always, if you face any issues or notice a bug, please join our [community chat](http://chat.btcpayserver.org/) and let us know. 💚

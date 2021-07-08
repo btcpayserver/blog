@@ -2,9 +2,9 @@
 title: "BTCPay Server 1.1.0 - UI smoothing, Gap Limit, Fido2, and Greenfield"
 date: 2021-04-29
 author: Zaxounette
-category: 
+category:
   - "releases"
-tags: 
+tags:
   - "btcpay-server"
   - "release"
   - "ui-ux"
@@ -28,7 +28,7 @@ We're fulfilling our promise, and full public disclosure of the vulnerabilities 
 
 ## ⚡Lightning Wallet Setup UI Improvements
 
-The Lightning Network wallet configuration page has been thoroughly worked on in this update.  
+The Lightning Network wallet configuration page has been thoroughly worked on in this update.
 Previously when you accessed the page, you were greeted with the information that a regular user would have had a hard time navigating. We have completely changed the UI of that page to make it clear what is being configured and what is happening.
 
 ![](/images/walletsoverview-1024x445.png)
@@ -43,22 +43,22 @@ To accept Bitcoin through the Lightning Network on a BTCPay Server store was alr
 
 ## LND v0.12.1-beta and Loop
 
-This version bumps LND to version v0.12.1-beta and also now enables instances that have the LND Lightning implementation to use the Loop-In and Loop-Out features.  
-For full details on what Loop is, you can visit the Lightning Labs dedicated page, or the Loop feature Github repository.  
-  
-To use Loop, once you have updated to BTCPay Server 1.1.0, simply navigate to your Server Settings > Services menu, select your preferred Lightning Network visualization tool (By default Ride The Lightning), and enter the tool.  
+This version bumps LND to version v0.12.1-beta and also now enables instances that have the LND Lightning implementation to use the Loop-In and Loop-Out features.
+For full details on what Loop is, you can visit the Lightning Labs dedicated page, or the Loop feature Github repository.
+
+To use Loop, once you have updated to BTCPay Server 1.1.0, simply navigate to your Server Settings > Services menu, select your preferred Lightning Network visualization tool (By default Ride The Lightning), and enter the tool.
 You should now have the option to use Loop-In and Loop-Out in the menu.
 
 ![](/images/BTCPay_1.1.0_RTL_loop-1024x502.png)
 
-It is to be noted that **users with BTCPay Server instances that have been first deployed more than a year ago** might not be able to use this feature. To gain access to Loop functionality, you will need to migrate the LND container (and will lose your Lightning Channels in the process). Details are in the [Pull request](link).
+It is to be noted that **users with BTCPay Server instances that have been first deployed more than a year ago** might not be able to use this feature. To gain access to Loop functionality, you will need to migrate the LND container (and will lose your Lightning Channels in the process).
 
 ## 🧾 Reduce the address gap during the invoice creation
 
-The new version introduces a new [setting](https://github.com/btcpayserver/btcpayserver/pull/1843) for each store. You now have the option to set to _"Only enable the payment method after user explicitly chooses it"_. If enabled, when an invoice is created, payment methods of the invoice are only generated when the user selects each payment method in the invoice UI.  
-  
-For example, if an invoice is created and the default payment method is Lightning, and the user doesn't select the Bitcoin on-chain from the dropdown, a Bitcoin address is not assigned and reserved.  
-  
+The new version introduces a new [setting](https://github.com/btcpayserver/btcpayserver/pull/1843) for each store. You now have the option to set to _"Only enable the payment method after user explicitly chooses it"_. If enabled, when an invoice is created, payment methods of the invoice are only generated when the user selects each payment method in the invoice UI.
+
+For example, if an invoice is created and the default payment method is Lightning, and the user doesn't select the Bitcoin on-chain from the dropdown, a Bitcoin address is not assigned and reserved.
+
 This can potentially resolve three issues:
 
 - Make invoice creation (and loading time) substantially shorter
@@ -95,7 +95,7 @@ Failsafe is introduced to disable a plugin if it crashes instead of crashing the
 
 ## 👩‍💻Greenfield API improvements:
 
-The in-house [Greenfield API](https://docs.btcpayserver.org/API/Greenfield/v1/) receives a bunch of newly available calls with this update.  
+The in-house [Greenfield API](https://docs.btcpayserver.org/API/Greenfield/v1/) receives a bunch of newly available calls with this update.
 You can now call for:
 
 - UTXO: Filter Confirmed or Unconfirmed
@@ -107,7 +107,7 @@ You can now call for:
 
 A few bugs were also crushed. Namely, a typo in the webhook for _OriginalDeliveryId_, an access issue for misc/lang calls, and correctly reflecting in the UI the _"store not configured"_ warning when the store was created via API.
 
-Finally, this update also introduces several improvements on again, several views and existing features.  
+Finally, this update also introduces several improvements on again, several views and existing features.
 A few of the bugs and improvements:
 
 - You can now generate manually a receive address in an internal wallet which is Payjoin enabled,
@@ -119,18 +119,18 @@ The full list can viewed in the [_Changelog_](https://github.com/btcpayserver/bt
 
 ## A (mini) call to our translators !
 
-Also, a call to our translators in the community.  
-A few simple sentences have been updated or added on the BTCPay Server [website](https://btcpayserver.org/).  
-  
+Also, a call to our translators in the community.
+A few simple sentences have been updated or added on the BTCPay Server [website](https://btcpayserver.org/).
+
 As a reminder, anyone can help us translate BTCPay Server in their language! Apply through [Transifex](https://www.transifex.com/btcpayserver/), hit us in the chat, or read our related [docs](https://docs.btcpayserver.org/Contribute/ContributeTranslate/).
 
 * * *
 
-That will be all for this update. We worked quite a bunch for this and hope that you can secure your account easier, use the Lightning Wallet more smoothly and that those pesky Gap Limit issues are forever gone in your life (or at least, less present).  
-  
+That will be all for this update. We worked quite a bunch for this and hope that you can secure your account easier, use the Lightning Wallet more smoothly and that those pesky Gap Limit issues are forever gone in your life (or at least, less present).
+
 Despite this, if you have problems, feedback, feature requests, feel free to reach out on our [community chat](https://chat.btcpayserver.org/). We hope you enjoy what this update has to offer.
 
-As always, thank you to our invaluable contributors, we love you:  
+As always, thank you to our invaluable contributors, we love you:
 [@britttttk](https://github.com/britttttk) [@dennisreimann](https://github.com/dennisreimann) [@dstrukt](https://github.com/dstrukt) [@g33kme](https://github.com/g33kme) [@junderw](https://github.com/junderw) [@kristapsk](https://github.com/kristapsk) [@Kukks](https://github.com/kukks/) [@MaxHillebrand](https://github.com/MaxHillebrand) [@NicolasDorier](https://github.com/nicolasdorier/) [@Pavlenex](https://github.com/pavlenex/) [@rockstardev](https://github.com/rockstardev/) [@SakerOmera](https://github.com/SakerOmera) [@ubolator](https://github.com/bolatovumar) [@xpayserver](https://github.com/xpayserver) [@Zaxounette](https://github.com/zaxounette/)
 
 The BTCPay Server team 💚
