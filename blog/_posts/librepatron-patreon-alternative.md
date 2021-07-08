@@ -77,7 +77,7 @@ Create the access token and copy the server-initiated pairing code. Paste the co
 
 As you probably know, Bitcoin is a push-only protocol meaning that recurring payments are very hard to achieve without access to your wallet. LibrePatron uses e-mails to remind supporters that their subscription should be renewed. This means there's no way to automatically charge your supporters but at least you can remind them to make a payment to support you and access the content you produce.
 
-It's very important that you properly set up your SMTP server so that emails can be sent automatically. Navigate to the `Email Setup` page and enter your SMTP credentials. The author of LibrePatron recommends [easy-smtp](https://www.easy-smtp.com) as an e-mail provider which gives you up to 10,000 free emails per month. Another alternative is [Mailgun](https://www.mailgun.com) which also gives you 10,000 emails free per month.
+It's very important that you properly set up your SMTP server so that emails can be sent automatically. Navigate to the `Email Setup` page and enter your SMTP credentials. The author of LibrePatron recommends [easy-smtp](https://reachmail.com/solutions/email-relay/) as an e-mail provider which gives you up to 10,000 free emails per month. Another alternative is [Mailgun](https://www.mailgun.com) which also gives you 10,000 emails free per month.
 
 ![](/images/Configuring-E-mail-LibrePatron.png)
 
