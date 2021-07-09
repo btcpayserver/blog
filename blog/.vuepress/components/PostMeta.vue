@@ -9,19 +9,14 @@
       <router-link
         v-if="!Array.isArray($page.frontmatter.category)"
         :to="'/category/' + $page.frontmatter.category"
+        class="meta-link"
       >
-        {{
-          $page.frontmatter.category.replace(/^\w/, (c) => c.toUpperCase())
-        }}</router-link
+        {{ $page.frontmatter.category | capitalize }}</router-link
       >
 
-      <span
-        v-else
-        v-for="(item, index) in $page.frontmatter.category"
-        class="category-item"
-      >
-        <router-link :to="'/category/' + item">{{
-          item.replace(/^\w/, (c) => c.toUpperCase())
+      <span v-else v-for="(item, index) in $page.frontmatter.category">
+        <router-link :to="'/category/' + item" class="meta-link">{{
+          item | capitalize
         }}</router-link
         ><span v-if="index != $page.frontmatter.category.length - 1">, </span>
       </span>
@@ -31,16 +26,15 @@
       <router-link
         v-if="!Array.isArray($page.frontmatter.author)"
         :to="'/author/' + $page.frontmatter.author"
+        class="meta-link"
       >
         {{ $page.frontmatter.author }}</router-link
       >
 
-      <span
-        v-else
-        v-for="(item, index) in $page.frontmatter.author"
-        class="category-item"
-      >
-        <router-link :to="'/author/' + item">{{ item }}</router-link
+      <span v-else v-for="(item, index) in $page.frontmatter.author">
+        <router-link :to="'/author/' + item" class="meta-link">{{
+          item
+        }}</router-link
         ><span v-if="index != $page.frontmatter.author.length - 1">, </span>
       </span>
 
@@ -58,6 +52,15 @@
     />
   </div>
 </template>
+<script>
+export default {
+  filters: {
+    capitalize: function (value) {
+      return value.replace(/^\w/, (c) => c.toUpperCase());
+    },
+  },
+};
+</script>
 <style scoped>
 .meta {
   padding-top: 0.5rem;
