@@ -111,11 +111,12 @@ module.exports = {
     sidebarDepth: 0,
     nav: [
       { text: 'Home', link: `/` },
-      { text: 'Announcements', link: `/category/announcements/` },
-      { text: 'Plugins', link: `/category/plugins/` },
-      { text: 'Guides', link: `/category/guides/` },
-      { text: 'Features', link: `/category/features/` },
+      { text: 'Releases', link: `/category/releases/` },
       { text: 'Stories', link: `/category/stories/` },
+      { text: 'Guides', link: `/category/guides/` },
+      { text: 'Announcements', link: `/category/announcements/` },
+      { text: 'Features', link: `/category/features/` },
+      { text: 'Plugins', link: `/category/plugins/` },
       {
         text: "Website",
         link: "https://btcpayserver.org/",
