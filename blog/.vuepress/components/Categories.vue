@@ -36,11 +36,19 @@ export default {
   margin-top: -0.5rem !important;
   justify-content: space-around;
 }
+.page-link {
+  color: var(--btcpay-header-link);
+  text-decoration: none !important;
+  font-weight: var(--btcpay-font-weight-semibold);
+}
+.page-link:hover,
+.page-link:focus {
+  color: var(--btcpay-header-link-accent);
+}
 .active-link,
 .active-link:hover {
-  opacity: 0.87;
   cursor: default;
-  text-decoration: none !important;
-  border-bottom: 2px solid lightgray;
+  color: var(--btcpay-header-link-active);
+  font-weight: var(--btcpay-font-weight-semibold);
 }
 </style>
