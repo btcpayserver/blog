@@ -10,7 +10,7 @@
       <Categories />
 
       <hr />
-      <div v-for="post in posts">
+      <div v-for="post in posts" :key="post.path">
         <h2 class="index-post-title">
           <router-link :to="post.path">
             {{ post.frontmatter.title }}</router-link
@@ -27,7 +27,7 @@
             {{ post.frontmatter.category | capitalize }}</router-link
           >
 
-          <span v-else v-for="(item, index) in post.frontmatter.category">
+          <span v-else v-for="(item, index) in post.frontmatter.category" :key="item">
             <router-link :to="'/category/' + item" class="meta-link">{{
               item | capitalize
             }}</router-link
@@ -46,7 +46,7 @@
             {{ post.frontmatter.author }}</router-link
           >
 
-          <span v-else v-for="(item, index) in post.frontmatter.author">
+          <span v-else v-for="(item, index) in post.frontmatter.author" :key="item">
             <router-link :to="'/author/' + item" class="meta-link">{{
               item
             }}</router-link

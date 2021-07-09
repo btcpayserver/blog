@@ -14,7 +14,7 @@
         {{ $page.frontmatter.category | capitalize }}</router-link
       >
 
-      <span v-else v-for="(item, index) in $page.frontmatter.category">
+      <span v-else v-for="(item, index) in $page.frontmatter.category" :key="item">
         <router-link :to="'/category/' + item" class="meta-link">{{
           item | capitalize
         }}</router-link
@@ -31,7 +31,7 @@
         {{ $page.frontmatter.author }}</router-link
       >
 
-      <span v-else v-for="(item, index) in $page.frontmatter.author">
+      <span v-else v-for="(item, index) in $page.frontmatter.author" :key="item">
         <router-link :to="'/author/' + item" class="meta-link">{{
           item
         }}</router-link
@@ -52,6 +52,7 @@
     />
   </div>
 </template>
+
 <script>
 export default {
   filters: {
