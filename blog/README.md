@@ -1,1 +1,0 @@
-# BTCPay Server Blog

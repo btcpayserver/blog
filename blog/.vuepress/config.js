@@ -1,3 +1,4 @@
+const { capitalize } = require('./filters')
 const { resolve } = require('path')
 const implicitFigures = require('markdown-it-implicit-figures')
 const slugify = require('./slugify')
@@ -20,15 +21,16 @@ module.exports = {
   title,
   description: "Official BTCPay Server Blog",
   head: [
-    ["link", { rel: "stylesheet", href: "/styles/btcpayserver-variables.css" }]
+    ["link", { rel: "stylesheet", href: "/styles/btcpayserver-variables.css" }],
+    ['link', { rel: "shortcut icon", href: "/favicon.ico" }],
   ],
-  chainWebpack (config) {
+  chainWebpack(config) {
     config.module
       .rule('md')
       .test(/\.md$/)
       .use(preprocessMarkdown)
-        .loader(preprocessMarkdown)
-        .end()
+      .loader(preprocessMarkdown)
+      .end()
   },
   plugins: [
     ['seo', {
@@ -59,14 +61,60 @@ module.exports = {
           hostname: baseUrl,
           exclude: ['/404.html']
         },
-      },]
+        directories: [
+          {
+            id: 'post',
+            dirname: '_posts',
+            title: '', // effectively sets home page title to just "BTCPay Server Blog"
+            path: '/',
+            pagination: {
+              lengthPerPage: 3,
+              getPaginationPageTitle(pageNumber) {
+                return `Page ${pageNumber}`
+              }
+            },
+            itemPermalink: '/:slug',
+          },
+        ],
+        frontmatters: [
+          {
+            id: 'category',
+            keys: ['category', 'categories'],
+            path: '/category/',
+            title: '', // sets extended title of individual category pages (follows author name)
+            frontmatter: {
+              title: 'Categories', // sets title of /category/ page
+            },
+            pagination: {
+              getPaginationPageTitle(pageNumber, key) {
+                return `${capitalize(key)} - Page ${pageNumber}`
+              }
+            },
+          },
+          {
+            id: 'author',
+            keys: ['author', 'authors'],
+            path: '/author/',
+            title: '', // sets extended title of individual author pages (follows category name)
+            frontmatter: {
+              title: 'Authors', // sets title of /author/ page
+            },
+            pagination: {
+              getPaginationPageTitle(pageNumber, key) {
+                return `${key} - Page ${pageNumber}`
+              }
+            }
+          },
+        ],
+      },],
   ],
   markdown: {
-    extendMarkdown (md) {
+    extendMarkdown(md) {
       md.use(implicitFigures)
     },
     pageSuffix,
-    slugify
+    slugify,
+    lineNumbers: true,
   },
   themeConfig: {
     domain: baseUrl,
@@ -76,6 +124,13 @@ module.exports = {
     docsDir: "blog",
     sidebarDepth: 0,
     nav: [
+      { text: 'Home', link: `/` },
+      { text: 'Releases', link: `/category/releases/` },
+      { text: 'Stories', link: `/category/stories/` },
+      { text: 'Guides', link: `/category/guides/` },
+      { text: 'Announcements', link: `/category/announcements/` },
+      { text: 'Features', link: `/category/features/` },
+      { text: 'Plugins', link: `/category/plugins/` },
       {
         text: "Website",
         link: "https://btcpayserver.org/",
@@ -95,7 +150,7 @@ module.exports = {
         text: "Twitter",
         link: "https://twitter.com/BtcpayServer",
         rel: "noopener noreferrer twitter"
-      }
+      },
     ]
   }
 }

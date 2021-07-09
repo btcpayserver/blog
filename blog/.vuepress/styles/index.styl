@@ -17,6 +17,91 @@ h5, h6 {
   font-size: 1rem;
 }
 
+#app {
+  .categories-list {
+    @media (max-width: 899px) {
+      display: none;
+    }
+    font-size: 1.05rem;
+  }
+
+  .mobile-only {
+    display: none;
+    @media (max-width: 899px) {
+      display: block;
+    }
+  }
+
+  a.nav-link:not(.external) {
+    display: none;
+
+    @media (max-width: 899px) {
+      display: block;
+      width: 16.4rem;
+
+    }
+  }
+
+  iframe {
+    position: relative !important;
+    width: 560px !important;
+    height: 315px !important;
+    max-width: 100% !important;
+    margin: 2rem auto;
+  }
+
+  .home-title {
+    text-align: center;
+  }
+  .home-link {
+    color: var(--btcpay-body-text);
+    font-weight: 600;
+  }
+  h1 .home-link:hover {
+    text-decoration: none !important;
+  }
+  .header-links {
+    text-align: center;
+    margin-top: -0.5rem !important;
+  }
+  .meta {
+    margin-top: -1.15rem;
+    font-style: italic;
+    color: var(--btcpay-body-text);
+  }
+  .meta-link {
+    color: var(--btcpay-nav-link-accent);
+  }
+  .index-post-title {
+    border: none;
+  }
+  .index-post-title a {
+    font-weight: 600;
+  }
+  .cover-image {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    padding-bottom: 1rem;
+  }
+  .post-list-sub-header {
+    border-bottom: none;
+    text-align: center;
+  }
+  .theme-default-content img {
+    margin: 1rem auto;
+  }
+  .suggestions {
+    background-color: var(--btcpay-header-bg);
+  }
+  .suggestion.focused {
+    background-color: var(--btcpay-body-bg-hover);
+  }
+  .last-updated .prefix {
+    color: var(--btcpay-light-text);
+  }
+}
+
 // styles originating from .btcpay-header
 .navbar {
   color: var(--btcpay-header-text);
@@ -125,7 +210,7 @@ h5, h6 {
   }
 
   .navbar .nav-links {
-    margin: -3px 10px 0;
+    margin: 0 10px;
   }
 
   .nav-links .nav-item {
@@ -138,18 +223,11 @@ h5, h6 {
     display: none;
   }
 
-  .nav-links {
-    @media (max-width: 899px) {
-      border-bottom-color: var(--btcpay-body-border-medium);
-    }
-  }
-
   .nav-links a {
     color: var(--btcpay-header-link);
 
     @media (min-width: 900px) {
       padding: var(--btcpay-space-xs) var(--btcpay-space-s);
-      border-bottom: 2px solid transparent;
     }
   }
 
@@ -165,6 +243,11 @@ h5, h6 {
 
   .nav-links a.router-link-active {
     color: var(--btcpay-header-link-accent);
+  }
+
+  .nav-item > a:not(.external):hover, .nav-item > a:not(.external).router-link-active {
+    margin-bottom: 0;
+    border-bottom: none;
   }
 
   a.nav-link[rel*="website"],
@@ -404,8 +487,29 @@ h5, h6 {
     max-width: 780px;
   }
 
+  .pagination > li:not(.active) > a {
+    background-color: transparent;
+    border-color: var(--btcpay-body-border-medium);
+  }
+
+  .pagination > .disabled > span,
+  .pagination > .disabled > span:hover,
+  .pagination > .disabled > span:focus,
+  .pagination > .disabled > a,
+  .pagination > .disabled > a:hover,
+  .pagination > .disabled > a:focus {
+    pointer-events: none;
+    color: var(--btcpay-body-text-muted);
+  }
+
   .theme-default-content:not(.custom) {
     padding: 3.5rem 2.5rem 1rem;
+    @media (max-width: 899px) {
+      padding: 2rem;
+    }
+    @media (max-width: 419px) {
+      padding: 1.5rem;
+    }
   }
 
   h2 {
