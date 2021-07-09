@@ -2,7 +2,9 @@
   <div>
     <div class="theme-default-content">
       <h1 class="home-title">
-        <router-link :to="'/'" class="home-link">BTCPay Server Blog</router-link>
+        <router-link :to="'/'" class="home-link"
+          >BTCPay Server Blog</router-link
+        >
       </h1>
 
       <Categories />
@@ -10,7 +12,9 @@
       <hr />
       <div v-for="post in posts" :key="post.path">
         <h2 class="index-post-title">
-          <router-link :to="post.path">{{ post.frontmatter.title }}</router-link>
+          <router-link :to="post.path">{{
+            post.frontmatter.title
+          }}</router-link>
         </h2>
 
         <p class="meta">
@@ -23,7 +27,11 @@
             {{ post.frontmatter.category | capitalize }}</router-link
           >
 
-          <span v-else v-for="(item, index) in post.frontmatter.category" :key="item">
+          <span
+            v-else
+            v-for="(item, index) in post.frontmatter.category"
+            :key="item"
+          >
             <router-link :to="'/category/' + item" class="meta-link">{{
               item | capitalize
             }}</router-link
@@ -42,7 +50,11 @@
             {{ post.frontmatter.author }}</router-link
           >
 
-          <span v-else v-for="(item, index) in post.frontmatter.author" :key="item">
+          <span
+            v-else
+            v-for="(item, index) in post.frontmatter.author"
+            :key="item"
+          >
             <router-link :to="'/author/' + item" class="meta-link">{{
               item
             }}</router-link
@@ -66,12 +78,13 @@
       <Pagination />
     </div>
     <Layout />
+    <Sponsors />
   </div>
 </template>
 
 <script>
 import { Pagination } from "@vuepress/plugin-blog/lib/client/components";
-import { capitalize } from '../../filters'
+import { capitalize } from "../../filters";
 
 export default {
   computed: {
@@ -85,7 +98,7 @@ export default {
     Pagination,
   },
   filters: {
-    capitalize
+    capitalize,
   },
 };
 </script>

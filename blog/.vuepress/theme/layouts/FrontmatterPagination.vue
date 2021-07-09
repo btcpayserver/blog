@@ -2,7 +2,9 @@
   <div>
     <div class="theme-default-content">
       <h1 class="home-title">
-        <router-link :to="'/'" class="home-link">BTCPay Server Blog</router-link>
+        <router-link :to="'/'" class="home-link"
+          >BTCPay Server Blog</router-link
+        >
       </h1>
       <Categories />
       <hr />
@@ -78,12 +80,13 @@
       <Pagination />
     </div>
     <Layout />
+    <Sponsors />
   </div>
 </template>
 
 <script>
 import { Pagination } from "@vuepress/plugin-blog/lib/client/components";
-import { capitalize } from '../../filters'
+import { capitalize } from "../../filters";
 
 export default {
   computed: {
@@ -97,7 +100,7 @@ export default {
     Pagination,
   },
   filters: {
-    capitalize
-  }
+    capitalize,
+  },
 };
 </script>

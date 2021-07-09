@@ -2,38 +2,38 @@
   <div>
     <div class="theme-default-content">
       <h1>BTCPay Server Blog</h1>
-      <h2 v-if="this.$page.path.startsWith('/category/')">
-      Categories</h2>
+      <h2 v-if="this.$page.path.startsWith('/category/')">Categories</h2>
       <h2 v-else>Authors</h2>
       <div>
         <ul v-for="item in items" :key="item.name">
           <li>
-            <router-link :to="item.path">{{ displayName(item.name) }}</router-link>
+            <router-link :to="item.path">{{
+              displayName(item.name)
+            }}</router-link>
           </li>
         </ul>
       </div>
     </div>
     <Layout />
+    <Sponsors />
   </div>
 </template>
 
 <script>
-import { capitalize } from '../../filters'
+import { capitalize } from "../../filters";
 
 export default {
   computed: {
     items() {
-      return this.$frontmatterKey.list
-    }
+      return this.$frontmatterKey.list;
+    },
   },
   methods: {
-    displayName (name) {
-      return this.$page.path.startsWith('/category/')
-        ? capitalize(name)
-        : name
-    }
-  }
-}
+    displayName(name) {
+      return this.$page.path.startsWith("/category/") ? capitalize(name) : name;
+    },
+  },
+};
 </script>
 
 <style scoped>
