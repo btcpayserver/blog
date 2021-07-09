@@ -2,9 +2,7 @@
   <div>
     <div class="theme-default-content">
       <h1 class="home-title">
-        <router-link :to="'/'" class="home-link"
-          >BTCPay Server Blog</router-link
-        >
+        <router-link :to="'/'" class="home-link">BTCPay Server Blog</router-link>
       </h1>
       <Categories />
       <hr />

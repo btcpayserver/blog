@@ -1,3 +1,4 @@
+const { capitalize } = require('./filters')
 const { resolve } = require('path')
 const implicitFigures = require('markdown-it-implicit-figures')
 const slugify = require('./slugify')
@@ -68,6 +69,9 @@ module.exports = {
             path: '/',
             pagination: {
               lengthPerPage: 3,
+              getPaginationPageTitle(pageNumber) {
+                return `Page ${pageNumber}`
+              }
             },
             itemPermalink: '/:slug',
           },
@@ -81,6 +85,11 @@ module.exports = {
             frontmatter: {
               title: 'Categories', // sets title of /category/ page
             },
+            pagination: {
+              getPaginationPageTitle(pageNumber, key) {
+                return `${capitalize(key)} - Page ${pageNumber}`
+              }
+            },
           },
           {
             id: 'author',
@@ -90,6 +99,11 @@ module.exports = {
             frontmatter: {
               title: 'Authors', // sets title of /author/ page
             },
+            pagination: {
+              getPaginationPageTitle(pageNumber, key) {
+                return `${key} - Page ${pageNumber}`
+              }
+            }
           },
         ],
       },],

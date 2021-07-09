@@ -7,7 +7,9 @@
       <h2 v-else>Authors</h2>
       <div>
         <ul v-for="item in items" :key="item.name">
-          <li><router-link :to="item.path">{{ item.name }}</router-link></li>
+          <li>
+            <router-link :to="item.path">{{ displayName(item.name) }}</router-link>
+          </li>
         </ul>
       </div>
     </div>
@@ -16,12 +18,21 @@
 </template>
 
 <script>
+import { capitalize } from '../../filters'
+
 export default {
   computed: {
     items() {
       return this.$frontmatterKey.list
     }
   },
+  methods: {
+    displayName (name) {
+      return this.$page.path.startsWith('/category/')
+        ? capitalize(name)
+        : name
+    }
+  }
 }
 </script>
 

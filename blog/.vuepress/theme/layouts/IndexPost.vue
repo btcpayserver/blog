@@ -2,9 +2,7 @@
   <div>
     <div class="theme-default-content">
       <h1 class="home-title">
-        <router-link :to="'/'" class="home-link"
-          >BTCPay Server Blog</router-link
-        >
+        <router-link :to="'/'" class="home-link">BTCPay Server Blog</router-link>
       </h1>
 
       <Categories />
@@ -12,9 +10,7 @@
       <hr />
       <div v-for="post in posts" :key="post.path">
         <h2 class="index-post-title">
-          <router-link :to="post.path">
-            {{ post.frontmatter.title }}</router-link
-          >
+          <router-link :to="post.path">{{ post.frontmatter.title }}</router-link>
         </h2>
 
         <p class="meta">
