@@ -54,14 +54,15 @@
 </template>
 
 <script>
+import { capitalize } from '../filters'
+
 export default {
   filters: {
-    capitalize: function (value) {
-      return value.replace(/^\w/, (c) => c.toUpperCase());
-    },
-  },
-};
+    capitalize
+  }
+}
 </script>
+
 <style scoped>
 .meta {
   padding-top: 0.5rem;

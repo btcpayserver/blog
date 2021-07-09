@@ -85,6 +85,8 @@
 
 <script>
 import { Pagination } from "@vuepress/plugin-blog/lib/client/components";
+import { capitalize } from '../../filters'
+
 export default {
   computed: {
     posts() {
@@ -97,9 +99,7 @@ export default {
     Pagination,
   },
   filters: {
-    capitalize: function (value) {
-      return value.replace(/^\w/, (c) => c.toUpperCase());
-    },
-  },
+    capitalize
+  }
 };
 </script>
