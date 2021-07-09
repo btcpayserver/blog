@@ -1,7 +1,7 @@
 <template>
   <div>
     <ul class="categories-list">
-      <li v-for="category in $category.list">
+      <li v-for="category in $category.list" :key="category.path">
         <span
           v-if="$page.frontmatter.title == category.name + ' '"
           class="active-link"
@@ -18,13 +18,13 @@
 </template>
 
 <script>
+import { capitalize } from '../filters'
+
 export default {
   filters: {
-    capitalize: function (value) {
-      return value.replace(/^\w/, (c) => c.toUpperCase());
-    },
-  },
-};
+    capitalize
+  }
+}
 </script>
 
 <style scoped>
