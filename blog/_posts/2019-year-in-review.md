@@ -2,7 +2,7 @@
 title: "BTCPay Server 2019 Year in Review"
 date: 2019-12-29
 author: pavlenex
-category: 
+category:
   - "stories"
 coverImage: /images/BTCPAY-2019.png
 permalink: /2019-year-in-review
@@ -124,7 +124,7 @@ London Advancing Bitcoin 2019
 
 Nicolas Dorier held a presentation in London, explaining the architecture of BTCPay Server.
 
-[_02/08/2019_](https://vimeo.com/showcase/5765075/video/316630434)
+[_02/08/2019_](https://www.youtube.com/watch?v=Up0dvorzSNM)
 
 Infographic - Common Merchant's problem
 
@@ -186,7 +186,7 @@ BTCPay Blog launched
 
 We launched a blog so we can share stories, news and guides easily.
 
-[_03/07/2019_](blog.btcpayserver.org/)
+[_03/07/2019_](https://blog.btcpayserver.org/)
 
 Mentioned on Canada Revenue Agency Audit
 
@@ -254,13 +254,13 @@ WeAreAllHodlonaut
 
 The crowdfunding campaign for the space cat from the community began
 
-[_04/11/2019_](weareallhodlonaut.com/)
+[_04/11/2019_](http://weareallhodlonaut.com/)
 
 Over $30 000 raised for Hodlonaut
 
 Crowdfunding campaign powered by BTCPay app, ended up raising over 30 000$.
 
-[_04/13/2019_](https://weareallhodlonaut.com/)
+[_04/13/2019_](http://weareallhodlonaut.com/)
 
 BTCPay Intro video
 
@@ -362,7 +362,7 @@ BTCPay Server Directory launched
 
 We created a BTCPay directory where merchants, developers and regular users can showcase their projects and shops.
 
-[_07/21/2019_](directory.btcpayserver.org/)
+[_07/21/2019_](https://directory.btcpayserver.org/)
 
 BTCPay Integrated in a video game
 
@@ -446,7 +446,7 @@ btcpayserver.org - redesigned again
 
 We've been experimenting quite a lot and on October the 7nd, we polished our main site.
 
-[_10/07/2019_](btcpayserver.org)
+[_10/07/2019_](https://btcpayserver.org)
 
 Hack0 - Plug and Play BTCPay node
 

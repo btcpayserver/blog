@@ -2,10 +2,10 @@
 title: "Launching LibrePatron a Self-Hosted Patreon Alternative powered by Bitcoin"
 date: 2019-04-08
 author: pavlenex
-category: 
+category:
   - "guides"
   - "plugins"
-tags: 
+tags:
   - "services"
 coverImage: "/images/LibrePatron-BTCPay-Featured.jpg"
 ---
@@ -49,7 +49,7 @@ I've set up LibrePatron as the a-record domain.
 
 Now that we set up our BTCPay Server and configured our DNS, it's time to launch LibrePatron on our BTCPay instance.
 
-Log in into your virtual machine via SSH. If you don't know how to do that you can [follow this guide.](https://github.com/JeffVandrewJr/patron/blob/master/ssh.md)
+Log in into your virtual machine via SSH. If you don't know how to do that you can [follow this guide.](https://github.com/JeffVandrewJr/patron/blob/master/SSH.md)
 
 Add the following commands. Please make sure to replace example.com with a domain you configured in advance.
 

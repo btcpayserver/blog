@@ -2,7 +2,7 @@
 title: "Introducing BTCPay Server 1.0.4.0"
 date: 2020-04-16
 author: pavlenex
-category: 
+category:
   - "releases"
 coverImage: "/images/v10040.png"
 ---
@@ -30,7 +30,7 @@ BTCPay Server uses a modified and expanded version of BIP79 Bustapay. If you're 
 
 To learn how to enable Payjoin in your BTCPay Server or make a payment from the wallet, check the **[Payjoin User Guide](https://docs.btcpayserver.org/features/payjoin).**
 
-To enable Payjoin as a merchant, a [hot wallet](https://docs.btcpayserver.org/features/wallet/hotwallet) is required. Please use it with care and do not store large amounts. The risk can be mitigated with our [BTC-Transmuter](https://github.com/btcpayserver/btcTransmuter) plugin.
+To enable Payjoin as a merchant, a [hot wallet](https://docs.btcpayserver.org/CreateWallet/) is required. Please use it with care and do not store large amounts. The risk can be mitigated with our [BTC-Transmuter](https://github.com/btcpayserver/btcTransmuter) plugin.
 
 ### 🌚 New Theme & Dark mode
 
@@ -45,13 +45,13 @@ Turn the lights off! The long-awaited dark theme is finally here!
 ![](/images/BTCPay-Server-Wallet-Dark-1-1024x515.png)
 
 ![](/images/BTCPay-Server-Invoices-Light-2-1024x518.png)
-    
+
     Light Invoices page
-    
+
 ![](/images/BTCPay-Server-Invoices-Dark-2-1024x518.png)
-    
+
     Dark Invoices page
-    
+
 
 Design consistency was just the first step towards better user-experience. We plan to introduce a detailed dashboard, better navigation and an easier experience gradually.
 
@@ -66,13 +66,13 @@ Since many of you use a customized theme, we were very careful not to make any b
 **Dark mode** is also available for invoices from Store Settings > Checkout Experience.
 
 ![](/images/BTCPay-Server-Invoice-Light.png)
-    
+
     New default light invoice
-    
+
 ![](/images/BTCPay-Server-Invoice-Dark.png)
-    
+
     New dark mode invoice
-    
+
 
 ### 📷 New Wallet Features
 

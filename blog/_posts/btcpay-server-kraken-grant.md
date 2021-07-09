@@ -2,9 +2,9 @@
 title: "BTCPay Server Grant #8 – Kraken"
 date: 2020-06-25
 author: pavlenex
-category: 
+category:
   - "announcements"
-tags: 
+tags:
   - "foundation"
 coverImage: "/images/btcpay-krakenfeatured-1024x576-1.png"
 ---
@@ -34,5 +34,3 @@ To our community, thanks for always leading the way for us. Because of **you**, 
 We're honoured to welcome Kraken as our biggest supporter yet. Welcome to the BTCPay Server family, let's continue to build great things together!
 
 This Friday, **June 26th, at 13:00 UTC** Kraken's Lead Bitcoin Strategist Pierre Rochard will host a free webinar highlighting the benefits of Bitcoin payments and how you can accept them via BTCPay Server. Pierre will be joined by our Nicolas Dorier and Artur Sapek, founder of Cryptowatch.
-
-You can [sign up for the webinar here](https://kraken.zoom.us/webinar/register/9115925956310/WN_m2U9cAcqSiC3AGt3FjT1sA). See you there! 💚

@@ -2,7 +2,7 @@
 title: "BTCPay Server version 1.0.3.147 is out!"
 date: 2020-01-14
 author: pavlenex
-category: 
+category:
   - "releases"
 coverImage: "/images/1.0.3.147.png"
 ---
@@ -65,7 +65,7 @@ Huge thanks go to our contributors, supporters and community who made this relea
 
 Special thanks to developers:
 
-- [bolatovumar](http://bolatovumar)
+- [bolatovumar](http://github.com/bolatovumar)
 - [MrKukks](https://github.com/Kukks/)
 - [NicolasDorier](https://github.com/NicolasDorier/)
 

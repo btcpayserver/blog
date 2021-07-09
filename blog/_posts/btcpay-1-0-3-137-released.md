@@ -2,7 +2,7 @@
 title: "BTCPay Server version 1.0.3.137 released"
 date: 2019-11-07
 author: pavlenex
-category: 
+category:
   - "features"
   - "releases"
 coverImage: /images/1.0.3.137.jpg
@@ -66,11 +66,11 @@ To connect your BTCPay node to Fully Noded:
 5. Your Bitcoin full node is now connected to Fully Noded.
 
 ![](/images/IMG_3254-576x1024.jpg)
-    
+
 ![](/images/IMG_3256-576x1024.jpg)
-    
+
 ![](/images/IMG_3259-576x1024.jpg)
-    
+
 
 Huge thanks for the integration goes to [Fonta1n3](https://github.com/Fonta1n3/), the lead developer of FullyNoded.
 
@@ -97,8 +97,8 @@ Huge thanks go to our contributors, supporters and community who made this relea
 
 Special thanks to developers:
 
-- [araspitzu](http://araspitzu)
-- [bolatovumar](http://bolatovumar)
+- [araspitzu](http://github.com/araspitzu)
+- [bolatovumar](http://github.com/bolatovumar)
 - [dennisreimann](https://github.com/dennisreimann/)
 - [maltokyo](https://github.com/maltokyo/)
 - [MrKukks](https://github.com/Kukks/)
