@@ -49,8 +49,16 @@
 </template>
 
 <style scoped>
+.sponsors p {
+  text-align: center;
+}
+
 .sponsors hr {
   margin-top: -3rem !important;
+}
+
+.sponsors a {
+  color: var(--btcpay-secondary);
 }
 
 .sponsors-logos {
