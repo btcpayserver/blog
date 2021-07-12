@@ -11,14 +11,18 @@
         :to="'/category/' + $page.frontmatter.category"
         class="meta-link"
       >
-        {{ $page.frontmatter.category | capitalize }}</router-link
-      >
+        {{ $page.frontmatter.category | capitalize }}
+      </router-link>
 
-      <span v-else v-for="(item, index) in $page.frontmatter.category" :key="item">
-        <router-link :to="'/category/' + item" class="meta-link">{{
-          item | capitalize
-        }}</router-link
-        ><span v-if="index != $page.frontmatter.category.length - 1">, </span>
+      <span
+        v-else
+        v-for="(item, index) in $page.frontmatter.category"
+        :key="item"
+      >
+        <router-link :to="'/category/' + item" class="meta-link">
+          {{ item | capitalize }}
+        </router-link>
+        <span v-if="index != $page.frontmatter.category.length - 1">, </span>
       </span>
 
       by
@@ -31,18 +35,22 @@
         {{ $page.frontmatter.author }}</router-link
       >
 
-      <span v-else v-for="(item, index) in $page.frontmatter.author" :key="item">
-        <router-link :to="'/author/' + item" class="meta-link">{{
-          item
-        }}</router-link
-        ><span v-if="index != $page.frontmatter.author.length - 1">, </span>
+      <span
+        v-else
+        v-for="(item, index) in $page.frontmatter.author"
+        :key="item"
+      >
+        <router-link :to="'/author/' + item" class="meta-link">
+          {{ item }}
+        </router-link>
+        <span v-if="index != $page.frontmatter.author.length - 1">, </span>
       </span>
 
       on
 
-      {{ new Date($page.frontmatter.date).getMonth() + 1 }}/{{
-        new Date($page.frontmatter.date).getDate() + 1
-      }}/{{ new Date($page.frontmatter.date).getFullYear() }}
+      {{ new Date($page.frontmatter.date).getMonth() + 1 }}/
+      {{ new Date($page.frontmatter.date).getDate() + 1 }}/
+      {{ new Date($page.frontmatter.date).getFullYear() }}
     </p>
 
     <img

@@ -1,5 +1,5 @@
 module.exports = {
-  capitalize (value) {
+  capitalize(value) {
     return value.replace(/^\w/, c => c.toUpperCase())
   }
 }

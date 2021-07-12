@@ -20,20 +20,20 @@
 </template>
 
 <script>
-import { capitalize } from "../../filters";
+import { capitalize } from '../../filters'
 
 export default {
   computed: {
     items() {
-      return this.$frontmatterKey.list;
-    },
+      return this.$frontmatterKey.list
+    }
   },
   methods: {
     displayName(name) {
-      return this.$page.path.startsWith("/category/") ? capitalize(name) : name;
-    },
-  },
-};
+      return this.$page.path.startsWith('/category/') ? capitalize(name) : name
+    }
+  }
+}
 </script>
 
 <style scoped>

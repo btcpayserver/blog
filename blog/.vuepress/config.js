@@ -106,7 +106,8 @@ module.exports = {
             }
           },
         ],
-      },],
+      },
+    ],
   ],
   markdown: {
     extendMarkdown(md) {
