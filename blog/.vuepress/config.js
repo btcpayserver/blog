@@ -19,10 +19,10 @@ const extractDescription = text => {
 
 module.exports = {
   title,
-  description: "Official BTCPay Server Blog",
+  description: 'Official BTCPay Server Blog',
   head: [
-    ["link", { rel: "stylesheet", href: "/styles/btcpayserver-variables.css" }],
-    ['link', { rel: "shortcut icon", href: "/favicon.ico" }],
+    ['link', { rel: 'stylesheet', href: '/styles/btcpayserver-variables.css' }],
+    ['link', { rel: 'shortcut icon', href: '/favicon.ico' }],
   ],
   chainWebpack(config) {
     config.module
@@ -65,7 +65,7 @@ module.exports = {
           {
             id: 'post',
             dirname: '_posts',
-            title: '', // effectively sets home page title to just "BTCPay Server Blog"
+            title: '', // effectively sets home page title to just 'BTCPay Server Blog'
             path: '/',
             pagination: {
               lengthPerPage: 3,
@@ -119,39 +119,41 @@ module.exports = {
   },
   themeConfig: {
     domain: baseUrl,
-    logo: "/img/btcpay-logo.svg",
+    logo: '/img/btcpay-logo.svg',
     displayAllHeaders: false,
-    repo: "btcpayserver/blog",
-    docsDir: "blog",
-    sidebarDepth: 0,
+    repo: 'btcpayserver/blog',
+    docsDir: 'blog',
     nav: [
-      { text: 'Home', link: `/` },
-      { text: 'Releases', link: `/category/releases/` },
-      { text: 'Stories', link: `/category/stories/` },
-      { text: 'Guides', link: `/category/guides/` },
-      { text: 'Announcements', link: `/category/announcements/` },
-      { text: 'Features', link: `/category/features/` },
-      { text: 'Plugins', link: `/category/plugins/` },
       {
-        text: "Website",
-        link: "https://btcpayserver.org/",
-        rel: "noopener noreferrer website"
+        text: 'Website',
+        link: 'https://btcpayserver.org/',
+        rel: 'noopener noreferrer website'
       },
       {
-        text: "Chat",
-        link: "https://chat.btcpayserver.org/",
-        rel: "noopener noreferrer chat"
+        text: 'Chat',
+        link: 'https://chat.btcpayserver.org/',
+        rel: 'noopener noreferrer chat'
       },
       {
-        text: "GitHub",
-        link: "https://github.com/btcpayserver/",
-        rel: "noopener noreferrer github"
+        text: 'GitHub',
+        link: 'https://github.com/btcpayserver/',
+        rel: 'noopener noreferrer github'
       },
       {
-        text: "Twitter",
-        link: "https://twitter.com/BtcpayServer",
-        rel: "noopener noreferrer twitter"
-      },
+        text: 'Twitter',
+        link: 'https://twitter.com/BtcpayServer',
+        rel: 'noopener noreferrer twitter'
+      }
+    ],
+    sidebarDepth: 0,
+    sidebar: [
+      ['/', 'Home'],
+      ['/category/releases/', 'Releases'],
+      ['/category/stories/', 'Stories'],
+      ['/category/guides/', 'Guides'],
+      ['/category/announcements/', 'Announcements'],
+      ['/category/features/', 'Features'],
+      ['/category/plugins/', 'Plugins']
     ]
   }
 }
