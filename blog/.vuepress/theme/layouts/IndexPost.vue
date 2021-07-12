@@ -72,9 +72,11 @@
             class="cover-image"
           />
         </router-link>
-        <hr />
       </div>
-      <Pagination />
+      <template v-if="$pagination.length > 1">
+        <hr />
+        <Pagination />
+      </template>
     </div>
     <Layout />
     <Sponsors />
