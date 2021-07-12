@@ -2,7 +2,6 @@
   <div>
     <PostMeta class="theme-default-content post-meta" />
     <Layout />
-    <Sponsors />
   </div>
 </template>
 

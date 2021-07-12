@@ -90,7 +90,6 @@
       </template>
     </div>
     <Layout />
-    <Sponsors />
   </div>
 </template>
 

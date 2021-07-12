@@ -15,7 +15,6 @@
       </div>
     </div>
     <Layout />
-    <Sponsors />
   </div>
 </template>
 
