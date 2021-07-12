@@ -45,16 +45,19 @@
         Coincards
       </a>
     </div>
+    <hr />
   </div>
 </template>
 
 <style scoped>
+.sponsors {
+  padding-top: 0 !important;
+}
 .sponsors p {
   text-align: center;
 }
-
 .sponsors hr {
-  margin-top: -3rem !important;
+  margin: 2rem 0 !important;
 }
 
 .sponsors a {
@@ -64,7 +67,6 @@
 .sponsors-logos {
   display: flex;
   justify-content: space-around;
-  padding-bottom: 3rem;
   flex-wrap: wrap;
 }
 

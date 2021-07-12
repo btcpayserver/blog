@@ -41,6 +41,10 @@
       </template>
     </Page>
     <Sponsors />
+
+    <footer class="theme-default-content footer">
+      <router-link to="/privacy-policy">Privacy Policy</router-link>
+    </footer>
   </div>
 </template>
 
@@ -150,3 +154,15 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.footer {
+  padding-top: 0 !important;
+  padding-bottom: 3rem !important;
+  text-align: center;
+}
+
+.footer a {
+  color: var(--btcpay-secondary);
+}
+</style>
