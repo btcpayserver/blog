@@ -7,9 +7,7 @@
       <div>
         <ul v-for="item in items" :key="item.name">
           <li>
-            <router-link :to="item.path">{{
-              displayName(item.name)
-            }}</router-link>
+            <router-link :to="item.path">{{ displayName(item.name) }}</router-link>
           </li>
         </ul>
       </div>

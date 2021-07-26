@@ -53,6 +53,7 @@ import Home from '@theme/components/Home.vue'
 import Navbar from '@theme/components/Navbar.vue'
 import Page from '@theme/components/Page.vue'
 import Sidebar from '@theme/components/Sidebar.vue'
+import Sponsors from '@theme/components/Sponsors.vue'
 import { resolveSidebarItems } from '@parent-theme/util'
 
 export default {
@@ -62,7 +63,8 @@ export default {
     Home,
     Page,
     Sidebar,
-    Navbar
+    Navbar,
+    Sponsors
   },
 
   data () {

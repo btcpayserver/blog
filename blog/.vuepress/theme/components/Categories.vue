@@ -3,12 +3,9 @@
     <ul class="categories-list">
       <li v-for="category in $category.list" :key="category.path">
         <span
-          v-if="$page.frontmatter.title == category.name + ' '"
+          v-if="$page.frontmatter.title.toLowerCase().startsWith(category.name)"
           class="active-link"
-        >
-          {{ category.name | capitalize }}
-        </span>
-
+        >{{ category.name | capitalize }}</span>
         <router-link v-else class="page-link" :to="category.path">
           {{ category.name | capitalize }}
         </router-link>
@@ -18,7 +15,7 @@
 </template>
 
 <script>
-import { capitalize } from '../filters'
+import { capitalize } from '../../filters'
 
 export default {
   filters: {
