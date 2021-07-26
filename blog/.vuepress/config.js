@@ -68,7 +68,6 @@ module.exports = {
             title: '', // effectively sets home page title to just 'BTCPay Server Blog'
             path: '/',
             pagination: {
-              lengthPerPage: 3,
               getPaginationPageTitle(pageNumber) {
                 return `Page ${pageNumber}`
               }
