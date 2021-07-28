@@ -87,7 +87,7 @@ Finally, the `price levels` page allows you to set up your subscription levels. 
 
 And that's it, you now have a self-hosted Patreon alternative that allows you to receive Bitcoin and credit card payments. As mentioned, there are lots of options to play around with so start experimenting on how to make your LibrePatron page appealing to your supporters.
 
-![](/images/Screen-Shot-2019-04-02-at-17.59.17.png)
+![](/images/Screen-Shot-2019-04-02-at-17.59.17-1024x519.png)
 
 If you have any questions, suggestions or if you're experiencing any problems with LibrePatron you can open an issue on their [GitHub](https://github.com/JeffVandrewJr/patron/issues) or ask questions on their [Slack](https://librepatron.slack.com/join/shared_invite/enQtNTE0OTA3MjM2NDAyLTU4NDcyZGJiODBlYTA3OGMzZGQ2MjMxMTQxZWYzYmIzMDE4ZjM4OGQ0YjY3MjMzYjhiMTY0Yzc1ZDhhNzNjNjk) group.
 

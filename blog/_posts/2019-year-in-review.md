@@ -4,7 +4,7 @@ date: 2019-12-29
 author: pavlenex
 category:
   - "stories"
-coverImage: /images/BTCPAY-2019.png
+coverImage: /images/BTCPAY-2019-1024x576.png
 permalink: /2019-year-in-review
 ---
 

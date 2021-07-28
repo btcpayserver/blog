@@ -2,13 +2,13 @@
 title: "How to accept Bitcoin Donations - privately, securely and without middleman"
 date: 2019-04-25
 author: pavlenex
-category: 
+category:
   - "guides"
-tags: 
+tags:
   - "apps"
   - "plugins"
   - "pos"
-coverImage: "/images/How-to-accept-Bitcoin-donations.jpg"
+coverImage: "/images/How-to-accept-Bitcoin-donations-1024x576.jpg"
 ---
 
 If you're a non-profit, charity, content creator, developer or just a regular Joe trying to accept Bitcoin donations, you're at the right place.
@@ -33,7 +33,7 @@ If you would like to learn how to deploy BTCPay, check out our [deployment docum
 
 The most common way to accept tips and donations, regardless of the CMS powering your website, is a tipping (pay) button. Create and customize a tipping button according to the look of your website. Easily embed it into an HTML page.
 
-   
+
 
 Out of the box, we offer 3 different types of tipping buttons:
 

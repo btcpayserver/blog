@@ -6,7 +6,7 @@ category: guides
 tags:
   - "apps"
   - "pos"
-coverImage: /images/Bitcoin-Point-Of-Sale.jpg
+coverImage: /images/Bitcoin-Point-Of-Sale-1024x768.jpg
 permalink: /bitcoin-pos
 ---
 

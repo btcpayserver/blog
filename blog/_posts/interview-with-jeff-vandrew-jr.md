@@ -7,7 +7,7 @@ category:
 tags:
   - "interview"
   - "plugins"
-coverImage: "/images/YouTube-Thumbnail-BTCPay-Accountig-Template.jpg"
+coverImage: "/images/YouTube-Thumbnail-BTCPay-Accountig-Template-1024x576.jpg"
 ---
 
 Jeff Vandrew Jr is an Attorney, a CPA and an open-source developer. On top of that, he's the maintainer of the [BTCPay python library](https://github.com/btcpayserver/btcpay-python) and a bodybuilder and somehow still has spare time to help out newbies in the BTCPay community. Even though he sounds like a character from the Split movie, Jeff is real. In this quick interview, I wanted to learn more about him, his aspirations and projects and most importantly, to try to figure out how he manages to do all of these things productively.

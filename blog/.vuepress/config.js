@@ -118,7 +118,7 @@ module.exports = {
   },
   themeConfig: {
     domain: baseUrl,
-    logo: '/img/btcpay-logo.svg',
+    logo: '/images/btcpay-logo.svg',
     displayAllHeaders: false,
     repo: 'btcpayserver/blog',
     docsDir: 'blog',
