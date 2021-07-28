@@ -7,10 +7,7 @@ category:
 tags: 
   - "foundation"
 coverImage: "/images/btcpay-baillie-gifford-1024x576-1.png"
----
-
-![](/images/btcpay-okcoin-article-1024x335-1.png)
-    
+--- 
 
 Baillie Gifford, an investment management partnership is providing an annual grant over four years to the BTCPay Server Foundation.
 
