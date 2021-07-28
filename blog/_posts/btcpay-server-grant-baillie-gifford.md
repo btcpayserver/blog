@@ -6,7 +6,7 @@ category:
   - "announcements"
 tags: 
   - "foundation"
-coverImage: "/images/btcpay-okcoinfeatured-1024x576-1.png"
+coverImage: "/images/btcpay-baillie-gifford-1024x576-1.png"
 ---
 
 ![](/images/btcpay-okcoin-article-1024x335-1.png)
