@@ -38,6 +38,10 @@
         <img class="logo" src="/images/coincards-150x150.png" />
         Coincards
       </a>
+      <a href="https://www.bailliegifford.com//" class="sponsor-item" target="_blank" rel="noopener noreferrer">
+        <img class="logo" src="/images/bailliegifford-logo-122x122.png" />
+        Baillie Gifford
+      </a>
     </div>
     <hr />
   </div>
