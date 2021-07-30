@@ -14,6 +14,10 @@
         <img class="logo" src="/images/squarecrypto-150x150.png" />
         Square Crypto
       </a>
+      <a href="https://www.bailliegifford.com//" class="sponsor-item" target="_blank" rel="noopener noreferrer">
+        <img class="logo" src="/images/bailliegifford-logo-122x122.png" />
+        Baillie Gifford
+      </a>
       <a href="https://pnxbet.com" class="sponsor-item" target="_blank" rel="noopener noreferrer">
         <img src="/images/pnxbet.png" alt="PNXBET" loading="lazy">
         PNXBET
