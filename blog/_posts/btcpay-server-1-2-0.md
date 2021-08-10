@@ -14,9 +14,9 @@ tags:
 coverImage: "/images/BTCPayServer1.2.0.png"
 ---
 
-It's been a few months since the last BTCPay Server major update and the team has been hard at work pushing through a number of efforts in that time, ranging from migrating our frontend UI framework to increasing again the Greenfield API capabilities, setting up the foundation for our plugin system and crushing numerous bugs!
+It's been a while since the last BTCPay Server major update and the team has been hard at work pushing through a number of efforts in that time, ranging from migrating our front-end UI framework to increasing the Greenfield API capabilities, setting up the foundation for our plugin system and crushing numerous bugs!
 
-As the **BTCPay Server 1.2.0** major update includes more than forty items, we won't cover them all in this release post, but as usual the high-time preference crowd can view directly the [full changelog](https://github.com/btcpayserver/btcpayserver/releases).
+ **BTCPay Server 1.2.0** is a major update that includes more than forty items. We won't cover them all in this release post, but as usual, the high-time preference crowd can view the [full changelog](https://github.com/btcpayserver/btcpayserver/releases) directly.
 
 To update, simply navigate to your **Server Settings > Maintenance** tab and click **Update** or use the command *btcpay-update.sh* in the command line.
 
@@ -27,19 +27,19 @@ To update, simply navigate to your **Server Settings > Maintenance** tab and cli
 
 Since the beginning of 2021, our Design prodigies at BTCPay Server have been refactoring and updating numerous pages inside the stack to make them less confusing, more comprehensible to a broader userbase and overall, easier to use.
 
-This release includes a number of these updated views, as well as the migration from Bootstrap3 to Bootstrap5. This framework migration enables us to create and implement more modern and user-friendly views.
+Since the beginning of 2021, our design contributors have improved a number of pages in the interface. This release includes a number of these updated pages and the migration from Bootstrap 3 to Bootstrap 5. This framework migration enables us to create and implement more modern-looking pages and provide a better experience.
 
-As examples, the *Crowdfund* and *Point-Of-Sale* creation pages have been updated to make it easier to navigate and more efficiently create your favorite Apps in BTCPay Server.
+The *Crowdfund* and *Point-Of-Sale* app creation pages have been updated - making navigation and creation of your favorite apps smoother.
 
 ![BTCPay 1.2.0 Crowdfund view](/images/BTCPay1.2.0Crowdfund.png)
 
 ![BTCPay 1.2.0 POS view](/images/BTCPay1.2.0POS.png)
 
-A number of UI improvements and fixes also made it into this release, namely relating to:
-* The server settings view
-* The transaction signing view
-* The payment request view
-* The notifications view
+A number of UI improvements and fixes also made it into this release, namely relating to the following pages:
+* The server settings
+* The transaction signing
+* The payment request
+* The notifications
   
 For the full list, check out the [changelog](https://github.com/btcpayserver/btcpayserver/releases)
 
@@ -94,7 +94,6 @@ As always, thank you to our invaluable contributors, we love you:
 [@britttttk](https://github.com/britttttk) [@cypherbeerus](https://github.com/cypherbeerus) [@dennisreimann](https://github.com/dennisreimann) [@dstrukt](https://github.com/dstrukt) [@Kukks](https://github.com/kukks/) [@NicolasDorier](https://github.com/nicolasdorier/) [@Pavlenex](https://github.com/pavlenex/) [@rockstardev](https://github.com/rockstardev/) [@sageprogrammer](https://github.com/sageprogrammer) [@ubolator](https://github.com/bolatovumar) [@woutersamaey](https://github.com/woutersamaey) [@Zaxounette](https://github.com/zaxounette/)
 
 The BTCPay Server team.
-
 
 
 
