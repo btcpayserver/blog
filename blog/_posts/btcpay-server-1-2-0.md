@@ -1,4 +1,4 @@
----
+notifying---
 title: "BTCPay Server 1.2.0 - Bootstrapping and paving roads"
 date: 2021-08-10
 author: Zaxounette
@@ -27,7 +27,7 @@ To update, simply navigate to your **Server Settings > Maintenance** tab and cli
 
 Since the beginning of 2021, our design contributors have improved a number of pages in the interface. This release includes a number of these updated pages and the migration from Bootstrap 3 to Bootstrap 5. This framework migration enables us to create and implement more modern-looking pages and provide a better experience.
 
-### Wallet Signing Wizard 🔐
+### Wallet Signing Wizard 🧙
 
 BTCPay Server wallet allows you to receive and spend transactions. If you're self-hosting a server, it's a wallet relying on your full node. With hardware wallet support and an abundance of privacy-enhancing features, we've seen an increasing amount of wallet usage. The community feedback was that signing options could be improved.
 
@@ -48,6 +48,11 @@ A number of UI improvements and fixes also made it into this release, namely rel
 * The server settings
 * The payment request
 * The notifications
+
+### **BTCPay Vault notification** 🔐
+
+BTCPay Vault is an application which allows you to plug your hardware wallet and use it within your BTCPay Server - thanks to the [HWI](https://github.com/bitcoin-core/HWI) (Hardware Wallet Integration).
+Due to changes in [HWI 2.0.1](https://github.com/bitcoin-core/HWI/releases/tag/2.0.1), BTCPay Server will now detect the version of the Vault application and notify you to update if you're running an older version.
 
 For the full list, check out the [changelog](https://github.com/btcpayserver/btcpayserver/releases)
 
