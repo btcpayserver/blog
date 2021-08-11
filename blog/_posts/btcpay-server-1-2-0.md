@@ -25,9 +25,17 @@ To update, simply navigate to your **Server Settings > Maintenance** tab and cli
 
 ----
 
-Since the beginning of 2021, our Design prodigies at BTCPay Server have been refactoring and updating numerous pages inside the stack to make them less confusing, more comprehensible to a broader userbase and overall, easier to use.
-
 Since the beginning of 2021, our design contributors have improved a number of pages in the interface. This release includes a number of these updated pages and the migration from Bootstrap 3 to Bootstrap 5. This framework migration enables us to create and implement more modern-looking pages and provide a better experience.
+
+### Wallet Signing Wizard
+
+BTCPay Server wallet allows you to receive and spend transactions. If you're self-hosting a server, it's a wallet relying on your full node. With hardware wallet support and an abundance of privacy-enhancing features, we've seen an increasing amount of wallet usage. The community feedback was that signing options could be improved.
+
+That's why the 1.2.0 now offers a signing wizard, which should simplify and, in some cases, automate choices that you may face when signing a transaction. If you're using a hot wallet, the wallet now signs instantly.
+
+![BTCPay 1.2.0 Crowdfund view](/images/BTCPay1.0.2WalletSign.gif)
+
+### Apps UI Improved
 
 The *Crowdfund* and *Point-Of-Sale* app creation pages have been updated - making navigation and creation of your favorite apps smoother.
 
@@ -36,11 +44,11 @@ The *Crowdfund* and *Point-Of-Sale* app creation pages have been updated - makin
 ![BTCPay 1.2.0 POS view](/images/BTCPay1.2.0POS.png)
 
 A number of UI improvements and fixes also made it into this release, namely relating to the following pages:
+
 * The server settings
-* The transaction signing
 * The payment request
 * The notifications
-  
+
 For the full list, check out the [changelog](https://github.com/btcpayserver/btcpayserver/releases)
 
 ## **BTCPay Plugins - Paving the road**
@@ -105,7 +113,3 @@ As always, thank you to our invaluable contributors, we love you:
 [@britttttk](https://github.com/britttttk) [@cypherbeerus](https://github.com/cypherbeerus) [@dennisreimann](https://github.com/dennisreimann) [@dstrukt](https://github.com/dstrukt) [@Kukks](https://github.com/kukks/) [@NicolasDorier](https://github.com/nicolasdorier/) [@Pavlenex](https://github.com/pavlenex/) [@rockstardev](https://github.com/rockstardev/) [@sageprogrammer](https://github.com/sageprogrammer) [@ubolator](https://github.com/bolatovumar) [@woutersamaey](https://github.com/woutersamaey) [@Zaxounette](https://github.com/zaxounette/)
 
 The BTCPay Server team.
-
-
-
-
