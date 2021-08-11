@@ -52,6 +52,8 @@ This allows plugins to gain access to the many internal features they will requi
 
 This addition is paving the road towards having a plugin system in BTCPay that adds infinite functionality and customization on top of the core feature available.
 
+The plugin system should allow developers to build easier on top of BTCPay without relying on the core team to develop, agree, or review the changes. These plugins can be maintained separately and activated by users on demand. This introduces a whole new vision for BTCPay, a payment platform or as we like to call it, the WordPress of Bitcoin.
+
 ## **Greenfield API**
 
 ----
@@ -69,6 +71,15 @@ Today, here's what's **new and improved in Greenfield**:
 
 Some API documentation was also corrected to reflect what actually happens when using the endpoints.
 
+## **NBXplorer specifics**
+
+----
+
+This release also includes NBXplorer 2.1.58.
+Docker deployments are updated to this version automatically. Other deployment methods need to update manually.
+
+NBXplorer 2.1.58 fixes a number of bugs and enables **sending to Taproot** formatted addresses.
+
 ## **Translations**
 
 ----
@@ -77,7 +88,7 @@ Last but not least, BTCPay Server 1.2.0 sees improvements and error corrections 
 * Bulgarian
 * Dutch
 * Finnish
-* Hebrew 
+* Hebrew
 * Kazath
 * Korean
 * Portuguese
