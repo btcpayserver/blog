@@ -21,13 +21,13 @@ It's been a while since the last BTCPay Server major update and the team has bee
 To update, simply navigate to your **Server Settings > Maintenance** tab and click **Update** or use the command *btcpay-update.sh* in the command line.
 
 
-## **Continuation of our UI updates**
+## **Continuation of our UI updates** 🎨
 
 ----
 
 Since the beginning of 2021, our design contributors have improved a number of pages in the interface. This release includes a number of these updated pages and the migration from Bootstrap 3 to Bootstrap 5. This framework migration enables us to create and implement more modern-looking pages and provide a better experience.
 
-### Wallet Signing Wizard
+### Wallet Signing Wizard 🔐
 
 BTCPay Server wallet allows you to receive and spend transactions. If you're self-hosting a server, it's a wallet relying on your full node. With hardware wallet support and an abundance of privacy-enhancing features, we've seen an increasing amount of wallet usage. The community feedback was that signing options could be improved.
 
@@ -35,7 +35,7 @@ That's why the 1.2.0 now offers a signing wizard, which should simplify and, in 
 
 ![BTCPay 1.2.0 Crowdfund view](/images/BTCPay1.0.2WalletSign.gif)
 
-### Apps UI Improved
+### Apps UI Improved 💻
 
 The *Crowdfund* and *Point-Of-Sale* app creation pages have been updated - making navigation and creation of your favorite apps smoother.
 
@@ -51,7 +51,7 @@ A number of UI improvements and fixes also made it into this release, namely rel
 
 For the full list, check out the [changelog](https://github.com/btcpayserver/btcpayserver/releases)
 
-## **BTCPay Plugins - Paving the road**
+## **BTCPay Plugins - Paving the road** 🔌
 
 ----
 
@@ -62,7 +62,7 @@ This addition is paving the road towards having a plugin system in BTCPay that a
 
 The plugin system should allow developers to build easier on top of BTCPay without relying on the core team to develop, agree, or review the changes. These plugins can be maintained separately and activated by users on demand. This introduces a whole new vision for BTCPay, a payment platform or as we like to call it, the WordPress of Bitcoin.
 
-## **Greenfield API**
+## **Greenfield API** 🏗️
 
 ----
 
@@ -79,7 +79,7 @@ Today, here's what's **new and improved in Greenfield**:
 
 Some API documentation was also corrected to reflect what actually happens when using the endpoints.
 
-## **NBXplorer specifics**
+## **NBXplorer specifics** 🔍
 
 ----
 
@@ -92,7 +92,7 @@ NBXplorer 2.1.58 fixes a number of bugs and enables **sending to Taproot** forma
 
 ----
 
-Last but not least, BTCPay Server 1.2.0 sees improvements and error corrections in multple translations for the checkout page in:
+Last but not least, BTCPay Server 1.2.0 sees improvements and error corrections in multiple translations for the checkout page in:
 * Bulgarian
 * Dutch
 * Finnish
@@ -112,4 +112,4 @@ As usual, if you have problems, feedback, feature requests regarding BTCPay Serv
 As always, thank you to our invaluable contributors, we love you:
 [@britttttk](https://github.com/britttttk) [@cypherbeerus](https://github.com/cypherbeerus) [@dennisreimann](https://github.com/dennisreimann) [@dstrukt](https://github.com/dstrukt) [@Kukks](https://github.com/kukks/) [@NicolasDorier](https://github.com/nicolasdorier/) [@Pavlenex](https://github.com/pavlenex/) [@rockstardev](https://github.com/rockstardev/) [@sageprogrammer](https://github.com/sageprogrammer) [@ubolator](https://github.com/bolatovumar) [@woutersamaey](https://github.com/woutersamaey) [@Zaxounette](https://github.com/zaxounette/)
 
-The BTCPay Server team.
+The BTCPay Server team 💚.
