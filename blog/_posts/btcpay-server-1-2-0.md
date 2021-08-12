@@ -127,7 +127,7 @@ As usual, if you have problems, feedback, feature requests regarding BTCPay Serv
 
 ## New Blog 📝
 
-BTCPay Server is a team of collaborators around the internet. As an open-source project, we tend to do everything in the _open_. The open-organization approach means that not only our code is free and opened, but our entire infrastructure. The way we [communicate](https://chat/btcpayserver.org), [plan](https://github.com/orgs/btcpayserver/projects/9) and execute are all in the eyes of the public.
+BTCPay Server is a team of collaborators around the internet. As an open-source project, we tend to do everything in the _open_. The open-organization approach means that not only our code is free and opened, but our entire infrastructure. The way we [communicate](https://chat.btcpayserver.org), [plan](https://github.com/orgs/btcpayserver/projects/9) and execute are all in the eyes of the public.
 
 In case you haven't noticed, the blog post you're reading right now is on our brand-new blog. The blog was our last piece of a puzzle to open-source our entire infrastructure on GitHub.
 Earlier, we used WordPress, but thanks to our new contributor [activefog](https://github.com/activefog) and our wizard [@dennisreimann](https://github.com/dennisreimann) we've switched to the same stack that's used for our documentation - VuePress. This not only means better transparency but also the unification of our design guidelines as well.
