@@ -100,14 +100,14 @@ Docker deployments are updated to this version automatically. Other deployment m
 
 NBXplorer 2.1.58 fixes a number of bugs and enables **sending to Taproot** formatted addresses.
 
-## **Lightning Network implementation bumps**
+## **Lightning Network implementation bumps** ⚡
 
 We've updated the following Lightning Network implementations in our Docker deployment:
 
 - LND: 0.13.1
 - c-lightning: 0.10.1
 
-## **Translations**
+## **Translations** 🌐
 
 Last but not least, BTCPay Server 1.2.0 sees improvements and error corrections in multiple translations for the checkout page in:
 
