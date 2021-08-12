@@ -66,7 +66,11 @@ Another interesting use-case is topping up the account. Certain merchants wanted
 
 ![BTCPay 1.2.0 Crowdfund view](/images/topupinvoice.png)
 
-For now, the top-up invoice is available in the [pay button](https://docs.btcpayserver.org/FAQ/FAQ-Apps/#what-is-a-payment-button). Depending on the community feedback, we intend to gradually roll it out to other apps.
+For now, the top-up invoice is available in the [pay button](https://docs.btcpayserver.org/FAQ/FAQ-Apps/#what-is-a-payment-button). Depending on the community feedback, we intend to gradually roll it out to other apps. You can also generate a top-up invoice manually from `Invoices > Create a new invoice`.
+
+If you're using our [Greenfield API](https://docs.btcpayserver.org/API/Greenfield/v1/), you can set the `amount` to `null` or `undefined` to start using the feature.
+
+Top-up invoice can potentially improve the privacy of the payee, since they can spend an entire UTXO topping their account and avoiding the change.
 
 ## **BTCPay Plugins - Paving the road** 🔌
 
