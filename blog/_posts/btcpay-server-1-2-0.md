@@ -77,9 +77,15 @@ Top-up invoice can potentially improve the privacy of the payee, since they can 
 In this release, we also introduced the Greenfield API to the internal codebase.
 This allows plugins to gain access to the many internal features they will require in the future.
 
+![BTCPay 1.2.0 Plugins view](/images/BTCPay1.0.2-plugins.png)
+
 This addition is paving the road towards having a plugin system in BTCPay that adds infinite functionality and customization on top of the core feature available.
 
 The plugin system should allow developers to build easier on top of BTCPay without relying on the core team to develop, agree, or review the changes. These plugins can be maintained separately and activated by users on demand. This introduces a whole new vision for BTCPay, a payment platform or as we like to call it, the WordPress of Bitcoin.
+
+Some behind-the-scenes improvements are being made, making sure a proper foundation for the plugin system is set up. We're one step closer to extracting certain functionalities from the core system and shipping them as independent plugins (For example, Shopify).
+
+In the next major release, you can expect more progress on the plugins - stay tuned!
 
 ## **Greenfield API** 🏗️
 
