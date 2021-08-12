@@ -131,19 +131,21 @@ Last but not least, BTCPay Server 1.2.0 sees improvements and error corrections 
 
 Related to translations, the checkout page can automatically detect customer's prefered language. You can enable the `Auto-detect language on checkout` option in the Store Settings > Checkout Experience > Appearance.
 
-That's going to be all for highlights of this BTCPay Server 1.2.0 release!
-
-As usual, if you have problems, feedback, feature requests regarding BTCPay Server, feel free to reach out on our [community chat](https://chat.btcpayserver.org/). We hope you enjoy what this update has to offer.
-
 ## New Blog 📝
 
 BTCPay Server is a team of collaborators around the internet. As an open-source project, we tend to do everything in the _open_. The open-organization approach means that not only our code is free and opened, but our entire infrastructure. The way we [communicate](https://chat.btcpayserver.org), [plan](https://github.com/orgs/btcpayserver/projects/9) and execute are all in the eyes of the public.
 
 In case you haven't noticed, the blog post you're reading right now is on our brand-new blog. The blog was our last piece of a puzzle to open-source our entire infrastructure on GitHub.
-Earlier, we used WordPress, but thanks to our new contributor [activefog](https://github.com/activefog) and our wizard [@dennisreimann](https://github.com/dennisreimann) we've switched to the same stack that's used for our documentation - VuePress. This not only means better transparency but also the unification of our design guidelines as well.
+Earlier, we used WordPress, but thanks to our new contributor [@activefog](https://github.com/activefog) and our wizard [@dennisreimann](https://github.com/dennisreimann) we've switched to the same stack that's used for our documentation - VuePress. This not only means better transparency but also the unification of our design guidelines as well.
+
+----
+
+That's going to be all for highlights of this BTCPay Server 1.2.0 release!
+
+As usual, if you have problems, feedback, feature requests regarding BTCPay Server, feel free to reach out on our [community chat](https://chat.btcpayserver.org/). We hope you enjoy what this update has to offer.
 
 As always, thank you to our invaluable contributors, we love you:
 
-[activefog](https://github.com/activefog) [andhans](https://twitter.com/andhans_jail) [@britttttk](https://github.com/britttttk) [@cypherbeerus](https://github.com/cypherbeerus) [@dennisreimann](https://github.com/dennisreimann) [@dstrukt](https://github.com/dstrukt) [@jkljajic](https://github.com/jkljajic)[johanf85](https://github.com/johanf85) [@jonathanalevi](https://github.com/jonathanalevi) [@JimiHFord](https://github.com/JimiHFord/) [@Kukks](https://github.com/kukks/) [@NicolasDorier](https://github.com/nicolasdorier/) [@Pavlenex](https://github.com/pavlenex/) [@rockstardev](https://github.com/rockstardev/) [@sageprogrammer](https://github.com/sageprogrammer) [@ubolator](https://github.com/bolatovumar) [@woutersamaey](https://github.com/woutersamaey) [Zaxounette](https://github.com/zaxounette)
+[@activefog](https://github.com/activefog) [@andhans](https://twitter.com/andhans_jail) [@britttttk](https://github.com/britttttk) [@cypherbeerus](https://github.com/cypherbeerus) [@dennisreimann](https://github.com/dennisreimann) [@dstrukt](https://github.com/dstrukt) [@jkljajic](https://github.com/jkljajic)[johanf85](https://github.com/johanf85) [@jonathanalevi](https://github.com/jonathanalevi) [@JimiHFord](https://github.com/JimiHFord/) [@Kukks](https://github.com/kukks/) [@NicolasDorier](https://github.com/nicolasdorier/) [@Pavlenex](https://github.com/pavlenex/) [@rockstardev](https://github.com/rockstardev/) [@sageprogrammer](https://github.com/sageprogrammer) [@ubolator](https://github.com/bolatovumar) [@woutersamaey](https://github.com/woutersamaey) [@Zaxounette](https://github.com/zaxounette)
 
 The BTCPay Server team 💚.
