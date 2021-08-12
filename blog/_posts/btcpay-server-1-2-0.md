@@ -39,9 +39,9 @@ Another change relating to the hot wallet, is that from now on, your hot wallet 
 
 The *Crowdfund* and *Point-Of-Sale* app creation pages have been updated - making navigation and creation of your favorite apps smoother.
 
-![BTCPay 1.2.0 Crowdfund view](/images/BTCPay1.2.0Crowdfund.png)
+![BTCPay 1.2.0 Crowdfund view](/images/crowdfunding-ui-improvements.gif)
 
-![BTCPay 1.2.0 POS view](/images/BTCPay1.2.0POS.png)
+![BTCPay 1.2.0 POS view](/images/pos-ui-improvements.gif)
 
 A number of UI improvements and fixes also made it into this release, namely relating to the following pages:
 
