@@ -2,9 +2,9 @@
 title: "Migration from noseedbackup=1 to LND with seed"
 date: 2019-11-16
 author: pavlenex
-category: 
+category:
   - "features"
-tags: 
+tags:
   - "lightning-network"
 coverImage: /images/LND-Migration-BTCPay.png
 ---
@@ -37,8 +37,8 @@ If you're running a legacy version and decided to migrate, before proceeding, ma
 
 Channels can be closed through:
 
-• [SSH](https://github.com/JeffVandrewJr/patron/blob/master/SSH.md) with `bitcoin-lncli.sh closeallchannels`  
-• Server Setting > Services > LND (Ride the Lightning server)  
+• [SSH](https://github.com/JeffVandrewJr/patron/blob/master/SSH.md) with `bitcoin-lncli.sh closeallchannels`
+• Server Setting > Services > LND (Ride the Lightning server)
 • External wallet that's connected to your LND node, such as Zap.
 
 Once the channels are closed, it takes time for all the funds to settle. When there are no pending channels and all funds are visible on-chain, send them to an external wallet you have. For spending, you can use command line, RTL, Zap or other external wallet connected to your BTCPay.
@@ -49,10 +49,11 @@ When funds are SAFU, the migration process can begin. The migration tool for old
 
 Log in into your machine through [SSH](https://github.com/JeffVandrewJr/patron/blob/master/SSH.md) and input the following command.
 
+```bash
 sudo su -
-cd btcpayserver-docker
-cd Tools
-./recreate\_bitcoin\_lnd.sh
+cd btcpayserver-docker/Tools
+./recreate_bitcoin_lnd.sh
+```
 
 You will be prompted a few times to confirm running the tool, by typing `yes` in the terminal. When the script is done, go to your BTCPayServer. Server Settings > Services > **LND Seed Backup**.
 

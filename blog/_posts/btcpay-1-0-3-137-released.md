@@ -80,10 +80,12 @@ Yet another Lightning Network implementation is now available – **Eclair**. Th
 
 To add Eclair when setting up your BTCPay for the first time, apply the following command:
 
+```bash
 sudo su -
 cd btcpayserver-docker
-export BTCPAYGEN\_LIGHTNING="eclair"
+export BTCPAYGEN_LIGHTNING="eclair"
 . ./btcpay-setup.sh -i
+```
 
 Please be aware that you currently need to enable txindex=1 to use the Eclair implementation however the Eclair(ACINQ) team is working towards removing that requirement.
 
