@@ -2,9 +2,9 @@
 title: "How to earn Bitcoin by using BTCPay Server"
 date: 2019-03-17
 author: pavlenex
-category: 
+category:
   - "guides"
-tags: 
+tags:
   - "apps"
   - "bitcoin-merchants"
   - "pos"
@@ -27,7 +27,7 @@ Create custom invoices which can be shared with customers by sending a link to t
 
 When payment is made, the payment request uses the exchange rate at the time of payment, which eliminates the volatility risk and allows your clients to pay at their convenience without having to negotiate or verify exchange rates with you **at the time of payment**.
 
-<iframe src="https://www.youtube-nocookie.com/embed/j6CvwDPvfzQ" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+[![Introducing Payment Requests - Invoice clients & get paid in Bitcoin](https://img.youtube.com/vi/j6CvwDPvfzQ/mqdefault.jpg)](https://www.youtube.com/watch?v=j6CvwDPvfzQ)
 
 ## Accepting Bitcoin in an online store
 
@@ -42,13 +42,15 @@ Plugins are available for the following platforms:
 
 We plan to make more plugins for other platforms depending on community demand. The video below shows how to connect BTCPay with a WooCommerce store.
 
-<iframe src="https://www.youtube-nocookie.com/embed/IT2K8It3S3o" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+[![Connecting WooCommerce to a free BTCPay Server Host](https://img.youtube.com/vi/IT2K8It3S3o/mqdefault.jpg)](https://www.youtube.com/watch?v=IT2K8It3S3o)
 
 Don't have an online store? Don't have the technical knowledge to create one? Willing to dedicate a few hours to learn a new skill?
 
 If the answer is yes I have good news for you, our free 18-video series will teach you to build an e-commerce store from scratch and start accepting Bitcoin, by using free and open-source software.
 
+<div class="ytEmbed">
 <iframe src="https://www.youtube-nocookie.com/embed/playlist?list=PL7b9Wt9shK2ouN9E-g0viktMMEKFFqelm" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+</div>
 
 Technically advanced users can use this guide to [deploy WooCommerce store from BTCPay](https://medium.com/@BtcpayServer/btcpay-woocommerce-cheap-ab6fcdd97075) Server and run them on a single virtual machine.
 
@@ -56,7 +58,7 @@ Technically advanced users can use this guide to [deploy WooCommerce store from 
 
 Brick and mortar store owners can use a built-in Point of Sale web app. Add products and images, set prices and don’t forget to customize. The app is web-based and can be run on old phones and tablets - no need for specialist hardware
 
-<iframe src="https://www.youtube-nocookie.com/embed/Mz4uajz0z9Y" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+[![How to create Bitcoin and Lightning Network Point of Sale](https://img.youtube.com/vi/Mz4uajz0z9Y/mqdefault.jpg)](https://www.youtube.com/watch?v=Mz4uajz0z9Y)
 
 Check out the step by [step guide to making a PoS.](https://blog.btcpayserver.org/bitcoin-pos/) Larger retailers can use our software and integrate it into their existing terminals, but that will require technical know-how. Once our brand-new API is released, it will be much easier than it is now.
 
@@ -64,7 +66,7 @@ Check out the step by [step guide to making a PoS.](https://blog.btcpayserver.or
 
 Content creators bloggers or charities can utilize the payment button. The button can easily be created from Store Settings > Pay Button, customized and embedded into an HTML page.
 
-<iframe src="https://www.youtube-nocookie.com/embed/MIWGvl6_WzI" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe>
+[![How to embed Bitcoin payment donation button on a website](https://img.youtube.com/vi/MIWGvl6_WzI/mqdefault.jpg)](https://www.youtube.com/watch?v=MIWGvl6_WzI)
 
 Those who don't have a website, but would like to use BTCPay as a [Tippin](https://tippin.me/) alternative, can customize the point of sale app and [make a donation page.](https://docs.btcpayserver.org/faq-and-common-issues/faq-apps#how-to-create-pay-button-with-a-custom-amount)
 
@@ -72,7 +74,7 @@ Those who don't have a website, but would like to use BTCPay as a [Tippin](https
 
 Crowdfunding is an application which you can launch from BTCPay Server interface that allows you to create a self-hosted funding campaign, similar to Kickstarter or Indiegogo. Unlike traditional crowdfunding platforms, the creator of the campaign is the owner of the platform. Funds go directly to the creator’s wallet without any fees.
 
-<iframe src="https://www.youtube-nocookie.com/embed/tFbfyneDj88" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe>
+[![BTCPay Crowdfunding App](https://img.youtube.com/vi/tFbfyneDj88/mqdefault.jpg)](https://www.youtube.com/watch?v=tFbfyneDj88)
 
 Users who prefer the re-occurring model and Patreon alternative can use LibrePatron which is a self-hosted Patreon replacement powered by BTCPay.
 
@@ -80,7 +82,7 @@ Users who prefer the re-occurring model and Patreon alternative can use LibrePat
 
 Journalists, bloggers and media outlets can lock their articles behind a Lightning Network paywall and request micropayments from their readers. If you-re using c-lightning implementation, you can copy the exposed node settings into the Lightning Publisher for WordPress. From there, the content can be locked with a simple shortcode. This plugin only works on WordPress websites.
 
-<iframe src="https://www.youtube-nocookie.com/embed/ZbM3jcxau0o" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe>
+[![Lightning Wordpress Publisher and BTCPay](https://img.youtube.com/vi/ZbM3jcxau0o/mqdefault.jpg)](https://www.youtube.com/watch?v=ZbM3jcxau0o)
 
 ## Become a payment processor
 

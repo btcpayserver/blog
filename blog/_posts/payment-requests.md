@@ -9,7 +9,7 @@ permalink: /payment-requests
 
 > I regularly pay freelancers with bitcoin. When we agree on the price in fiat, due to volatility, the numbers never add up. I have to pay again, or they have to refund me. If we agree on the amount a few days in advance, someone is always at financial or time loss. Making sure they don’t re-use the address is a story for another day, but you feel the pain. (GitHub #[314](https://github.com/btcpayserver/btcpayserver/issues/314) )
 
-<iframe src="https://www.youtube-nocookie.com/embed/j6CvwDPvfzQ" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+[![Introducing Payment Requests - Invoice clients & get paid in Bitcoin](https://img.youtube.com/vi/j6CvwDPvfzQ/mqdefault.jpg)](https://www.youtube.com/watch?v=j6CvwDPvfzQ)
 
 BTCPay is free and open-source cryptocurrency payment processor. In this article we would like to share how we addressed the above problem for our users.
 

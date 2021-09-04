@@ -46,7 +46,7 @@ Even if you don't use QuickBooks for invoicing but just use it for bookkeeping, 
 
 Interestingly QuickBooks later dropped Bitpay integration, so I believe BTCPay may now be the only solution with QuickBooks integration.
 
-<iframe src="https://www.youtube-nocookie.com/embed/srgwL9ozg6c" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe>
+[![BTCQBO - Quickbooks Online Connector for BTCPay Server](https://img.youtube.com/vi/srgwL9ozg6c/mqdefault.jpg)](https://www.youtube.com/watch?v=srgwL9ozg6c)
 
 ## What is LibrePatron?
 

@@ -33,7 +33,7 @@ Before we dive into the guide, here are some requirements:
 3. Create a PoS app
 4. Add PoS as to a home screen of your tablet or phone
 
-<iframe src="https://www.youtube-nocookie.com/embed/Mz4uajz0z9Y?start=6" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+[![How to create Bitcoin and Lightning Network Point of Sale](https://img.youtube.com/vi/Mz4uajz0z9Y/mqdefault.jpg)](https://www.youtube.com/watch?v=Mz4uajz0z9Y)
 
 ## Step 1 - Deploying BTCPay
 
@@ -51,7 +51,7 @@ Make sure to read our third-party documentation to understand why chose one over
 
 To deploy a self-hosted BTCPay you can follow a tutorial below.
 
-<iframe src="https://www.youtube-nocookie.com/embed/oce_fvRdLLY" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+[![BTCPay Server - 1-Click Web Deployment (LunaNode)](https://img.youtube.com/vi/oce_fvRdLLY/mqdefault.jpg)](https://www.youtube.com/watch?v=oce_fvRdLLY)
 
 If you don't want to invest time and efforts into self-hosting a server at this point, you can just hop on to our [demo server](https://mainnet.demo.btcpayserver.org) and go to step 2.
 
@@ -98,7 +98,7 @@ Input your xpub, then on the second screen, if you see a wrong address, input th
 
 The video below explains how to connect your wallet to your BTCPay store.
 
-<iframe src="https://www.youtube-nocookie.com/embed/xX6LyQej0NQ?start=6" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+[![Connecting your Wallet to BTCPay Server with xpub Ledger Nano S or other like Electrum](https://img.youtube.com/vi/xX6LyQej0NQ/mqdefault.jpg)](https://www.youtube.com/watch?v=xX6LyQej0NQ)
 
 If your BTCPay is self-hosted, you can [enable Lightning Network payments](https://docs.btcpayserver.org/features/lightningnetwork).
 

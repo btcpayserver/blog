@@ -43,13 +43,13 @@ Out of the box, we offer 3 different types of tipping buttons:
 
 To create a pay button, go to your BTCPay Server Store Settings > Pay Button. Allow invoice creation and customize the appearance and amounts. Video below guides you through the process of creating and also embedding a donation button into your web-page. The process is the same regardless of the button type.
 
-<iframe src="https://www.youtube-nocookie.com/embed/MIWGvl6_WzI" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;">﻿</span></iframe>
+[![How to embed Bitcoin payment donation button on a website](https://img.youtube.com/vi/MIWGvl6_WzI/mqdefault.jpg)](https://www.youtube.com/watch?v=MIWGvl6_WzI)
 
 ## Crowdfunding
 
 Crowdfunding is an application which you can launch from BTCPay Server interface that allows you to create a self-hosted funding campaign, similar to Kickstarter or Indiegogo. Unlike traditional crowdfunding platforms, the creator of the campaign is the owner of the platform. Funds go directly to the creator’s wallet without any fees.
 
-<iframe src="https://www.youtube-nocookie.com/embed/tFbfyneDj88" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;">﻿</span></iframe>
+[![BTCPay Crowdfunding App](https://img.youtube.com/vi/tFbfyneDj88/mqdefault.jpg)](https://www.youtube.com/watch?v=tFbfyneDj88)
 
 The Crowdfund App is highly customizable. Users can modify the appearance, donor perks, denomination type, crowdfund goals, etc. Everyone can see live contribution stats and even custom sounds when someone donates. BTCPay's Crowdfunding App was recently used as a donation platform for the [#WeAreAllHodlonaut](https://weareallhodlonaut.com/) community crowdfunding campaign.
 
@@ -61,7 +61,7 @@ Funds paid to a payment request use the exchange rate at the time of payment. Th
 
 Users can pay requests in partial payments and the request will remain valid until it is paid in full or if the store owner requires an expiration time. Addresses are never reused. A new address is generated each time the user clicks pay to create an invoice for the payment request.
 
-<iframe src="https://www.youtube-nocookie.com/embed/j6CvwDPvfzQ" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+[![Introducing Payment Requests - Invoice clients & get paid in Bitcoin](https://img.youtube.com/vi/j6CvwDPvfzQ/mqdefault.jpg)](https://www.youtube.com/watch?v=j6CvwDPvfzQ)
 
 Want to see this feature in action? Check out this [Live Payment Request](https://btcps0.com/payment-requests/e6a6fbee-193d-4e0c-8f09-b106d0ae1801) for donations to purchase a Trezor One wallet for one of our BTCPay developers to implement Trezor as a supported wallet in BTCPay.
 
