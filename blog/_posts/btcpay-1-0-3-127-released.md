@@ -2,7 +2,7 @@
 title: "BTCPay 1.0.3.127 released - Fixing a vulnerability, introducing wallet labels, comments and more"
 date: 2019-08-10
 author: pavlenex
-category: 
+category:
   - "features"
   - "releases"
 coverImage: /images/1.0.3.127.jpg

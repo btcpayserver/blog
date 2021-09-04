@@ -83,9 +83,7 @@ Absolutely I think the killer app of BTCPay Server is it lets you earn Bitcoin. 
 
 **What feature/use-case would you like BTCPay Server to implement/develop to become even more** **suitable for a Bitcoin Circular Economy ?**
 
-
 > "A trend we’re going to see is a few stores getting together and having someone run the server for their group"
-
 
 In my opinion, just keep making the GUI better and better.
 A current hurdle I’m on is I don’t know how to turn on the email notifications for when I get paid.
@@ -103,8 +101,6 @@ Appreciate the opportunity and thanks for the time you’re taking to put this i
 - [Brianharrington.org/xpub](https://www.brianharrington.org/xpub) for a BTCPay Server demo
 - [Ocbitcoinnetwork.com](http://Ocbitcoinnetwork.com) for meet ups in Southern California
 - My DM’s are open on Twitter [@brainharrington](https://twitter.com/BrainHarrington)
-
-
 
 * * *
 

@@ -2,9 +2,9 @@
 title: "BTCPay Directory - Showcasing merchants, charities, apps and projects using BTCPay Server"
 date: 2019-07-21
 author: pavlenex
-category: 
+category:
   - "announcements"
-tags: 
+tags:
   - "bitcoin-merchants"
 coverImage: /images/btcpay-directory.jpg
 ---
