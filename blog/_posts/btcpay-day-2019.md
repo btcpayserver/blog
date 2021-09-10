@@ -2,7 +2,7 @@
 title: "Announcing BTCPay Day on the 16th of September in Riga"
 date: 2019-08-20
 author: pavlenex
-category: 
+category:
   - "announcements"
 coverImage: /images/BTCPay-Day-Riga-2019-Featured.jpg
 ---
@@ -19,7 +19,7 @@ There will be something for everyone. Our goal is to bring the community togethe
 
 ## Location and Time
 
-**Starts: [11:00 EEST](https://www.timeanddate.com/worldclock/fixedtime.html?msg=BTCPay+Day+Riga+2019&iso=20190916T11&p1=602&ah=21)  
+**Starts: [11:00 EEST](https://www.timeanddate.com/worldclock/fixedtime.html?msg=BTCPay+Day+Riga+2019&iso=20190916T11&p1=602&ah=21)
 Location: [Elizabetes iela 22 (City Center)](https://goo.gl/maps/5oPnU2JfxU4FkYRH8)**
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2175.947058452133!2d24.119741716095074!3d56.94970830651151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eecfc77a30bce7%3A0x59ba07f579c6dc0c!2sCryptoCash!5e0!3m2!1sen!2sus!4v1566301219661!5m2!1sen!2sus" style="border:0" allowfullscreen width="600" height="450" frameborder="0"></iframe>
@@ -38,7 +38,7 @@ Location: [Elizabetes iela 22 (City Center)](https://goo.gl/maps/5oPnU2JfxU4FkYR
 - 16:00 - BTCPay Transmuter and the new API - Kukks
 - 16:30-19:00 - Workshops
 
-There will be workshop corners where people can sit, develop, build or simply brainstorm their new business venture.  
+There will be workshop corners where people can sit, develop, build or simply brainstorm their new business venture.
 The available workshops are:
 
 - Deploying BTCPay
@@ -50,11 +50,11 @@ The available workshops are:
 Images below are from CryptoCash Riga [Facebook page.](https://www.facebook.com/cryptocash.riga)
 
 ![](/images/44953591_319822225416516_115994954857185280_o-1024x683.jpg)
-    
+
 ![](/images/44848453_319822278749844_711351132311519232_o-1024x684.jpg)
-    
+
 ![](/images/44932775_319822212083184_1054272397944815616_o-1024x684.jpg)
-    
+
 
 ## Early Bird Tickets available
 

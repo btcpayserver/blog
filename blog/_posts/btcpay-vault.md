@@ -2,7 +2,7 @@
 title: "Introducing BTCPay Vault – use any hardware wallet with BTCPay and its full node"
 date: 2020-01-21
 author: pavlenex
-category: 
+category:
   - "features"
 coverImage: "/images/EJ0JwsbX0AEuAUC-scaled.jpg"
 ---
@@ -72,7 +72,7 @@ Once you've received funds to your wallet and you decide to spend them, you can 
 
 ![](/images/BTCPay-Vault-Wallet-Send-1-1024x660.png)
 
-  
+
 
 ![](/images/BTCPay-Vault-Wallet-Send-2-1024x558.png)
 

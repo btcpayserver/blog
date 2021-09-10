@@ -2,9 +2,9 @@
 title: "BTCPay Server Foundation - Introspective"
 date: 2020-03-07
 author: Nicolas
-category: 
+category:
   - "announcements"
-tags: 
+tags:
   - "foundation"
 coverImage: "/images/YT_05.png"
 ---

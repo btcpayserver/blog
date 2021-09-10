@@ -18,7 +18,7 @@ Most importantly, there will be no fees or intermediary. Customers will be prese
 
 ![](/images/Bitcoin-Point-Of-Sale-1024x768.jpg)
 
-## Requirements:
+## Requirements
 
 Before we dive into the guide, here are some requirements:
 
@@ -26,7 +26,7 @@ Before we dive into the guide, here are some requirements:
 - Phone or a tablet, PC (Digital display)
 - Internet connection
 
-## Steps:
+## Steps
 
 1. Deploy BTCPay Server
 2. Configure BTCPay (Register User, Create Store, Add Wallet)
@@ -82,6 +82,7 @@ Create a new store and give it a name. You'll see the message that the store is 
 ***Store successfully created. If you wish you can customize basic settings, or just scroll down to connect your wallet:***
 
 ![](/images/BTCPay-Creating-A-store.png)
+
 ### 2.3 - Connecting a wallet
 
 As I already said, the beauty of using BTCPay is that there will be no fees on transaction, registration or membership. Furthermore, BTCPay does not require your private key. You're just adding an xpub key from your wallet.

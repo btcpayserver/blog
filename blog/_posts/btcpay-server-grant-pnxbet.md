@@ -2,9 +2,9 @@
 title: "BTCPay Server grant - PNXBET"
 date: 2021-06-09
 author: Zaxounette
-category: 
+category:
   - "announcements"
-tags: 
+tags:
   - "btcpay-server"
   - "grant"
 coverImage: "/images/btcpayy-PNXBETfeatured-1024x576-1.png"

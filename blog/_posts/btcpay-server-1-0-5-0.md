@@ -2,7 +2,7 @@
 title: "BTCPay Server 1.0.5.0 is out!"
 date: 2020-06-26
 author: pavlenex
-category: 
+category:
   - "releases"
 coverImage: "/images/v10050-1024x576-1.png"
 ---
@@ -18,7 +18,6 @@ It's hard to pick the highlight of the release, since we have two new significan
 We heard your feedback about wanting to be notified of important events in your BTCPay Server. Introducing - **notifications**!
 
 ![](/images/notifications2-1024x530.png)
-    
 
 For this release, you will be able to receive notifications within the UI when an invoice has an important [status](https://docs.btcpayserver.org/Invoices/#invoice-statuses) update, such as a confirmed payment, partially paid (underpaid), invalid state (paid, but failed to confirm within specified amount of blocks). Besides invoice status, we've added notifications for payouts as well.
 
@@ -41,12 +40,10 @@ A sender creates a pull payment, specifies the maximum amount that can be pulled
 Here's a simple example: Imagine you hired a freelancer - Tom, to create a logo for your company. The total is 0.003 BTC, but you agreed to work in stages : outline, coloring, and high-res file.
 
 ![](/images/PullPayments-2-1-1024x412.png)
-    
 
 You create a pull payment of 0.003 BTC and share a link with Tom. Once a stage is complete, Tom visits the link, creates a payout asking to send 0.001 BTC to his address. You check the files, authorize the payout and the funds have now been received by Tom!
 
 ![](/images/PullPayments-1-1024x395.png)
-    
 
 ![](/images/PullPayments-4-1024x773.png)
 
@@ -63,14 +60,12 @@ For more in-depth info on pull payments, check [out our documentation](https://d
 Up until now, merchants had to manually issue refunds. The process required a lot of back and forth between a sender and a receiver. The merchant had to ask for a refund address, calculate the preferred rate, manually add that to the wallet and broadcast the transaction.
 
 ![](/images/Refund2-1024x478.png)
-    
 
 **Refund** is a familiar concept built on top of the pull payments feature. In case of a refund, a merchant just needs to go to the invoice, click Issue refund , select the appropriate rate and share a link with a customer.
 
 The customer will then input their address and claim a refund. Once a customer claims a refund, the merchant will get a notification and can authorize it in a click. In future releases, we will look into payouts which are approved to be paid out instantly, without the authorization, in case a merchant prefers that.
 
 ![](/images/RefundCustomerUI-1024x655.png)
-    
 
 ### 💰Wallet improvements
 

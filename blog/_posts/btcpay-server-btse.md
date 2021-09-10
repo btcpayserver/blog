@@ -2,7 +2,7 @@
 title: "BTCPay Server Grant #6 - BTSE"
 date: 2020-03-10
 author: pavlenex
-category: 
+category:
   - "announcements"
 coverImage: /images/btcpay-btse-featured.png
 ---

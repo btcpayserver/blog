@@ -2,7 +2,7 @@
 title: "BTCPay Server version 1.0.3.132 released"
 date: 2019-09-23
 author: Nicolas
-category: 
+category:
   - "releases"
 coverImage: /images/1.0.3.132.jpg
 permalink: /1-0-3-132-released

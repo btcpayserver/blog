@@ -70,7 +70,7 @@ I can't wait for “[Lightning Bank](https://twitter.com/DennisReimann/status/13
 
 ![Bitcoin graffiti - By Bitpaint](/images/Bitcoin.jpg "Bitcoin graffiti - By Bitpaint")
 
-## **Future thoughts**
+## Future thoughts
 
 * * *
 
@@ -89,6 +89,7 @@ And I already touched on this above, but I'm really bullish on [Lightning Bank](
 **Where can our readers find you ?**
 
 You can find me on the internet:
+
 - [Bitpaint.club](https://bitpaint.club/)
 - [Twitter.com](https://twitter.com/Bitpaintclub)
 - [Instagram](https://www.instagram.com/bitpaint.club/)

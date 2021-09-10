@@ -2,7 +2,7 @@
 title: "This is lies - you're obsolete."
 date: 2019-08-17
 author: Nicolas
-category: 
+category:
   - "announcements"
 coverImage: "/images/BTCPayB-day.jpg"
 ---

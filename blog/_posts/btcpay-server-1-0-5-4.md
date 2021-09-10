@@ -2,7 +2,7 @@
 title: "BTCPay Server 1.0.5.4 is out!"
 date: 2020-08-05
 author: pavlenex
-category: 
+category:
   - "releases"
 coverImage: "/images/v10050-1024x576-1.jpg"
 ---
@@ -101,16 +101,16 @@ We've redone the design of the [BTCPay Server Foundation](http://foundation.btcp
 
 Huge thanks to all of you who’ve helped in making of the **v1.0.5.**4\. We appreciate every single contribution and support.
 
-[benichmt1](https://github.com/benichmt1)  
-[bolatovumar](https://github.com/bolatovumar)  
-[britttttk](https://github.com/britttttk)  
-[dennisreimann](https://github.com/dennisreimann/)  
-[dstrukt](https://github.com/dstrukt)  
-[eskyee](https://github.com/eskyee/)  
-[kukks](https://github.com/kukks)  
-[msafi](https://github.com/msafi)  
-[nicolasdorier](https://github.com/nicolasdorier)  
-[rockstardev](https://github.com/rockstardev)  
+[benichmt1](https://github.com/benichmt1)
+[bolatovumar](https://github.com/bolatovumar)
+[britttttk](https://github.com/britttttk)
+[dennisreimann](https://github.com/dennisreimann/)
+[dstrukt](https://github.com/dstrukt)
+[eskyee](https://github.com/eskyee/)
+[kukks](https://github.com/kukks)
+[msafi](https://github.com/msafi)
+[nicolasdorier](https://github.com/nicolasdorier)
+[rockstardev](https://github.com/rockstardev)
 [xpayserver](https://github.com/xpayserver)
 
 As always, if you face any issues or notice a bug, please join our [community chat](http://chat.btcpayserver.org/) and let us know.

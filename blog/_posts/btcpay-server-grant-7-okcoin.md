@@ -2,15 +2,14 @@
 title: "BTCPay Server Grant #7 – OKCoin"
 date: 2020-05-28
 author: pavlenex
-category: 
+category:
   - "announcements"
-tags: 
+tags:
   - "foundation"
 coverImage: "/images/btcpay-okcoinfeatured-1024x576-1.png"
 ---
 
 ![](/images/btcpay-okcoin-article-1024x335-1.png)
-    
 
 We're thrilled to announce that the BTCPay Server Foundation has received grant #7 from [OKCoin](https://www.okcoin.com). OKCoin is matching our biggest supporter to date and will be donating a total of 100,000 USD over the next 12 months.
 

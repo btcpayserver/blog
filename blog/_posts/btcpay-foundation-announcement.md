@@ -2,7 +2,7 @@
 title: "Announcing the BTCPay Server Foundation and our first grant from Square Crypto"
 date: 2019-09-14
 author: pavlenex
-category: 
+category:
   - "announcements"
 coverImage: /images/BTCPayFoundation.jpg
 ---

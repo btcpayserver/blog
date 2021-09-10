@@ -62,7 +62,6 @@ That is now history. These two apps join the **Payment Button** in their infinit
 
     Crowdfunding Customization
 
-
 * * *
 
 Another improvement is the possibility to now tag an invoice as "Completed" without first having to tag it as "Invalid".
@@ -76,7 +75,6 @@ These settings are now ordered, polished, and hopefully made more clear to users
 [![Server settings policies](/images/Server_Settings_Policies-1-1024x486.png)](/images/Server_Settings_Policies-1-1024x486.png)
 
     Server settings policies
-
 
 ## Improvements ✨
 

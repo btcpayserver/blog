@@ -2,14 +2,14 @@
 title: "New version of BTCPay Server - v1.0.6.0 is out!"
 date: 2020-11-25
 author: pavlenex
-category: 
+category:
   - "releases"
 coverImage: "/images/BTCPay1060png.png"
 ---
 
 We're excited to announce the new version of the BTCPay Server - **v1.0.6.0**! The new release introduces new features, UI improvements, Greenfield API additions, a bunch of bug fixes and a patch for a privacy vulnerability found in relation the payment button feature.
 
-_**If you're using payment button in any form, we strongly recommend that you update your BTCPay Server.**_  
+_**If you're using payment button in any form, we strongly recommend that you update your BTCPay Server.**_
 **_UPDATE: CVE-2021-29249 has been assigned to this issue._**
 
 ## 🆕What's new in v1.0.6.0?
@@ -100,17 +100,17 @@ Once again, it's still early for the plugins! But we'll get there. It's a concep
 
 ## Thank you to our contributors!
 
-Huge thanks to all of you who’ve helped in making of the **v1.0.6.0**! We appreciate every single contribution and support.  
-[bolatovumar](https://github.com/bolatovumar)  
-[britttttk](https://github.com/britttttk)  
-[dennisreimann](https://github.com/dennisreimann)  
-[dstrukt](https://github.com/dstrukt)  
-[kukks](https://github.com/kukks/)  
-[mariodian](https://github.com/mariodian/)  
-[nicolasdorier](https://github.com/nicolasdorier/)  
-[pavlenex](https://github.com/pavlenex/)  
-[rockstardev](https://github.com/rockstardev/)  
-[sgarcia13](https://github.com/sgracia13)  
+Huge thanks to all of you who’ve helped in making of the **v1.0.6.0**! We appreciate every single contribution and support.
+[bolatovumar](https://github.com/bolatovumar)
+[britttttk](https://github.com/britttttk)
+[dennisreimann](https://github.com/dennisreimann)
+[dstrukt](https://github.com/dstrukt)
+[kukks](https://github.com/kukks/)
+[mariodian](https://github.com/mariodian/)
+[nicolasdorier](https://github.com/nicolasdorier/)
+[pavlenex](https://github.com/pavlenex/)
+[rockstardev](https://github.com/rockstardev/)
+[sgarcia13](https://github.com/sgracia13)
 [zaxounette](https://github.com/zaxounette/)
 
 As always, if you face any issues or notice a bug, please join our [community chat](http://chat.btcpayserver.org/) and let us know. 💚

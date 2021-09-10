@@ -2,9 +2,9 @@
 title: "BTCPay Server Grant #3 From Digital Garage, Inc."
 date: 2019-11-14
 author: Nicolas
-category: 
+category:
   - "announcements"
-tags: 
+tags:
   - "foundation"
 coverImage: "/images/btcpay-dg-featured.png"
 ---

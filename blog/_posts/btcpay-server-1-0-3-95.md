@@ -2,7 +2,7 @@
 title: "BTCPay Server 1.0.3.95 Released (Invoice improvements, U2F support, Bitcoin Full Node connect to mobile via QR code, external storage support and more!)"
 date: 2019-05-07
 author: pavlenex
-category: 
+category:
   - "releases"
 coverImage: "/images/BTCPay-New-Version-1.0.3.95-.jpg"
 ---
@@ -17,7 +17,7 @@ BTCPay Server version 1.0.3.95 includes lots of new features,improvements and bu
 
 ## Invoice list updates
 
-During the [WeAreAllhodlonaut crowdfunding,](http://weareallhodlonaut.com/) we identified several UX/UI problems with our invoices page. This release includes notable changes which should help users with invoice management and interaction. The following changes should help users, especially those with a large volume of invoices in real time to manage their incoming invoices  
+During the [WeAreAllhodlonaut crowdfunding,](http://weareallhodlonaut.com/) we identified several UX/UI problems with our invoices page. This release includes notable changes which should help users with invoice management and interaction. The following changes should help users, especially those with a large volume of invoices in real time to manage their incoming invoices
 easier and identify those that require further action.
 
 - Responsive status change

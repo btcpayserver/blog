@@ -2,12 +2,12 @@
 title: "BTCPay Server Grant - Baillie Gifford"
 date: 2021-07-28
 author: Zaxounette
-category: 
+category:
   - "announcements"
-tags: 
+tags:
   - "foundation"
 coverImage: "/images/btcpay-baillie-gifford-1024x576-1.png"
---- 
+---
 
 Baillie Gifford, an investment management partnership is providing an annual grant over four years to the BTCPay Server Foundation.
 

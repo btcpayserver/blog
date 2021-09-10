@@ -2,9 +2,9 @@
 title: "Interview with Jamie Lim, the founder of Sticky Singapore, Joo Bar, 8 Korean BBQ and Juju Coffee"
 date: 2019-04-10
 author: pavlenex
-category: 
+category:
   - "stories"
-tags: 
+tags:
   - "interview"
   - "lightning-network"
   - "pos"

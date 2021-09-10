@@ -11,7 +11,7 @@ coverImage: /images/btcpay-directory.jpg
 
 Today, we're releasing [BTCPay Server Directory](https://directory.btcpayserver.org/). An index of businesses, non-profits organizations and individuals that use BTCPay Server and want to showcase their donation pages, apps, crowdfunding campaigns or projects.
 
-![](/images/btcpay-directory-1024x576.jpg)
+![BTCPay Server Directory](/images/btcpay-directory-1024x576.jpg)
 
 Promoting a Bitcoin business can be challenging. Advertising networks are notorious for censoring and blocking cryptocurrency ads. Merchants reported that their legit ad campaigns were getting shut down by Google, Facebook and even a portion of e-mail providers.
 

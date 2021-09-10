@@ -20,7 +20,6 @@ It's been a while since the last BTCPay Server major update and the team has bee
 
 To update, simply navigate to your **Server Settings > Maintenance** tab and click **Update** or use the command *btcpay-update.sh* in the command line.
 
-
 ## **Continuation of our UI updates** 🎨
 
 Since the beginning of 2021, our design contributors have improved a number of pages in the interface. This release includes a number of these updated pages and the migration from Bootstrap 3 to Bootstrap 5. This framework migration enables us to create and implement more modern-looking pages and provide a better experience.
