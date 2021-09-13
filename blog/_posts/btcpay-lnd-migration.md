@@ -51,8 +51,8 @@ Log in into your machine through [SSH](https://github.com/JeffVandrewJr/patron/b
 
 ```bash
 sudo su -
-cd btcpayserver-docker/Tools
-./recreate_bitcoin_lnd.sh
+cd btcpayserver-docker/Tools/lnd
+./lnd_recreate_volume.sh
 ```
 
 You will be prompted a few times to confirm running the tool, by typing `yes` in the terminal. When the script is done, go to your BTCPayServer. Server Settings > Services > **LND Seed Backup**.
