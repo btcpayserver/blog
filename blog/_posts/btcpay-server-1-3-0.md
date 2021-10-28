@@ -1,6 +1,6 @@
 ---
 title: "BTCPay Server 1.3.0 - Lightning, Taproot and UI goodies"
-date: 2021-10-27
+date: 2021-10-29
 author: Zaxounette
 category:
   - "releases"
@@ -88,8 +88,6 @@ In BTCPay Server, you are now able to configure and create such addresses, so th
 All the heavy lifting relating to Segwit & Taproot compatibility, address reuse, etc... is done by your BTCPay Server instance.
 
 You can find this new feature under `Store` > `Integrations`.
-
-*Please note that this feature requires an active internet connexion in most setups since there's a DNS-type resolution being performed in the background to translate the Lightning Addresses so that you can receive payments.*
 
 ## **Topup feature expansion**
 
