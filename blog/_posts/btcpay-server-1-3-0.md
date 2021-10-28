@@ -59,7 +59,7 @@ BTCPay Server already introduced Taproot sending support last August, and this w
 
 For more information on Taproot as a network upgrade, you can visit a few of these uncurated posts [here](https://river.com/learn/what-is-taproot/) or [here](https://blog.kraken.com/post/10939/taproot-primer-an-upgrade-for-the-ages/).
 
-*Please note that we don't recommend using only taproot supported wallets in your stores at first, since not all wallets your customers and users will be sending funds support Taproot just yet.*
+*Please note that we don't recommend using only taproot supported wallets in your stores at first, since not all wallets your customers and users will be sending funds from support Taproot just yet.*
 
 ## **LNURL and Lightning Addresses** 
 
