@@ -17,7 +17,7 @@ coverImage: "/images/BTCPayServer1.3.0.png"
 
 It's been two months since the [last](https://blog.btcpayserver.org/btcpay-server-1-2-0/) BTCPay Server major update, and the team has been hard at work pushing through a number of efforts in that time. We're thrilled to release a new major version - 1.3.0!
 
-**BTCPay Server 1.3.0** includes the support for LNURL-Pay, Lightning address and Taproot; Lightning support for topup invoices and pull payments; crowdfunding app redesign, Greenfield API enhancements, lots of UI improvements and several bug crushes.
+**BTCPay Server 1.3.0** includes the support for LNURL-Pay, Lightning address, and Taproot; Lightning support for topup invoices and pull payments; crowdfunding app redesign, Greenfield API enhancements, lots of UI improvements, and several bug crushes.
 
 We won't cover them all in this release post, but as usual, the high-time preference crowd can view the [full changelog](https://github.com/btcpayserver/btcpayserver/releases) directly.
 
@@ -41,13 +41,13 @@ This adds a few nice additions on top of BTCPay Server invoices such as:
 
 #### LNURL-Pay & Print Point of Sale 🏪
 
-Traditionally, the easiest way to accept bitcoin payments in retail is to print out and display a QR code of your address. However, address re-use is a bad privacy-practice. Furthermore it's not possible to differentiate payments coming in to a single address with ease, making invoice management a total nightmare. This is why we're excited to introduce our new Point of Sale option - **Print**.
+Traditionally, the easiest way to accept bitcoin payments in a small retail shop is to print out and display a QR code of your address. However, address re-use is a bad privacy practice. Furthermore, it's impossible to differentiate payments coming into a single address easily, making invoice management a total nightmare. This is why we're excited to introduce our new Point of Sale option - **Print**.
 
-[![BTCPay 1.3.0 Lightning Address](https://img.youtube.com/vi/j0Se0nsDI/mqdefault.jpg)](https://www.youtube.com/watch?v=j0Se0nsDI)
+[![BTCPay 1.3.0 Lightning Address](https://img.youtube.com/vi/j0Se0nsDI-s/mqdefault.jpg)](https://www.youtube.com/watch?v=j0Se0nsDI-s)
 
-By utilizing LNURL-Pay protocol, we created a separate view in our POS app which allows you to print out  a static, re-usable QR code for every product in your app. This feature allows you to accept payments without having a wallet on the spot. The customer would need an LNURL-Pay compatible wallet to scan a QR in order to pay.  For every payment coming in to your static QR-code, BTCPay Server generates invoices on the fly. That means that you can easily export these invoices and manage them for accounting purposes, and even refund them!
+By utilizing the LNURL-Pay protocol, we created a separate view in our POS app, allowing you to print out a static, re-usable QR code for every product in the app. This feature will enable you to accept payments without having a wallet on the spot. The customer would need an LNURL-Pay compatible wallet to scan a QR to pay.  For every payment coming into your static QR-code, BTCPay Server generates invoices on the fly. That means that you can easily export these invoices, manage them for accounting purposes, and even refund them!
 
-Here is an a example of a printed QR code being used in the wild by Enrique Berrios, a local dentist from El Salvador.
+Here is an example of a printed QR code being used in the wild by Enrique Berrios, a local dentist from El Salvador.
 
 Enrique charges fixed prices for services and he uses our printable template ...
 
