@@ -57,7 +57,7 @@ Enrique charges fixed prices for services and he uses our printable template ...
 
 ### Lightning Addresses 📧
 
-[Lightning Addresses](http://lightningaddress.com) leverage the LNURL capabilities and enable you to create a human readable address to be paid to, instead of a bitcoin address string and they look like email addresses.
+[Lightning Addresses](https://lightningaddress.com) leverage the LNURL capabilities and enable you to create a human readable address to be paid to, instead of a bitcoin address string and they look like email addresses.
 
 <!--
 ![BTCPay 1.3.0 LNURL POS view](/images/1.3.0-LNURL-POS-view.png)
@@ -109,7 +109,7 @@ Our Crowdfunding app has received a general UI lifting in BTCPay Server 1.3.0.
 
 Each year, BTCPay Server performs a crowdfund for projects or causes that we like, in association with other Open-Source communities.
 
-This year, we associated with [Bitcoin Design](https://bitcoin.design/) members and launched [Bitcoin Smiles](https://bitcoinsmiles.org/) to provide dental healthcare to elderly people in El Salvador. This crowdfunding campaign is still active by the way. *Nudge-nudge*
+This year, we associated with [Bitcoin Design](https://bitcoin.design/) members and launched [Bitcoin Smiles](https://bitcoinsmiles.org) to provide dental healthcare to elderly people in El Salvador. This crowdfunding campaign is still active by the way. *Nudge-nudge*
 
 This year's campaign enabled us to detect shortcommings in the UI layout of our crowdfunding page, so we decided to act on it and refurbish it!
 The new crowdfunding page has a more modern look, more easily visible Donation buttons and crowdfund goals.
