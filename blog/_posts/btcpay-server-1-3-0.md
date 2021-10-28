@@ -15,9 +15,10 @@ tags:
 coverImage: "/images/BTCPayServer1.3.0.png"
 ---
 
-It's been two months since the last BTCPay Server major update and the team has been hard at work pushing through a number of efforts in that time, ranging from enabling the creation of Taproot supported internal  wallets to increasing the Greenfield API capabilities, some sweet Lightning related features and crushing numerous bugs!
+It's been two months since the [last](https://blog.btcpayserver.org/btcpay-server-1-2-0/) BTCPay Server major update, and the team has been hard at work pushing through a number of efforts in that time. 
 
-**BTCPay Server 1.3.0** is a major update that includes tens of items. We won't cover them all in this release post, but as usual, the high-time preference crowd can view the [full changelog](https://github.com/btcpayserver/btcpayserver/releases) directly.
+**BTCPay Server 1.3.0** is a major update that includes the support for LNURL, Lightning address and Taproot, Crowdfunding app redesign, Greenfield API enhancements, lots of UI improvements and several bug crushes. 
+We won't cover them all in this release post, but as usual, the high-time preference crowd can view the [full changelog](https://github.com/btcpayserver/btcpayserver/releases) directly.
 
 To update, simply navigate to your **Server Settings > Maintenance** tab and click **Update** or use *btcpay-update.sh* in the command line.
 
