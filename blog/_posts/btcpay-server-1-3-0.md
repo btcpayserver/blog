@@ -43,6 +43,8 @@ This adds a few nice additions on top of BTCPay Server invoices such as:
 
 Traditionally, the easiest way to accept bitcoin payments in retail is to print out and display a QR code of your address. However, address re-use is a bad privacy-practice. Furthermore it's not possible to differentiate payments coming in to a single address with ease, making invoice management a total nightmare. This is why we're excited to introduce our new Point of Sale option - **Print**.
 
+[![BTCPay 1.3.0 Lightning Address](https://img.youtube.com/vi/j0Se0nsDI/mqdefault.jpg)](https://www.youtube.com/watch?v=j0Se0nsDI)
+
 By utilizing LNURL-Pay protocol, we created a separate view in our POS app which allows you to print out  a static, re-usable QR code for every product in your app. This feature allows you to accept payments without having a wallet on the spot. The customer would need an LNURL-Pay compatible wallet to scan a QR in order to pay.  For every payment coming in to your static QR-code, BTCPay Server generates invoices on the fly. That means that you can easily export these invoices and manage them for accounting purposes, and even refund them!
 
 Here is an a example of a printed QR code being used in the wild by Enrique Berrios, a local dentist from El Salvador.
@@ -64,6 +66,8 @@ Enrique charges fixed prices for services and he uses our printable template ...
 In BTCPay Server, you are now able to configure and create such addresses, so that someone that want's to pay you, can simply send funds to a Lightning Address that looks like this: `you@yourbtcpay.com`. You can enable Lightning Address under `Store` > `Integrations`, but make sure you have `LNRUL` enabled in your Lightning payment methods.
 
 BTCPay Server will generate an invoice for every payment coming to your lightning address on a fly and add it in the back-office. In case you enable the currency under `advanced` settings, your instance will do rate-conversions. If you're sharing your instance and Lightning node with others, they can also create their addresses.
+
+[![BTCPay 1.3.0 Lightning Address](https://img.youtube.com/vi/Aarmr7Zqkv8/mqdefault.jpg)](https://www.youtube.com/watch?v=Aarmr7Zqkv8)
 
 So what are you waiting for? Enable your lightning address and share it on Twitter to accepts tips in a non-custodial way, instantly.
 
