@@ -13,7 +13,7 @@ Today, we released the new BTCPay Server - **[v1.0.5.4](https://github.com/btcpa
 
 ### ⚒️ Bitcoin-only build
 
-While Bitcoin has always been the focus of the project, we've allowed altcoin communities to integrate [altcoins](https://docs.btcpayserver.org/Altcoins/) and maintain them. In the beginning, the impact on the source code has been minimal.
+While Bitcoin has always been the focus of the project, we've allowed altcoin communities to integrate [altcoins](https://docs.btcpayserver.org/Development/Altcoins) and maintain them. In the beginning, the impact on the source code has been minimal.
 
 However, people started requesting and adding cryptocurrencies with radically different designs such as: Monero, Liquid and recently [ETH/ERC20](https://github.com/btcpayserver/btcpayserver/pull/1730). Adding cryptocurrencies with different designs presents a risk that a bug in one of them may affect the stability of the entire software, even for people that don't enable them.
 
@@ -37,7 +37,7 @@ We considered creating a separate BTCPay Server fork for altcoins and let each c
 - The development time dependencies `BTCPayServer.Tests/docker-compose.yml` do not have any altcoin related images anymore.
 - The default launch profile (`Bitcoin`) does not connect to any altcoin dependency anymore.
 - Our CI is running all the tests on the `Altcoins-Release` build (it increases test coverage)
-- If you are interested into altcoins support development, read [our documentation](https://docs.btcpayserver.org/LocalDevelopment/).
+- If you are interested into altcoins support development, read [our documentation](https://docs.btcpayserver.org/Development/LocalDev/#local-development).
 
 Since the CI tests are using the `Altcoins-Release` build, it is possible that your PR is working locally, but fails on CI.
 

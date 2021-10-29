@@ -11,7 +11,7 @@ We’re excited to announce a freshly-baked feature from our coding kitchen – 
 
 ## Why?
 
-When you launch a BTCPay Server, the stack, [among other things](https://docs.btcpayserver.org/Architecture/), contains a full Bitcoin node. To receive funds through BTCPay, you have to configure your store with an _extended public ke_y(xpub..), which is then used to generate addresses.
+When you launch a BTCPay Server, the stack, [among other things](https://docs.btcpayserver.org/Development/#architecture), contains a full Bitcoin node. To receive funds through BTCPay, you have to configure your store with an _extended public ke_y(xpub..), which is then used to generate addresses.
 
 However, to spend the received funds from your wallet, you need access to your private keys, which we do not store on BTCPay. That required users to use an external wallet, and due to severe limitations of almost every wallet on the market(gap limit, trusted third-parties, no xpub export support, etc), a majority of users often opted to use wallet solutions such as Electrum and leak their sensitive financial information to a third party server.
 
