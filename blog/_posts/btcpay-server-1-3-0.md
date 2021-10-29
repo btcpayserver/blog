@@ -83,6 +83,8 @@ Our Topup invoice feature, released in [1.2.0](https://blog.btcpayserver.org/btc
 
 Topup invoices can be configured through the `Custom` price in the cart item settings. When set up by the merchant, this enables the customer to select the price paid for that specific item with no minimum imposed by the merchant. To address edge-cases, we have also introduced a new `Minimum` price setting, to enable users to pay a custom price for a specific item, but with a floor price set by the merchant.
 
+[![BTCPay 1.3.0 Lightning Address](https://img.youtube.com/vi/xPnDSFaloRs/mqdefault.jpg)](https://www.youtube.com/watch?v=xPnDSFaloRs)
+
 ## Pull Payments, but Lightning fast! 🚄
 
 Our Pull Payments feature is receiving an upgrade in this release.
