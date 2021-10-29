@@ -89,9 +89,11 @@ Topup invoices can be configured through the `Custom` price in the cart item set
 
 Our Pull Payments feature is receiving an upgrade in this release.
 
-You can now add Lightning as a payment method to your Pull Payments, to enable your customers and users to get their refunds at the speed of light!
+You can now add Lightning as a payment method to your Pull Payment, to enable your customers to get their refunds at the speed of light!
 
 Pull Payments with Lightning enabled also support LNURL and Lightning Addresses mentioned earlier.
+
+[![BTCPay 1.3.0 Payment Method 1.3.0](https://img.youtube.com/vi/oz-YTgdw-lw/mqdefault.jpg)](https://www.youtube.com/watch?v=oz-YTgdw-lw)
 
 ## Continuation of our UI updates 🎨
 
@@ -109,7 +111,7 @@ The campaign enabled us to detect shortcomings in the UI layout of our crowdfund
 
 ![BTCPay 1.3.0 Crowdfund-app view](/images/1.3.0-crowdfund-app.png)
 
-### Payment and Store settings changes
+### Payment and Store settings changes ⚙️
 
 Over the years and with every release, we have added feature, options, settings and customizations to nearly every page when it comes to Store configuration. It was becomming too much, so we decided to clean-up these views, move a number of settings to where it makes more sense.
 
