@@ -105,7 +105,7 @@ Our Crowdfunding app has received a general UI lifting in BTCPay Server 1.3.0.
 
 Each year, BTCPay Server performs a crowdfund for projects or causes that we like, in association with other Open-Source communities.
 
-This year, we associated with [Bitcoin Design](https://bitcoin.design/) members and launched [Bitcoin Smiles](https://bitcoinsmiles.org) to provide dental healthcare to elderly people in El Salvador. This crowdfunding campaign is still active by the way. *Nudge-nudge*
+This year, we associated with [Bitcoin Design](https://bitcoin.design/) members and launched [Bitcoin Smiles](https://btcpay.bitcoinsmiles.org/apps/2G8kt2ax1okDYRguWQwa4khK7NDc/crowdfund) to provide dental healthcare to elderly people in El Salvador. This crowdfunding campaign is still active by the way. *Nudge-nudge*
 
 The campaign enabled us to detect shortcomings in the UI layout of our crowdfunding page, so we decided to act on it and refurbish it! The new crowdfunding page has a more modern look, more easily visible Donation buttons and crowdfund goals.
 
