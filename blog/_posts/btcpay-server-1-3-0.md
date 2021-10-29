@@ -17,7 +17,7 @@ coverImage: "/images/BTCPayServer1.3.0.png"
 
 It's been two months since the [last](https://blog.btcpayserver.org/btcpay-server-1-2-0/) BTCPay Server major update, and the team has been hard at work pushing through a number of efforts in that time. We're thrilled to release a new major version - 1.3.0!
 
-**BTCPay Server 1.3.0** includes the support for LNURL-Pay, Lightning address, and Taproot; Lightning support for topup invoices and pull payments; crowdfunding app redesign, Greenfield API enhancements, lots of UI improvements, and several bug crushes.
+**BTCPay Server 1.3.0** includes support for LNURL-Pay, Lightning address, and Taproot; Lightning support for topup invoices and pull payments; crowdfunding app redesign, Greenfield API enhancements, lots of UI improvements, and several bug crushes.
 
 We won't cover them all in this release post, but as usual, the high-time preference crowd can view the [full changelog](https://github.com/btcpayserver/btcpayserver/releases) directly.
 
