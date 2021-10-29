@@ -25,15 +25,15 @@ To update your BTCPay Server, simply navigate to your `Server Settings > Mainten
 
 ## LNURL and Lightning Addresses ⚡
 
-Lightning Network ecosystem moves *lightning* fast, and we're trying to bring you all of the latest bleeding-edge improvements. We're happy to introduce the support for `LNURL` and `Lightning addresses`!
+The Lightning Network ecosystem moves *lightning* fast, and we're trying to bring you all of the latest bleeding-edge improvements. We're happy to introduce support for `LNURL` and `Lightning addresses`!
 
 ### LNURL-Pay 🔥
 
-LNURL is a Lightning network protocol that improves payments user-experience. While the protocol introduces several flows, our focus in this release is on the **LNURL-Pay**.
+[LNURL](https://github.com/fiatjaf/lnurl-rfc) is a Lightning network protocol that improves the payments user-experience. While the protocol introduces several flows, our focus in this release is on **LNURL-Pay**.
 
-Upon enabling this feature in your Lightning Payment method, a user can now pay the invoice using LNURL-Pay compatible wallet.
+Upon enabling this feature in your Lightning Payment method, a user can now pay the invoice using a LNURL-Pay compatible wallet.
 
-This adds a few nice additions on top of BTCPay Server invoices, such as the ability to use topup invoice (invoice without the pre-defined amount) add the ability to leave comments when making a payment. If you're accepting tips or donations, you can now see comments your donors left to you in your invoice settings.
+This adds a few nice additions on top of BTCPay Server invoices, such as the ability to use topup invoices (invoice without the pre-defined amount) with lightning, and the ability to leave comments when making a payment. If you're accepting tips or donations, you can now enable this feature and see comments your donors left you in your invoice settings.
 
 ![BTCPay 1.3.0 LNURL](/images/1.3.0-LNURLcomment.png)
 
@@ -43,7 +43,7 @@ Traditionally, the easiest way to accept bitcoin payments in a small retail shop
 
 [![BTCPay 1.3.0 Lightning Address](https://img.youtube.com/vi/j0Se0nsDI-s/mqdefault.jpg)](https://www.youtube.com/watch?v=j0Se0nsDI-s)
 
-By utilizing the LNURL-Pay protocol, we created a separate view in our POS app, allowing you to print out a static, re-usable QR code for every product in the app. This feature will enable you to accept payments without having a wallet on the spot. The customer would need an LNURL-Pay compatible wallet to scan a QR to pay.  For every payment coming into your static QR-code, BTCPay Server generates invoices on the fly. That means that you can easily export these invoices, manage them for accounting purposes, and even refund them!
+By utilizing the LNURL-Pay protocol, we created a separate view in our POS app, allowing you to print out a static, re-usable QR code for every product in the app. This feature will enable you to accept payments without having a device to display your BTCPay Server UI on the spot. The customer would need an LNURL-Pay compatible wallet to scan a QR to pay. For every payment coming into your static QR-code, BTCPay Server generates invoices on the fly, tracking it against your preferred currency. That means that you can easily export these invoices, manage them for accounting purposes, and even refund them!
 
 <!--
 if we have the images on time for the announcement ,then add this
@@ -57,9 +57,9 @@ Enrique charges fixed prices for services and he uses our printable template ...
 
 ![BTCPay 1.3.0 LNURL](/images/1.3.0-LNURL-address-view.png)
 
-In BTCPay Server, you are now able to configure and create such addresses, so that someone that want's to pay you, can simply send funds to a Lightning Address that looks like this: `you@yourbtcpay.com`. You can enable Lightning Address under `Store` > `Integrations`, but make sure you have `LNRUL` enabled in your Lightning payment method.
+In BTCPay Server, you are now able to configure and create such addresses, so that someone that wants to pay you, can simply send funds to a Lightning Address that looks like the following: `you@yourbtcpay.com`. You can enable Lightning Address under `Store` > `Integrations`, but make sure you have enabled `LNURL` in your Lightning payment method settings first.
 
-BTCPay Server will generate an invoice for every payment coming to your lightning address on a fly and add it in the back-office. In case you enable the currency under `advanced` settings, your instance will do rate-conversions. If you're sharing your instance and Lightning node with others, they can also create their addresses.
+BTCPay Server will generate an invoice for every payment coming to your lightning address on the fly and add it in the back-office. In case you enable the currency under `advanced` settings, your instance will do rate-conversions. If you're sharing your instance and Lightning node with others, they can also create their own addresses.
 
 [![BTCPay 1.3.0 Lightning Address](https://img.youtube.com/vi/Aarmr7Zqkv8/mqdefault.jpg)](https://www.youtube.com/watch?v=Aarmr7Zqkv8)
 
@@ -67,7 +67,7 @@ So what are you waiting for? Enable your lightning address and share it on Twitt
 
 ## Taproot woot woot 🌱
 
-BTCPay Server 1.3.0 adds the ability to create new internal wallets that support receiving Taproot initiated transactions. This feature will be available starting block 709632, at which point Taproot becomes activated on the bitcoin network.
+BTCPay Server 1.3.0 adds the ability to create and track wallets that use the new Taproot format. This feature will be available starting block 709632, at which point Taproot becomes activated on the bitcoin network.
 
 BTCPay Server already introduced Taproot sending support last August, and this was the last missing part for full Taproot support.
 
@@ -79,9 +79,9 @@ For more information on Taproot as a network upgrade, you can visit a few of the
 
 ## Lightning network topup invoices 🧾
 
-Our Topup invoice feature, released in [1.2.0](https://blog.btcpayserver.org/btcpay-server-1-2-0/#top-up-invoices-%F0%9F%A7%BE) now support Lightning network payment method. This means that you can create an invoice without an amount. We've expanded the topup capabilities to our Point of sale and crowdfundign app.
+Our Topup invoice feature, released in [1.2.0](https://blog.btcpayserver.org/btcpay-server-1-2-0/#top-up-invoices-%F0%9F%A7%BE) now support Lightning network as a payment method. This means that you can create an invoice without an amount and reduce the friction for specific payment flows. We've expanded the topup capabilities to both the Point of sale and crowdfunding apps.
 
-Topup invoices can be configured through the `Custom` price in the cart item settings. When set up by the merchant, this enables the customer to select the price paid for that specific item with no minimum imposed by the merchant. To address edge-cases, we have also introduced a new `Minimum` price setting, to enable users to pay a custom price for a specific item, but with a floor price set by the merchant.
+Topup invoices can be configured through the `Custom` price in the cart/perk item settings. When set up by the merchant, this enables the customer to select the price paid for that specific item with no minimum imposed by the merchant. To address edge-cases, we have also introduced a new `Minimum` price setting, to enable users to pay a custom price for a specific item, but with a floor price set by the merchant.
 
 [![BTCPay 1.3.0 Lightning Address](https://img.youtube.com/vi/xPnDSFaloRs/mqdefault.jpg)](https://www.youtube.com/watch?v=xPnDSFaloRs)
 
@@ -113,7 +113,7 @@ The campaign enabled us to detect shortcomings in the UI layout of our crowdfund
 
 ### Payment and Store settings changes ⚙️
 
-Over the years and with every release, we have added feature, options, settings and customizations to nearly every page when it comes to Store configuration. It was becomming too much, so we decided to clean-up these views, move a number of settings to where it makes more sense.
+Over the years and with every release, we have added features, options, settings and customizations to nearly every page when it comes to Store configuration. It was becoming too much, so we decided to clean-up these views, move a number of settings to where it makes more sense.
 
 [![BTCPay 1.3.0 Payment Method 1.3.0](https://img.youtube.com/vi/2tBOWh5H1jc/mqdefault.jpg)](https://www.youtube.com/watch?v=2tBOWh5H1jc)
 
