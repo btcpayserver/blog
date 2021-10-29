@@ -35,7 +35,7 @@ Upon enabling this feature in your Lightning Payment method, a user can now pay 
 
 This adds a few nice additions on top of BTCPay Server invoices, such as the ability to use topup invoice (invoice without the pre-defined amount) add the ability to leave comments when making a payment. If you're accepting tips or donations, you can now see comments your donors left to you in your invoice settings.
 
-![BTCPay 1.3.0 LNURL](/images/1.3.0-LNURLcomment)
+![BTCPay 1.3.0 LNURL](/images/1.3.0-LNURLcomment.png)
 
 #### LNURL-Pay & Print Point of Sale 🏪
 
@@ -65,7 +65,7 @@ BTCPay Server will generate an invoice for every payment coming to your lightnin
 
 So what are you waiting for? Enable your lightning address and share it on Twitter to accepts tips in a non-custodial way, instantly.
 
-## Taproot woot woot
+## Taproot woot woot 🌱
 
 BTCPay Server 1.3.0 adds the ability to create new internal wallets that support receiving Taproot initiated transactions. This feature will be available starting block 709632, at which point Taproot becomes activated on the bitcoin network.
 
@@ -77,17 +77,13 @@ For more information on Taproot as a network upgrade, you can visit a few of the
 
 *Please note that we don't recommend using only taproot supported wallets in your stores at first, since not all wallets your customers and users will be sending funds support Taproot just yet.*
 
-## Topup feature expansion
+## Lightning network topup invoices 🧾
 
-Our Topup invoice feature, released in [1.2.0](https://blog.btcpayserver.org/btcpay-server-1-2-0/#top-up-invoices-%F0%9F%A7%BE) is now available in our POS and crowdfunding app!
+Our Topup invoice feature, released in [1.2.0](https://blog.btcpayserver.org/btcpay-server-1-2-0/#top-up-invoices-%F0%9F%A7%BE) now support Lightning network payment method. This means that you can create an invoice without an amount. We've expanded the topup capabilities to our Point of sale and crowdfundign app.
 
-Leveraging on LNURL once again, we're able to add
+Topup invoices can be configured through the `Custom` price in the cart item settings. When set up by the merchant, this enables the customer to select the price paid for that specific item with no minimum imposed by the merchant. To address edge-cases, we have also introduced a new `Minimum` price setting, to enable users to pay a custom price for a specific item, but with a floor price set by the merchant.
 
-Starting 1.3.0, Topup invoices can be configured through the `Custom` price in the cart item settings. When set up by the merchant, this enables the customer to select the price paid for that specific item with no minimum imposed by the merchant.
-
-To address edge-cases, we have also introduced a new `Minimum` price setting, to enable users to pay a custom price for a specific item, but with a floor price set by the merchant.
-
-## Pull Payments, but Lightning fast!
+## Pull Payments, but Lightning fast! 🚄
 
 Our Pull Payments feature is receiving an upgrade in this release.
 
@@ -97,9 +93,9 @@ Pull Payments with Lightning enabled also support LNURL and Lightning Addresses 
 
 ## Continuation of our UI updates 🎨
 
-Since the beginning of 2021, our design contributors have improved a number of pages in the interface. This release includes a number of these updated pages and a number of Bootstrap related updates. These updates, as well as the new UI enables us to improve a number of views so that hopefully, users with minimal technical savvyness gain clarity on how some of the more complexe features can benefit them.
+Since the beginning of 2021, our design contributors have improved a number of pages in the interface. This release includes a number of these updated pages and a number of Bootstrap related updates. These updates, as well as the new UI enables us to improve a number of views so that hopefully, users with minimal technical savviness gain clarity on how some of the more complex features can benefit them.
 
-### Crowdfunding with Love
+### Crowdfunding with love 💚
 
 Our Crowdfunding app has received a general UI lifting in BTCPay Server 1.3.0.
 
@@ -107,8 +103,7 @@ Each year, BTCPay Server performs a crowdfund for projects or causes that we lik
 
 This year, we associated with [Bitcoin Design](https://bitcoin.design/) members and launched [Bitcoin Smiles](https://bitcoinsmiles.org) to provide dental healthcare to elderly people in El Salvador. This crowdfunding campaign is still active by the way. *Nudge-nudge*
 
-This year's campaign enabled us to detect shortcomings in the UI layout of our crowdfunding page, so we decided to act on it and refurbish it!
-The new crowdfunding page has a more modern look, more easily visible Donation buttons and crowdfund goals.
+The campaign enabled us to detect shortcomings in the UI layout of our crowdfunding page, so we decided to act on it and refurbish it! The new crowdfunding page has a more modern look, more easily visible Donation buttons and crowdfund goals.
 
 ![BTCPay 1.3.0 Crowdfund-app view](/images/1.3.0-crowdfund-app.png)
 
@@ -116,11 +111,9 @@ The new crowdfunding page has a more modern look, more easily visible Donation b
 
 Over the years and with every release, we have added feature, options, settings and customizations to nearly every page when it comes to Store configuration. It was becomming too much, so we decided to clean-up these views, move a number of settings to where it makes more sense.
 
-[![BTCPay 1.3.0 Lightning Address](https://img.youtube.com/vi/2tBOWh5H1jc/mqdefault.jpg)](https://www.youtube.com/watch?v=2tBOWh5H1jc)
+[![BTCPay 1.3.0 Payment Method 1.3.0](https://img.youtube.com/vi/2tBOWh5H1jc/mqdefault.jpg)](https://www.youtube.com/watch?v=2tBOWh5H1jc)
 
-The improved navigation in your store now differentiates high-level Payment Methods options from fine grained Payment Method settings and Checkout Appearance customizations amongst numerous other changes.
-
-![BTCPay Payment Methods 1.3.0](/images/1.3.0-store-payment-settings.png)
+The improved navigation in your store now differentiates high-level `Payment Methods` options from fine grained Payment Method settings and `Checkout Appearance` customizations amongst numerous other changes.
 
 ## Greenfield API 🏗️
 
