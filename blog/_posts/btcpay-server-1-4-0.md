@@ -17,7 +17,7 @@ coverImage: "/images/BTCPayServer1.4.0.png"
 At BTCPay Server, the year 2022 starts out with a bang!
 We are today releasing **BTCPay Server version 1.4.0**. While this release has no code breaking changes, this update contains huge UI changes that may take some time to get used to, particularly for our power users and compagnies that may have high-volume instances running that requires staff to access their BTCPay Server. **We recommend those community members to spin up a fresh instance**, or to check out our [testing instance](https://chat.btcpayserver.org/btcpayserver/channels/testers) to get a feel of the massive UI changes that are included before updating their production instance.
 
-**BTCPay Server 1.4.0** is a major update that includes multiple items ranging from our massive UI revamp to updates to our Greenfield API. We won't cover them all in this release post, but as usual, the high-time preference crowd can view the [full Changelog](https://github.com/btcpayserver/btcpayserver/releases) directly.
+**BTCPay Server 1.4.0** is a major update that includes multiple items ranging from our massive UI revamp, new features, updates to our [Greenfield API](https://docs.btcpayserver.org/API/Greenfield/v1/) and several bug fixes. We won't cover them all in this release post, but as usual, the high-time preference crowd can view the [full Changelog](https://github.com/btcpayserver/btcpayserver/releases) directly.
 
 To update, simply navigate to your **Server Settings > Maintenance** tab and click **Update** or type *btcpay-update.sh* in the command line.
 
