@@ -24,7 +24,7 @@ To update, simply navigate to your **Server Settings > Maintenance** tab and cli
 ## **UI overhaul** 🎨
 
 After six months of scoping, iterating, and nearly two months of implementation, tweaking, and testing, we are finally ready to move to the next chapter of the BTCPay Server book.
-The goal behind these chages was to make the initial configuration as well as the first store creation and wallet setup as easy as possible for users who are new to BTCPay Server, while still enabling our power users to have easy access to the more complexe features available in BTCPay Server.
+The goal behind these changes was to make the initial onboarding easier. This includes, better guidance during the store creation and wallet setup as easy as possible to the new users, while still enabling our power users to have easy access to the more advanced features available.
 
 ![BTCPay 1.4.0 Payment Methods view](/images/1.4.0_payment_methods.png)
 
