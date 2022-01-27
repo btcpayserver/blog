@@ -61,9 +61,17 @@ We noticed that some of you use BTCPay across multiple devices. Imagine that you
 
 ## Plugins 🔌
 
-Plugins, plugins, plugins. We've been talking about them for few months now. But you've never really understood how they may be useful to you? Well, today we're releasing LNBank, a plugin that allows server admins to enable Lightning payments for their users. LNBank is_________.
+Plugins, plugins, plugins. We've been talking about them for few months now. But you've never really understood how they may be useful to you?
 
-<!-- We need to add LNBank photo and explanation once we're sure it'll be released -->
+Today we're releasing LNBank, a plugin developed by [d11n](https://twitter.com/_d11n_) that allows server admins to enable Lightning payments for their users.
+
+LNBank is a custodial L3 solution which gives server's users a lightning wallet within their store.
+
+![](/images/1.4.0-lnbank.png)
+
+Third party hosts should note that unlike enabling on-chain, this one is fully custodial and may bear security and legal risk of being a custodian, so enable on your risk.
+
+Users of a third-party hosted server, should, for best security withdraw funds to an external wallet where they control the keys regularly.
 
 ## Invoice states 🧾
 
@@ -76,34 +84,10 @@ We did this so that our UI reflects the back-end better and reflects our actual 
 
 ![](/images/1.4.0invoice-state.png)
 
-## Greenfield API 🧑‍💻
+## Geeky improvements 🧑‍💻
 
-Our Greenfield API, as usual, also gets a few additions and bug fixes in this update.
+Our Greenfield API got a few new additions and bug fixes in this update. We've migrated from .NET 3.1 to .NET 6.0 and are now using modern C# 10.0 features instead of older constructs. This release cleans up a four year old code with incremental changes, resulting in class and route renaming.
 
-* Adds a `missingPermission` field to 403 errors, to make it easier to identify why users are getting this error
-* Adds a field `StoreId` to the payment requests
-* Users can now create payment requests through Greenfield without specifying a currency in which case the payment request currency will be set to the store's default currency
-* Improves permission error messages of Greenfield API
-* Removes redundant/unused parameters in payment methods
-* Fixes a payment request creation failure when expiry was specified
-* Fixes guests not being able to change payment methods when using the internal LN node
-* Fixes `created` field in payment requests to be a UNIX timestamp
-* Fixes `CanViewStoreSettings` permission to enable fetching a fee rate
-
-### **System upgrades** 💻
-
-In 1.4.0, BTCPay Server also upgrades some if it's backend utilities:
-
-* Migrates from .NET 3.1 to .NET 6.0
-* Can now use more modern C# 10.0 features instead of older constructs
-* Cleans up 4 years of incremental changes, resulting in Class and Route renaming
-
-### **Misc.**
-
-1.4.0 also includes minor changes, bug fixes and improvements all around the product, for example:
-
-* Supports new TLS version of the SMTP server
-* Fixes sending two emails for each invoice expiry, payment of confirmation/completion
 
 The full list of these minor changes can be viewed in the [Changelog](https://github.com/btcpayserver/btcpayserver/releases)
 
@@ -116,6 +100,6 @@ As usual, if you have problems, feedback, feature requests regarding BTCPay Serv
 
 As always, thank you to our invaluable contributors, we love you:
 
-[@britttttk](https://github.com/britttttk) [@dennisreimann](https://github.com/dennisreimann) [@dstrukt](https://github.com/dstrukt) [@Kukks](https://github.com/kukks/) [@NicolasDorier](https://github.com/nicolasdorier/) [@Pavlenex](https://github.com/pavlenex/) [@rockstardev](https://github.com/rockstardev/) [@ubolator](https://github.com/bolatovumar) [@woutersamaey](https://github.com/woutersamaey) [@Zaxounette](https://github.com/zaxounette)
+[@britttttk](https://github.com/britttttk) [@dennisreimann](https://github.com/dennisreimann) [@dstrukt](https://github.com/dstrukt) [@Kukks](https://github.com/kukks/) [@NicolasDorier](https://github.com/nicolasdorier/) [@Pavlenex](https://github.com/pavlenex/)[@rockstardev](https://github.com/rockstardev/) [@Satwoo](https://github.com/satwo)[@ubolator](https://github.com/bolatovumar) [@woutersamaey](https://github.com/woutersamaey) [@Zaxounette](https://github.com/zaxounette)
 
 The BTCPay Server team 💚
