@@ -83,7 +83,7 @@ Short term improvements we plan to implement are:
 
 Excited? Here’s how you can create a payment request quickly:
 
-1. Register [on our demo server](https://mainnet.demo.btcpayserver.org/Account/Register) (you can [self-host](https://docs.btcpayserver.org/deployment/deployment) BTCPay or use a [third-party host](https://docs.btcpayserver.org/deployment/thirdpartyhosting))
+1. Register [on our demo server](https://mainnet.demo.btcpayserver.org/register) (you can [self-host](https://docs.btcpayserver.org/deployment/deployment) BTCPay or use a [third-party host](https://docs.btcpayserver.org/deployment/thirdpartyhosting))
 2. [Create a store](https://docs.btcpayserver.org/btcpay-basics/gettingstarted#creating-btcpay-store) and connect your wallet (no private keys required).
 3. Payment Requests > Create.
 
