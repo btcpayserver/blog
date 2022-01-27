@@ -14,10 +14,10 @@ tags:
 coverImage: "/images/BTCPayServer1.4.0.png"
 ---
 
-At BTCPay Server, the year 2022 starts out with a bang!
+At BTCPay Server, the year 2022 starts with a bang!
 We are today releasing **BTCPay Server version 1.4.0**. This release is our biggest UX improvement in four years, and it will change the way you are onboarded and navigating BTCPay.
 
-**BTCPay Server 1.4.0** is a major update that includes multiple items ranging from our massive UI revamp, new features, updates to our [Greenfield API](https://docs.btcpayserver.org/API/Greenfield/v1/) and several bug fixes. We won't cover them all in this release post, but as usual, the high-time preference crowd can view the [full Changelog](https://github.com/btcpayserver/btcpayserver/releases) directly.
+**BTCPay Server 1.4.0** is a major update that includes multiple items ranging from our massive UI revamp, new features, updates to our [Greenfield API](https://docs.btcpayserver.org/API/Greenfield/v1/) and several bug fixes. We won't cover them all in this release post, but the high-time preference crowd can view the [full Changelog](https://github.com/btcpayserver/btcpayserver/releases) directly.
 
 To update, simply navigate to your **Server Settings > Maintenance** tab and click **Update** or type *btcpay-update.sh* in the command line.
 
@@ -25,7 +25,7 @@ To update, simply navigate to your **Server Settings > Maintenance** tab and cli
 
 After six months of scoping, iterating, and nearly two months of implementation, tweaking, and testing, we are finally ready to move to the next chapter of the BTCPay Server book!
 
-The goal behind these changes was to make the initial onboarding smoother. This includes, better guidance during the store creation and wallet setup as easy as possible to the new users, while still enabling our power users to have easy access to the more advanced features available.
+The goal behind these changes was to make the initial onboarding smoother. This includes better guidance during the store creation and wallet setup as accessible as possible to the new users while still enabling our power users to access the more advanced features available easily.
 
 Starting 1.4.0, when you create a new store, you'll be greeted with a dashboard setup wizard indicating the required steps.
 
@@ -33,15 +33,15 @@ Starting 1.4.0, when you create a new store, you'll be greeted with a dashboard 
 
 ## New navigation 🏪
 
-Since its first release in 2017, the `Store` has always be at a center of attention. However, our user-interface never really reflected that. With this release we're finally making sure that our front-end reflects the code in the back end.
+Since its first release in 2017, the `Store` has always been at the center of attention. However, our user interface never really reflected that. With this release, we're finally making sure that our front-end reflects the code in the back end.
 
 ![](/images/1.4.0-SidebarNav)
 
-To ensure your productive navigation, we've added a sidebar and a store-centered experience. Managing multiple stores is now easier with a switch button. In the future releases, we plan to add up better store reporting for all the stores you're managing.
+We've added a sidebar and a store-centered experience to ensure your productive navigation. Managing multiple stores is now easier with a switch button. In the future releases, we plan to add up better store reporting for all the stores you're managing.
 
 These changes may be a bit disruptive at first, but we've been user-testing them for quite a while now. That said, we value your feedback, so please feel free to reach out to us on our chat if something isn't smooth or you have a question.
 
-## Logging in improvements
+## Logging in improvements 🔐
 
 Two new features have been added to improve the logging in security and experience:
 - LNURL-Auth
@@ -49,7 +49,7 @@ Two new features have been added to improve the logging in security and experien
 
 ### Two-step Lightning authentication ⚡
 
-For quite a while, we've supported two-step authentication with hardware devices. Now, thanks to LNURL-Auth integration protocol you can authenticate with your Lightning wallet supporting LNURL-Auth. To begin using the feature, simply select LNURL-Auth and scan the QR code presented with a supporting wallet. Next time you log in, you'll be presented with a QR to scan in order to authenticate.
+For quite a while, we've supported two-step authentication with hardware devices. Thanks to the LNURL-Auth integration protocol, you can authenticate with your Lightning wallet supporting LNURL-Auth. Select LNURL-Auth and scan the QR code presented with a supporting wallet to begin using the feature. Next time you log in, you'll be presented with a QR to scan in order to authenticate.
 
 ### Login via code 📱
 
@@ -60,6 +60,15 @@ We noticed that some of you use BTCPay across multiple devices. Imagine that you
 Plugins, plugins, plugins. We've been talking about them for few months now. But you've never really understood how they may be useful to you? Well, today we're releasing LNBank, a plugin that allows server admins to enable Lightning payments for their users. LNBank is_________.
 
 <!-- We need to add LNBank photo and explanation once we're sure it'll be released -->
+
+## Invoice states 🧾
+
+In this version, you may notice that we renamed our invoice states:
+
+- Paid, confirmed = Processing
+- Complete = Settled
+
+We did this so that our UI reflects the back-end better and reflects our actual invoice states in the new Greenfield API.
 
 ## Greenfield API 🧑‍💻
 
@@ -89,7 +98,6 @@ In 1.4.0, BTCPay Server also upgrades some if it's backend utilities:
 
 * Supports new TLS version of the SMTP server
 * Fixes sending two emails for each invoice expiry, payment of confirmation/completion
-* Changes the UI terminology for invoices to Processing/Settled, instead of Paid/Confirmed/Complete
 
 The full list of these minor changes can be viewed in the [Changelog](https://github.com/btcpayserver/btcpayserver/releases)
 
