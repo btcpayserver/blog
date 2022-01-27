@@ -35,7 +35,7 @@ Starting 1.4.0, when you create a new store, you'll be greeted with a dashboard 
 
 Since its first release in 2017, the `Store` has always been at the center of attention. However, our user interface never really reflected that. With this release, we're finally making sure that our front-end reflects the code in the back end.
 
-![](/images/1.4.0-SidebarNav)
+![](/images/1.4.0-SidebarNav.png)
 
 We've added a sidebar and a store-centered experience to ensure your productive navigation. Managing multiple stores is now easier with a switch button. In the future releases, we plan to add up better store reporting for all the stores you're managing.
 
@@ -70,6 +70,8 @@ In this version, you may notice that we renamed our invoice states:
 
 We did this so that our UI reflects the back-end better and reflects our actual invoice states in the new Greenfield API.
 
+![](/images/1.4.0invoice-state.png)
+
 ## Greenfield API 🧑‍💻
 
 Our Greenfield API, as usual, also gets a few additions and bug fixes in this update.
@@ -77,7 +79,7 @@ Our Greenfield API, as usual, also gets a few additions and bug fixes in this up
 * Adds a `missingPermission` field to 403 errors, to make it easier to identify why users are getting this error
 * Adds a field `StoreId` to the payment requests
 * Users can now create payment requests through Greenfield without specifying a currency in which case the payment request currency will be set to the store's default currency
-* Improves permission error messages of Greenfidl API
+* Improves permission error messages of Greenfield API
 * Removes redundant/unused parameters in payment methods
 * Fixes a payment request creation failure when expiry was specified
 * Fixes guests not being able to change payment methods when using the internal LN node
