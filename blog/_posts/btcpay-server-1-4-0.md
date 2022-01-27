@@ -51,9 +51,13 @@ Two new features have been added to improve the logging in security and experien
 
 For quite a while, we've supported two-step authentication with hardware devices. Thanks to the LNURL-Auth integration protocol, you can authenticate with your Lightning wallet supporting LNURL-Auth. Select LNURL-Auth and scan the QR code presented with a supporting wallet to begin using the feature. Next time you log in, you'll be presented with a QR to scan in order to authenticate.
 
-### Login via code 📱
+![](/images/1.4.0-lnurl-auth.png)
+
+### Login codes 📱
 
 We noticed that some of you use BTCPay across multiple devices. Imagine that you're on a desktop processing your invoices, but then you'd like to switch to your phone quickly so that you can issue a refund while you're checking on your dinner progress. Now you can easily switch to a different device just by scanning a generated QR code, and there's no need to authenticate.
+
+![](/images/1.4.0-login-codes.png)
 
 ## Plugins 🔌
 
