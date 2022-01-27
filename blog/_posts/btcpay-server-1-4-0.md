@@ -21,21 +21,51 @@ We are today releasing **BTCPay Server version 1.4.0**. This release is our bigg
 
 To update, simply navigate to your **Server Settings > Maintenance** tab and click **Update** or type *btcpay-update.sh* in the command line.
 
-## **UI overhaul** 🎨
+## Easier onboarding 🎨
 
-After six months of scoping, iterating, and nearly two months of implementation, tweaking, and testing, we are finally ready to move to the next chapter of the BTCPay Server book.
-The goal behind these changes was to make the initial onboarding easier. This includes, better guidance during the store creation and wallet setup as easy as possible to the new users, while still enabling our power users to have easy access to the more advanced features available.
+After six months of scoping, iterating, and nearly two months of implementation, tweaking, and testing, we are finally ready to move to the next chapter of the BTCPay Server book!
 
-![BTCPay 1.4.0 Payment Methods view](/images/1.4.0_payment_methods.png)
+The goal behind these changes was to make the initial onboarding smoother. This includes, better guidance during the store creation and wallet setup as easy as possible to the new users, while still enabling our power users to have easy access to the more advanced features available.
 
-Without going into too much details (that you can find in our fully transparent [roadmap](https://github.com/orgs/btcpayserver/projects/19)), this overhaul is but a step into getting plugins as well as centralized store and instance dashboards into BTCPay Server.
-We hope you like these chages, and if you have any feedback feel free to reach out in our [community chat](https://chat.btcpayserver.org/), we'll be glad to have you.
+Starting 1.4.0, when you create a new store, you'll be greeted with a dashboard setup wizard indicating the required steps.
 
-### **Greenfield** 🔌
+![](/images/1.4.0-Store-creation.png)
+
+## New navigation 🏪
+
+Since its first release in 2017, the `Store` has always be at a center of attention. However, our user-interface never really reflected that. With this release we're finally making sure that our front-end reflects the code in the back end.
+
+![](/images/1.4.0-SidebarNav)
+
+To ensure your productive navigation, we've added a sidebar and a store-centered experience. Managing multiple stores is now easier with a switch button. In the future releases, we plan to add up better store reporting for all the stores you're managing.
+
+These changes may be a bit disruptive at first, but we've been user-testing them for quite a while now. That said, we value your feedback, so please feel free to reach out to us on our chat if something isn't smooth or you have a question.
+
+## Logging in improvements
+
+Two new features have been added to improve the logging in security and experience:
+- LNURL-Auth
+- Login via code
+
+### Two-step Lightning authentication ⚡
+
+For quite a while, we've supported two-step authentication with hardware devices. Now, thanks to LNURL-Auth integration protocol you can authenticate with your Lightning wallet supporting LNURL-Auth. To begin using the feature, simply select LNURL-Auth and scan the QR code presented with a supporting wallet. Next time you log in, you'll be presented with a QR to scan in order to authenticate.
+
+### Login via code 📱
+
+We noticed that some of you use BTCPay across multiple devices. Imagine that you're on a desktop processing your invoices, but then you'd like to switch to your phone quickly so that you can issue a refund while you're checking on your dinner progress. Now you can easily switch to a different device just by scanning a generated QR code, and there's no need to authenticate.
+
+## Plugins 🔌
+
+Plugins, plugins, plugins. We've been talking about them for few months now. But you've never really understood how they may be useful to you? Well, today we're releasing LNBank, a plugin that allows server admins to enable Lightning payments for their users. LNBank is_________.
+
+<!-- We need to add LNBank photo and explanation once we're sure it'll be released -->
+
+## Greenfield API 🧑‍💻
 
 Our Greenfield API, as usual, also gets a few additions and bug fixes in this update.
-Namely:
-* Adds a `missingPermission` field to 403 errors, to make it easier to identfy why users are getting this error
+
+* Adds a `missingPermission` field to 403 errors, to make it easier to identify why users are getting this error
 * Adds a field `StoreId` to the payment requests
 * Users can now create payment requests through Greenfield without specifying a currency in which case the payment request currency will be set to the store's default currency
 * Improves permission error messages of Greenfidl API
@@ -48,6 +78,7 @@ Namely:
 ### **System upgrades** 💻
 
 In 1.4.0, BTCPay Server also upgrades some if it's backend utilities:
+
 * Migrates from .NET 3.1 to .NET 6.0
 * Can now use more modern C# 10.0 features instead of older constructs
 * Cleans up 4 years of incremental changes, resulting in Class and Route renaming
@@ -55,6 +86,7 @@ In 1.4.0, BTCPay Server also upgrades some if it's backend utilities:
 ### **Misc.**
 
 1.4.0 also includes minor changes, bug fixes and improvements all around the product, for example:
+
 * Supports new TLS version of the SMTP server
 * Fixes sending two emails for each invoice expiry, payment of confirmation/completion
 * Changes the UI terminology for invoices to Processing/Settled, instead of Paid/Confirmed/Complete
@@ -63,7 +95,7 @@ The full list of these minor changes can be viewed in the [Changelog](https://gi
 
 ----
 
-That's going to be all for highlights of this BTCPay Server 1.4.0 release! 
+That's going to be all for highlights of this BTCPay Server 1.4.0 release!
 It is now time for us to wish everyone the very best for the year 2022! 💚
 
 As usual, if you have problems, feedback, feature requests regarding BTCPay Server, feel free to reach out on our [community chat](https://chat.btcpayserver.org/). We hope you enjoy what this update has to offer.
