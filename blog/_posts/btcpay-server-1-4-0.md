@@ -77,8 +77,8 @@ Users of a third-party hosted server, should, for best security withdraw funds t
 
 In this version, you may notice that we renamed our invoice states:
 
-- Paid, confirmed = Processing
-- Complete = Settled
+- Paid = Processing
+- Complete, Confirmed = Settled
 
 We did this so that our UI reflects the back-end better and reflects our actual invoice states in the new Greenfield API.
 
