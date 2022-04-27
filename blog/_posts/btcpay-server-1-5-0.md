@@ -16,7 +16,7 @@ coverImage: "/images/BTCPay1-5-0-desk.png"
 
 After a long wait, we're finally out of our coding cave, ready to introduce a new major BTCPay Server version - 1.5.0! 
 
-This release brings in a brand-new dashboard for easier analytics and management, payout processors and schedule for later wallet payments for batching your payments and refunds and more!
+This release brings in a brand-new dashboard for easier analytics and better data visualization, payout processors and schedule for later for better payout management payments, batching your payments and refunds, several UX/UI improvements, greenfield API additions and a few non-critical bug fixes.
 
 ## New dashboard 📊
 
@@ -68,17 +68,29 @@ And since our refunding system goes through the wallet, the scheduling option no
 
 We plan to introduce a better permission system and hook it into the store so that in a particular store role, the store manager can create payouts, for example, refunds, but only the store owner can send them out.
 
+## Enable/disable users
+
+Server admins now have the options to disable or re-enable users, allowing them to better manage people who use their instance. 
+
+![](/images/1-5-0-enable-disable-users.png)
+
+This functionality can be handy for third-party hosts or services building on top of BTCPay Server or offering BTCPay third-party hosting.
+
 ## NBXplorer updates 🔎
 
-In case you've missed it, our dependency NBXPlorer has undergo a major performance refactoring. Most of the refactoring was done to cather the way data is handled in the dashboard, but also to improve the performance for larger enterprise users.
+In case you've missed it, our dependency NBXPlorer has undergo a major performance refactoring. 
+
+Most of the refactoring was done to cather the way data is handled in the dashboard, but also to improve the performance for larger enterprise users.
 
 You can read more about the NBXplorer updates [in this blog post](https://blog.btcpayserver.org/nbxplorer-postgres/).
 
 ## UX/UI improvements 🎨
 
-- Improved the lightning services access 
-- 
+As usually, with every release we're ironing out the user-interface, making incremental changes based on our understanding of how you use BTCPay Server. Your feedback is always critical factor when we're making such changes.
 
+- Better **lightning services access** - access lightning network services in a click of a button.
+- **Store default currency for entities**, introduced in an earlier release, the default currency is now pre-set, but easily configurable when you're creating invoices, pull payments, pay button or payment requests.
+- Add additional rate providers supported by CoinGecko.
 
 ## Greenfield API 👩‍💻
 
@@ -89,5 +101,17 @@ In this release we added a few new functionalities to our [Greenfield API](https
 * Add lightning payment info 
 
 We're noticing an uptrend in people building on top of BTCPay Server. If you're building something with our Greenfield API, we're always looking to get more feedback on how to improve it.
+
+## Thank you 💚
+
+As usual, if you have problems, feedback, feature requests regarding BTCPay Server, feel free to reach out on our [community chat](https://chat.btcpayserver.org/). We hope you enjoy what this update has to offer.
+
+As always, thank you to our invaluable contributors, who directly participated in making 1.5.0 possible:
+
+[@dafunction](https://github.com/dafunction) [@dennisreimann](https://github.com/dennisreimann) [@dstrukt](https://github.com/dstrukt) [@Kukks](https://github.com/kukks/) [leesalminen](https://github.com/leesalminen/) [@NicolasDorier](https://github.com/nicolasdorier/)[orangesurf](https://github.com/(https://github.com/nicolasdorier/)/) [@ubolator](https://github.com/bolatovumar) [@woutersamaey](https://github.com/woutersamaey).
+
+Besides release contributors, we'd like to thank all of our contributors who're making BTCPay Server better every day, through testing, reporting bugs, providing feedback, documenting, content making and more! 
+
+BTCPay Server could never rapidly progress without your help!
 
 The BTCPay Server team 💚
