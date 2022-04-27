@@ -1,5 +1,5 @@
 ---
-title: "Introducing BTCPay Server 1.0.5 - Dashboard and payout processors"
+title: "Introducing BTCPay Server 1.5.0 - Dashboard and payout processors"
 date: 2022-04-28
 author: pavlenex
 category:
@@ -16,7 +16,7 @@ coverImage: "/images/BTCPay1-5-0-desk.png"
 
 After a long wait, we're finally out of our coding cave, ready to introduce a new major BTCPay Server version - 1.5.0! 
 
-This release brings in a brand-new dashboard for easier analytics and better data visualization, payout processors and schedule for later for better payout management payments, batching your payments and refunds, several UX/UI improvements, greenfield API additions and a few non-critical bug fixes.
+This release brings in a brand-new dashboard for easier analytics and better data visualization, payout processors and schedule for later for better payout management payments, batching your payments and refunds, several UX/UI improvements, Greenfield API additions and a few non-critical bug fixes.
 
 ## New dashboard 📊
 
@@ -28,7 +28,7 @@ We know that having a quick glance at your store's performance is essential. Als
 
 Dashboard visually showcases critical store's data, providing you with a way to better understand your store's performance, so that you can make more informed decisions. Furthermore, a dashboard should help with easier management of recent invoices and pending payouts and refunds.
 
-Currently, the dashboard shows data for an on-chain payment method, pending payouts and refunds, recent invoices & transactions and the data for the crowdfunding app.
+Currently, the dashboard shows data for an on-chain payment method, pending payouts and refunds, recent invoices & transactions, and the data for the crowdfunding app.
 
 ![](/images/1-5-0-dashboard-3.png)
 
@@ -42,7 +42,7 @@ We'd love to hear what do you think about the dashboard and how it works for you
 
 ## Payout processor 🤖
 
-A payout processor is a new concept hooked into the [pull payment system], specifically the [payout part of it]. This new functionality allows you to automate the flow of the payouts.
+A payout processor is a new concept hooked into the [pull payment system](https://docs.btcpayserver.org/PullPayments/), specifically the [payout part of it](https://docs.btcpayserver.org/PullPayments/#approve-and-pay-a-payout). This new functionality allows you to automate the flow of the payouts.
 
 ![](/images/1.5.0-payout-processor-1.png)
 
@@ -52,7 +52,7 @@ Set up a time interval in your store settings upon which your payouts will be ba
 
 ![](/images/1.5.0-payout-processor-2.png)
 
-Payout processors in a current shape and form allows you to save on transaction fees by batching the store's payments (wallet payments, refunds, payouts) and broadcasting them at a specific, pre-set time interval, for example, hourly, daily, weekly and more.
+Payout processor, in its current state, allows you to save on transaction fees by batching the store's payments (wallet payments, refunds, payouts) and broadcasting them at a specific, pre-set time interval, for example, hourly, daily, weekly and more.
 
 ### Schedule for later 📆
 
@@ -78,18 +78,18 @@ This functionality can be handy for third-party hosts or services building on to
 
 ## NBXplorer updates 🔎
 
-In case you've missed it, our dependency NBXPlorer has undergo a major performance refactoring. 
+In case you've missed it, our dependency NBXPlorer has undergone a major performance refactoring. 
 
-Most of the refactoring was done to cather the way data is handled in the dashboard, but also to improve the performance for larger enterprise users.
+We did most of the refactoring in service of how data is handled in the dashboard and improved the performance for larger enterprise users.
 
 You can read more about the NBXplorer updates [in this blog post](https://blog.btcpayserver.org/nbxplorer-postgres/).
 
 ## UX/UI improvements 🎨
 
-As usually, with every release we're ironing out the user-interface, making incremental changes based on our understanding of how you use BTCPay Server. Your feedback is always critical factor when we're making such changes.
+As usual, we're ironing out the user interface with every release, making incremental changes based on our understanding of how you use BTCPay Server. Your feedback is always a critical factor when we're making such changes.
 
 - Better **lightning services access** - access lightning network services in a click of a button.
-- **Store default currency for entities**, introduced in an earlier release, the default currency is now pre-set, but easily configurable when you're creating invoices, pull payments, pay button or payment requests.
+- **Store default currency for entities** - introduced in an earlier release, the default currency is now pre-set, but easily configurable when you're creating invoices, pull payments, pay button or payment requests.
 - Add additional rate providers supported by CoinGecko.
 
 ## Greenfield API 👩‍💻
@@ -100,7 +100,7 @@ In this release we added a few new functionalities to our [Greenfield API](https
 * Add label filter for on chain wallet transaction
 * Add lightning payment info 
 
-We're noticing an uptrend in people building on top of BTCPay Server. If you're building something with our Greenfield API, we're always looking to get more feedback on how to improve it.
+We're noticing an uptrend in people building on top of BTCPay Server. If you're building something with our Greenfield API, we're always looking to get more feedback on how to improve it and we love to see what you've made!
 
 ## Thank you 💚
 
@@ -108,7 +108,7 @@ As usual, if you have problems, feedback, feature requests regarding BTCPay Serv
 
 As always, thank you to our invaluable contributors, who directly participated in making 1.5.0 possible:
 
-[@dafunction](https://github.com/dafunction) [@dennisreimann](https://github.com/dennisreimann) [@dstrukt](https://github.com/dstrukt) [@Kukks](https://github.com/kukks/) [leesalminen](https://github.com/leesalminen/) [@NicolasDorier](https://github.com/nicolasdorier/)[orangesurf](https://github.com/(https://github.com/nicolasdorier/)/) [@ubolator](https://github.com/bolatovumar) [@woutersamaey](https://github.com/woutersamaey).
+[@dafunction](https://github.com/dafunction) [@dennisreimann](https://github.com/dennisreimann) [@dstrukt](https://github.com/dstrukt) [@Kukks](https://github.com/kukks/) [@leesalminen](https://github.com/leesalminen/) [@NicolasDorier](https://github.com/nicolasdorier/) [orangesurf](https://github.com/orangesurf) [@bolatovumar](https://github.com/bolatovumar) [@woutersamaey](https://github.com/woutersamaey).
 
 Besides release contributors, we'd like to thank all of our contributors who're making BTCPay Server better every day, through testing, reporting bugs, providing feedback, documenting, content making and more! 
 
