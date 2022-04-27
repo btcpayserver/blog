@@ -1,5 +1,5 @@
 ---
-title: "BTCPay Server 1.5.0 - New dashboard, automated payout processors
+title: "Introducing BTCPay Server 1.0.5 - Dashboard and payout processors"
 date: 2022-04-28
 author: pavlenex
 category:
@@ -82,5 +82,12 @@ You can read more about the NBXplorer updates [in this blog post](https://blog.b
 
 ## Greenfield API 👩‍💻
 
+In this release we added a few new functionalities to our [Greenfield API](https://docs.btcpayserver.org/API/Greenfield/v1/).
+
+* Add transaction info for on chain wallet 
+* Add label filter for on chain wallet transaction
+* Add lightning payment info 
+
+We're noticing an uptrend in people building on top of BTCPay Server. If you're building something with our Greenfield API, we're always looking to get more feedback on how to improve it.
 
 The BTCPay Server team 💚
