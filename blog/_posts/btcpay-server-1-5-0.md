@@ -11,7 +11,7 @@ tags:
   - "dashboard"
   - "payout processors"
   - "update"
-coverImage: "/images/BTCPayServer1.5.0.png"
+coverImage: "/images/BTCPay1-5-0-desk.png"
 ---
 
 After a long wait, we're finally out of our coding cave, ready to introduce a new major BTCPay Server version - 1.5.0! 
@@ -34,21 +34,21 @@ We'd love to hear what do you think about the dashboard and how it works for you
 
 ## Payout processor 🤖
 
-Payout processor is a new concept that's hooked into the [pull payment system], specifically the [payout part of it]. This new functionality, allows you to automate the flow of the payouts.
+A payout processor is a new concept hooked into the [pull payment system], specifically the [payout part of it]. This new functionality allows you to automate the flow of the payouts.
 
-Currently we support payout processor for on-chain and off-chain payment methods. This means you can schedule payouts for on-chain, bolt11, lightning address, lnurl, etc.
+Currently, we support payout processors for on-chain and off-chain payment methods. You can schedule payouts for on-chain, bolt11, lightning address, lnurl, etc.
 
-Set up a time interval in your store settings, upon which your payouts will be batched and broadcasted to the network. Payout processors in a current shape and form allow you to save on transaction fees by batching all your store's paymets (wallet payments, refunds, payouts) and broadcasting them at a specific, pre-set time interval, for example, hourly, daily weekly and more.
+Set up a time interval in your store settings upon which your payouts will be batched and broadcasted to the network. Payout processors in a current shape and form allow you to save on transaction fees by batching all your store's payments (wallet payments, refunds, payouts) and broadcasting them at a specific, pre-set time interval, for example, hourly, daily, weekly and more.
 
 ### Schedule for later 📆
 
 We understand that the payout processors may sound a bit abstract, and that's why we've added a concrete use-case for it through our brand-new **schedule for later** function in the wallet.
 
-This means, that now, instead of signing and broadcasting a transction, you have the option to schedule it for later on a pre set time-interval.
+This means that now, instead of signing and broadcasting a transaction, you have the option to schedule it for later on at a pre-set time interval.
 
-And since our refunding system goes through the wallet, the scheduling option now allows you to batch your customers refunds and save on fees!
+And since our refunding system goes through the wallet, the scheduling option now allows you to batch your customer's refunds and save on fees!
 
-In the future, we plan to introduce a better permission system and hook it into the store so that particular store role, for example store manager can create payouts, for example refunds, but only the store owner can send them out.
+We plan to introduce a better permission system and hook it into the store so that in a particular store role, the store manager can create payouts, for example, refunds, but only the store owner can send them out.
 
 ## NBXplorer updates 🔎
 
