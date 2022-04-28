@@ -42,7 +42,7 @@ We'd love to hear what do you think about the dashboard and how it works for you
 
 ## Payout processor 🤖
 
-A payout processor is a new concept hooked into the [pull payment system](https://docs.btcpayserver.org/PullPayments/), specifically the [payout part of it](https://docs.btcpayserver.org/PullPayments/#approve-and-pay-a-payout). This new functionality allows you to automate the flow of the payouts.
+Payout processors are a new concept that hooks into the [pull payment system](https://docs.btcpayserver.org/PullPayments/), specifically the [payout part of it](https://docs.btcpayserver.org/PullPayments/#approve-and-pay-a-payout). This new functionality allows you to automate the flow of the payouts.
 
 ![](/images/1.5.0-payout-processor-1.png)
 
@@ -56,7 +56,7 @@ Payout processor, in its current state, allows you to save on transaction fees b
 
 ### Schedule for later 📆
 
-We understand that the payout processors may sound a bit abstract, and that's why we've added a concrete use-case for it through our brand-new **schedule for later** function in the wallet.
+We understand that 'payout processors' may sound a bit abstract, and that's why we've added a concrete use-case for it through our brand-new **schedule for later** function in the wallet.
 
 ![](/images/1-5-0-schedule-transaction1.png)
 
@@ -88,7 +88,7 @@ You can read more about the NBXplorer updates [in this blog post](https://blog.b
 
 As usual, we're ironing out the user interface with every release, making incremental changes based on our understanding of how you use BTCPay Server. Your feedback is always a critical factor when we're making such changes.
 
-- Better **lightning services access** - access lightning network services in a click of a button.
+- Better **Lightning services access** - access Lightning Network services with the click of a button.
 - **Store default currency for entities** - introduced in an earlier release, the default currency is now pre-set, but easily configurable when you're creating invoices, pull payments, pay button or payment requests.
 - Add additional rate providers supported by CoinGecko.
 
@@ -98,7 +98,7 @@ In this release we added a few new functionalities to our [Greenfield API](https
 
 * Add transaction info for on chain wallet 
 * Add label filter for on chain wallet transaction
-* Add lightning payment info 
+* Add Lightning payment info 
 
 We're noticing an uptrend in people building on top of BTCPay Server. If you're building something with our Greenfield API, we're always looking to get more feedback on how to improve it and we love to see what you've made!
 
