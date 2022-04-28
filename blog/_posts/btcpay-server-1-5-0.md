@@ -26,7 +26,7 @@ We know that having a quick glance at your store's performance is essential. Als
 
 ![](/images/1-5-0-dashboard-2.png)
 
-Dashboard visually showcases critical store's data, providing you with a way to better understand your store's performance, so that you can make more informed decisions. Furthermore, a dashboard should help with easier management of recent invoices and pending payouts and refunds.
+Dashboard visually showcases critical store data, providing you with a way to better understand your store's performance, so that you take more informed decisions. Furthermore, a dashboard should help manage recent invoices, pending payouts, and refunds.
 
 Currently, the dashboard shows data for an on-chain payment method, pending payouts and refunds, recent invoices & transactions, and the data for the crowdfunding app.
 
@@ -38,7 +38,7 @@ For more information on dashboard functionality, [check our docs](https://docs.b
 
 We're building the dashboard with flexibility in mind, and the goal is extend its functionality via the plugin system. 
 
-We'd love to hear what do you think about the dashboard and how it works for you. Let us know what kind of data would you help you better manage your store.
+We'd love to hear what you think about the dashboard and how it works for you. Let us know what kind of data would help you better manage your store.
 
 ## Payout processor 🤖
 
@@ -46,13 +46,17 @@ Payout processors are a new concept that hooks into the [pull payment system](ht
 
 ![](/images/1.5.0-payout-processor-1.png)
 
-Currently, we support payout processors for on-chain and off-chain payment methods. You can schedule payouts for on-chain, bolt11, lightning address, lnurl, etc.
+For this release, we've baked into two payout processors for on-chain and off-chain payment methods, meaning they support bitcoin addresses, BOLT11, lightning address, and LNURL. Once configured, they run continuously and process any payout awaiting payment.
 
 Set up a time interval in your store settings upon which your payouts will be batched and broadcasted to the network. 
 
 ![](/images/1.5.0-payout-processor-2.png)
 
-Payout processor, in its current state, allows you to save on transaction fees by batching the store's payments (wallet payments, refunds, payouts) and broadcasting them at a specific, pre-set time interval, for example, hourly, daily, weekly and more.
+Payout processors, in their current state, allow you to save on transaction fees by batching the store's payments (wallet payments, refunds, payouts) and broadcasting them at a specific, pre-set time interval, for example, hourly, daily, weekly, and more. Additionally, it reduces the management overhead and lets payouts to your customers and users be paid out automatically as soon as they provide their bitcoin payment request.
+
+But the best is yet to come. We've built this feature with plugins in mind. Opt-in payout processors plugins created by the community can open up additional ways to handle payments from your store, such as automated cold-storage forwarding, and [coinjoins](https://en.bitcoin.it/wiki/CoinJoin).
+
+We also have plans to create an additional payout processor in the coming versions of BTCPay Server that will enhance our [Payjoin ](https://docs.btcpayserver.org/Payjoin/) support to the [next level](https://github.com/NicolasDorier/bips/pull/3#discussion_r422639395) to bring enhanced privacy and reduced fees.
 
 ### Schedule for later 📆
 
@@ -62,11 +66,10 @@ We understand that 'payout processors' may sound a bit abstract, and that's why 
 
 This means that now, instead of signing and broadcasting a transaction, you have the option to schedule it for later on at a pre-set time interval.
 
-And since our refunding system goes through the wallet, the scheduling option now allows you to batch your customer's refunds and save on fees.
 
 ![](/images/1-5-0-schedule-transaction2.png)
 
-We plan to introduce a better permission system and hook it into the store so that in a particular store role, the store manager can create payouts, for example, refunds, but only the store owner can send them out.
+And since our refunding system goes through the pull payments system, if payout processors are configured on your store, they can now automatically be paid out.
 
 ## Enable/disable users
 
