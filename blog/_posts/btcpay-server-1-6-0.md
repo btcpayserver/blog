@@ -64,7 +64,7 @@ One of the most common requests we've heard from you is that you'd like to have 
 
 When the invoice is settled, the view receipt button will lead the customer to a page that contains information about their payment. You can optionally add a QR code, which is convenient if the receipt is supposed to be printed (a ticket for an event).
 
-On the API, you can toggle invoices. You can specify additional data to show on the receipt. For example, if you were selling licenses or software, you could add the license key to the receipt page or even a link to download the purchased software.
+On the API, you can toggle receipts when creating your invoices. You can also specify additional data to show on the receipt. For example, if you were selling licenses or software, you could add the license key to the receipt page or even a link to download the purchased software.
 
 ![](/images/receipt.png)
 
@@ -78,7 +78,7 @@ If you have a specific use case for receipts or would like to suggest how to imp
 
 ## Automated & customized emails 📧
 
-We've added preliminary support for sending out emails to your customers based on invoice updates. You can now create email rules if you have an SMTP configured in your store settings. This means you can send follow-up emails after the invoice is settled or an email to improve the bounce rate on your abandoned cart.
+We've added preliminary support for sending out emails to your customers based on invoice updates. You can now create email rules if you have an SMTP configured in your store settings. This means you can send follow-up emails after the invoice is settled (with a link to the new receipt feature)or an email to improve the bounce rate on your abandoned cart.
 
 ![](/images/customizedemails.png)
 
@@ -108,9 +108,9 @@ We're excited to add one more e-commerce plugin. While not explicitly tied to th
 
 ## Cloudflare tunnel support ☁️
 
-People running BTCPay Server locally on home-devices like Raspberry Pi, will be happy that we finally figured out a way to safely expose it to Cloudflare.
+People running BTCPay Server locally on home-devices like Raspberry Pi, will be happy that we finally figured out a way to safely expose it to your customers through  Cloudflare.
 
-Cloudflare can see or modify all of your traffic, as it acts as a middleman between the client's browser and your local server. If you’re interested in learning how this works, check out our extensive doc on [this link](https://docs.btcpayserver.org/Docker/cloudflare-tunnel/).
+Be aware that Cloudflare can see or modify all of your traffic, as it acts as a middleman between the client's browser and your local server. If you’re interested in learning how this works, check out our extensive doc on [this link](https://docs.btcpayserver.org/Docker/cloudflare-tunnel/).
 
 ## Plugins 🔌
 
