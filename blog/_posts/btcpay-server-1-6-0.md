@@ -18,8 +18,6 @@ We're finally back from our coding caves! Now that we have vitamin D and a bit o
 
 This release's highlights are the introduction of Lightning and point of sale data to the dashboard, customer receipt for customers, emails for invoice statuses, LNURL-withdraw support for refunds, and plenty of other UX improvements, bug fixes, and features. If you have a low-time preference, you can take a quick look at the changelog [here](https://github.com/btcpayserver/btcpayserver/releases/tag/v1.6.0).
 
----
-
 ## Security vulnerability patch 🛡️
 
 Before we show you what's new in 1.6.0, we have an announcement.
@@ -29,8 +27,6 @@ In the past six months, we fixed a critical security vulnerability in one of BTC
 It's very likely that by updating BTCPay Server in the past six months, you've already patched this vulnerability. To be safe, update your instance if you haven't done so in a long time.
 
 Let's see what new features and improvements this version brings us!
-
----
 
 ## Dashboard improvements 📊
 
@@ -124,7 +120,7 @@ Besides our beloved payment button becoming a plugin, here are a few more plugin
 
 If you have a [browser-compatible](https://caniuse.com/webnfc) NFC phone, (ehm, currently only Chrome on Android, you can use our point-of-sale app to make NFC payments. [David Cohen](https://twitter.com/thedavidcoen) made a few videos and tweets explaining how this works if you’d like to try it out. Bear in mind, it only works when LNURL is a payment method and only on Chrome on Android.
 
-https://youtu.be/4m-FQoUAs50
+[![](https://img.youtube.com/vi/4m-FQoUAs50/mqdefault.jpg)](https://www.youtube.com/watch?v=4m-FQoUAs50)
 
 ### TicketTailor
 
