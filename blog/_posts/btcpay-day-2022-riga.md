@@ -36,7 +36,7 @@ In 2 weeks, BTCPay Server is hitting its 5th birthday. The community, the team, 
 
 A full day dedicated to BTCPay Server, a side event of the Baltic Honeybadger conference. We've gone above and beyond to bring as many contributors as possible to the event. For most of the team, this will be the first time they meet each other. The event aims to gather all people who care about BTCPay and have been a part of the journey.
 
-Without community, there would be no BTCPay, so on September 5th, 2022, in Riga, we'd love to celebrate the community! You can expect many familiar faces at the event, special guests, and people who have hugely impacted BTCPay. We'll have a few presentations, workshops, demos, and direct interaction with all of you attending. We deeply care about your needs, experiences, and use-cases. We'll try to share ideas and together brainstorm what's next for BTCPay!
+Without the community, there would be no BTCPay, so on September 5th, 2022, in Riga, we'd love to celebrate the community! You can expect many familiar faces at the event, special guests, and people who have hugely impacted BTCPay. We'll have a few presentations, workshops, demos, and direct interaction with all of you attending. We deeply care about your needs, experiences, and use-cases. We'll try to share ideas and together brainstorm what's next for BTCPay!
 
 Even if you haven’t been directly involved with the project, if you used it, spread the word, or onboarded a merchant, you’ve helped this project evolve, and for that, we’re thankful.
 
