@@ -60,7 +60,7 @@ To ensure the quality of interactions and that enough time is dedicated to each 
 
 You can [book a ticket at day.btcpayserver.org.](https://day.btcpayserver.org) You will be taken to a page where you can make a purchase. **Please make sure to provide a valid e-mail address** on the invoice page since you will be receiving your ticket details there. Due to the limited amount of tickets, please buy a ticket only if you're certain you can and will attend.
 
-This event would not be possible without our supporters and BalticHoneyBadger organizers.
+This event would not be possible without our supporters and the [Baltic Honeybadger](https://baltichoneybadger.com/) organizers.
 
 For any questions, contact us at **btcpayday@btcpayserver.org** or on our [Mattermost Chat](https://chat.btcpayserver.org/)
 
