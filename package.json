@@ -16,7 +16,7 @@
   "config": {
     "dist": "blog/.vuepress/dist",
     "port": "8080",
-    "linkcheck": "blc -ro --filter-level 2 --requests 1 --exclude edit/master --exclude issues/new --exclude day.btcpayserver.org --exclude github.com --exclude kraken.com --exclude pnxbet.com --exclude t.me --exclude weareallhodlonaut.com"
+    "linkcheck": "blc -ro --filter-level 2 --requests 1 --exclude edit/master --exclude issues/new --exclude day.btcpayserver.org --exclude github.com --exclude kraken.com --exclude pnxbet.com --exclude t.me --exclude twitter.com --exclude weareallhodlonaut.com"
   },
   "scripts": {
     "prestart": "rimraf $npm_package_config_dist",
