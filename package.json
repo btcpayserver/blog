@@ -16,7 +16,7 @@
   "config": {
     "dist": "blog/.vuepress/dist",
     "port": "8080",
-    "linkcheck": "blc -ro --filter-level 2 --requests 1 --exclude edit/master --exclude issues/new --exclude day.btcpayserver.org --exclude github.com --exclude kraken.com --exclude pnxbet.com --exclude t.me --exclude weareallhodlonaut.com"
+    "linkcheck": "blc -ro --filter-level 2 --requests 1 --exclude edit/master --exclude issues/new --exclude day.btcpayserver.org --exclude github.com --exclude kraken.com --exclude pnxbet.com --exclude t.me --exclude twitter.com --exclude weareallhodlonaut.com"
   },
   "scripts": {
     "prestart": "rimraf $npm_package_config_dist",
@@ -35,10 +35,10 @@
     "@vuepress/plugin-medium-zoom": "1.9.7",
     "broken-link-checker": "0.7.8",
     "cross-env": "7.0.3",
-    "jest": "28.1.2",
+    "jest": "28.1.3",
     "markdown-it-implicit-figures": "0.10.0",
     "markdown-it-include": "^2.0.0",
-    "serve": "14.0.0",
+    "serve": "14.0.1",
     "start-server-and-test": "1.14.0",
     "vuepress": "1.9.7",
     "vuepress-plugin-clean-urls": "1.1.2",
