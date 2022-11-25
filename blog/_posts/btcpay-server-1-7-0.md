@@ -29,7 +29,7 @@ We've been listening to your feedback for over two years now. We heard all the t
 
 The new checkout page, for now, is an opt-in feature that completely abstracts the complexities and is focused only on you getting paid.
 
-![](/images/1.7.0 CheckoutV2expandede-details.png)
+![](/images/1.7.0-CheckoutV2expandede-details.png)
 
 Besides the cleaner design, we’ve made several critical improvements:
 - Removing the invoice timer (We show the timer if less than 10% of the total time remains)
