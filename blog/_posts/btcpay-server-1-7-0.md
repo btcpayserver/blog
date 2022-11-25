@@ -9,9 +9,9 @@ tags:
   - "release"
   - "checkout"
   - "form builder"
-  - "shipping information
+  - "shipping information"
   - "update"
-coverImage: "/images/BTCPay1-7-0.png"
+coverImage: "/images/1.7.0-V2Checkout.png"
 ---
 The new major release of BTCPay Server is here - 1.7.0!
 
