@@ -94,7 +94,7 @@ You can find me on the internet:
 - [Twitter.com](https://twitter.com/Bitpaintclub)
 - [Instagram](https://www.instagram.com/bitpaint.club/)
 - [Mastodon](https://bitcoinhackers.org/@bitpaint)
-- Tip me using BTCPay Server at [tip.bitpaint.club](http://tip.bitpaint.club)
+- Tip me using BTCPay Server at [bitpaint.club](http://bitpaint.club)
 
 DM's are opens!
 Thank you a lot for this interview!

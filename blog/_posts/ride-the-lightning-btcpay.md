@@ -32,7 +32,7 @@ _Suheb_: ‘Ride The Lightning’ or RTL in short, is a browser based node manag
 
 _Suheb_: Development on RTL started in Sep 2018, with the first release on Oct 8, 2018, which we announced via our [medium post](https://medium.com/coinmonks/introducing-rtl-a-web-ui-for-lnd-d0bb0d937e91). The conversation to build such an app started a bit earlier in July 2017 when Shahana (a web developer) was looking to start a side project, and I (a Bitcoin and Lightning enthusiast) was struggling to figure out a better way to get all the information out from my LN Node, without operating a command line.
 
-I reached out to [Stadicus](https://twitter.com/Stadicus3000/) on a whim, to get his thoughts on it, and he was kind enough to respond and gave us encouragement to start building this project. He also got us in touch with [Rootzoll](https://twitter.com/rootzoll) and [whiteyhat](https://twitter.com/whiteyhat) who were in the middle of working on their ‘[Raspiblitz](https://github.com/rootzoll/raspiblitz)’ and ‘[SatoshiGames](https://satoshis.games/)’ projects respectively.
+I reached out to [Stadicus](https://twitter.com/Stadicus3000/) on a whim, to get his thoughts on it, and he was kind enough to respond and gave us encouragement to start building this project. He also got us in touch with [Rootzoll](https://twitter.com/rootzoll) and [whiteyhat](https://twitter.com/whiteyhat) who were in the middle of working on their ‘[Raspiblitz](https://github.com/rootzoll/raspiblitz)’ and ‘SatoshiGames’ projects respectively.
 
 This group overall, gave us encouragement to work on and develop RTL initially.
 

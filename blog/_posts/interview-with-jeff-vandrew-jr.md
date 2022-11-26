@@ -74,6 +74,6 @@ I have been playing around with a couple of other ideas, but don't want to revea
 
 ## Where can readers find you?
 
-_Jeff:_ If you're interested in the KeyKeeper IRA, check out [vandrew.com/bitcoin](https://vandrew.com/bitcoin/), You can also catch me on Twitter [@vandrewattycpa](https://twitter.com/vandrewattycpa).
+_Jeff:_ If you're interested in the KeyKeeper IRA, catch me on Twitter [@vandrewattycpa](https://twitter.com/vandrewattycpa).
 
 We hope you enjoyed the interview and got to know the super-Jeff a bit better. If you have any questions for him, feel free to reach out to him on Twitter and make sure to check interesting projects he's working on. On behalf of the entire BTCPay community, I'd like to thank Jeff for all of his great contributions and selfless help to the community.
