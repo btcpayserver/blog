@@ -59,7 +59,7 @@ During the BTCPay Day in Riga this year, a lot of third-party hosts approached u
 
 In this release, we’re making a first step towards easier server customizations. You can select a server logo that will replace our logo on the public pages. We intend to add more options towards white labeling in the next release.
 
-![](/images/1.7.0 - CheckoutBrandingStore.png)
+![](/images/1.7.0-CheckoutBrandingStore.png)
 
 Additionally, we’re rolling out the ability to customize your store logo and brand color, which in 1.7.0 will be reflected through a checkout page and the logo in the sidebar. Right now, the logo and branding of the store will immediately reflect the new checkout page.
 
@@ -78,6 +78,7 @@ Note that any data you collect through forms is your own. To make things quite c
 ![](/images/1.7.0-Formbuilder.png)
 
 ## 🏪 OpenCart ecommerce integration
+
 If you're a merchant using OpenCart as your e-commerce platform, we now have a full fledged integration with this CMS. Check our documentation [here](https://docs.btcpayserver.org/OpenCart/), and connect your BTCPay to your OpenCart in no-time!
 
 ## Greenfield API 👩‍💻
