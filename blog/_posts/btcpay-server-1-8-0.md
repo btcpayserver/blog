@@ -142,7 +142,7 @@ We’ve heard your feedback on our V2 checkout. One of the main points that came
 After we did the new Dashboard views, and changed the game of checkouts with V2, we are now ready to update the Keypad view in your POS!
 It ties nicely into the new design we've been rolling out over the past 2/3 major releases. AND it comes in your brands color if set in your store settings, more details on how to set these colors [here](https://blog.btcpayserver.org/btcpay-server-1-7-0/#-store-and-server-branding). Until you've set it your self, here is a example of how it looks!
 
-![](images/btcpaykeypadblog.jpg)
+![](/images/btcpaykeypadblog.jpg)
 
 ## 📠 Keypad POS tracks values individually  
 Hot summers day on the terras? Got lots of invoices to handle with tips or discounts ? Within your invoices, you’ll now be able to see these amounts, in a split view on every subject. No longer do you have to count out what the tip or discounts amounts were, just a glance at the bottom of your invoice and all is clear. Find out more details about tracking values [here.](https://github.com/btcpayserver/btcpayserver/pull/4668) 
