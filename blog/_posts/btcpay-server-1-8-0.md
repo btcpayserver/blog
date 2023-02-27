@@ -109,7 +109,7 @@ The potential form unlock is unlimited. We’re looking forward to seeing how yo
 ## ⚡ Lightning NFC plugin becoming core
 The NFC plugin was built for browser compatible NFC devices, where a customer just has to tap his NFC card (boltcard) on your NFC enabled device. Due to increasing usage of this feature, we’ve decided to make it part of the core system. Nothing changes for you as a user. With the release of the new checkout V2 in 1.7.0, and the improvements we’ve done on both front and the backend the NFC functionality should be even smoother.
 
-##🏷️ Labeling addresses
+## 🏷️ Labeling addresses
 We want to make address management a little bit easier, therefore we are introducing labels for addresses. When you create a new address in BTCPay Server, you now immediately get to label the address and these labels propagate to the transactions received on this address. 
 We’ve added the step in the address creation process. Find in depth details [here](https://github.com/btcpayserver/btcpayserver/pull/4594).
 
@@ -118,7 +118,7 @@ We’ve added the step in the address creation process. Find in depth details [h
 ## 🔔 Rehauled Notifications icon set
 As the world moves on and smileys become emojis. We are adding more clear indicators for  your notifications. In a glance you now will be able to pick up if there’s an action required or if it’s just telling you there’s an invoice paid. You can find all icons and their meaning on our design pages [here](https://design.btcpayserver.org/design/icons/). 
 
-![](/images/btcpayiconsetblog.jpg)
+![](/images/btcpayiconsetblog.png)
 
 ## 👩‍💻 Greenfield API updates
 
