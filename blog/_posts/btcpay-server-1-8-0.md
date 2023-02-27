@@ -1,7 +1,7 @@
 ---
 title: "BTCPay Server 1.8.0 - Custom checkout forms, store branding and much much more!"
-date: 2022-11-25
-author: pavlenex
+date: 2023-03-01
+author: Bas
 category:
   - "releases"
 tags:
