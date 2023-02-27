@@ -21,7 +21,7 @@ It took us quite a bit longer than what you're used to of us. As the year starte
 As always! No Devs were hurt in this release, only bugs that got squashed and new features being introduced, let's have a peak! Find detailed release notes [here](https://github.com/btcpayserver/btcpayserver/releases?page=1). 
 
 
-##👷 Custom checkout forms
+## 👷 Custom checkout forms
 In a previous major release, we’ve introduced the ability to collect emails and buyer’s information during checkout via forms. These forms were pre-defined. In 1.8.0 we’re adding more flexibility to the forms, by allowing you to create custom forms. 
 
 Currently this process is slightly manual and has to be done with a little bit of JSON knowledge, but it’s on our radar to improve the UX of this feature in one of the upcoming releases. 
