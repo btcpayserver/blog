@@ -24,9 +24,11 @@ As always! No Devs were hurt in this release, only bugs that got squashed and ne
 ##👷 Custom checkout forms
 In a previous major release, we’ve introduced the ability to collect emails and buyer’s information during checkout via forms. These forms were pre-defined. In 1.8.0 we’re adding more flexibility to the forms, by allowing you to create custom forms. 
 
-Currently this process is slightly manual and has to be done with a little bit of JSON knowledge, but it’s on our radar to improve the UI around it in one of the next releases. 
+Currently this process is slightly manual and has to be done with a little bit of JSON knowledge, but it’s on our radar to improve the UX of this feature in one of the upcoming releases. 
 
 Here are some examples of what can be done with the custom forms to get your creative juices flowing.
+
+### Example: Nostr pubkey and comment
 
 ![](/images/btcpayformsblog2.jpg)
 
@@ -63,7 +65,8 @@ Here are some examples of what can be done with the custom forms to get your cre
 }
 ```
 
-Example 2 ; 
+### Example: Table booking at a restaurant
+
 ![](/images/btcpayFormsBlog.jpg)
 
 
@@ -99,7 +102,7 @@ Example 2 ;
 }
 ```
 
-For now the form can be enabled as a stand-alone, or as a part of a point of sale app or a payment request. Standalone form means you can share a form link, once your customer fills it in, they’ll be presented with a checkout page. Forms integrated within the PoS app or payment request allow you to collect information through the app itself. For example, when invoicing a client, or charging a customer through a point of sale. Integration into the crowdfunding app is planned. So stay tuned for that part! 
+For now the form can be enabled as a stand-alone, or as a part of a point of sale app or a payment request. Stand-alone form means you can share a form link, once your customer fills it in, they’ll be presented with a checkout page. Forms integrated within the PoS app or payment request allow you to collect information through the app itself. For example, when invoicing a client, or charging a customer through a point of sale. Integration into the crowdfunding app is planned. So stay tuned for that part! 
 
 All data gathered through custom forms will be added in the invoice details page under Additional information section.
 
