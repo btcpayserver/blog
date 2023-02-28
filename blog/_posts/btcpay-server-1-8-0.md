@@ -114,7 +114,7 @@ The NFC plugin was built for browser compatible NFC devices, where a customer ju
 
 ## 🏷️ Labeling addresses
 We want to make address management a little bit easier, therefore we are introducing labels for addresses. When you create a new address in BTCPay Server, you now immediately get to label the address and these labels propagate to the transactions received on this address. 
-We’ve added the step in the address creation process. Find in depth details [here](https://github.com/btcpayserver/btcpayserver/pull/4594).
+We’ve added the step in the address creation process. Find in-depth details [here](https://github.com/btcpayserver/btcpayserver/pull/4594).
 
 ![](/images/btcpaylabelsblog.jpg)
 
@@ -125,11 +125,11 @@ As the world moves on and smileys become emojis. We are adding more clear indica
 
 ## 👩‍💻 Greenfield API updates
 
-Our Greenfield API keeps getting better. Leading up towards release 1.8.0 we’ve introduced some new features to reach through the API. We’ve added a new “get” endpoint for LNURL processing. Next to that we’ve also added 2 new permissions for PullPayments and added payments list as an endpoint. Find more details [here](https://github.com/btcpayserver/btcpayserver/releases/tag/v1.7.6).
+Our Greenfield API keeps getting better: Leading up towards release 1.8.0 we’ve introduced some new features to reach through the API. We’ve added a new “get” endpoint for LNURL processing. Next to that we’ve also added 2 new permissions for pull payments and added payments list as an endpoint. Find more details [here](https://github.com/btcpayserver/btcpayserver/releases/tag/v1.7.6).
 
 
 ## 🏪 Store Branding
-Remember how we introduced new store branding options in [1.7.0?](https://blog.btcpayserver.org/btcpay-server-1-7-0/) We are going to the next step in this release! When you set the store colour and logo, they will now be visible on all public facing pages. Custom forms, receipts, payment requests. pull payments, point of sale and crowdfunding can all now be customized by altering a simple color scheme in your store setting. 
+Remember how we introduced new store branding options in [1.7.0?](https://blog.btcpayserver.org/btcpay-server-1-7-0/) We are going to the next step in this release! When you set the store color and logo, they will now be visible on all public facing pages. Custom forms, receipts, payment requests. pull payments, point of sale and crowdfunding can all now be customized by altering a simple color scheme in your store setting. 
 
 ![](/images/btcpayserver-storebranding.png)
 
@@ -140,7 +140,7 @@ We’ve heard your feedback on our V2 checkout. One of the main points that came
 
 ## 📠 Keypad in the PoS app got some extra love
 After we did the new Dashboard views, and changed the game of checkouts with V2, we are now ready to update the Keypad view in your POS!
-It ties nicely into the new design we've been rolling out over the past 2/3 major releases. AND it comes in your brands color if set in your store settings, more details on how to set these colors [here](https://blog.btcpayserver.org/btcpay-server-1-7-0/#-store-and-server-branding). Until you've set it your self, here is a example of how it looks!
+It ties nicely into the new design we've been rolling out over the past 2/3 major releases. AND it comes in your brands color if set in your store settings, more details on how to set these colors [here](https://blog.btcpayserver.org/btcpay-server-1-7-0/#-store-and-server-branding). Until you've set it yourself, here is a example of how it looks!
 
 ![](/images/btcpaykeypadblog.jpg)
 
