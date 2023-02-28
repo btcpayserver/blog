@@ -153,7 +153,7 @@ And do we kick it off with a great new one made by Kukks: The plugin we are ship
 ## 🔌 BTCPay Server X Coinjoin
 Kukks didn't just stop at the NIP-05 plugin. He also integrated collaborative transactions using the Wabisabi protocol. On the plugins page, you'll now be able to add the Coinjoin plugin and start enhancing your bitcoin privacy directly through your BTCPay Server. For more details on how it works and what is involved please read [here](https://github.com/Kukks/BTCPayServerPlugins/tree/master/Plugins/BTCPayServer.Plugins.Wabisabi#readme).
 
-## 🚨 Phasing out MySql and SQLite
+## 🚨 Phasing out MySQL and SQLite
 Maybe some of you have noticed, but if your instance was still running MySQL or SQLite, you now will be able to migrate. As of release 1.7.1 we’ve marked them as deprecated and moved on. Release 1.7.8 saw a migration path for legacy databases like MySQL or SQLite. However as we update these, we’ve seen people run into trouble. After migration there was an error at the reboot. In release 1.7.10 we fixed this bug and made sure migration does as it says. Find [details on the migration process](https://github.com/btcpayserver/btcpayserver/blob/v1.7.8/docs/db-migration.md).
 
 If you are a BTCPay Server integrators such as developer of Nodl, Raspiblitz, Umbrel, Embassy OS or anybody running BTCPay Server on SQLite or MySQL, please refer to [the documentation](https://docs.btcpayserver.org/BTCPayServer/db-migration/#migration-from-sqlite-and-mysql-to-postgres). While SQLite and MySQL should still be working for one year or two, we will not be focused on fixing bugs related to those backends (unless it impacts the migration process).
