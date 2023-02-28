@@ -15,7 +15,7 @@ The setup is straight forward:
 # Install dependencies
 npm install
 
-# Serve locally (by default on port 8080)
+# Serve locally
 npm start
 ```
 
@@ -76,9 +76,3 @@ To add a YouTube video with a preview, you can so so by linking to it like this:
 ```
 
 Note that the link item need to be a preview image (either from YouTube or a custom one) to result in an embedded video.
-
-## Check for broken links
-
-The GitHub Actions pipeline checks for broken links after deploying the production site.
-You can also run the link check locally using `npm run linkcheck:local`.
-The dev server needs to be running alongside for this to work.
