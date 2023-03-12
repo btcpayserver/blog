@@ -19,9 +19,7 @@ coverImage: "/images/bitcoinbonus-header.png"
 
 Since about mid-October 2022, we noticed users coming to our support chat with dubious payment requests of 64 US-Dollar payable in bitcoin from sites branded as “Bitcoin Bonus.” The users posted screenshots and links of sites that claimed they had participated in cloud mining and forgotten about it and were eligible for a substantial earning of somewhere between 20 - 30k US-Dollar. Before the users can receive the payout, they need to pay a “conversion fee” in Bitcoin to get their rewards paid out. Since nobody gives away free money, if users pay that, their money is gone, and they never receive the promised payout.
 
-Bitcoin Bonus initially leveraged BTCPay Server’s demo instance in order to accept payments from unsuspecting victims. However, after we removed their access (and changed the settings preventing them from using our server further), the scammers began bringing up their own instances and websites.
-
-Despite setting up new sites, “**Bitcoin Bonus**” continues to leverage and abuse BTCPay branding. As a result, many individuals mistakenly believe that BTCPay Server is responsible for processing payments made through the scammer's sites, leading them to seek help in our support channels.
+Despite our efforts, “**Bitcoin Bonus**” continues to leverage and abuse BTCPay branding. As a result, many individuals mistakenly believe that BTCPay Server is responsible for processing payments made through the scammer's sites, leading them to seek help in our support channels.
 
 ## What is BTCPay Server and why we can’t help
 
