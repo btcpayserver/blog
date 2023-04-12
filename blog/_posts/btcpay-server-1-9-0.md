@@ -37,7 +37,7 @@ Wouter Samaey, who developed the custodian account framework, and the Kraken plu
 
 ## 🛍️Point of Sale, NFC and receipts
 
-You may have seen the videos of people using physical PoS devices on social media. We were donated a pair of them, and ever since, there have been a lot of questions and great feedback from real-world use cases. We’re carefully noting all the feedback from the retailers who use these devices.
+You may have seen the videos of people using physical PoS devices on [social media](https://twitter.com/BitcoinBeachBR/status/1637920624000528384). We were donated a pair of them, and ever since, there have been a lot of questions and great feedback from real-world use cases. We’re carefully noting all the feedback from the retailers who use these devices.
 
 ![](/images/btcpay1-9-0-pos.jpg)
 
