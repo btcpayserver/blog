@@ -27,9 +27,9 @@ We meant it; 2023 is the year of plugins! Initially announced during the [BTCPay
 With the custodian wallet plugin, you can directly, out of your BTCPay Server, send the amounts of bitcoin necessary to the exchange and convert them into fiat (i.e. for paying your suppliers). 
 
 To get custodian wallets into your BTCPay Server, we must first enable experimental features in Server Settings. Underneath the Policies tab, scroll down to Maintenance Settings, tick the box in front of "enable experimental features'' and save the server settings at the bottom. 
-Now, in the left menu bar of BTCPay Server, you'll find "add custodian" below your Bitcoin and Lightning wallet. However, before we can add the custodian, you must install the Kraken plugin. Find "Manage plugins” in the left menu bar and install the Kraken plugin, your BTCPay Server will ask for a restart. 
+Now, in the left menu bar of BTCPay Server, you'll find "Add custodian" below your Bitcoin and Lightning wallet. However, before we can add the custodian, you must install the Kraken plugin. Find "Manage plugins” in the left menu bar and install the Kraken plugin, your BTCPay Server will ask for a restart. 
 
-After installing the Kraken plugin, click "add custodian"; the only option available so far is Kraken. Select that and click continue. Stay calm about the warnings; the plugin tries to connect immediately. Fill out the fields as instructed, and you should be set up with the Kraken custodian wallet plugin! For non-technical shopkeepers, all features can be automated using Zapier. Using the new custodian account framework, plugin developers are now able to code their own plugins and add support for exchanges and other custodians, like brokers or online payment systems to BTCPay Server. 
+After installing the Kraken plugin, click "Add custodian"; the only option available so far is Kraken. Select that and click continue. Stay calm about the warnings; the plugin tries to connect immediately. Fill out the fields as instructed, and you should be set up with the Kraken custodian wallet plugin! For non-technical shopkeepers, all features can be automated using Zapier. Using the new custodian account framework, plugin developers are now able to code their own plugins and add support for exchanges and other custodians, like brokers or online payment systems to BTCPay Server. 
 Wouter Samaey, who developed the custodian account framework, and the Kraken plugin, aims to keep adding more exchanges in the future. We welcome any developer to help expand the library of possible exchanges!
 
 ![](/images/btcpay1-9-0-custodian.jpg)
@@ -42,18 +42,18 @@ You may have seen the videos of people using physical PoS devices on [social med
 ![](/images/btcpay1-9-0-pos.jpg)
 
 ### Receipts
-We’ve improved the digital receipts to better cater those devices. Print size and consolidating data on the receipt are addressed in 1.9.0. Find the new and optimized print views on invoices! 
+We’ve improved the digital receipts to better cater to those devices. Print size and consolidating data on the receipt are addressed in 1.9.0. Find the new and optimized print views on invoices! 
 
 ### Improved NFC experience
-Merchants utilizing NFC functionality will be happy that we’ve added additional improvements. Earlier, if a customer wanted to pay via NFC, a merchantT had to tap the "Pay By NFC" button. From now on, if the browser already has permission, you no longer have to click the button. Just tap the NFC card, and payment gets received! 
+Merchants utilizing NFC functionality will be happy that we’ve added additional improvements. Earlier, if a customer wanted to pay via NFC, the merchant had to tap the "Pay by NFC" button. From now on, if the browser already has permission, you no longer have to click the button. Just tap the NFC card to initiate the payment!
 
 
 ## 🎉 Checkout v2 gets further improvements
 
-The next-gen checkout - V2 received additional improvements and is now a default for all new stores! 
+Our next-gen checkout received additional improvements and is now the default for all new stores! 
 
-Introduced a [couple of releases ago](https://blog.btcpayserver.org/btcpay-server-1-7-0/), the new checkout page continues to receive updates based on your feedback. We’re introducing new checkout presets to optimize the checkout experience. There are two options to choose from:, Retail mode and Online mode. These will effectively give a pre-setup store for either of the two purposes. You can still fully customize, but we recognize there are many features, and having a template to start from brings huge time-saving at set up. 
-On the customer-facing side, when the client has paid your store or invoice, the Checkout will show the on-chain transaction status, and if it still needs to confirm, when it confirms, it's party time, and confetti now comes out! 
+Introduced a [couple of releases ago](https://blog.btcpayserver.org/btcpay-server-1-7-0/), the new checkout page continues to receive updates based on your feedback. We’re introducing new checkout presets to optimize the checkout experience. There are two options to choose from: Retail and Online mode. These will effectively give you a pre-setup store for either of the two purposes. You can still fully customize, but we recognize there are many features, and having a template to start from brings huge time-saving at set up. 
+On the customer-facing side, when the client has paid your store or invoice, the checkout will show the on-chain transaction status, and if it still needs to confirm. Once it confirms, it's party time – we even brought some confetti! 
 One more thing with Checkout V2. 
 
 Remember, if you run custom styling, be aware that setting V2 might break your design! 
@@ -72,7 +72,7 @@ After adding the labels locally on your transactions, we've now gone ahead and i
 
 ## 🤝 Restructuring how metadata is viewed
 
-You can now customize the [invoice metadata](https://docs.btcpayserver.org/Development/InvoiceMetadata/) for payments received through a Lightning Address. Additionally, Payment Proof will now appear in the receipt data.
+You can now customize the [invoice metadata](https://docs.btcpayserver.org/Development/InvoiceMetadata/) for payments received through a Lightning Address. Additionally, payment proofs will now appear in the receipt data.
 
 Next to being busy giving you better data points, we've significantly improved the user experience. Your customer receipt will now display what items have been purchased.
 
@@ -80,13 +80,13 @@ Also a slight improvement in managing your transactions: you can now add labels 
 
 ## 🚨 Deprecating MySQL and SQLite
 
-In our ongoing initiative to [phase out](https://blog.btcpayserver.org/btcpay-server-1-8-0/#-phasing-out-mysql-and-sqlite) support for MySQL and SQLite, starting BTCPay Server using --sqlitefile or --mysql flags without being in the context of migration will result in server startup failure.  
+In our ongoing initiative to [phase out](https://blog.btcpayserver.org/btcpay-server-1-8-0/#-phasing-out-mysql-and-sqlite) support for MySQL and SQLite, starting BTCPay Server using `--sqlitefile` or `--mysql` flags without being in the context of migration will result in server startup failure.  
 
-To address this, we're introducing a new flag called --deprecated, which enables you to start with SQLite or MySQL even if they are deprecated. Please note that this flag will no longer be available in version 1.10 as we continue to streamline and prioritize newer technologies.
+To address this, we're introducing a new flag called `--deprecated`, which enables you to start with SQLite or MySQL even if they are deprecated. Please note that this flag will no longer be available in version 1.10 as we continue to streamline and prioritize newer technologies.
 
 ## 👾 We squashed plenty of bugs again! 
 
-Bugs, they keep coming, and we'll make them go again. We've slowly begun changing the number of minor releases and aggregating the bug fixes in more clear and clean packages, well tested and proper fixes in place. In this Release, we have a couple of big fixes coming your way.
+Bugs, they keep coming, and we'll make them go again. We've slowly begun changing the number of minor releases and aggregating the bug fixes in more clear and clean packages, well tested and proper fixes in place. In this release, we have a couple of big fixes coming your way.
 
 - Point of Sale's app ignored the store-set preferred currency through LNURL.
 - Point of Sale fixes escaped HTML entities in the item title
