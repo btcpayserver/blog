@@ -16,26 +16,26 @@ coverImage: "/images/btcpay1-9-0-thumbnail.png"
 
 # BTCPay Server release 1.9.0
 
-We're excited to announce the version of BTCPay Server v1.9.0, bringing you many new features, improvements, and bug fixes. This major release is a big step forward, and we can't wait for you to try it out!
+We're excited to announce version v1.9.0 of BTCPay Server, bringing you many new features, improvements, and bug fixes. This major release is a big step forward, and we can't wait for you to try it out!
 
 We've added some quality-of-life improvements aimed explicitly toward the retail experience of the software, better management features for your stores, and some touch-ups toward checkout V2. Most prominently, we’ve released a wallet integration with exchanges!
 
-## 👛Exchange integration via plugins!
+## 👛 Exchange integration via plugins!
 
 We meant it; 2023 is the year of plugins! Initially announced during the [BTCPay Day in Riga](https://twitter.com/BtcpayServer/status/1568300141517365249), the custodian wallet support through plugins is a reality! The introduction includes support for the Kraken exchange and is available immediately for beta testing with this release!
 
-With the custodian wallet plugin, you can directly, out of your BTCPay Server, send the amounts of bitcoin necessary to the exchange and convert into fiat for suppliers. 
+With the custodian wallet plugin, you can directly, out of your BTCPay Server, send the amounts of bitcoin necessary to the exchange and convert them into fiat (i.e. for paying your suppliers). 
 
-To get custodian wallets into your BTCPay Server, we must first enable experimental features in Server settings. Underneath the Policies tab, scroll down to Maintenance Settings, tick the box in front of "enable experimental features'' and save the server settings at the bottom. 
-Now, in the left menu bar of BTCPay Server, you'll find "add custodian" below your Bitcoin and Lightning wallet. However, before we can add the custodian, you must install the Kraken plugin. Find "Manage plugins” in the left menubar and install the Kraken plugin, your BTCPay Server will restart. 
+To get custodian wallets into your BTCPay Server, we must first enable experimental features in Server Settings. Underneath the Policies tab, scroll down to Maintenance Settings, tick the box in front of "enable experimental features'' and save the server settings at the bottom. 
+Now, in the left menu bar of BTCPay Server, you'll find "add custodian" below your Bitcoin and Lightning wallet. However, before we can add the custodian, you must install the Kraken plugin. Find "Manage plugins” in the left menu bar and install the Kraken plugin, your BTCPay Server will ask for a restart. 
 
-After installing the Kraken plugin, click "add custodian"; the only option available so far is Kraken. Select and click continue. Stay calm about the warnings; the plugin tries to connect immediately. Fill out the fields as instructed, and you should be set up with the Kraken custodian wallet plugin! For non-technical shopkeepers, all features can be automated using Zapier. Using the new custodian account framework, plugin developers are now able to code their own plugins and add support for exchanges and other custodians, like brokers or online payment systems to BTCPayServer. 
+After installing the Kraken plugin, click "add custodian"; the only option available so far is Kraken. Select that and click continue. Stay calm about the warnings; the plugin tries to connect immediately. Fill out the fields as instructed, and you should be set up with the Kraken custodian wallet plugin! For non-technical shopkeepers, all features can be automated using Zapier. Using the new custodian account framework, plugin developers are now able to code their own plugins and add support for exchanges and other custodians, like brokers or online payment systems to BTCPay Server. 
 Wouter Samaey, who developed the custodian account framework, and the Kraken plugin, aims to keep adding more exchanges in the future. We welcome any developer to help expand the library of possible exchanges!
 
 ![](/images/btcpay1-9-0-custodian.jpg)
 
 
-## 🛍️Point of Sale, NFC and receipts
+## 🛍️ Point of Sale, NFC and receipts
 
 You may have seen the videos of people using physical PoS devices on [social media](https://twitter.com/BitcoinBeachBR/status/1637920624000528384). We were donated a pair of them, and ever since, there have been a lot of questions and great feedback from real-world use cases. We’re carefully noting all the feedback from the retailers who use these devices.
 
@@ -60,17 +60,17 @@ Remember, if you run custom styling, be aware that setting V2 might break your d
 
 ![](/images/btcpay1-9-0-checkout.jpg)
 
-## 📒New recovery seed phrase view! 
+## 📒 New recovery seed phrase view! 
 
 After some deliberation and feedback, we will quickly switch up the recovery seed phrase view! Before we had you jump back and forth between lines 1 and 2, we've now structured it in just one plain simple list. No more chances to mess up the order of your seed! 
 
 ![](/images/btcpay1-9-0-seedphrase.jpg)
 
-## 📚Wallet Labels export - BIP-329 
+## 📚 Wallet Labels export - BIP-329 
 
 After adding the labels locally on your transactions, we've now gone ahead and implemented [BIP-329](https://github.com/btcpayserver/btcpayserver/pull/4799), where wallet labels are exportable. If you've set labels for your transactions and moved to another wallet (that supports BIP-329), you can take your labels with you! No longer a mess in recognizing what your transactions were! 
 
-## 🤝Restructuring how metadata is viewed. 
+## 🤝 Restructuring how metadata is viewed
 
 You can now customize the [invoice metadata](https://docs.btcpayserver.org/Development/InvoiceMetadata/) for payments received through a Lightning Address. Additionally, Payment Proof will now appear in the receipt data.
 
@@ -93,7 +93,7 @@ Bugs, they keep coming, and we'll make them go again. We've slowly begun changin
 - No longer will Lightning be proposed as an option if the [Lightning node fails](https://github.com/btcpayserver/btcpayserver/pull/4865).
 - [Improved pagination](https://github.com/btcpayserver/btcpayserver/pull/4828) for better performance, no longer fetching all page counts.
 
-## 🚨 Be warned of scammers!
+## 🚨 Beware of scammers!
 
 We posted a [blog last month](https://blog.btcpayserver.org/bitcoin-bonus-scam/) about an ongoing scam that abuses our brand and software. Please be aware our team will only reach out to you through our official channels. Here our team is clearly marked as contribs. We will never email you! We will never start a Telegram DM! Verify who you are talking to! 
 
