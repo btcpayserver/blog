@@ -1,6 +1,6 @@
 ---
-title: "BTCPay Server 1.8.0 - Custom checkout forms, store branding and much much more!"
-date: 2023-03-01
+title: "BTCPay Server 1.9.0 - The year of Plugins continues, Point of Sales touch-ups and much more!"
+date: 2023-04-13
 author: Bas
 category:
   - "releases"
