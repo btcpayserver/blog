@@ -69,7 +69,7 @@ After some deliberation and feedback, we will quickly switch up the recovery see
 
 After adding the labels locally on your transactions, we've now gone ahead and implemented [BIP-329](https://github.com/btcpayserver/btcpayserver/pull/4799), which standardizes the export of wallet labels. If you've added labels to your transactions and moved to another wallet (that supports BIP-329), you can take your labels with you! No longer a mess in recognizing what your transactions were! 
 
-## 🏷️ Label management got revamped further.
+## 🏷️ Label management got refined further.
 
 Now that we have the BIP-329 in place. We also redid the visualization of those labels. Now within one glance, you see set labels on transactions, know where you are spending from, and get an organized overview of your Bitcoin usage! 
 
