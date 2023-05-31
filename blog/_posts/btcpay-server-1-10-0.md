@@ -1,6 +1,6 @@
 ---
 title: "BTCPay Server 1.10.0 - Formbuilder UI, custom Roles and a lurking wife mode!?"
-date: 2023-04-13
+date: 2023-06-01
 author: Bas
 category:
   - "releases"
