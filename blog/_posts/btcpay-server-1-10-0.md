@@ -59,9 +59,9 @@ Does your invoice page look daunting? We recognize that it’s hard to do proper
 
 Every Major release comes with many improvements and upgrades on Plugins. As the plugin system is being built out longer and crazier every time, this release cycle saw great improvements in LNBank, Nostr, and even a new one in Auto-forward payments. 
 
-### LNBank 
+### LNbank 
 
-Together with the new BTCPay Server version, [LNbank v1.6](https://github.com/dennisreimann/btcpayserver-plugin-lnbank/blob/master/CHANGELOG.md) releases which incorporates the new "Hide Sensitive Info" setting and adds wallet balance graphs. A better admin overview of LNBank Wallets, what’s the current balance of those who use LNBank on your BTCPay Server instance. Users will now be warned when LNBank liabilities exceed the Lightning Node’s balance, API Access to LNBank wallets and LNURL Withdraw support has been added, which allows configurable LNURL withdrawal access per wallet. 
+Together with the new BTCPay Server version, [LNbank v1.6](https://github.com/dennisreimann/btcpayserver-plugin-lnbank/blob/master/CHANGELOG.md) releases which incorporates the new "Hide Sensitive Info" setting and adds wallet balance graphs. A better admin overview of LNbank Wallets, what’s the current balance of those who use LNbank on your BTCPay Server instance. Users will now be warned when LNbank liabilities exceed the Lightning Node’s balance, API Access to LNbank wallets and LNURL Withdraw support has been added, which allows configurable LNURL withdrawal access per wallet. 
 
 ![BTCPay Server Hide sensitive info](/images/BTCPayServerHiden.gif)
 
@@ -105,11 +105,11 @@ To be sure you're talking to our team members, ALWAYS join our [official matterm
 
 We're grateful that OpenSats partnered with us to help individuals donate to the BTCPay Server project. If you ever wondered how you could support BTCPay Server contributors without being a company, head on to [OpenSats](https://opensats.org/projects/btcpayserver) and feel free to throw a donation.
 
-As OpenSats is a US Based public charity registered as a 501(c)(3), you can apply for a tax deduction on these donations. This wasn't previously possible, as BTCPay Server Foundation works differently. With the opportunity given by OpenSats, it's now possible to [donate](https://opensats.org/projects/btcpayserver) to BTCPay Server as an individual!
+As OpenSats is a US-based public charity registered as a 501(c)(3), you can apply for a tax deduction on these donations. This wasn't previously possible, as BTCPay Server Foundation works differently. With the opportunity given by OpenSats, it's now possible to [donate](https://opensats.org/projects/btcpayserver) to BTCPay Server as an individual!
 
 ## 💚 Thank you
 
-As usual, if you have problems, feedback, feature requests regarding BTCPay Server, feel free to reach out on our [community chat](https://chat.btcpayserver.org/). We hope you enjoy what this update has to offer. As always, thank you to our invaluable contributors, who directly participated in making 1.9.0 possible. 
+As usual, if you have problems, feedback, feature requests regarding BTCPay Server, feel free to reach out on our [community chat](https://chat.btcpayserver.org/). We hope you enjoy what this update has to offer. As always, thank you to our invaluable contributors, who directly participated in making 1.10.0 possible. 
 
 Besides release contributors, we'd like to thank all of our contributors who're making BTCPay Server better every day, through testing, reporting bugs, providing feedback, documenting, content making and more! BTCPay Server could never rapidly progress without your help!
 
