@@ -38,7 +38,7 @@ Are you currently operating a store with a team of employees? If the existing gu
 
 This upgrade empowers you to tailor roles to your exact needs, granting your staff access to specific permissions within your store. Whether you need roles for cashiers, administrative personnel, or order pickers in your warehouse, you can now effortlessly create as many custom roles as necessary, streamlining and optimising your store's operations.
 
-![BTCPay Server custom roles](/images/BTCPayServerHide.gif)
+![BTCPay Server custom roles](/images/BTCPayServerRoles.gif)
 
 ## 🥷 Hide sensitive information
 
@@ -46,7 +46,7 @@ If you ever opened your BTCPay in a coffee shop or a coworking space we’re sur
 
 To try it out, click on your Account in the sidebar’s bottom left > Toggle "Hide Sensitive Information" to ON, all value fields will be hidden. From Dashboard to every field in an invoice, none are displayed with value; all are masked.
 
-![BTCPay Server Hide sensitive info](/images/BTCPayServerHiden.gif)
+![BTCPay Server Hide sensitive info](/images/BTCPayServerHide.gif)
 
 ## 📝 Improved Invoice filtering.
 
@@ -63,7 +63,7 @@ Every Major release comes with many improvements and upgrades on Plugins. As the
 
 Together with the new BTCPay Server version, [LNbank v1.6](https://github.com/dennisreimann/btcpayserver-plugin-lnbank/blob/master/CHANGELOG.md) releases which incorporates the new "Hide Sensitive Info" setting and adds wallet balance graphs. A better admin overview of LNBank Wallets, what’s the current balance of those who use LNBank on your BTCPay Server instance. Users will now be warned when LNBank liabilities exceed the Lightning Node’s balance, API Access to LNBank wallets and LNURL Withdraw support has been added, which allows configurable LNURL withdrawal access per wallet. 
 
-![BTCPay Server custom roles](/images/BTCPayServerRoles.gif)
+![BTCPay Server Hide sensitive info](/images/BTCPayServerHiden.gif)
 
 ### Nostr plugin 
 
