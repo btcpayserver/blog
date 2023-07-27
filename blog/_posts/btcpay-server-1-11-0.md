@@ -9,7 +9,7 @@ tags:
   - "release"
   - "Forms"
   - "Reports"
-coverImage: "/images/BTCPayServer-1-11-thumbnail.png"
+coverImage: "/images/1-11/image1.png"
 ---
 
 We are thrilled to unveil the latest major update of BTCPay Server - **version 1.11**!
