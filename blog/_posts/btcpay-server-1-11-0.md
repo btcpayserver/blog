@@ -26,13 +26,13 @@ We are delighted to announce the launch of our **new reporting feature**, addres
 
 ![BTCPay Server Reports](/images/1-11/image1.png)
 
-The new feature allows you to select the time-frame, type of data and showcase it in a table or raw view. Additionally, the convenience of exporting data to** CSV format**, making data management easier. 
+The new feature allows you to select the time-frame, type of data and showcase it in a table or raw view. Additionally, the convenience of exporting data to **CSV format**, making data management easier. 
 
 Built with extensibility in mind, this feature can be further **enhanced by plugins**, giving developers the potential to customize the reporting experience even further. Sorting is available for all columns, allowing you an easier way to organize your data.
 
 Currently we offer three types of **predefined reports**:
 
-* **Payments ** - grouped by currency, payment-method or lightning address
+* **Payments** - grouped by currency, payment-method or lightning address
 * **On-chain wallet** - offering grouped overview per wallet and payment method
 * **Products sold (POS app)** - providing a grouped view per app, currency, product, summarizing quantity and amount per product and even showcasing the processing vs settled invoices, for accurate reporting.
 
@@ -50,11 +50,11 @@ Last month, the entire BTCPay Server team had the fantastic opportunity to gathe
 
 We owe a huge thanks to Kx from Paralelni, who oversees the POS, for being incredibly supportive and providing invaluable feedback. In fact, Kx's feedback was so significant that we could have easily named this release the “'Kx’s release”!
 
-Firstly, the POS** cart view received a redesign**. It’s now cleaner, faster and follows our design guidelines.
+Firstly, the POS **cart view received a redesign**. It’s now cleaner, faster and follows our design guidelines.
 
 ![BTCPay Server Revamped POS](/images/1-11/image3.png)
 
-With this update, we’re introducing **product categories,** which allow you to group items from the POS for easier access. You can add categories when creating a new item, or simply assign to a category you’ve earlier added. We’ve also added **labels **to indicate when an item is running out of stock, sold out or when it’s a freebie.
+With this update, we’re introducing **product categories**, which allow you to group items from the POS for easier access. You can add categories when creating a new item, or simply assign to a category you’ve earlier added. We’ve also added **labels** to indicate when an item is running out of stock, sold out or when it’s a freebie.
 
 Invoices view now includes **payment method icons**, to help easier distinguish and troubleshoot a problem with an invoice when working with a point of sale. The ability to upload your **files directly from the POS editor** has also been shipped with this release.
 
@@ -86,7 +86,7 @@ We’ve also added support for Serbian Dinar (**RSD**) and Uganda Shilling (**UG
 
 ## 💪Forms on steroids
 
-The **form system** introduced in [1.8.0](https://blog.btcpayserver.org/btcpay-server-1-8-0/) has gained even more useful features. You can now create fields that will adjust the invoice amount, enabling use-cases like asking the user which **shipping method** they’d like to use, charging differently per country, or even offering a **discount **based on user input. Head over to our [form documentation](https://docs.btcpayserver.org/Forms) to see how to make use of this feature
+The **form system** introduced in [1.8.0](https://blog.btcpayserver.org/btcpay-server-1-8-0/) has gained even more useful features. You can now create fields that will adjust the invoice amount, enabling use-cases like asking the user which **shipping method** they’d like to use, charging differently per country, or even offering a **discount** based on user input. Head over to our [form documentation](https://docs.btcpayserver.org/Forms) to see how to make use of this feature
 
 ## 🖇️Integrations
 
