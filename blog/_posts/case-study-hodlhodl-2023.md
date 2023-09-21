@@ -14,7 +14,7 @@ coverImage: "/images/CaseStudyHodlHodl-featured.png"
 
 The [Baltic HoneyBadger](https://baltichoneybadger.com/) conference, celebrated for being the oldest and most focused Bitcoin conference in Europe, identified a substantial shortcoming in its 2022 iteration - the inability for attendees to make payments using bitcoin. Thus, in its 5th year running, [Hodl Hodl](https://hodlhodl.com/), the organizer behind the conference and a reputed bitcoin P2P trading platform, kick-started a collaboration with [BTCPay Server](https://btcpayserver.org/) to streamline bitcoin transactions for its attendees.
 
-![](/images/payingBtcpay_2.20 1.png)
+![](/images/payingBtcpay_2.20_1.png)
 
 The effort ended up launching a tight collaboration within several projects in the industry, such as Bitcoinize, GetAlby, LNbits, PlebTag, Liquid (by Blockstream), LND (by Lightning Labs) and SideShift, putting them under a significant challenge:`
 
