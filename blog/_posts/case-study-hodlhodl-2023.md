@@ -9,7 +9,7 @@ tags:
   - "point of sale"
   - "conference"
   - "research"
-coverImage: "/images/HodlHodl-featured.png"
+coverImage: "/images/CaseStudyHodlHodl-featured.png"
 ---
 
 The [Baltic HoneyBadger](https://baltichoneybadger.com/) conference, celebrated for being the oldest and most focused Bitcoin conference in Europe, identified a substantial shortcoming in its 2022 iteration - the inability for attendees to make payments using bitcoin. Thus, in its 5th year running, [Hodl Hodl](https://hodlhodl.com/), the organizer behind the conference and a reputed bitcoin P2P trading platform, kick-started a collaboration with [BTCPay Server](https://btcpayserver.org/) to streamline bitcoin transactions for its attendees.
