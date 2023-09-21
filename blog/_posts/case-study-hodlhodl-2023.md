@@ -24,7 +24,7 @@ The effort ended up launching a tight collaboration within several projects in t
 
 Addressable concerns of the merchants were bitcoin's volatility, technical complexity and doubt that customers had bitcoin to spend.
 
-![](/images/buyingColdCard_2.21 1.png)
+![](/images/bbuyingColdCard_2.21_1.png)
 
 These concerns were addressed by hypothesizing that:
 
@@ -41,7 +41,7 @@ BTCPay Server provides a plethora of rich features by default but also offers a 
 - **Payout Processors** - allows processing of payments using a configured criteria, for example - a timer.
 - **Sideshift plugin** - allows conversion of the funds to other assets, such as the Tether stablecoin issued over the Liquid Network. This plugin interacted with the Prism plugin by providing a destination for Prism, which would take the incoming lightning funds and forward them to the merchant's Liquid wallet.
 
-![](/images/projectMap 1.png)
+![](/images/projectMap.png)
 
 A multi-step procedure was established:
 
@@ -73,7 +73,7 @@ Ensuring attendees had access to bitcoin for making purchases was paramount. BTC
 
 Every guest received a custom designed, event-specific card to enrich their paying experience. The card illustrated a honey badger whose eyes would light up every time the NFC cards came in contact with a point of sale device - which made the experience not only easy but also fun.
 
-![](/images/Group 2.png)
+![](/images/Group2.png)
 
 
 **Furthermore, when customers use an NFC card, no internet access is needed on their end**
@@ -90,7 +90,7 @@ In a survey conducted after the event, on a scale from very complicated (1) to v
 
 The onboarding included a short person to person explanation on how to use a device, providing the merchant with a sticker to receive tips and asking them to join a group chat where they could raise their concern in case of a problem or simply ask a question. This communication channel turned out to be fruitful not only because the team could react rapidly in case of a problem, but also because of the feedback merchants provided.
 
-![](/images/truck-close_2.17 1.png)
+![](/images/truck-close.png)
 
 ## Results
 
