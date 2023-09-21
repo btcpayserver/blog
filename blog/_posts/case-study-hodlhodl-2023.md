@@ -24,7 +24,7 @@ The effort ended up launching a tight collaboration within several projects in t
 
 Addressable concerns of the merchants were bitcoin's volatility, technical complexity and doubt that customers had bitcoin to spend.
 
-![](/images/bbuyingColdCard_2.21_1.png)
+![](/images/buyingColdCard_2.21_1.png)
 
 These concerns were addressed by hypothesizing that:
 
@@ -66,7 +66,6 @@ To demystify Bitcoin transactions for the merchants, Hod lHodl introduced point-
 
 ![](/images/CaseStudyHodlHodl-survey-2.png)
 
-
 ## Ensuring customers have bitcoin to pay
 
 Ensuring attendees had access to bitcoin for making purchases was paramount. BTCPay Server checkout page is compatible with NFC with tap to pay. Thanks to [LNBits](https://lnbits.com/) and [PlebTag](https://plebtag.com/) over 500 NFC voucher cards have been created and pre-loaded with approximately 21$ USD worth of bitcoin.
@@ -74,7 +73,6 @@ Ensuring attendees had access to bitcoin for making purchases was paramount. BTC
 Every guest received a custom designed, event-specific card to enrich their paying experience. The card illustrated a honey badger whose eyes would light up every time the NFC cards came in contact with a point of sale device - which made the experience not only easy but also fun.
 
 ![](/images/Group2.png)
-
 
 **Furthermore, when customers use an NFC card, no internet access is needed on their end**
 
@@ -84,7 +82,7 @@ This can sometimes be a challenge at large conferences. An increase of the engag
 
 Even though this step seemed to be the biggest fear before the project kick-started in practice it turned out to be the smoothest. Due to all the earlier efforts in making the experience familiar and easy, 20 merchants were onboarded in under an hour by the BTCPay Server team. 
 
-![](/images/CaseStudyHodlHodl-survey-3)
+![](/images/CaseStudyHodlHodl-survey-3.png)
 
 In a survey conducted after the event, on a scale from very complicated (1) to very simple (5) 83.3% of merchants rated the onboarding experience as very simple.
 
