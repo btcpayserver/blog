@@ -14,11 +14,11 @@ tags:
 coverImage: "/images/case-study-technical-prism-sideshift/technical-case-study-cover.png"
 ---
 
-Recently, we published [a case study highlighting the success of the Baltic Honey Badger 2023 conference](https://blog.btcpayserver.org/case-study-hodlhodl-2023/). At this event, merchants exclusively used Bitcoin to facilitate payments for food and drinks.
+Recently, we published [a case study highlighting the success of the Baltic Honey Badger 2023](https://blog.btcpayserver.org/case-study-hodlhodl-2023/) - a Bitcoin conference where all merchants exclusively used Bitcoin to facilitate payments for food and drinks.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mDeuHh9gqQM?si=I8pO_Ed5lQUm8m65" title="Case Study: How Hodl Hodl used BTCPay to enable 20 merchants at a conference to accept bitcoin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-In this post, we're diving behind the scenes of that success. We'll provide a step-by-step blueprint on how you can replicate this – by setting up a BTCPay Server and providing individual stores for each merchant. 
+In this post, we're diving behind the scenes of what happened. We'll provide a step-by-step guide on how you can replicate this – by setting up a BTCPay Server and providing individual stores for each merchant.
 
 All technology necessary for this setup is under MIT license, and code is fully available on GitHub:
 
@@ -27,7 +27,7 @@ All technology necessary for this setup is under MIT license, and code is fully 
 
 ## Launch Your BTCPay Server Instance
 
-Before anything else, you’ll need to ensure you have a BTCPay Server instance running. Fortunately, several reputable hosting providers now offer BTCPay Server as a service. Our [Deploying BTCPay Server documentation](https://docs.btcpayserver.org/Deployment/webdeployment/) lists six noteworthy options:
+Before anything else, you’ll need to ensure you have a BTCPay Server instance running. Fortunately, several reputable hosting providers now provide wizards that make this very easy. Our [Deploying BTCPay Server documentation](https://docs.btcpayserver.org/Deployment/webdeployment/) lists six noteworthy options:
 
 - LunaNode
 - Voltage Cloud
@@ -36,7 +36,7 @@ Before anything else, you’ll need to ensure you have a BTCPay Server instance 
 - Azure
 - Google Cloud
 
-For the purposes of this guide, we'll use LunaNode. It’s [the oldest web wizard that supports BTCPay Server deployments](https://docs.btcpayserver.org/Deployment/LunaNode/), all for a reasonable monthly fee of just over $15.
+For the purposes of this guide, we'll use LunaNode. It’s [the oldest web wizard that supports BTCPay Server deployments](https://docs.btcpayserver.org/Deployment/LunaNode/), all for a reasonable monthly fee of around $15.
 
 Start by registering an account with LunaNode. Create your API keys, then proceed to <https://launchbtcpay.lunanode.com>.
 
@@ -45,7 +45,7 @@ Our [Deploying BTCPay - LunaNode Web-Wizard](https://docs.btcpayserver.org/Deplo
 
 ## Account Creation and Plugin Installation
 
-With your instance now active and ready, create the main administrative [account ](https://docs.btcpayserver.org/RegisterAccount/)and log in. Upon successful login, you'll be prompted to [create a store](https://docs.btcpayserver.org/CreateStore/). Consider this as your primary store for demonstration and initial testing, ensuring you're familiar with the system before onboarding the merchants.
+With your instance now active and ready, create the main administrative [account](https://docs.btcpayserver.org/RegisterAccount/) and log in. Upon this being successful completed, you'll be prompted to [create a store](https://docs.btcpayserver.org/CreateStore/). Use this store as your primary one - for demonstration and initial testing. This way you can ensure you're familiar with the system before onboarding the merchants.
 
 Next, turn your attention to the necessary plugins. Navigate to the 'Manage Plugins' page and install the following:
 
@@ -59,9 +59,9 @@ Once you've added these plugins, you'll be prompted to restart the server. Kindl
 
 ## Setting Up Your Demo Store
 
-To make certain your store operates smoothly, a few configurations are required:
+To make certain your the upcoming setup operates smoothly, a few configurations are required:
 
-Access the 'Settings -> Rates' and configure the spread to around 2%. This adjustment aims to accommodate transaction fees.
+Access the 'Settings -> Rates' and configure the spread to around 2%. This adjustment aims to cover Sideshift transaction fees.
 
 ![](/images/case-study-technical-prism-sideshift/02_setting_up_store_settings_rates.png)
 
@@ -72,8 +72,9 @@ Furthermore, visit 'Settings > Payout Processors'. Here, configure the Payout Pr
 
 ## Harnessing the Power of Lightning Payments
 
-Each BTCPay Server comes with an integrated Lightning node, empowering you to accept Bitcoin via Lightning. But to actually start doing receiving sats - you would need to open channels and manage incoming liquidity.\
-That's precisely why BTCPay provides support for connecting to remote nodes using different standards. For this guide we will use LNDHub to connect to Alby account. This approach is especially beneficial for those less tech-savvy - merchants can quickly get setup, sidestepping complexities of the Lightning network.
+Each BTCPay Server comes with an integrated Lightning node, empowering you to accept Bitcoin via Lightning. But to actually start doing receiving sats - you would need to open channels and manage incoming liquidity.
+
+That's precisely why BTCPay provides support for connecting to remote nodes using different standards. For this guide we will use LNDHub to connect to Alby account. This approach is beneficial for those less tech-savvy - merchants can quickly get setup, sidestepping complexities of the Lightning network.
 
 Here's how you can set it up:
 
@@ -87,7 +88,8 @@ Here's how you can set it up:
 
 Voila! Merchants are now set to receive lightning payments, while Alby handles the details of managing liquidity since their node is being utilized.
 
-It is worthy to note that you as the administrator of the BTCPay Server will have access to funds in the merchant's Alby account through the LNDHub credentials.\
+It is worthy to note that you as the administrator of the BTCPay Server will have access to funds in the merchant's Alby account through the LNDHub connection string.
+
 This is why in the next step we will set up a Prism. The idea being that Bitcoin remains on Alby only until it reaches a certain threshold (we suggest 100,000 sats). Once this amount accrues, it should get forwarded to a destination under the merchant's (could be another lightning address).
 
 
@@ -112,7 +114,8 @@ Once you install the wallet, ensure that seed phrase is backed up. Then tap on t
 
 Before we proceed further we need to generate a Sideshift destination which will convert 80% of incoming sats into USDT on Liquid. An important caveat here is that both your location and the BTCPay Server's hosting site need to be outside of the US. SideShift's operations don't extend to US territories, and attempting access will trigger an 'Access denied' notification.
 
-Beyond that, be aware that each conversion incurs around 2% for Sideshift fee + on-chain transaction fee . So for every 1000 sats, you’ll be paying 20 in order for merchants to receive stablecoin in their Green Wallet.\
+Beyond that, be aware that each conversion incurs around 2% for Sideshift fee + on-chain transaction fee . So for every 1000 sats, you’ll be paying 20 in order for merchants to receive stablecoin in their Green Wallet.
+
 On top of that you need to be aware of Lightning routing fees. Alby right now doesn’t take any percentage for incoming payments, but while forwarding sats from Alby node to Sideshift - you may see \~0.5% fees charged depending on channels used. We’ll talk more about this in the following sections - where we will also be able to configure maximum fees we’re willing to pay.
 
 For now - let’s get back to setup:
