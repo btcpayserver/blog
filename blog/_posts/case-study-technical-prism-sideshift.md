@@ -16,7 +16,7 @@ coverImage: "/images/case-study-technical-prism-sideshift/technical-case-study-c
 
 Recently, we published [a case study highlighting the success of the Baltic Honey Badger 2023 conference](https://blog.btcpayserver.org/case-study-hodlhodl-2023/). At this event, merchants exclusively used Bitcoin to facilitate payments for food and drinks.
 
-[Case Study: How Hodl Hodl used BTCPay to enable 20 merchants at a conference to accept bitcoin](https://www.youtube.com/watch?v=mDeuHh9gqQM)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mDeuHh9gqQM?si=I8pO_Ed5lQUm8m65" title="Case Study: How Hodl Hodl used BTCPay to enable 20 merchants at a conference to accept bitcoin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 In this post, we're diving behind the scenes of that success. We'll provide a step-by-step blueprint on how you can replicate this – by setting up a BTCPay Server and providing individual stores for each merchant. 
 
