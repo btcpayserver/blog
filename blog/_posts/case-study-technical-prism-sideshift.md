@@ -11,10 +11,8 @@ tags:
   - "merchants"
   - "sideshift"
   - "prism"
-coverImage: "/images/CaseStudyHodlHodl-featured.png"
+coverImage: "/images/case-study-technical-prism-sideshift/technical-case-study-cover.png"
 ---
-
-Technical Case Study: How to enable Bitcoin payments for merchants at events using BTCPay Server
 
 Recently, we published [a case study highlighting the success of the Baltic Honey Badger 2023 conference](https://blog.btcpayserver.org/case-study-hodlhodl-2023/). At this event, merchants exclusively used Bitcoin to facilitate payments for food and drinks.
 
@@ -26,9 +24,6 @@ All technology necessary for this setup is under MIT license, and code is fully 
 
 - [BTCPay repositories](https://github.com/btcpayserver/btcpayserver) contain the code for Server itself
 - [MrKukks Plugins repository](https://github.com/Kukks/BTCPayServerPlugins/) contains code for Prism and Sideshift plugins we’ll use
-
-Ready to delve in?
-
 
 ## Launch Your BTCPay Server Instance
 
