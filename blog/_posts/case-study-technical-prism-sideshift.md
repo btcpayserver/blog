@@ -189,3 +189,9 @@ The showcased setup allows you to easily onboard any number of merchants with a 
 Reflecting on our real-world application of this setup at the Baltic Honey Badger 2023 event in Riga, it's noteworthy to mention that onboarding 20 merchants didn't place any discernible load on the server. Seemingly we could’ve handled orders of magnitude more without any problems.
 
 If you decide to implement this setup for your event, we would love to hear from you! Especially if you venture beyond the 20-merchant mark that we have set. We would love to create and showcase a list of all those that have helped in the battle of taking payment volumes over from legacy fiat rails onto the Bitcoin Lightning network.
+
+## Video Guide
+
+If you would rather watch a video than read a blog post, you're in luck! 
+
+[![Video Guide of Technical Case Study](https://img.youtube.com/vi/mDeuHh9gqQM/mqdefault.jpg)](https://www.youtube.com/watch?v=xfGqSVu_SgI)
