@@ -194,4 +194,4 @@ If you decide to implement this setup for your event, we would love to hear from
 
 If you would rather watch a video than read a blog post, you're in luck! 
 
-[![Video Guide of Technical Case Study](https://img.youtube.com/vi/mDeuHh9gqQM/mqdefault.jpg)](https://www.youtube.com/watch?v=xfGqSVu_SgI)
+[![Video Guide of Technical Case Study](https://img.youtube.com/vi/xfGqSVu_SgI/mqdefault.jpg)](https://www.youtube.com/watch?v=xfGqSVu_SgI)
