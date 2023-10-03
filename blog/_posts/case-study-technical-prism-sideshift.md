@@ -16,7 +16,7 @@ coverImage: "/images/case-study-technical-prism-sideshift/technical-case-study-c
 
 Recently, we published [a case study highlighting the success of the Baltic Honey Badger 2023](https://blog.btcpayserver.org/case-study-hodlhodl-2023/) - a Bitcoin conference where all merchants exclusively used Bitcoin to facilitate payments for food and drinks.
 
-[![Case Study Riga](https://img.youtube.com/vi/mDeuHh9gqQM/mqdefault.jpg)](https://www.youtube.com/watch?v= mDeuHh9gqQM)
+[![Case Study Riga](https://img.youtube.com/vi/mDeuHh9gqQM/mqdefault.jpg)](https://www.youtube.com/watch?v=mDeuHh9gqQM)
 
 In this post, we're diving behind the scenes of what happened. We'll provide a step-by-step guide on how you can replicate this – by setting up a BTCPay Server and providing individual stores for each merchant.
 
