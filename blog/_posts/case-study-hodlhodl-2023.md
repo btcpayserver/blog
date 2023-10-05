@@ -124,4 +124,4 @@ The significant number of transactions processed and the positive feedback recei
 
 [The success story](https://x.com/hodlhodl/status/1701624248849039760) from the Baltic HoneyBadger conference could serve as a blueprint for similar events and potentially for a broader array of retail businesses looking to integrate bitcoin into their operations seamlessly.
 
-You can download a PDF of this case study on this link.
+You can [download a PDF of this case study on this link](https://btcpayserver.org/case-studies/hodlhodl2023.pdf).
