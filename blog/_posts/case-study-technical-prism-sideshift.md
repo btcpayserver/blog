@@ -25,6 +25,12 @@ All technology necessary for this setup is under MIT license, and code is fully 
 - [BTCPay repositories](https://github.com/btcpayserver/btcpayserver) contain the code for Server itself
 - [MrKukks Plugins repository](https://github.com/Kukks/BTCPayServerPlugins/) contains code for Prism and Sideshift plugins we’ll use
 
+## Video Guide
+
+If you would rather watch a video than read a blog post, you're in luck! You can watch Rockstar Dev execute the instructions from this video and show the setup in action. 
+
+[![Video Guide of Technical Case Study](https://img.youtube.com/vi/VwqobYi5nvw/mqdefault.jpg)](https://www.youtube.com/watch?v=VwqobYi5nvw)
+
 ## Launch Your BTCPay Server Instance
 
 Before anything else, you’ll need to ensure you have a BTCPay Server instance running. Fortunately, several reputable hosting providers now provide wizards that make this very easy. Our [Deploying BTCPay Server documentation](https://docs.btcpayserver.org/Deployment/webdeployment/) lists six noteworthy options:
@@ -189,9 +195,3 @@ The showcased setup allows you to easily onboard any number of merchants with a 
 Reflecting on our real-world application of this setup at the Baltic Honey Badger 2023 event in Riga, it's noteworthy to mention that onboarding 20 merchants didn't place any discernible load on the server. Seemingly we could’ve handled orders of magnitude more without any problems.
 
 If you decide to implement this setup for your event, we would love to hear from you! Especially if you venture beyond the 20-merchant mark that we have set. We would love to create and showcase a list of all those that have helped in the battle of taking payment volumes over from legacy fiat rails onto the Bitcoin Lightning network.
-
-## Video Guide
-
-If you would rather watch a video than read a blog post, you're in luck! 
-
-[![Video Guide of Technical Case Study](https://img.youtube.com/vi/xfGqSVu_SgI/mqdefault.jpg)](https://www.youtube.com/watch?v=xfGqSVu_SgI)
