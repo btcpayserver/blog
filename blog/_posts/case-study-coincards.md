@@ -9,12 +9,12 @@ tags:
   - "woocommerce"
   - "merchants"
   - "research"
-coverImage: "/images/coincardscasestudy-featured"
+coverImage: "/images/coincardscasestudy-featured.png"
 ---
 
 Established in 2014 in Vancouver, British Columbia, [Coincards](https://coincards.com) had one main goal: to make it easier for people to use Bitcoin in their everyday lives. The Woocommerce-powered platform makes it simple for folks to buy gift cards from a wide range of popular retailers using Bitcoin. It’s not just about offering another way to spend Bitcoin; it’s about giving it real-world utility. By doing this, they made it simpler for everyday users to tap into the world of Bitcoin.
 
-![](/images/coincardscasestudy-featured)
+![](/images/coincardscasestudy-featured.png)
 
 ## Needs and Goals: 
 
