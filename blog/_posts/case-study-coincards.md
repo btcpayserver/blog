@@ -14,6 +14,8 @@ coverImage: "/images/coincardscasestudy-featured.png"
 
 Established in 2014 in Vancouver, British Columbia, [Coincards](https://coincards.com) had one main goal: to make it easier for people to use Bitcoin in their everyday lives. The Woocommerce-powered platform makes it simple for folks to buy gift cards from a wide range of popular retailers using Bitcoin. It’s not just about offering another way to spend Bitcoin; it’s about giving it real-world utility. By doing this, they made it simpler for everyday users to tap into the world of Bitcoin.
 
+You can [download a PDF of this case study on this link](https://btcpayserver.org/case-studies/coincards2023.pdf).
+
 ## Needs and Goals: 
 
 At its core, Coincards is all about getting more people to use Bitcoin in their everyday lives. In their early stages, Coincards grappled with the limitations of traditional payment processors. These systems either wielded excessive control over funds or imposed exorbitant fees, both of which were antithetical to Coincards' ethos. On top of that, the older systems they used had complicated and buggy address reuse issues, causing a lot of headaches and wasted time. So, they set out to find a better way—one that would give them more control over their Bitcoin and cut down on operational costs.
@@ -73,3 +75,5 @@ Then there was the hurdle of the wallet gap limit—a concern that could serious
 We found out pretty quickly that BTCPay Server is more than just code—it's a community. People from all over chime in with advice, share learning resources, and even roll up their sleeves to improve the software. It's not a static thing; it's a living, evolving ecosystem. This kind of support network doesn't just make the tech better; it makes running a Bitcoin-focused business like ours a whole lot easier. - Mike from Coincards
 
 **Future Prospects**: Looking ahead, Coincards has its eyes set on some big goals. First up, they're itching to get into fresh markets, with** Australia and the Eurozone being next on the map. And they're not just about growing bigger; they're about making Bitcoin more mainstream. Instead of focusing only on Bitcoin as an investment, they're keen on showing people it can be used for everyday stuff, too. They're doing this by backing worldwide conferences, meetups and events that show off how Bitcoin can be used in daily transactions.
+
+You can [download a PDF of this case study on this link](https://btcpayserver.org/case-studies/coincards2023.pdf).
