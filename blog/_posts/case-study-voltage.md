@@ -1,7 +1,7 @@
 ---
 title: "World's Fastest BTCPay Deployments with Voltage - generating over 45,000 invoices per month!"
-date: 2023-11-16
-author: Pavlenex, Webworthy
+date: 2023-11-17
+author: Pavlenex, Webworthy, Bobby Shell
 category:
   - "stories"
 tags:
@@ -43,12 +43,12 @@ Nearly all other Bitcoin commerce solutions have some custodial KYC component. T
 
 **An improvement over the previous system**: BTCPay Server has been a part of Voltage since day one. It was deployed as the primary software to accept Bitcoin payments from Voltage’s first customers and has stayed with us ever since. Shortly after launch, BTCPayServer user accounts were offered as an additional service to Voltage users at a low cost and we still do to this day.
 
-![](/images/VoltageCaseStudy-5.png)
-
 ## Results
 - Outcomes: Simple BTC payment checkout for our customers + now all of our customers can spin up a BTCPay instance in minutes and deploy without technical know-how.
 - Data: As of October 2023 Voltage is doing 45,000+ transactions monthly. 
 - User Feedback: We made a video series from some of our customers. You can watch those [here](https://www.youtube.com/watch?v=1W8FixsefHY), and [here](https://www.youtube.com/watch?v=mL7mZ542Vhs&t=118s).
+
+![](/images/VoltageCaseStudy-5.png)
 
 ## Conclusion
 
