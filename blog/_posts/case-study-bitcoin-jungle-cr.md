@@ -14,7 +14,7 @@ coverImage: "/images/bitcoin-jungle-cr-featured.png"
 
 [Bitcoin Jungle](https://www.bitcoinjungle.app/) is a community project in Costa Rica that provides the education, technology & resources needed for local businesses to accept Bitcoin as payment. Our goal is to create, expand & maintain a circular Bitcoin economy in Costa Rica. We want to make it as easy as possible for merchants to accept Bitcoin as payment, both on-chain and over lightning. This includes both physical retail & e-commerce, sole proprietors & large enterprises, long-time hodlers & first time users, and everything in between. 
 
-You can [download a PDF of this case study on this link](https://btcpayserver.org/case-studies/voltage2023.pdf).
+You can [download a PDF of this case study on this link](https://btcpayserver.org/case-studies/BitcoinJungleCR2023.pdf).
 
 BTCPay Server was a natural choice for us. It’s a well-designed & mature product that “just works”. It’s intuitive enough that anyone can use it, while having the depth needed to satisfy more advanced users. It’s stable enough to deploy without constant worrying, yet innovate enough to continue adding new features without making the product worse overall.
 
@@ -47,4 +47,4 @@ Our single BTCPay Server instance ~**200 stores** supports , totalling ~5k invoi
 
 One thing we learned was that it’s crucial to allow users to pay on-chain, even if you prefer Lightning Network. We’ve found some visitors to our circular economy don’t yet have a Lightning wallet. They see the Bitcoin Accepted Here sticker at a store, get excited because they have Bitcoin (usually on Coinbase), but then scan a Lightning QR and can’t pay the merchant. Once we added On-chain capabilities for merchants using BTCPay Server, we noticed an uptick in payments.
 
-You can [download a PDF of this case study on this link](https://btcpayserver.org/case-studies/voltage2023.pdf).
+You can [download a PDF of this case study on this link](https://btcpayserver.org/case-studies/BitcoinJungleCR2023.pdf).
