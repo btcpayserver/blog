@@ -77,7 +77,7 @@ Overall, the integration was very straight-forward. The main challenge we faced 
 Prior to our BTCPay Server integration, we only offered a Payment Link to our users (e.g. https://pay.bitcoinjungle.app/username), which is powered by Galoy.
 This integration greatly enhanced the user experience for merchants. BTCPay Server allows them to create multiple Point of Sales (say if they have multiple locations) and track them separately, integrate with popular ecommerce platforms, have a login to view/export invoices to Excel for accounting, and accept payments on-chain in addition to Lightning.
 
-![](/images/Strainly-4 copy.png)
+![](/images/Strainly-3.png)
 
 ## Results
 
