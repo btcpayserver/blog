@@ -16,7 +16,6 @@ coverImage: "/images/strainly-featured.png"
 
 You can [download a PDF of this case study on this link](https://btcpayserver.org/case-studies/Strainly2023.pdf).
 
-
 ## Needs and Goals
 
 Hemp breeders face significant friction when it comes to promoting and selling their genetics (seeds, clones, pollen). Social media platforms wage a war on this industry, constantly shutting down or shadow-banning accounts. 
@@ -61,31 +60,24 @@ After a couple of months, it became clear that BTCPay Server was a reliable enou
 * **User Feedback**: Some users (no-coiners) were initially confused but overall this has been well accepted and some users only accept using our integrated system as a payment method. 
 
 
-
-
-
-
-
-
-
 BTCPay Server was a natural choice for us. It’s a well-designed & mature product that “just works”. It’s intuitive enough that anyone can use it, while having the depth needed to satisfy more advanced users. It’s stable enough to deploy without constant worrying, yet innovate enough to continue adding new features without making the product worse overall.
 
 Whenever a payment is collected on BTCPay Server, it should be immediately forwarded to that user’s Bitcoin Jungle wallet. To achieve this, we leveraged BTCPay Server’s Webhooks feature. Each time an **invoice is paid**, a **webhook is triggered**. This webhook is responsible for forwarding the Bitcoin received in the merchant’s wallet using the LNURL protocol. The webhook also allows us to split up the Bitcoin in various ways - the service provider can **optionally retain a processing fee & tips received** can be split up and delivered amongst staff members evenly. This happens in under a second and is perceived to be “real-time” by the merchant.
 
-![](/images/BitcoinJunglecr1.jpg)
+![](/images/Strainly-1.png)
 
 We also wanted our BTCPay Server to use the BTC/CRC price set by Bitcoin Jungle Wallet, to avoid mis-match in fiat calculations between the Point of Sale and the Wallet. To achieve this, we created a **custom rate provider** in our BTCPay Server instance. This was a straightforward process - copy an existing rate provider & then modify the code to make a RPC call to Bitcoin Jungle to retrieve the current price of BTC.
 
 Overall, the integration was very straight-forward. The main challenge we faced was the handling of on-chain payments received, as we decided to forward all payments over Lightning Network. We automated this case utilizing **Lightning Loop**.
 
-![](/images/BitcoinJunglecr2.jpg)
+![](/images/Strainly-2.png)
 
 ## Features and Benefits
 
 Prior to our BTCPay Server integration, we only offered a Payment Link to our users (e.g. https://pay.bitcoinjungle.app/username), which is powered by Galoy.
 This integration greatly enhanced the user experience for merchants. BTCPay Server allows them to create multiple Point of Sales (say if they have multiple locations) and track them separately, integrate with popular ecommerce platforms, have a login to view/export invoices to Excel for accounting, and accept payments on-chain in addition to Lightning.
 
-![](/images/BitcoinJunglecr3.jpg)
+![](/images/Strainly-4 copy.png)
 
 ## Results
 
@@ -93,10 +85,10 @@ We have received far fewer support requests than expected after our integration 
 
 Our single BTCPay Server instance ~**200 stores** supports , totalling ~5k invoices to date. It continues scaling efficiently without any issue.
 
-![](/images/BitcoinJunglecr4.jpg)
+![](/images/Strainly-4.png)
 
 ## Conclusion
 
 One thing we learned was that it’s crucial to allow users to pay on-chain, even if you prefer Lightning Network. We’ve found some visitors to our circular economy don’t yet have a Lightning wallet. They see the Bitcoin Accepted Here sticker at a store, get excited because they have Bitcoin (usually on Coinbase), but then scan a Lightning QR and can’t pay the merchant. Once we added On-chain capabilities for merchants using BTCPay Server, we noticed an uptick in payments.
 
-You can [download a PDF of this case study on this link](https://btcpayserver.org/case-studies/BitcoinJungleCR2023.pdf).
+You can [download a PDF of this case study on this link](https://btcpayserver.org/case-studies/Strainly2023.pdf).
