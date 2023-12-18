@@ -1,6 +1,6 @@
 ---
 title: "Empowering hemp growers and breeders: How Strainly leveraged BTCPay Server to enable peer-to-peer and private payments at scale"
-date: 2023-12-14
+date: 2023-12-18
 author: Pavlenex, Webworthy
 category:
   - "stories"
