@@ -7,8 +7,8 @@ category:
 tags:
   - "case-study"
   - "privacy"
-  - "circular-economy"
-  - "point of sale"
+  - "API"
+  - "development"
 coverImage: "/images/strainly-featured.png"
 ---
 
