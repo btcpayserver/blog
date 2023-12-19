@@ -9,7 +9,7 @@ tags:
   - "release"
   - "pos"
   - "boltcard"
-coverImage: "/images/BTCPayServer-1-10-thumbnail.png"
+coverImage: "/images/btcpay1-9-0-thumbnail.png"
 ---
 
 We are excited to announce the latest release of BTCPay Server, version **1.12.0**! This release brings several important backend changes, solidifies structure for the future, introduces several new features, improvements, and bug fixes.
