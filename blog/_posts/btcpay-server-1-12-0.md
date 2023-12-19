@@ -37,6 +37,8 @@ As Postgresql 11 has reached its end-of-life (EOL) status, we will no longer pro
 
 ## 🎉 New features
 
+Full changelog can be found [here](https://github.com/btcpayserver/btcpayserver/releases/tag/v1.12.0)
+
 ### 🛍️ Point of Sale improvements
 
 Based on extensive [research](https://blog.btcpayserver.org/case-study-hodlhodl-2023/) and feedback we continuously receive from people around the world onboarding retailers, we’re bringing in several important UX/UI enhancements in 1.12.0.
@@ -62,7 +64,7 @@ In case of [too many categories](https://blog.btcpayserver.org/btcpay-server-1-1
 
 Inspired by the success of circular economies using BTCPay on physical POS devices and NFC cards, we’ve added direct integration of [BoltCard](https://www.boltcard.org) into our Pull Payment system, allowing anyone to issue physical NFC cards. We demonstrated the setup during our BTCPay Day in [Tokyo](https://x.com/BtcpayServer/status/1720707779680464954?s=20), and replicated it during the [AfroBitcoin](https://www.afrobitcoin.org) conference for merchants.
 
-Quite simply, any BTCPay user now has the ability to not only generate NFC cards for spending for their local economies and merchants, but also have an easy way to do that at scale, thanks to our BTCPay Vault, it takes only a few seconds. The cards generated aren’t static. 
+Quite simply, any BTCPay user now has the ability to not only generate NFC cards for spending for their local economies and merchants, but also have an easy way to do that at scale, thanks to our BTCPay Vault, it takes only a few seconds. 
 
 End-users can:
 - Check card balance by scanning a QR code
