@@ -9,7 +9,7 @@ tags:
   - "release"
   - "pos"
   - "boltcard"
-coverImage: "/images/1-12/12featured.png"
+coverImage: "/images/BTCPayServer-1-10-thumbnail.png"
 ---
 
 We are excited to announce the latest release of BTCPay Server, version **1.12.0**! This release brings several important backend changes, solidifies structure for the future, introduces several new features, improvements, and bug fixes.
@@ -118,7 +118,7 @@ Third-party plugins updates:
 - **Prism** 1.1.19 - Now supports onchain. It will be able to forward balances received on chain or lightning to an onchain or lightning destination
 - **Dynamic Reports** 1.0 - Creating customized advanced reports for all your needs as a business.
 
-🚨 Beware of scammers!
+## 🚨 Beware of scammers!
 
 Despite our numerous warnings in the past months, we’re still seeing that people are falling for a scam called [Bitcoin Bonus](https://blog.btcpayserver.org/bitcoin-bonus-scam/) or similar derivative, which is an ongoing scam that abuses our brand and software. Please be aware our team will only reach out to you through our official channels. To be sure you're talking to our team members, ALWAYS join our official mattermost chat and verify if things are as they get proposed through other ways. Pay attention to people sending you direct messages on Telegram. Our team members will never DM you first.
 
