@@ -1,6 +1,6 @@
 ---
 title: "Bitcoin People built a mobile app on top of BTCPay’s API to scale bitcoin to 270 merchants in Italy with a total of €406,283 in transaction volumes"
-date: 2023-12-18
+date: 2024-02-08
 author: Elha, Pavlenex, Webworthy
 category:
   - "stories"
