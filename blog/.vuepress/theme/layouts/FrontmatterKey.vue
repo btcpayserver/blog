@@ -2,7 +2,7 @@
   <div>
     <div class="theme-default-content">
       <h1>BTCPay Server Blog</h1>
-      <h2 v-if="this.$page.path.startsWith('/category/')">Categories</h2>
+      <h2 v-if="$page.path.startsWith('/category/')">Categories</h2>
       <h2 v-else>Authors</h2>
       <div>
         <ul v-for="item in items" :key="item.name">

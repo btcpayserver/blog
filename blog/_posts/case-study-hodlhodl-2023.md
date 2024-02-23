@@ -3,7 +3,7 @@ title: "Case Study: How Hodl Hodl used BTCPay to accept bitcoin payments at a co
 date: 2023-09-21
 author: Pavlenex, Webworthy
 category:
-  - "stories"
+  - "case-studies"
 tags:
   - "case-study"
   - "point of sale"

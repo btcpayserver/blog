@@ -27,8 +27,10 @@ export default {
 <style scoped>
 .categories-list {
   display: flex;
+  flex-wrap: wrap;
+  gap: var(--btcpay-space-xs) var(--btcpay-space-m);
   list-style-type: none;
-  padding: 1rem 3rem;
+  padding: 1rem;
   text-align: center;
   margin-top: -0.5rem !important;
   justify-content: space-around;

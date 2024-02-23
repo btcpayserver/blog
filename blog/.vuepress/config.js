@@ -148,6 +148,7 @@ module.exports = {
     sidebar: [
       ['/', 'Home'],
       ['/category/releases/', 'Releases'],
+      ['/category/case-studies/', 'Case Studies'],
       ['/category/stories/', 'Stories'],
       ['/category/guides/', 'Guides'],
       ['/category/announcements/', 'Announcements'],

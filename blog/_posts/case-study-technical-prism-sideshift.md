@@ -3,7 +3,7 @@ title: "Technical Case Study: How to enable Bitcoin payments for merchants at ev
 date: 2023-10-03
 author: RockstarDev, MrKukks
 category:
-  - "stories"
+  - "case-studies"
 tags:
   - "case-study"
   - "point of sale"
@@ -27,7 +27,7 @@ All technology necessary for this setup is under MIT license, and code is fully 
 
 ## Video Guide
 
-If you would rather watch a video than read a blog post, you're in luck! You can watch Rockstar Dev execute the instructions from this video and show the setup in action. 
+If you would rather watch a video than read a blog post, you're in luck! You can watch Rockstar Dev execute the instructions from this video and show the setup in action.
 
 [![Video Guide of Technical Case Study](https://img.youtube.com/vi/VwqobYi5nvw/mqdefault.jpg)](https://www.youtube.com/watch?v=VwqobYi5nvw)
 

@@ -3,7 +3,7 @@ title: "World's Fastest BTCPay Deployments with Voltage - generating over 45,000
 date: 2023-11-17
 author: Pavlenex, Webworthy, Bobby Shell
 category:
-  - "stories"
+  - "case-studies"
 tags:
   - "case-study"
   - "hosting"
