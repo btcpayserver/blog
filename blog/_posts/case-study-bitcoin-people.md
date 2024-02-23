@@ -3,7 +3,7 @@ title: "Bitcoin People built a mobile app on top of BTCPay’s API to scale bitc
 date: 2024-02-08
 author: Elha, Pavlenex, Webworthy
 category:
-  - "stories"
+  - "case-studies"
 tags:
   - "case-study"
   - "ambasador"
@@ -12,7 +12,7 @@ tags:
 coverImage: "/images/bitcoin-people-featured.png"
 ---
 
-BPay is a mobile app developed with [Flutter](https://flutter.dev/multi-platform/mobile) and BTCPay’s [Greenfield API](https://docs.btcpayserver.org/API/Greenfield/v1/), that helps merchants in Italy accept Bitcoin. The app, which is available for [iOS](https://apps.apple.com/app/bitcoin-people-bpay/id6464040494) and [Android](https://play.google.com/store/apps/details?id=it.bitcoinpeople.pay&pli=1) is developed by [BitcoinPeople.it](https://www.bitcoinpeople.it/), a company that aims to onboard merchants to Bitcoin by offering education, consulting services, training and BTCPay-powered infrastructure technology. 
+BPay is a mobile app developed with [Flutter](https://flutter.dev/multi-platform/mobile) and BTCPay’s [Greenfield API](https://docs.btcpayserver.org/API/Greenfield/v1/), that helps merchants in Italy accept Bitcoin. The app, which is available for [iOS](https://apps.apple.com/app/bitcoin-people-bpay/id6464040494) and [Android](https://play.google.com/store/apps/details?id=it.bitcoinpeople.pay&pli=1) is developed by [BitcoinPeople.it](https://www.bitcoinpeople.it/), a company that aims to onboard merchants to Bitcoin by offering education, consulting services, training and BTCPay-powered infrastructure technology.
 
 ![](/images/BitcoinPeople-1.png)
 
@@ -22,11 +22,11 @@ Being a BTCPay Server host for their clients since 2021,  the company realized t
 
 > Most Bitcoin adopters don’t care about the technicalities and want an easy, native experience without the burden of understanding what is going on under the hood.
 
-The company made a choice to **build an in-house native app** which  allows them to streamline the payment process for clients they are onboarding.  
+The company made a choice to **build an in-house native app** which  allows them to streamline the payment process for clients they are onboarding.
 
 > We are making the most of increasingly powerful APIs to empower an app that uses BTCPay as the back end.
 
-The need for something like BPay arose as the number of merchants using their shared server increased and they needed an app to make the onboarding faster. The goal was to allow for BTCPay usage without the need to know anything about BTCPay Server, Docker, NBXplorer, LND and so on. 
+The need for something like BPay arose as the number of merchants using their shared server increased and they needed an app to make the onboarding faster. The goal was to allow for BTCPay usage without the need to know anything about BTCPay Server, Docker, NBXplorer, LND and so on.
 
 ![](/images/BitcoinPeople-2.png)
 

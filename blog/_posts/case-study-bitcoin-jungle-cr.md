@@ -3,7 +3,7 @@ title: "Bitcoin Jungle enables 200+ stores in Costa Rica to embrace Bitcoin"
 date: 2023-12-1
 author: Pavlenex, Webworthy
 category:
-  - "stories"
+  - "case-studies"
 tags:
   - "case-study"
   - "ambasadors"
@@ -12,7 +12,7 @@ tags:
 coverImage: "/images/bitcoin-jungle-cr-featured.png"
 ---
 
-[Bitcoin Jungle](https://www.bitcoinjungle.app/) is a community project in Costa Rica that provides the education, technology & resources needed for local businesses to accept Bitcoin as payment. Our goal is to create, expand & maintain a circular Bitcoin economy in Costa Rica. We want to make it as easy as possible for merchants to accept Bitcoin as payment, both on-chain and over lightning. This includes both physical retail & e-commerce, sole proprietors & large enterprises, long-time hodlers & first time users, and everything in between. 
+[Bitcoin Jungle](https://www.bitcoinjungle.app/) is a community project in Costa Rica that provides the education, technology & resources needed for local businesses to accept Bitcoin as payment. Our goal is to create, expand & maintain a circular Bitcoin economy in Costa Rica. We want to make it as easy as possible for merchants to accept Bitcoin as payment, both on-chain and over lightning. This includes both physical retail & e-commerce, sole proprietors & large enterprises, long-time hodlers & first time users, and everything in between.
 
 You can [download a PDF of this case study on this link](https://btcpayserver.org/case-studies/BitcoinJungleCR2023.pdf).
 
@@ -37,7 +37,7 @@ This integration greatly enhanced the user experience for merchants. BTCPay Serv
 
 ## Results
 
-We have received far fewer support requests than expected after our integration with BTCPay Server. The whole process is pretty seamless & intuitive. **Any business owner can start accepting Bitcoin payments in <2 minutes**. To date, we haven’t received any feature requests that were not already planned by the BTCPay Server dev team (and almost all have already been implemented). 
+We have received far fewer support requests than expected after our integration with BTCPay Server. The whole process is pretty seamless & intuitive. **Any business owner can start accepting Bitcoin payments in <2 minutes**. To date, we haven’t received any feature requests that were not already planned by the BTCPay Server dev team (and almost all have already been implemented).
 
 Our single BTCPay Server instance ~**200 stores** supports , totalling ~5k invoices to date. It continues scaling efficiently without any issue.
 
