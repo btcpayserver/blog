@@ -14,7 +14,7 @@ coverImage: "/images/bitcoin-atlantis-featured.png"
 
 Held on the island of Madeira, known for its breathtaking landscapes, the [Bitcoin Atlantis](http://bitcoinatlantis.com) conference marked a milestone as the first of its kind hosted in a football stadium. Featuring a rich agenda across four stages, 3 workshop rooms, 200 speakers, and an array of satellite events, the conference attracted over 3,000 attendees, united by a keen interest in Bitcoin and its potential to give freedom and empower individuals and businesses around the world. 
 
-![](/images/BitcoinAtlantis-1.png)
+[![Case Study Atlantis](https://img.youtube.com/vi/9xDPJRgdZhs/mqdefault.jpg)](https://www.youtube.com/watch?v=9xDPJRgdZhs)
 
 This case study explores the collaborative efforts of the conference organizers, BTCPay Server, Bitcoinize, Blink, and HodlHodl to onboard merchants and locals to adopt Bitcoin at the event, streamlining the payment experience resulting in over **8,750 transactions** with a volume of **2.029416** BTC valued **115,100€**, on **60 point-of-sale devices** and **18 merchant**s in just 3 days.
 
@@ -50,7 +50,7 @@ Liquidity issues and channel management on the Lightning Network were addressed 
 
 #### Point of sale terminals
 
-To ensure familiarity and ease of use, every merchant received a dedicated point of sale device, provided by [Bitcoiniz](https://bitcoinize.com). These devices are heavily optimized for BTCPay Server users and allow several key functionalities such as NFC reading and receipt printing. With this combination, customers can tap-to-pay with NFC cards (BoltCards), resulting in familiar UX and a seamless checkout experience as with credit cards.
+To ensure familiarity and ease of use, every merchant received a dedicated point of sale device, provided by [Bitcoinize](https://bitcoinize.com). These devices are heavily optimized for BTCPay Server users and allow several key functionalities such as NFC reading and receipt printing. With this combination, customers can tap-to-pay with NFC cards (BoltCards), resulting in familiar UX and a seamless checkout experience as with credit cards.
 
 ![](/images/BitcoinAtlantis-4.png)
 
