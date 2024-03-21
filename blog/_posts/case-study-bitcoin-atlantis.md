@@ -39,7 +39,6 @@ Implementing a seamless payment experience while navigating challenges involved 
 
 ![](/images/BitcoinAtlantis-3.png)
 
-
 ### The infrastructure
 
 A reliable payment processing system that could handle a large transaction volume without hiccups was achieved through the deployment of a dedicated [BTCPay Server](https://btcpayserver.org) instance. The lightning Network was used for instant and low-cost transaction settlement. Each merchant, had a dedicated store within BTCPay Server created. Each store had a wallet, and a web [point of sale app](https://docs.btcpayserver.org/Apps/#point-of-sale-app) which was loaded on Bitcoinize Point of Sale devices – enabling invoice generation, transaction previews, receipt printing, and refunds. 
@@ -65,7 +64,6 @@ The technical foundations for the BoltCard setup were established by [pull payme
 This demonstrates that BTCPay Server was an end-to-end solution, for receiving payments, and generating the BoltCards that attendees used to pay, top them up, and even reset them for repurposing them later on.
 
 ![](/images/BitcoinAtlantis-6.png)
-
 
 #### Onboarding and support
 
@@ -98,4 +96,4 @@ The overwhelmingly positive feedback from merchants and attendees signals a grow
 
 ![](/images/BitcoinAtlantis-9.png)
 
-You can [download a PDF of this case study on this link](https://btcpayserver.org/case-studies/BitcoinPeople2024.pdf).
+You can [download a PDF of this case study on this link](https://btcpayserver.org/case-studies/BitcoinAtlantis.pdf).
