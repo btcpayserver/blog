@@ -104,7 +104,7 @@ GrandNode is free and open-source e-commerce built on ASP.NET Core framework foc
 
 XenForo is one of the world’s most popular forum software. Our new add-on allows server admins to connect BTCPay with XenForo through the payment profiles. This allows for a great flexibility as any purchase goes through this abstraction for payment processing. While the use-cases can vary, users can now accept Bitcoin for memberships, profile upgrades and more!  The add-on is available for download on [GitHub](https://github.com/btcpayserver/xenforo/releases), offering an easy path for forums to embrace Bitcoin payments and enhance their financial independence.
 
-![](/images/1-13-0XenForo.png)
+![](/images/1-13-0-Xenforo.png)
 
 ### ℹ Other integrations
 
