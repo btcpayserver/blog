@@ -37,19 +37,19 @@
           Baillie Gifford
         </a>
         <a href="https://tether.to" target="_blank" rel="noopener noreferrer">
-          <svg role="img" width="110" height="90"><use href="#supporter-tether"></use></svg>
+          <svg role="img" width="100" height="60" style="padding:5px"><use href="#supporter-tether"></use></svg>
           Tether
         </a>
         <a href="https://hrf.org" target="_blank" rel="noopener noreferrer">
-          <svg role="img" width="110" height="50"><use href="#supporter-hrf"></use></svg>
+          <svg role="img" width="110" height="60"><use href="#supporter-hrf"></use></svg>
           HRF
         </a>
         <a href="https://strike.me" target="_blank" rel="noopener noreferrer">
-          <svg role="img" width="55" height="50"><use href="#supporter-strike"></use></svg>
+          <svg role="img" width="55" height="60"><use href="#supporter-strike"></use></svg>
           Strike
         </a>
         <a href="https://www.lunanode.com/" target="_blank" rel="noopener noreferrer">
-          <svg role="img" width="100" height="100"><use href="#supporter-lunanode"></use></svg>
+          <svg role="img" width="100" height="60" style="padding:5px"><use href="#supporter-lunanode"></use></svg>
           LunaNode
         </a>
         <a href="https://walletofsatoshi.com/" target="_blank" rel="noopener noreferrer">
