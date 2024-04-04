@@ -9,6 +9,7 @@ tags:
   - "documentary"
   - "FOSS"
   - "blocksize wars"
+  - "Nicolas Dorier"
 coverImage: "/images/2024-btcpay-documentary/btcpay-documentary-cover.png"
 ---
 
@@ -17,19 +18,19 @@ Premiere:
 - at [European Halving Party](https://bitcoinfilmfest.com/europeanhalvingparty/)
 - 📌 [Kinoteka, Warsaw Poland](https://maps.app.goo.gl/fegwdRDhNwC3LUUz5)
 
-For years there has been an un-answered post in r/bitcoin, where is the blocksize wars documentary? My Trust In You Is Broken is an attempt to answer a part of that history by telling Nicholas Dorier’s story of starting BTCPay Server.
+For years there has been an un-answered post in r/bitcoin, where is the blocksize wars documentary? My Trust In You Is Broken is an attempt to answer a part of that history by telling Nicolas Dorier’s story of starting BTCPay Server.
 
-[![Play My Trust In You Is Broken - BTCPay Server Documentary](https://img.youtube.com/vi/8ywHizrZfAo/mqdefault.jpg)](https://www.youtube.com/watch?v=8ywHizrZfAo)
+![](/images/2024-btcpay-documentary/blocksizewars-post.png)
 
 In 2017 Bitpay tried to force its users to adopt Segwit2x in collusion with the “big blocker” companies and influencers. This 42 minute feature documentary shows why it’s important to verify your transactions and what can happen if you let others become your trusted 3rd.
 
 Official production began at the Miami Bitcoin Conference of 2023. BTCPay Server Contributors helped many Bitcoin conferences onboard event merchants and new Bitcoiners. Most importantly this story documents the evolution of Bitcoin as a medium of exchange with [Bitcoinize](https://bitcoinize.com/) point-of-sale devices. 
 
+[![Play My Trust In You Is Broken - BTCPay Server Documentary](https://img.youtube.com/vi/8ywHizrZfAo/mqdefault.jpg)](https://www.youtube.com/watch?v=8ywHizrZfAo)
+
 Though most of the filming takes place at Bitcoin events much of the story is told through BTCPay contributor interviews and important moments recorded from 2015 - 2019 on podcasts and keynotes during the blocksize wars. 
 
-The first-ever screening of My Trust In You Is Broken will take place at the [Bitcoin Film Fest in Warsaw, Poland](https://bitcoinfilmfest.com/europeanhalvingparty/). We hope to see you there and if you cannot join the European Halving Party with us, digital tickets to the event will let you watch all of the movies from BFF including My Trust In You Is Broken for 42 days. 
-
-![](/images/2024-btcpay-documentary/blocksizewars-post.png)
+The first-ever screening of My Trust In You Is Broken will take place at the [Bitcoin Film Fest in Warsaw, Poland](https://bitcoinfilmfest.com/europeanhalvingparty/). We hope to see you there and if you cannot join the European Halving Party with us, digital tickets to the event will let you watch all of the movies from BFF including My Trust In You Is Broken for 42 days.
 
 ### Description for Press
 
