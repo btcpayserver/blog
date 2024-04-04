@@ -1,5 +1,5 @@
 ---
-title: "MY TRUST IN YOU IS BROKEN BTCPay Server Feature Documentary Premiere"
+title: "MY TRUST IN YOU IS BROKEN - BTCPay Server Feature Documentary Premiere"
 date: 2024-04-04
 author: WebWorthy
 category:
