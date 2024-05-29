@@ -17,9 +17,9 @@ We are beyond excited to share that "My Trust In You Is Broken" is now available
 
 Following its debut at the [Bitcoin Film Fest in Warsaw, Poland](https://bitcoinfilmfest.com/europeanhalvingparty/), where it proudly won the Audience Choice Award, our documentary has continued to garner attention. Early viewers have shared their impressions online, further building anticipation.
 
-![Reviews from various people on Twitter on #MYTRUSTINYOUISBROKEN](/images/2024-btcpay-documentary/twitter-reviews.png)
+[![Reviews from various people on Twitter on #MYTRUSTINYOUISBROKEN](/images/2024-btcpay-documentary/twitter-reviews.png)](https://x.com/BtcpayServer/status/1781412360051212556)
 
-On May 22nd, we celebrated our New York premiere and simultaneously released the documentary on YouTube. Now, starting May 30th, we are making "My Trust In You Is Broken" available via Torrent on The Pirate Bay. This ensures that everyone, everywhere, can access and watch our documentary.
+On May 22nd, [we celebrated our New York premiere and simultaneously released the documentary on YouTube](https://x.com/BtcpayServer/status/1793433267355488642). Now, starting May 30th, we are making "My Trust In You Is Broken" available via Torrent on The Pirate Bay. This ensures that everyone, everywhere, can access and watch our documentary.
 
 TODO: Replace with IMAGE and LINK - Torrent on The Pirate Bay: Search for "My Trust In You Is Broken BTCPay Documentary" LINK.
 
