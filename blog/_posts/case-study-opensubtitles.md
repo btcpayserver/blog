@@ -38,7 +38,7 @@ To ensure sustainability, there are [several ways](https://www.opensubtitles.org
 
 ## Implementation
 
-The platform utilized BTCPay Server [Docker deployment](https://docs.btcpayserver.org/Docker/) together with the [Greenfield API[(https://docs.btcpayserver.org/API/Greenfield/v1/)] to create an automated flow and upgrade their users through a webhook. Interestingly, they’ve also leveraged the ability to update effortlessly through a command line, by creating a cron job.
+The platform utilized BTCPay Server [Docker deployment](https://docs.btcpayserver.org/Docker/) together with the [Greenfield API](https://docs.btcpayserver.org/API/Greenfield/v1/)] to create an automated flow and upgrade their users through a webhook. Interestingly, they’ve also leveraged the ability to update effortlessly through a command line, by creating a cron job.
 
 > Integrating BTCPay Server was straightforward; our aim was to facilitate donations as well as payments for VIP Memberships and other purposes such as advertising and partnerships with other websites. Webhooks are pivotal in this process; once a transaction is confirmed, users are automatically upgraded to VIP status.
 
