@@ -32,6 +32,7 @@
     "vuepress": "1.9.10",
     "vuepress-plugin-clean-urls": "1.1.2",
     "vuepress-plugin-code-copy": "1.0.6",
+    "vuepress-plugin-feed": "^0.1.9",
     "vuepress-plugin-seo": "0.2.0"
   }
 }

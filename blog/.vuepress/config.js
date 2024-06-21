@@ -1,5 +1,5 @@
-const { capitalize } = require('./filters')
-const { resolve } = require('path')
+const {capitalize} = require('./filters')
+const {resolve} = require('path')
 const implicitFigures = require('markdown-it-implicit-figures')
 const slugify = require('./slugify')
 const preprocessMarkdown = resolve(__dirname, 'preprocessMarkdown')
@@ -21,8 +21,8 @@ module.exports = {
   title,
   description: 'Official BTCPay Server Blog',
   head: [
-    ['link', { rel: 'stylesheet', href: '/styles/btcpayserver-variables.css' }],
-    ['link', { rel: 'shortcut icon', href: '/favicon.ico' }],
+    ['link', {rel: 'stylesheet', href: '/styles/btcpayserver-variables.css'}],
+    ['link', {rel: 'shortcut icon', href: '/favicon.ico'}],
   ],
   chainWebpack(config) {
     config.module
@@ -107,6 +107,11 @@ module.exports = {
         ],
       },
     ],
+    ['feed', {
+      canonical_base: baseUrl,
+      count:6969,
+      sort: entries => entries.sort((a, b) => new Date(b.date) - new Date(a.date)),
+    }]
   ],
   markdown: {
     extendMarkdown(md) {
