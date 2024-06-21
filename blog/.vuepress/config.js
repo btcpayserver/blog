@@ -57,6 +57,9 @@ module.exports = {
     ['@vuepress/medium-zoom'],
     ['@vuepress/blog',
       {
+        feed: {
+          canonical_base: baseUrl,
+         },
         sitemap: {
           hostname: baseUrl,
           exclude: ['/404.html']
