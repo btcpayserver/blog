@@ -6,35 +6,44 @@
     "description": "Official BTCPay Server Blog",
     "items": [
         {
-            "id": "https://blog.btcpayserver.org/1-0-3-128-released/",
-            "url": "https://blog.btcpayserver.org/1-0-3-128-released/",
-            "title": "BTCPay Server 1.0.3.128 released - Inventory management, LN for non-admins, polishing PoS and more!",
-            "summary": "New BTCPay version 1.0.3.128 is out! Besides new features (Inventory managment in Apps and allowing Lightning Network for non-admins), the brand-new release brings in a lot of small improvements and bug fixes.",
-            "image": "https://blog.btcpayserver.org/images/Screen-Shot-2019-09-04-at-11.35.07.png",
-            "date_modified": "2019-09-04T00:00:00.000Z"
+            "id": "https://blog.btcpayserver.org/case-study-opensubtitles/",
+            "url": "https://blog.btcpayserver.org/case-study-opensubtitles/",
+            "title": "How OpenSubtitles, home to over 7 Million subtitles and 8,000 contributors, utilizes BTCPay to facilitate bitcoin payments for memberships and donations",
+            "summary": "Founded in 2006, OpenSubtitles.org is the world's largest resource of movies and TV series subtitles. The website offers subtitles in almost any language imaginable. OpenSubtitles plays a crucial role in making cinematic stories more accessible and enjoyable for people with hearing disabilities and non-native speakers, significantly enriching their viewing experience. Utilizing full-text search capabilities and a unique movie hash system, the website ensures precise results for every search query.",
+            "image": "https://blog.btcpayserver.org/images/opensubtitles-1.png",
+            "date_modified": "2024-06-10T00:00:00.000Z"
         },
         {
-            "id": "https://blog.btcpayserver.org/1-0-3-132-released/",
-            "url": "https://blog.btcpayserver.org/1-0-3-132-released/",
-            "title": "BTCPay Server version 1.0.3.132 released",
-            "summary": "BTCPay Server is relying on SSH to execute scripts to for updating itself (only for docker deployments, like lunanode). For doing this, the BTCPayServer container connects to the host via SSH and runs btcpay\\-update.sh.",
-            "date_modified": "2019-09-23T00:00:00.000Z"
+            "id": "https://blog.btcpayserver.org/btcpay-documentary-my-trust-in-you-is-broken/",
+            "url": "https://blog.btcpayserver.org/btcpay-documentary-my-trust-in-you-is-broken/",
+            "title": "MY TRUST IN YOU IS BROKEN, BTCPay Server Feature Documentary Premiere",
+            "summary": "Official production began at the Miami Bitcoin Conference of 2023. BTCPay Server Contributors helped many Bitcoin conferences onboard event merchants and new Bitcoiners. Most importantly this story documents the evolution of Bitcoin as a medium of exchange with Bitcoinize point-of-sale devices.",
+            "image": "https://blog.btcpayserver.org/images/2024-btcpay-documentary/blocksizewars-post.png",
+            "date_modified": "2024-04-04T00:00:00.000Z"
         },
         {
-            "id": "https://blog.btcpayserver.org/2019-year-in-review/",
-            "url": "https://blog.btcpayserver.org/2019-year-in-review/",
-            "title": "BTCPay Server 2019 Year in Review",
-            "summary": "01/11/2019",
-            "image": "https://blog.btcpayserver.org/images/BTCPAY-2019-1024x576.png",
-            "date_modified": "2019-12-29T00:00:00.000Z"
+            "id": "https://blog.btcpayserver.org/btcpay-server-1-13-0/",
+            "url": "https://blog.btcpayserver.org/btcpay-server-1-13-0/",
+            "title": "BTCPay Server 1.13.0 - Easy user onboarding, admin store view, new store roles & keypad item mode",
+            "summary": "Additionally, a new contact input feature allows you to specify an email or an URL. This will be displayed on publicly visible pages of your server and in the sidebar for server’s users, enabling them to easily contact you for support.",
+            "image": "https://blog.btcpayserver.org/images/1-13-0ServerBrandingSettings.png",
+            "date_modified": "2024-03-28T00:00:00.000Z"
         },
         {
-            "id": "https://blog.btcpayserver.org/announcing-btcpay-directory/",
-            "url": "https://blog.btcpayserver.org/announcing-btcpay-directory/",
-            "title": "BTCPay Directory - Showcasing merchants, charities, apps and projects using BTCPay Server",
-            "summary": "The following contributors helped bring BTCPay Directory to life:",
-            "image": "https://blog.btcpayserver.org/images/btcpay-directory-1024x576.jpg",
-            "date_modified": "2019-07-21T00:00:00.000Z"
+            "id": "https://blog.btcpayserver.org/case-study-bitcoin-atlantis/",
+            "url": "https://blog.btcpayserver.org/case-study-bitcoin-atlantis/",
+            "title": "Bitcoin Atlantis Conference: €115,100 from 8,750 Transactions in 3 Days, Showcasing Bitcoin's Role as a Payment Method",
+            "summary": "Implementing a seamless payment experience while navigating challenges involved several key technical and user experience innovations, complemented by open collaboration between multiple projects.",
+            "image": "https://img.youtube.com/vi/9xDPJRgdZhs/mqdefault.jpg",
+            "date_modified": "2024-03-20T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/case-study-bitcoin-people/",
+            "url": "https://blog.btcpayserver.org/case-study-bitcoin-people/",
+            "title": "Bitcoin People built a mobile app on top of BTCPay’s API to scale bitcoin to 270 merchants in Italy with a total of €406,283 in transaction volumes",
+            "summary": "No need for server setting or manual configuration whatsoever: the merchant downloads the app, enters company data, writes down the seed, and they are ready to receive payments with an account, store and PoS on a shared BTCPay Server.",
+            "image": "https://blog.btcpayserver.org/images/BitcoinPeople-1.png",
+            "date_modified": "2024-02-08T00:00:00.000Z"
         },
         {
             "id": "https://blog.btcpayserver.org/bitcoin-2024-the-year-of-ambassadors/",
@@ -44,26 +53,220 @@
             "date_modified": "2024-01-18T00:00:00.000Z"
         },
         {
+            "id": "https://blog.btcpayserver.org/btcpay-server-1-12-0/",
+            "url": "https://blog.btcpayserver.org/btcpay-server-1-12-0/",
+            "title": "BTCPay Server 1.12.0 - Under the hood updates, POS improvements and BoltCards issuance at scale",
+            "summary": "We are excited to announce the latest release of BTCPay Server, version 1.12.0! This release brings several important backend changes, solidifies structure for the future, introduces several new features, improvements, and bug fixes.",
+            "image": "https://blog.btcpayserver.org/images/1-12/1.12.0-Keypad-Plus.gif",
+            "date_modified": "2023-12-19T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/case-study-strainly/",
+            "url": "https://blog.btcpayserver.org/case-study-strainly/",
+            "title": "Empowering hemp growers and breeders: How Strainly leveraged BTCPay Server to enable peer-to-peer and private payments at scale",
+            "summary": "You can download a PDF of this case study on this link.",
+            "image": "https://blog.btcpayserver.org/images/Strainly-1.png",
+            "date_modified": "2023-12-18T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/case-study-bitcoin-jungle-cr/",
+            "url": "https://blog.btcpayserver.org/case-study-bitcoin-jungle-cr/",
+            "title": "Bitcoin Jungle enables 200+ stores in Costa Rica to embrace Bitcoin",
+            "summary": "BTCPay Server was a natural choice for us. It’s a well-designed & mature product that “just works”. It’s intuitive enough that anyone can use it, while having the depth needed to satisfy more advanced users. It’s stable enough to deploy without constant worrying, yet innovate enough to continue adding new features without making the product worse overall.",
+            "image": "https://blog.btcpayserver.org/images/BitcoinJunglecr1.jpg",
+            "date_modified": "2023-12-01T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/case-study-voltage/",
+            "url": "https://blog.btcpayserver.org/case-study-voltage/",
+            "title": "World's Fastest BTCPay Deployments with Voltage - generating over 45,000 invoices per month!",
+            "summary": "Nearly all other Bitcoin commerce solutions have some custodial KYC component. This is something that we wish to avoid at Voltage. With those services put aside, the competition for Bitcoin native commerce platforms that are open source is relatively slim. BTCPay Server’s core ethos and mission align perfectly with our own, and that made the choice to use BTCPay Server fairly easy. On top of that, the sheer amount of features and customizability of BTCPay Server is unmatched in the industry.",
+            "image": "https://blog.btcpayserver.org/images/VoltageCaseStudy-1.png",
+            "date_modified": "2023-11-17T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/case-study-coincards/",
+            "url": "https://blog.btcpayserver.org/case-study-coincards/",
+            "title": "Coincards: Pioneering BTCPay Server Integration and Pushing Bitcoin Adoption",
+            "summary": "Notably: Coincards was the first to fully integrate BTCPay Server into their operations. The sheer volume of transactions they funneled through BTCPay in the initial month could have easily overwhelmed previous systems. But BTCPay Server and its dedicated team, spearheaded by Nicolas, were more than capable. They were deeply committed to resolving any new issues that cropped up, fine-tuning the system for scalability, and quickly rolling out updates, all of which ensured that Coincards ran smoothly with hardly any interruptions.",
+            "image": "https://blog.btcpayserver.org/images/coincardscasestudy-2.png",
+            "date_modified": "2023-10-20T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/case-study-technical-prism-sideshift/",
+            "url": "https://blog.btcpayserver.org/case-study-technical-prism-sideshift/",
+            "title": "Technical Case Study: How to enable Bitcoin payments for merchants at events using BTCPay Server",
+            "summary": "To make certain your the upcoming setup operates smoothly, a few configurations are required:",
+            "image": "https://img.youtube.com/vi/mDeuHh9gqQM/mqdefault.jpg",
+            "date_modified": "2023-10-03T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/case-study-hodlhodl-2023/",
+            "url": "https://blog.btcpayserver.org/case-study-hodlhodl-2023/",
+            "title": "Case Study: How Hodl Hodl used BTCPay to accept bitcoin payments at a conference",
+            "summary": "Good user experience means that payments need to be settled instantly and without fees.",
+            "image": "https://blog.btcpayserver.org/images/payingBtcpay_2.20_1.png",
+            "date_modified": "2023-09-21T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/btcpay-server-1-11-0/",
+            "url": "https://blog.btcpayserver.org/btcpay-server-1-11-0/",
+            "title": "BTCPay Server 1.11.0 - Reports, sounds and forms 4 all",
+            "summary": "Invoices view now includes payment method icons, to help easier distinguish and troubleshoot a problem with an invoice when working with a point of sale. The ability to upload your files directly from the POS editor has also been shipped with this release.",
+            "image": "https://blog.btcpayserver.org/images/1-11/image1.png",
+            "date_modified": "2023-07-27T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/btcpay-server-1-10-0/",
+            "url": "https://blog.btcpayserver.org/btcpay-server-1-10-0/",
+            "title": "BTCPay Server 1.10.0 - Formbuilder UI, custom Roles and a lurking wife mode!?",
+            "summary": "Together with the new BTCPay Server version, LNbank v1.6 releases which incorporates the new \"Hide Sensitive Info\" setting and adds wallet balance graphs. A better admin overview of LNbank Wallets, what’s the current balance of those who use LNbank on your BTCPay Server instance. Users will now be warned when LNbank liabilities exceed the Lightning Node’s balance, API Access to LNbank wallets and LNURL Withdraw support has been added, which allows configurable LNURL withdrawal access per wallet.",
+            "image": "https://blog.btcpayserver.org/images/BTCPayServerForms.gif",
+            "date_modified": "2023-06-01T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/btcpay-server-1-9-0/",
+            "url": "https://blog.btcpayserver.org/btcpay-server-1-9-0/",
+            "title": "BTCPay Server 1.9.0 - The year of Plugins continues, Point of Sales touch-ups and much more!",
+            "summary": "After adding the labels locally on your transactions, we've now gone ahead and implemented BIP-329, which standardizes the export of wallet labels. If you've added labels to your transactions and moved to another wallet (that supports BIP-329), you can take your labels with you! No longer a mess in recognizing what your transactions were!",
+            "image": "https://blog.btcpayserver.org/images/btcpay1-9-0-custodian.jpg",
+            "date_modified": "2023-04-13T00:00:00.000Z"
+        },
+        {
             "id": "https://blog.btcpayserver.org/bitcoin-bonus-scam/",
             "url": "https://blog.btcpayserver.org/bitcoin-bonus-scam/",
             "title": "Bitcoin Bonus Scam",
-            "summary": "Since about mid-October 2022, we noticed users coming to our support chat with dubious payment requests of 64 US-Dollar payable in bitcoin from sites branded as “Bitcoin Bonus.” The users posted screenshots and links of sites that claimed they had participated in cloud mining and forgotten about it and were eligible for a substantial earning of somewhere between 20 - 30k US-Dollar. Before the users can receive the payout, they need to pay a “conversion fee” in Bitcoin to get their rewards paid out. Since nobody gives away free money, if users pay that, their money is gone, and they never receive the promised payout.",
             "image": "https://blog.btcpayserver.org/images/bitcoinbonus-image2.png",
             "date_modified": "2023-03-10T00:00:00.000Z"
         },
         {
-            "id": "https://blog.btcpayserver.org/bitcoin-pos/",
-            "url": "https://blog.btcpayserver.org/bitcoin-pos/",
-            "title": "How to create a Bitcoin Point of Sale (PoS)",
-            "summary": "Before we dive into the guide, here are some requirements:",
-            "image": "https://blog.btcpayserver.org/images/Bitcoin-Point-Of-Sale-1024x768.jpg",
-            "date_modified": "2019-03-12T00:00:00.000Z"
+            "id": "https://blog.btcpayserver.org/btcpay-server-1-8-0/",
+            "url": "https://blog.btcpayserver.org/btcpay-server-1-8-0/",
+            "title": "BTCPay Server 1.8.0 - Custom checkout forms, store branding and much much more!",
+            "summary": "We’re excited to release a new major version of BTCPay Server 1.8.0!",
+            "image": "https://blog.btcpayserver.org/images/btcpayformsblog2.jpg",
+            "date_modified": "2023-03-01T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/btcpay-server-cve-2022-32984/",
+            "url": "https://blog.btcpayserver.org/btcpay-server-cve-2022-32984/",
+            "title": "BTCPay Server CVE-2022-32984 Vulnerability disclosure affecting BTCPay Server V1.3.0 through V1.5.3",
+            "summary": "A remote attacker can obtain sensitive information when a Point of Sale app ( BTCPay Server component) is publicly exposed.",
+            "date_modified": "2023-01-26T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/btcpay-server-1-7-0/",
+            "url": "https://blog.btcpayserver.org/btcpay-server-1-7-0/",
+            "title": "BTCPay Server 1.7.0 - Brand-new checkout, store branding, form builder (request shipping address)",
+            "summary": "No contributors got hurt in the making of the release, but a few bugs got squashed. Check out detailed release notes here.",
+            "image": "https://blog.btcpayserver.org/images/1.7.0-V2Checkout.png",
+            "date_modified": "2022-11-25T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/btcpay-day-2022-riga/",
+            "url": "https://blog.btcpayserver.org/btcpay-day-2022-riga/",
+            "title": "Announcing BTCPay Day 2022 Riga 💚🇱🇻",
+            "summary": "We’ve picked Riga, the capital of Latvia, and the famous bitcoin-only Baltic Honeybadger conference as perfect locations for the event. With the immense help of organizers, we made it happen. You could have felt the love and energy in the air if you were there. It wasn’t the most organized event. We can now tell you that we hadn’t slept that night because we were trying to come up with presentations for the morning. We thought no one would show up. We had so many “what–ifs” that we just ended up panicking until the morning.",
+            "image": "https://blog.btcpayserver.org/images/btcpaydayriga2019-1-1024x576.jpg",
+            "date_modified": "2022-08-04T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/btcpay-server-1-6-0/",
+            "url": "https://blog.btcpayserver.org/btcpay-server-1-6-0/",
+            "title": "BTCPay Server 1.6.0 - Lightning dashboard, receipts and automated emails",
+            "summary": "It's very likely that by updating BTCPay Server in the past six months, you've already patched this vulnerability. To be safe, update your instance if you haven't done so in a long time.",
+            "image": "https://blog.btcpayserver.org/images/dashboard-currency-switch.gif",
+            "date_modified": "2022-07-08T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/btcpay-server-1-5-0/",
+            "url": "https://blog.btcpayserver.org/btcpay-server-1-5-0/",
+            "title": "Introducing BTCPay Server 1.5.0 - Dashboard and payout processors",
+            "summary": "We'd love to hear what you think about the dashboard and how it works for you. Let us know what kind of data would help you better manage your store.",
+            "image": "https://blog.btcpayserver.org/images/1-5-0-dashboard-1.png",
+            "date_modified": "2022-04-28T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/nbxplorer-postgres/",
+            "url": "https://blog.btcpayserver.org/nbxplorer-postgres/",
+            "title": "Big improvements in NBXplorer!",
+            "summary": "NBXplorer up to now had a fundamental issue:\nIt relied on a NoSql database called DBreeze. This database project was in a sad state, so 2 years ago, I ended up rewriting it in a project called DBTrie.",
+            "image": "https://blog.btcpayserver.org/images/nxplorer-schema.png",
+            "date_modified": "2022-04-01T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/btcpay-server-1-4-0/",
+            "url": "https://blog.btcpayserver.org/btcpay-server-1-4-0/",
+            "title": "BTCPay Server 1.4.0 - The Year of Change",
+            "summary": "These changes may be a bit disruptive at first, but we've been user-testing them for quite a while now. That said, we value your feedback, so please feel free to reach out to us on our chat if something isn't smooth or you have a question.",
+            "image": "https://blog.btcpayserver.org/images/1.4.0-Store-creation.png",
+            "date_modified": "2022-01-27T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/btcpay-server-1-3-0/",
+            "url": "https://blog.btcpayserver.org/btcpay-server-1-3-0/",
+            "title": "BTCPay Server 1.3.0 - LNURL, Lightning Address, Taproot and UI goodies",
+            "image": "https://blog.btcpayserver.org/images/1.3.0-LNURLcomment.png",
+            "date_modified": "2021-10-29T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/btcpay-server-1-2-0/",
+            "url": "https://blog.btcpayserver.org/btcpay-server-1-2-0/",
+            "title": "BTCPay Server 1.2.0 - Bootstrapping and paving roads",
+            "summary": "Due to changes in HWI 2.0.1, BTCPay Server will now detect the version of the Vault application and notify you to update in case you're using an older version.",
+            "image": "https://blog.btcpayserver.org/images/BTCPay1.0.2WalletSign.gif",
+            "date_modified": "2021-08-10T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/btcpay-server-grant-baillie-gifford/",
+            "url": "https://blog.btcpayserver.org/btcpay-server-grant-baillie-gifford/",
+            "title": "BTCPay Server Grant - Baillie Gifford",
+            "date_modified": "2021-07-28T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/btcpay-server-grant-pnxbet/",
+            "url": "https://blog.btcpayserver.org/btcpay-server-grant-pnxbet/",
+            "title": "BTCPay Server grant - PNXBET",
+            "summary": "We’re excited to announce that the BTCPay Server Foundation has received a grant of $30 000 USD paid in Bitcoin from PNXBET.",
+            "image": "https://blog.btcpayserver.org/images/btcpayy-PNXBETfeatured-1024x576-1.png",
+            "date_modified": "2021-06-09T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/btcpay-server-1-1-0/",
+            "url": "https://blog.btcpayserver.org/btcpay-server-1-1-0/",
+            "title": "BTCPay Server 1.1.0 - UI smoothing, Gap Limit, Fido2, and Greenfield",
+            "summary": "The BTCPay Server 1.1.0 update isn't major because of big new features or a UI overhaul but because of the number of items in the changelog. v1.1.0 introduces a number of quality of life additions and a few improvements to upgrade your security, privacy and usability inside BTCPay Server. We're also switching to proper semver versioning for a clearer definition of upgrade paths.",
+            "image": "https://blog.btcpayserver.org/images/walletsoverview-1024x445.png",
+            "date_modified": "2021-04-29T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/vulnerability-disclosure-v1-0-7-0/",
+            "url": "https://blog.btcpayserver.org/vulnerability-disclosure-v1-0-7-0/",
+            "title": "Vulnerability Disclosure affecting BTCPay Server <=  v1.0.7.0",
+            "summary": "In this article, we are disclosing the vulnerabilities.",
+            "date_modified": "2021-04-29T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/btcpay-server-v1-0-7-0/",
+            "url": "https://blog.btcpayserver.org/btcpay-server-v1-0-7-0/",
+            "title": "BTCPay Server v1.0.7.0 - UI polishing, API calls, spring cleaning, and bug fixing",
+            "summary": "We love our new straight-forward UI and hope you do too! That being said, if you have additional feedback you want to submit to us, feel free to reach out on our community chat.",
+            "image": "https://blog.btcpayserver.org/images/Screenshot-from-2021-03-10-12-08-35.png",
+            "date_modified": "2021-03-11T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/btcpay-server-1-0-6-0/",
+            "url": "https://blog.btcpayserver.org/btcpay-server-1-0-6-0/",
+            "title": "New version of BTCPay Server - v1.0.6.0 is out!",
+            "summary": "The current payment links and QR codes for on-chain currently use the BIP21 format, and is potentially extended with Payjoin support. This new feature extends this format, by adding a lightning invoice that the wallet can choose to pay instead.",
+            "image": "https://blog.btcpayserver.org/images/Store-Setup-1024x465.png",
+            "date_modified": "2020-11-25T00:00:00.000Z"
         },
         {
             "id": "https://blog.btcpayserver.org/bitpaint-btcpay-server-stories/",
             "url": "https://blog.btcpayserver.org/bitpaint-btcpay-server-stories/",
             "title": "Bitpaint - BTCPay Server Stories",
-            "summary": "How did you connect your work, passions (Art, Virtual Reality) and family life with Bitcoin ?",
+            "summary": "Well I was selling stuff on on my webshop with a Woocommerce plugin. I was running on Opennode, not BTCPay Server.\nBut then our friends at the “KYC” special unit said to Opennode:\n\\- You must KYC all the merchants.\nNo way I KYC this little online shop. At this point I really had to run the payment processor myself. So I switched to my own BTCPay Server instance hosted on Lunanode within 48hours. It was so easy to setup, amazing service by Lunanode, I recommend it to everybody.",
             "image": "https://blog.btcpayserver.org/images/BitPaint_Profil.gif \"Bitpaint dancing for the BTCPay Server gods\"",
             "date_modified": "2020-11-06T00:00:00.000Z"
         },
@@ -71,95 +274,271 @@
             "id": "https://blog.btcpayserver.org/brian-harrington-btcpay-server-stories/",
             "url": "https://blog.btcpayserver.org/brian-harrington-btcpay-server-stories/",
             "title": "Brian Harrington - BTCPay Server Stories",
-            "summary": "How did you connect your work, passions (Film producing and campaigns) and family life with Bitcoin ?",
+            "summary": "In the same period I watched the panel between Open Node and BTCPay Server at Baltic Honeybadger 2019 I think on Youtube and I had met the Open Node team at a meet up out here so I had loosely heard about BTCPay Server and was up to speed on the whole thing from an observer perspective.",
             "image": "https://blog.btcpayserver.org/images/Brian_Harrington.jpg \"Brian Harrington - BTCPay Server Stories\"",
             "date_modified": "2020-10-10T00:00:00.000Z"
         },
         {
-            "id": "https://blog.btcpayserver.org/btcpay-1-0-3-127-released/",
-            "url": "https://blog.btcpayserver.org/btcpay-1-0-3-127-released/",
-            "title": "BTCPay 1.0.3.127 released - Fixing a vulnerability, introducing wallet labels, comments and more",
-            "summary": "Sometimes, labels don't give enough context, so we've added custom comments for each outgoing or incoming transaction in the wallet. By clicking on the comment icon, each transaction now has an optional text field.",
-            "image": "https://blog.btcpayserver.org/images/Screen-Shot-2019-08-10-at-12.17.23-1024x378.png",
-            "date_modified": "2019-08-10T00:00:00.000Z"
+            "id": "https://blog.btcpayserver.org/btcpay-server-1-0-5-6/",
+            "url": "https://blog.btcpayserver.org/btcpay-server-1-0-5-6/",
+            "title": "BTCPay Server 1.0.5.6 is here!",
+            "summary": "When you're dealing with payments, you probably want to have a clear look on the invoice log in case something goes wrong. Our invoice log section has been re-wrapped and now adds a clearer warning message in case of an error so that you can pinpoint the problem in no time.",
+            "image": "https://blog.btcpayserver.org/images/BTCPaySimplePoS-1024x486.png",
+            "date_modified": "2020-10-01T00:00:00.000Z"
         },
         {
-            "id": "https://blog.btcpayserver.org/btcpay-1-0-3-137-released/",
-            "url": "https://blog.btcpayserver.org/btcpay-1-0-3-137-released/",
-            "title": "BTCPay Server version 1.0.3.137 released",
-            "summary": "This UI was designed by @taratan and was implemented by @NicolasDorier, @DennisReimann and coordinated by @r0ckstardev. This version still requires improvements to achieve the ideal version and we will continue to improve the page based on user feedback.",
-            "image": "https://blog.btcpayserver.org/images/Screenshot-2019-11-07-at-16.27.48-1024x573.png",
-            "date_modified": "2019-11-07T00:00:00.000Z"
+            "id": "https://blog.btcpayserver.org/btcpay-server-1-0-5-4/",
+            "url": "https://blog.btcpayserver.org/btcpay-server-1-0-5-4/",
+            "title": "BTCPay Server 1.0.5.4 is out!",
+            "summary": "When generating a new wallet, we will now show the recovery phrase on a separate page with clearer instructions on what you have to do. The text will be different for hot wallet (where the private key remains on the server) and regular wallet where the key is wiped after you back it up.",
+            "image": "https://blog.btcpayserver.org/images/89307536-7f15b900-d671-11ea-9a3d-5dbcc539ee38-1024x506.png",
+            "date_modified": "2020-08-05T00:00:00.000Z"
         },
         {
-            "id": "https://blog.btcpayserver.org/btcpay-day-2019/",
-            "url": "https://blog.btcpayserver.org/btcpay-day-2019/",
-            "title": "Announcing BTCPay Day on the 16th of September in Riga",
-            "summary": "There will be workshop corners where people can sit, develop, build or simply brainstorm their new business venture.\nThe available workshops are:",
-            "image": "https://blog.btcpayserver.org/images/BTCPay-Day-1024x342.jpg",
-            "date_modified": "2019-08-20T00:00:00.000Z"
+            "id": "https://blog.btcpayserver.org/btcpay-server-1-0-5-0/",
+            "url": "https://blog.btcpayserver.org/btcpay-server-1-0-5-0/",
+            "title": "BTCPay Server 1.0.5.0 is out!",
+            "summary": "We have big plans for our built-in wallet. With each release, our focus is on adding features and ironing out the interface. More importantly we plan to release a full API for the wallet. Our documentation of the wallet features has been improved recently and you can check it out here, in case you're interested in learning more.",
+            "image": "https://blog.btcpayserver.org/images/notifications2-1024x530.png",
+            "date_modified": "2020-06-26T00:00:00.000Z"
         },
         {
-            "id": "https://blog.btcpayserver.org/btcpay-day-2022-riga/",
-            "url": "https://blog.btcpayserver.org/btcpay-day-2022-riga/",
-            "title": "Announcing BTCPay Day 2022 Riga 💚🇱🇻",
-            "summary": "If all those moments from Riga could fit in a picture, it would be this one.",
-            "image": "https://blog.btcpayserver.org/images/btcpaydayriga2019-1-1024x576.jpg",
-            "date_modified": "2022-08-04T00:00:00.000Z"
+            "id": "https://blog.btcpayserver.org/btcpay-server-kraken-grant/",
+            "url": "https://blog.btcpayserver.org/btcpay-server-kraken-grant/",
+            "title": "BTCPay Server Grant #8 – Kraken",
+            "image": "https://blog.btcpayserver.org/images/btcpay-kraken-article-1024x335-1.png",
+            "date_modified": "2020-06-25T00:00:00.000Z"
         },
         {
-            "id": "https://blog.btcpayserver.org/btcpay-day-riga-2019-recap/",
-            "url": "https://blog.btcpayserver.org/btcpay-day-riga-2019-recap/",
-            "title": "First BTCPay Day Riga 2019 Recap",
-            "summary": "Konstantin (PayBis and CryptoCash)",
-            "image": "https://blog.btcpayserver.org/images/cryptocashofficeriga-768x1024.jpg",
-            "date_modified": "2019-09-19T00:00:00.000Z"
+            "id": "https://blog.btcpayserver.org/btcpay-server-grant-7-okcoin/",
+            "url": "https://blog.btcpayserver.org/btcpay-server-grant-7-okcoin/",
+            "title": "BTCPay Server Grant #7 – OKCoin",
+            "summary": "We're thrilled to announce that the BTCPay Server Foundation has received grant #7 from OKCoin. OKCoin is matching our biggest supporter to date and will be donating a total of 100,000 USD over the next 12 months.",
+            "image": "https://blog.btcpayserver.org/images/btcpay-okcoin-article-1024x335-1.png",
+            "date_modified": "2020-05-28T00:00:00.000Z"
         },
         {
-            "id": "https://blog.btcpayserver.org/btcpay-documentary-my-trust-in-you-is-broken/",
-            "url": "https://blog.btcpayserver.org/btcpay-documentary-my-trust-in-you-is-broken/",
-            "title": "MY TRUST IN YOU IS BROKEN, BTCPay Server Feature Documentary Premiere",
-            "image": "https://blog.btcpayserver.org/images/2024-btcpay-documentary/blocksizewars-post.png",
-            "date_modified": "2024-04-04T00:00:00.000Z"
+            "id": "https://blog.btcpayserver.org/btcpay-server-1-0-4-0/",
+            "url": "https://blog.btcpayserver.org/btcpay-server-1-0-4-0/",
+            "title": "Introducing BTCPay Server 1.0.4.0",
+            "summary": "The highlight of the release is without a doubt Payjoin(P2EP) support, which was generously sponsored by Blockstream and was first described by them in this blog post.",
+            "image": "https://blog.btcpayserver.org/images/BTCPay-Server-Wallet-Light-1-1024x515.png",
+            "date_modified": "2020-04-16T00:00:00.000Z"
         },
         {
-            "id": "https://blog.btcpayserver.org/btcpay-foundation-announcement/",
-            "url": "https://blog.btcpayserver.org/btcpay-foundation-announcement/",
-            "title": "Announcing the BTCPay Server Foundation and our first grant from Square Crypto",
-            "summary": "Since its creation in August 2017, BTCPay Server has enjoyed a rapid growth of users and contributors.",
-            "date_modified": "2019-09-14T00:00:00.000Z"
+            "id": "https://blog.btcpayserver.org/btcpay-server-btse/",
+            "url": "https://blog.btcpayserver.org/btcpay-server-btse/",
+            "title": "BTCPay Server Grant #6 - BTSE",
+            "summary": "Thanks to BTSE's generosity, Kukks will be able to focus on BTCPay Server without having to allocate time to paid side-projects to support himself. Kukks quit his day-job a year and a half ago to focus on BTCPay Server and says himself:",
+            "image": "https://blog.btcpayserver.org/images/btcpay-btse-article-1024x335.png",
+            "date_modified": "2020-03-10T00:00:00.000Z"
         },
         {
-            "id": "https://blog.btcpayserver.org/btcpay-lnd-migration/",
-            "url": "https://blog.btcpayserver.org/btcpay-lnd-migration/",
-            "title": "Migration from noseedbackup=1 to LND with seed",
-            "summary": "Furthermore, we're introducing a migration tool for old legacy deployments that allows easy migration from noseedbackup=1. Old deployments won't be forced to migrate. They can continue to run LND with legacy option.",
-            "image": "https://blog.btcpayserver.org/images/Services-LND-Seed-Backup.jpg",
-            "date_modified": "2019-11-16T00:00:00.000Z"
+            "id": "https://blog.btcpayserver.org/btcpay-server-foundation-introspective/",
+            "url": "https://blog.btcpayserver.org/btcpay-server-foundation-introspective/",
+            "title": "BTCPay Server Foundation - Introspective",
+            "summary": "Finally, BTCPay Server Foundation is now based in Japan. This is a 一般社団法人 (a real non profit association, not taxed on profit). The Japanese law requires three \"board members\". I am the main representative and board member, the other members are @jimmyhomma who is a close bitcoiner friend and Kanai Masayoshi who has been my tax accountant for 2 years already. While they are board members, their role will be mainly passive. I still need to report to them so they can be confident that the foundation is administrated properly and lawfully.",
+            "date_modified": "2020-03-07T00:00:00.000Z"
         },
         {
-            "id": "https://blog.btcpayserver.org/btcpay-misconceptions/",
-            "url": "https://blog.btcpayserver.org/btcpay-misconceptions/",
-            "title": "Debunking BTCPay Server misconceptions",
-            "summary": "Without further ado, here are 10 shocking misconceptions.",
-            "image": "https://blog.btcpayserver.org/images/You-can-deploy-BTCPay-on-a-raspberry-pi.jpg",
-            "date_modified": "2019-03-13T00:00:00.000Z"
+            "id": "https://blog.btcpayserver.org/btcpay-vault/",
+            "url": "https://blog.btcpayserver.org/btcpay-vault/",
+            "title": "Introducing BTCPay Vault – use any hardware wallet with BTCPay and its full node",
+            "summary": "In laymen words, BTCPay Vault is a separate app, locally hosted on your own PC, which BTCPay Server connects to and asks for permission. Once permission is granted, BTCPay is able to integrate with any hardware wallet connected to your PC. You can import your wallet and spend incoming funds with a simple confirmation on your device, with your keys never leaving your hardware device, with all funds being validated against your own Bitcoin full node and no data leakage.",
+            "image": "https://blog.btcpayserver.org/images/BTCPay-Vault-Store-Setup-1-1024x553.png",
+            "date_modified": "2020-01-21T00:00:00.000Z"
         },
         {
             "id": "https://blog.btcpayserver.org/btcpay-server-1-0-3-147/",
             "url": "https://blog.btcpayserver.org/btcpay-server-1-0-3-147/",
             "title": "BTCPay Server version 1.0.3.147 is out!",
-            "summary": "Prior to this release, BTCPay was using BitcoinAverage as a source for rates for many exchanges and also as a default rate provider. The structural changes in BitcoinAverage pricing plans meant that users have to pay to use their API. While we understand and respect BitcoinAverage decision (they've been a reliable and free provider for years) we can't expect all our users to pay for the API.",
+            "summary": "Before this release, we would fetch rates for the 10 exchanges rate API's we are integrated with every 30s, so we already have the rate fetched locally at the time of creation of the invoice.",
             "image": "https://blog.btcpayserver.org/images/Screenshot-2020-01-14-at-18.41.53.png",
             "date_modified": "2020-01-14T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/2019-year-in-review/",
+            "url": "https://blog.btcpayserver.org/2019-year-in-review/",
+            "title": "BTCPay Server 2019 Year in Review",
+            "summary": "01/27/2019",
+            "image": "https://blog.btcpayserver.org/images/BTCPAY-2019-1024x576.png",
+            "date_modified": "2019-12-29T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/btcpay-lnd-migration/",
+            "url": "https://blog.btcpayserver.org/btcpay-lnd-migration/",
+            "title": "Migration from noseedbackup=1 to LND with seed",
+            "summary": "If at any point you need assistance, visit our community chat and ask a question in the #Lightning channel.",
+            "image": "https://blog.btcpayserver.org/images/Services-LND-Seed-Backup.jpg",
+            "date_modified": "2019-11-16T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/dg-grant-2019/",
+            "url": "https://blog.btcpayserver.org/dg-grant-2019/",
+            "title": "BTCPay Server Grant #3 From Digital Garage, Inc.",
+            "image": "https://blog.btcpayserver.org/images/dg-btcpay-2-1024x310.png",
+            "date_modified": "2019-11-14T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/btcpay-1-0-3-137-released/",
+            "url": "https://blog.btcpayserver.org/btcpay-1-0-3-137-released/",
+            "title": "BTCPay Server version 1.0.3.137 released",
+            "summary": "Today, we’re excited to release BTCPay Server 1.0.3.137. The freshly-baked version introduces several new features together with several bug fixes and improvements.",
+            "image": "https://blog.btcpayserver.org/images/Screenshot-2019-11-07-at-16.27.48-1024x573.png",
+            "date_modified": "2019-11-07T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/1-0-3-132-released/",
+            "url": "https://blog.btcpayserver.org/1-0-3-132-released/",
+            "title": "BTCPay Server version 1.0.3.132 released",
+            "summary": "BTCPay Server is relying on SSH to execute scripts to for updating itself (only for docker deployments, like lunanode). For doing this, the BTCPayServer container connects to the host via SSH and runs btcpay\\-update.sh.",
+            "date_modified": "2019-09-23T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/btcpay-day-riga-2019-recap/",
+            "url": "https://blog.btcpayserver.org/btcpay-day-riga-2019-recap/",
+            "title": "First BTCPay Day Riga 2019 Recap",
+            "summary": "The event started at 11:30 with Vortex welcoming everyone and blessing the event. Vortex has provided lots of support to the project from day one and brought plenty of positivity and vibes, but has also channeled the energy of people who later become essential contributors, such as brittttt.",
+            "image": "https://blog.btcpayserver.org/images/cryptocashofficeriga-768x1024.jpg",
+            "date_modified": "2019-09-19T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/btcpay-foundation-announcement/",
+            "url": "https://blog.btcpayserver.org/btcpay-foundation-announcement/",
+            "title": "Announcing the BTCPay Server Foundation and our first grant from Square Crypto",
+            "summary": "Such endeavors include:",
+            "date_modified": "2019-09-14T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/1-0-3-128-released/",
+            "url": "https://blog.btcpayserver.org/1-0-3-128-released/",
+            "title": "BTCPay Server 1.0.3.128 released - Inventory management, LN for non-admins, polishing PoS and more!",
+            "summary": "To enable Lightning Network node sharing with other users, go to Server Settings > Policies and tick the box which says “Allow non-admins to use the internal lightning node in their stores”.",
+            "image": "https://blog.btcpayserver.org/images/Screen-Shot-2019-09-04-at-11.35.07.png",
+            "date_modified": "2019-09-04T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/btcpay-day-2019/",
+            "url": "https://blog.btcpayserver.org/btcpay-day-2019/",
+            "title": "Announcing BTCPay Day on the 16th of September in Riga",
+            "summary": "To ensure the quality of interactions and that enough time is dedicated to each attendee, we're limiting the event to only 40 spots. We've attached a symbolic fee to reduce RSVP spam of 5EUR for the first 20 tickets and 10EUR for the remaining tickets. We'll be using the proceeds from the ticket sales towards the event.",
+            "image": "https://blog.btcpayserver.org/images/BTCPay-Day-1024x342.jpg",
+            "date_modified": "2019-08-20T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/this-is-lies-youre-now-obsolete/",
+            "url": "https://blog.btcpayserver.org/this-is-lies-youre-now-obsolete/",
+            "title": "This is lies - you're obsolete.",
+            "summary": "To top it off; centralized payment processors face enormous difficulties when expanding globally due to compliance and regulation while self-hosting open-source solutions thrives across borders with no such issues. While centralized payment processors spend countless hours complying with regulations, we can put our full efforts into expanding and growing without the need to ask for permission.",
+            "date_modified": "2019-08-17T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/xss-vulnerability-disclosure-doyensec/",
+            "url": "https://blog.btcpayserver.org/xss-vulnerability-disclosure-doyensec/",
+            "title": "XSS Vulnerability Disclosure by Doyensec",
+            "summary": "Kevin Joensen of Doyensec provided a proof of concept that showed us how the attack can be executed.",
+            "date_modified": "2019-08-15T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/btcpay-1-0-3-127-released/",
+            "url": "https://blog.btcpayserver.org/btcpay-1-0-3-127-released/",
+            "title": "BTCPay 1.0.3.127 released - Fixing a vulnerability, introducing wallet labels, comments and more",
+            "image": "https://blog.btcpayserver.org/images/Screen-Shot-2019-08-10-at-12.17.23-1024x378.png",
+            "date_modified": "2019-08-10T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/announcing-btcpay-directory/",
+            "url": "https://blog.btcpayserver.org/announcing-btcpay-directory/",
+            "title": "BTCPay Directory - Showcasing merchants, charities, apps and projects using BTCPay Server",
+            "summary": "Today, we're releasing BTCPay Server Directory. An index of businesses, non-profits organizations and individuals that use BTCPay Server and want to showcase their donation pages, apps, crowdfunding campaigns or projects.",
+            "image": "https://blog.btcpayserver.org/images/btcpay-directory-1024x576.jpg",
+            "date_modified": "2019-07-21T00:00:00.000Z"
         },
         {
             "id": "https://blog.btcpayserver.org/btcpay-server-1-0-3-95/",
             "url": "https://blog.btcpayserver.org/btcpay-server-1-0-3-95/",
             "title": "BTCPay Server 1.0.3.95 Released (Invoice improvements, U2F support, Bitcoin Full Node connect to mobile via QR code, external storage support and more!)",
-            "summary": "U2F allows users to further enhance the security of their accounts by physically confirming the authentication via a U2F compatible device.",
+            "summary": "BTCPay Server version 1.0.3.95 includes lots of new features,improvements and bug fixes.",
             "image": "https://blog.btcpayserver.org/images/Screen-Shot-2019-05-07-at-11.20.22.png",
             "date_modified": "2019-05-07T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/how-to-accept-bitcoin-donations/",
+            "url": "https://blog.btcpayserver.org/how-to-accept-bitcoin-donations/",
+            "title": "How to accept Bitcoin Donations - privately, securely and without middleman",
+            "summary": "In this article, we will focus on how to use BTCPay Server, a decentralized, fully open-source, cryptocurrency payment processor to accept Bitcoin donations. By using BTCPay, you're avoiding address-reuse and involvement of a third-party.",
+            "image": "https://blog.btcpayserver.org/images/How-to-accept-Bitcoin-donations-1024x576.jpg",
+            "date_modified": "2019-04-25T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/jamie-lim-sticky-singapore/",
+            "url": "https://blog.btcpayserver.org/jamie-lim-sticky-singapore/",
+            "title": "Interview with Jamie Lim, the founder of Sticky Singapore, Joo Bar, 8 Korean BBQ and Juju Coffee",
+            "summary": "We offer customised candies in all shapes and sizes.",
+            "image": "https://blog.btcpayserver.org/images/jamiesticky.jpg",
+            "date_modified": "2019-04-10T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/librepatron-patreon-alternative/",
+            "url": "https://blog.btcpayserver.org/librepatron-patreon-alternative/",
+            "title": "Launching LibrePatron a Self-Hosted Patreon Alternative powered by Bitcoin",
+            "summary": "Before we go down the rabbit hole there are just two things you'll need:",
+            "image": "https://blog.btcpayserver.org/images/Screen-Shot-2019-04-02-at-17.17.57.png",
+            "date_modified": "2019-04-08T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/interview-with-jeff-vandrew-jr/",
+            "url": "https://blog.btcpayserver.org/interview-with-jeff-vandrew-jr/",
+            "title": "Jeff Vandrew Jr - creator of LibrePatron, Keykeeper IRA, BTCQBO",
+            "summary": "I had done some software development in school in the 1990s, but didn't actually get back into it until I felt compelled by my interest in Bitcoin to contribute in a more tangible way.",
+            "image": "https://blog.btcpayserver.org/images/YouTube-Thumbnail-BTCPay-Accountig-Template-1024x576.jpg",
+            "date_modified": "2019-03-26T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/how-to-earn-bitcoin-btcpayserver/",
+            "url": "https://blog.btcpayserver.org/how-to-earn-bitcoin-btcpayserver/",
+            "title": "How to earn Bitcoin by using BTCPay Server",
+            "image": "https://img.youtube.com/vi/j6CvwDPvfzQ/mqdefault.jpg",
+            "date_modified": "2019-03-17T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/btcpay-misconceptions/",
+            "url": "https://blog.btcpayserver.org/btcpay-misconceptions/",
+            "title": "Debunking BTCPay Server misconceptions",
+            "summary": "Soon with Tor support coming, the number of code lines needed to deploy will be 3, without the need to configure DNS or even have a domain name. Apart from that, we also have work being done on a web installation wizard that can guide you through the entire process in a sleek UI without needing to touch any code or SSH terminal. You can follow the progress on the web installer at this github repository.",
+            "image": "https://blog.btcpayserver.org/images/You-can-deploy-BTCPay-on-a-raspberry-pi.jpg",
+            "date_modified": "2019-03-13T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/bitcoin-pos/",
+            "url": "https://blog.btcpayserver.org/bitcoin-pos/",
+            "title": "How to create a Bitcoin Point of Sale (PoS)",
+            "summary": "Now that you're logged in, create a store. In BTCPay you can create an unlimited amount of stores. Each stores is unique entity and can be customized. The store is later tied to your wallet and whatever app you're creating.",
+            "image": "https://blog.btcpayserver.org/images/Bitcoin-Point-Of-Sale-1024x768.jpg",
+            "date_modified": "2019-03-12T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/ride-the-lightning-btcpay/",
+            "url": "https://blog.btcpayserver.org/ride-the-lightning-btcpay/",
+            "title": "Ride The Lightning: An open-source project making node management easy for everyone",
+            "summary": "Easily set up fees for your channels:",
+            "image": "https://blog.btcpayserver.org/images/BTCPay-Ride-The-Lightning-RTL-Interface.png",
+            "date_modified": "2019-03-09T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/mike-olthoff-coincards/",
+            "url": "https://blog.btcpayserver.org/mike-olthoff-coincards/",
+            "title": "Mike Olthoff from CoinCards.ca is the first ever merchant to use BTCPay. This is his story.",
+            "summary": "Nicolas was able to get a really good product up and running very quickly. At the same time, Mycelium gear decided they would be instituting a “post-pay” fee on all transactions. Since their server barely worked, we made the switch pretty quickly to BTCPay and never looked back.",
+            "image": "https://blog.btcpayserver.org/images/Screen-Shot-2019-03-05-at-11.03.52.png",
+            "date_modified": "2019-03-05T00:00:00.000Z"
+        },
+        {
+            "id": "https://blog.btcpayserver.org/payment-requests/",
+            "url": "https://blog.btcpayserver.org/payment-requests/",
+            "title": "Introducing Pay Request - Get paid in BTC by sharing a link",
+            "image": "https://img.youtube.com/vi/j6CvwDPvfzQ/mqdefault.jpg",
+            "date_modified": "2019-02-22T00:00:00.000Z"
         }
     ]
 }
