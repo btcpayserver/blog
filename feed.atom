@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://blog.btcpayserver.org</id>
+    <title>BTCPay Server Blog</title>
+    <updated>2024-06-21T10:26:01.529Z</updated>
+    <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
+    <link rel="alternate" href="https://blog.btcpayserver.org"/>
+    <link rel="self" href="https://blog.btcpayserver.org/feed.atom"/>
+    <subtitle>Official BTCPay Server Blog</subtitle>
+    <entry>
+        <title type="html"><![CDATA[BTCPay Server 1.0.3.128 released - Inventory management, LN for non-admins, polishing PoS and more!]]></title>
+        <id>https://blog.btcpayserver.org/1-0-3-128-released/</id>
+        <link href="https://blog.btcpayserver.org/1-0-3-128-released/">
+        </link>
+        <updated>2019-09-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[New BTCPay version 1.0.3.128 is out! Besides new features (Inventory managment in Apps and allowing Lightning Network for non-admins), the brand-new release brings in a lot of small improvements and bug fixes.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BTCPay Server version 1.0.3.132 released]]></title>
+        <id>https://blog.btcpayserver.org/1-0-3-132-released/</id>
+        <link href="https://blog.btcpayserver.org/1-0-3-132-released/">
+        </link>
+        <updated>2019-09-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[BTCPay Server is relying on SSH to execute scripts to for updating itself (only for docker deployments, like lunanode). For doing this, the BTCPayServer container connects to the host via SSH and runs btcpay\-update.sh.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BTCPay Server 2019 Year in Review]]></title>
+        <id>https://blog.btcpayserver.org/2019-year-in-review/</id>
+        <link href="https://blog.btcpayserver.org/2019-year-in-review/">
+        </link>
+        <updated>2019-12-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[01/11/2019]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BTCPay Directory - Showcasing merchants, charities, apps and projects using BTCPay Server]]></title>
+        <id>https://blog.btcpayserver.org/announcing-btcpay-directory/</id>
+        <link href="https://blog.btcpayserver.org/announcing-btcpay-directory/">
+        </link>
+        <updated>2019-07-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The following contributors helped bring BTCPay Directory to life:]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BTCPay Server 2024, The Year of Ambassadors]]></title>
+        <id>https://blog.btcpayserver.org/bitcoin-2024-the-year-of-ambassadors/</id>
+        <link href="https://blog.btcpayserver.org/bitcoin-2024-the-year-of-ambassadors/">
+        </link>
+        <updated>2024-01-18T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bitcoin Bonus Scam]]></title>
+        <id>https://blog.btcpayserver.org/bitcoin-bonus-scam/</id>
+        <link href="https://blog.btcpayserver.org/bitcoin-bonus-scam/">
+        </link>
+        <updated>2023-03-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Since about mid-October 2022, we noticed users coming to our support chat with dubious payment requests of 64 US-Dollar payable in bitcoin from sites branded as “Bitcoin Bonus.” The users posted screenshots and links of sites that claimed they had participated in cloud mining and forgotten about it and were eligible for a substantial earning of somewhere between 20 - 30k US-Dollar. Before the users can receive the payout, they need to pay a “conversion fee” in Bitcoin to get their rewards paid out. Since nobody gives away free money, if users pay that, their money is gone, and they never receive the promised payout.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to create a Bitcoin Point of Sale (PoS)]]></title>
+        <id>https://blog.btcpayserver.org/bitcoin-pos/</id>
+        <link href="https://blog.btcpayserver.org/bitcoin-pos/">
+        </link>
+        <updated>2019-03-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Before we dive into the guide, here are some requirements:]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bitpaint - BTCPay Server Stories]]></title>
+        <id>https://blog.btcpayserver.org/bitpaint-btcpay-server-stories/</id>
+        <link href="https://blog.btcpayserver.org/bitpaint-btcpay-server-stories/">
+        </link>
+        <updated>2020-11-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[How did you connect your work, passions (Art, Virtual Reality) and family life with Bitcoin ?]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Brian Harrington - BTCPay Server Stories]]></title>
+        <id>https://blog.btcpayserver.org/brian-harrington-btcpay-server-stories/</id>
+        <link href="https://blog.btcpayserver.org/brian-harrington-btcpay-server-stories/">
+        </link>
+        <updated>2020-10-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[How did you connect your work, passions (Film producing and campaigns) and family life with Bitcoin ?]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BTCPay 1.0.3.127 released - Fixing a vulnerability, introducing wallet labels, comments and more]]></title>
+        <id>https://blog.btcpayserver.org/btcpay-1-0-3-127-released/</id>
+        <link href="https://blog.btcpayserver.org/btcpay-1-0-3-127-released/">
+        </link>
+        <updated>2019-08-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Sometimes, labels don't give enough context, so we've added custom comments for each outgoing or incoming transaction in the wallet. By clicking on the comment icon, each transaction now has an optional text field.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BTCPay Server version 1.0.3.137 released]]></title>
+        <id>https://blog.btcpayserver.org/btcpay-1-0-3-137-released/</id>
+        <link href="https://blog.btcpayserver.org/btcpay-1-0-3-137-released/">
+        </link>
+        <updated>2019-11-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This UI was designed by @taratan and was implemented by @NicolasDorier, @DennisReimann and coordinated by @r0ckstardev. This version still requires improvements to achieve the ideal version and we will continue to improve the page based on user feedback.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing BTCPay Day on the 16th of September in Riga]]></title>
+        <id>https://blog.btcpayserver.org/btcpay-day-2019/</id>
+        <link href="https://blog.btcpayserver.org/btcpay-day-2019/">
+        </link>
+        <updated>2019-08-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[There will be workshop corners where people can sit, develop, build or simply brainstorm their new business venture.
+The available workshops are:]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing BTCPay Day 2022 Riga 💚🇱🇻]]></title>
+        <id>https://blog.btcpayserver.org/btcpay-day-2022-riga/</id>
+        <link href="https://blog.btcpayserver.org/btcpay-day-2022-riga/">
+        </link>
+        <updated>2022-08-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[If all those moments from Riga could fit in a picture, it would be this one.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[First BTCPay Day Riga 2019 Recap]]></title>
+        <id>https://blog.btcpayserver.org/btcpay-day-riga-2019-recap/</id>
+        <link href="https://blog.btcpayserver.org/btcpay-day-riga-2019-recap/">
+        </link>
+        <updated>2019-09-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Konstantin (PayBis and CryptoCash)]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MY TRUST IN YOU IS BROKEN, BTCPay Server Feature Documentary Premiere]]></title>
+        <id>https://blog.btcpayserver.org/btcpay-documentary-my-trust-in-you-is-broken/</id>
+        <link href="https://blog.btcpayserver.org/btcpay-documentary-my-trust-in-you-is-broken/">
+        </link>
+        <updated>2024-04-04T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing the BTCPay Server Foundation and our first grant from Square Crypto]]></title>
+        <id>https://blog.btcpayserver.org/btcpay-foundation-announcement/</id>
+        <link href="https://blog.btcpayserver.org/btcpay-foundation-announcement/">
+        </link>
+        <updated>2019-09-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Since its creation in August 2017, BTCPay Server has enjoyed a rapid growth of users and contributors.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Migration from noseedbackup=1 to LND with seed]]></title>
+        <id>https://blog.btcpayserver.org/btcpay-lnd-migration/</id>
+        <link href="https://blog.btcpayserver.org/btcpay-lnd-migration/">
+        </link>
+        <updated>2019-11-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Furthermore, we're introducing a migration tool for old legacy deployments that allows easy migration from noseedbackup=1. Old deployments won't be forced to migrate. They can continue to run LND with legacy option.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Debunking BTCPay Server misconceptions]]></title>
+        <id>https://blog.btcpayserver.org/btcpay-misconceptions/</id>
+        <link href="https://blog.btcpayserver.org/btcpay-misconceptions/">
+        </link>
+        <updated>2019-03-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Without further ado, here are 10 shocking misconceptions.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BTCPay Server version 1.0.3.147 is out!]]></title>
+        <id>https://blog.btcpayserver.org/btcpay-server-1-0-3-147/</id>
+        <link href="https://blog.btcpayserver.org/btcpay-server-1-0-3-147/">
+        </link>
+        <updated>2020-01-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Prior to this release, BTCPay was using BitcoinAverage as a source for rates for many exchanges and also as a default rate provider. The structural changes in BitcoinAverage pricing plans meant that users have to pay to use their API. While we understand and respect BitcoinAverage decision (they've been a reliable and free provider for years) we can't expect all our users to pay for the API.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BTCPay Server 1.0.3.95 Released (Invoice improvements, U2F support, Bitcoin Full Node connect to mobile via QR code, external storage support and more!)]]></title>
+        <id>https://blog.btcpayserver.org/btcpay-server-1-0-3-95/</id>
+        <link href="https://blog.btcpayserver.org/btcpay-server-1-0-3-95/">
+        </link>
+        <updated>2019-05-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[U2F allows users to further enhance the security of their accounts by physically confirming the authentication via a U2F compatible device.]]></summary>
+    </entry>
+</feed>
