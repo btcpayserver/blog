@@ -2,18 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.btcpayserver.org</id>
     <title>BTCPay Server Blog</title>
-    <updated>2024-08-28T11:58:04.615Z</updated>
+    <updated>2024-09-25T08:41:18.585Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://blog.btcpayserver.org"/>
     <link rel="self" href="https://blog.btcpayserver.org/feed.atom"/>
     <subtitle>Official BTCPay Server Blog</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Two Conferences, One MoE: €27,582 in Bitcoin Revenue from 2,998 Lightning Network Payments During Riga Bitcoin Week]]></title>
+        <id>https://blog.btcpayserver.org/case-study-bhb24-nostriga/</id>
+        <link href="https://blog.btcpayserver.org/case-study-bhb24-nostriga/">
+        </link>
+        <updated>2024-09-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Baltic HoneyBadger conference, Europe’s longest-standing Bitcoin-only event, celebrated its 6th anniversary this year in Riga, Latvia. Joining the event was Nostriga, an unconference focused on the Nostr protocol. For the first time, the Nostr conference made its way to Europe, adding an exciting new approach and culture to the gathering. With both conferences joining forces, attendees were treated to an entire week of events, giving them plenty of opportunities to dive deep into Bitcoin, decentralized communications, and everything freedom tech. With the main focus being decentralization, conference organizers made sure that all payments were free of intermediaries, leaving attendees free to focus on collaboration, and sharing ideas that push innovation.]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How OpenSubtitles, home to over 7 Million subtitles and 8,000 contributors, utilizes BTCPay to facilitate bitcoin payments for memberships and donations]]></title>
         <id>https://blog.btcpayserver.org/case-study-opensubtitles/</id>
         <link href="https://blog.btcpayserver.org/case-study-opensubtitles/">
         </link>
         <updated>2024-06-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Founded in 2006, OpenSubtitles.org is the world's largest resource of movies and TV series subtitles. The website offers subtitles in almost any language imaginable. OpenSubtitles plays a crucial role in making cinematic stories more accessible and enjoyable for people with hearing disabilities and non-native speakers, significantly enriching their viewing experience. Utilizing full-text search capabilities and a unique movie hash system, the website ensures precise results for every search query.]]></summary>
+        <summary type="html"><![CDATA[Initially, the lack of a comprehensive subtitle website that could meet all user requirements was evident. There was an acute shortage of APIs, multi- language search functionality, and accurate hash search results, with most platforms offering subtitles in just one language.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[MY TRUST IN YOU IS BROKEN, BTCPay Server Feature Documentary Premiere]]></title>
@@ -21,7 +29,7 @@
         <link href="https://blog.btcpayserver.org/btcpay-documentary-my-trust-in-you-is-broken/">
         </link>
         <updated>2024-04-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Official production began at the Miami Bitcoin Conference of 2023. BTCPay Server Contributors helped many Bitcoin conferences onboard event merchants and new Bitcoiners. Most importantly this story documents the evolution of Bitcoin as a medium of exchange with Bitcoinize point-of-sale devices.]]></summary>
+        <summary type="html"><![CDATA[The first-ever screening of My Trust In You Is Broken will take place at the Bitcoin Film Fest in Warsaw, Poland. We hope to see you there and if you cannot join the European Halving Party with us, digital tickets to the event will let you watch all of the movies from BFF including My Trust In You Is Broken for 42 days.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[BTCPay Server 1.13.0 - Easy user onboarding, admin store view, new store roles & keypad item mode]]></title>
@@ -29,7 +37,7 @@
         <link href="https://blog.btcpayserver.org/btcpay-server-1-13-0/">
         </link>
         <updated>2024-03-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Additionally, a new contact input feature allows you to specify an email or an URL. This will be displayed on publicly visible pages of your server and in the sidebar for server’s users, enabling them to easily contact you for support.]]></summary>
+        <summary type="html"><![CDATA[In the next major version, we’re exploring the addition of an edit mode for server owners, and a view-only mode for server managers (potentially introducing a new role). Let us know what you think about it here.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Bitcoin Atlantis Conference: €115,100 from 8,750 Transactions in 3 Days, Showcasing Bitcoin's Role as a Payment Method]]></title>
@@ -37,7 +45,7 @@
         <link href="https://blog.btcpayserver.org/case-study-bitcoin-atlantis/">
         </link>
         <updated>2024-03-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Implementing a seamless payment experience while navigating challenges involved several key technical and user experience innovations, complemented by open collaboration between multiple projects.]]></summary>
+        <summary type="html"><![CDATA[A reliable payment processing system that could handle a large transaction volume without hiccups was achieved through the deployment of a dedicated BTCPay Server instance. The lightning Network was used for instant and low-cost transaction settlement. Each merchant, had a dedicated store within BTCPay Server created. Each store had a wallet, and a web point of sale app which was loaded on Bitcoinize Point of Sale devices – enabling invoice generation, transaction previews, receipt printing, and refunds.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Bitcoin People built a mobile app on top of BTCPay’s API to scale bitcoin to 270 merchants in Italy with a total of €406,283 in transaction volumes]]></title>
@@ -45,7 +53,7 @@
         <link href="https://blog.btcpayserver.org/case-study-bitcoin-people/">
         </link>
         <updated>2024-02-08T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[No need for server setting or manual configuration whatsoever: the merchant downloads the app, enters company data, writes down the seed, and they are ready to receive payments with an account, store and PoS on a shared BTCPay Server.]]></summary>
+        <summary type="html"><![CDATA[In 2021, the company wanted to build an entire payment processing service, but became aware of BTCPay Server and realized it fulfills all of their needs and the MIT license allowed them to white-label and commercialize their efforts.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[BTCPay Server 2024, The Year of Ambassadors]]></title>
