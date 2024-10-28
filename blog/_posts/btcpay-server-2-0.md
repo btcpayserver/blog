@@ -139,7 +139,6 @@ We strongly urge all developers to prioritize upgrading to version 2.0.
 
 ### List of currently incompatible plugins 
 
-
 List of currently incompatible plugins, at the time of publishing this blog post, **all other plugins are 2.0 compatible**. 
 
 - BTCPayServer.Plugins.Strike (1.3.2.0)
@@ -150,7 +149,7 @@ List of currently incompatible plugins, at the time of publishing this blog post
 ## 💚 Thank you
 With 2.0 we wanted to do all the hard work, most of which may be invisible, but it sets a great base on what we’re aiming to do in 2025. Keep an eye on the upcoming minor releases that we’ll ship if we notice any bugs. In the next few big releases we’re hoping to ship some of the most requested features that further enhance our mission.
 
-Super-special shout out goes to our community testers, who went beyond and above testing the 2.0: decentralizedb & djuri.
+Super-special shout out goes to our community testers, who went beyond and above testing the 2.0: decentralizedb, djuri, j7tx21 & stc786.
 
 We hope you enjoy what this update has to offer. As always, thank you to our invaluable contributors, who directly participated in making 2.0 possible: dennisreimann, dstrukt, jackstar12, kukks, ndeet, nicolasdorier, nisaba, pavlenex, rockstardev, tchukwuleta, and webworthy.
 
