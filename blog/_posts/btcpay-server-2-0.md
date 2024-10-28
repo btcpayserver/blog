@@ -61,11 +61,15 @@ BTCPay 2.0 introduces a **full interface translation**. While customer-facing pa
 
 If you come across any missing strings, please report them [here](https://github.com/btcpayserver/btcpayserver/discussions/6295). We’ll continue to refine and complete all translations in the next few minor releases, and we’re adding several predefined languages to further enhance your experience.
 
+![](/images/2-0-Translation.png)
+
 ## 🧭 New sidebar navigation
 
 In BTCPay Server 2.0, we have moved all navigation elements into a **unified sidebar**. This redesign ensures a clear information hierarchy and provides consistency when navigating different pages, allowing us to standardize all call-to-action buttons by keeping them prominently accessible at the top of the page. 
 
 We understand that navigational changes can be sensitive and may require an adjustment period. However, feedback from our early beta testers suggests that the new sidebar navigation improves efficiency once you become familiar with it.
+
+![](/images/2-0-SidebarNav.png)
 
 We value your input and invite you to share your thoughts on this new feature [here](https://github.com/btcpayserver/btcpayserver/discussions/6293).
 
@@ -79,6 +83,8 @@ Additionally, users can now upload a profile photo and set a nickname for their 
 
 Our recent testing of BTCPay Point of Sale in [Riga](https://blog.btcpayserver.org/case-study-bhb24-nostriga/) and [Nashville](https://x.com/BtcpayServer/status/1816205569612804267) allowed us to dog food our own product and make further improvements. With 2.0 you can now even easier onboard existing users to the POS app, again just by scanning a QR from the point of sale. This allows ambassadors who onboard merchants to log in users instantly on POS devices.
 
+![](/images/2-0-POS-QR.gif)
+
 ## 🚀 Checkout 2.0 default
 
 In 2.0 we’re discontinuing our legacy checkout page and our new checkout becomes the standard for all the stores. The 2.0 checkout has been battle-tested for a while now, and we’re fully confident it brings not only more functionality through features like NFC but also much better and tailored UX through our new branding options.
@@ -86,6 +92,8 @@ In 2.0 we’re discontinuing our legacy checkout page and our new checkout becom
 ## 🎨 Backend branding
 
 We believe branding your instance should give you the ability to customize the experience, with just the ability to select a color or a logo. And while this applies to all public-facing pages, such as checkout and payment requests for customers, we’ve now added an optional feature that allows you to apply your branding colors to the back office as well.
+
+![](/images/2-0-Branding.png)
 
 ## 🛒 New e-commerce integrations
 
