@@ -109,17 +109,23 @@ These integrations offer enhanced flexibility and an easy way for businesses to 
 
 Wix is one of the world’s largest website-building platforms, powering over 200 million websites globally. Known for its ease of use and flexibility, Wix enables businesses of all sizes to create fully customizable websites, including e-commerce stores. With our new BTCPay integration, Wix users can now accept Bitcoin payments, offering their customers more payment options and expanding their reach to the growing Bitcoin economy. This integration is a game-changer for small to medium-sized businesses looking to embrace Bitcoin, bringing it into the mainstream for millions of merchants worldwide.
 
+[![](https://img.youtube.com/vi/4b00htzxA7k/mqdefault.jpg)](https://www.youtube.com/watch?v=4b00htzxA7k)
+
 Follow our [Wix setup guide](https://docs.btcpayserver.org/Wix/) to install it to your Wix store.
 
 ### Odoo
 
 Odoo, an open-source business management software with a vast user base, is a comprehensive suite that covers everything from inventory management, point of sale to e-commerce. Our new plugin for Odoo versions [16](https://github.com/btcpayserver/odoo/blob/16.0/payment_btcpayserver/README.md) and [17](https://apps.odoo.com/apps/modules/17.0/payment_btcpayserver) allows you to easily connect BTCPay with your Odoo store, enabling Bitcoin payments with minimal setup. You can even use it for ticket sales or any other module using online payment methods. It’s even possible to use it in Odoo Point Of Sale (PoS) by enabling online payments there.
 
+[![](https://img.youtube.com/vi/DnASnEdegn4/mqdefault.jpg)](https://www.youtube.com/watch?v=DnASnEdegn4)
+
 Get started by downloading the [plugin on GitHub](https://github.com/btcpayserver/odoo) and following our [Odoo documentation](https://docs.btcpayserver.org/Odoo/).
 
 ### BigCommerce 
 
 BigCommerce is a leading e-commerce platform designed for scalability and focused on enterprise-level merchants. We’re bringing Bitcoin payments to BigCommerce users with our latest integration. 
+
+[![](https://img.youtube.com/vi/lSsk80P91Jo/mqdefault.jpg)](https://www.youtube.com/watch?v=lSsk80P91Jo)
 
 To start accepting Bitcoin for your BigCommerce store, check our [documentation](https://docs.btcpayserver.org/BigCommerce/). 
 
