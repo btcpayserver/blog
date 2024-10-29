@@ -50,7 +50,7 @@ Updating to version BTCPay Server 2.0 is a one-way process with no option for ro
 git fetch && git checkout 2.0
 btcpay-update.sh
 ```
-Please note that the database migration might take a few minutes, depending on the size of your installation. Enjoy BTCPay 2.0 and let us know your thoughts!
+Please note that the database migration might take a few minutes, depending on the size of your installation. Enjoy BTCPay 2.0 and [let us know your thoughts](https://github.com/btcpayserver/btcpayserver/discussions/6294)!
 ### ✔ Post-update checklist
 - If your server **crashed** during the update (it shouldn’t, we’ve done extensive testing), please post server logs [here](https://github.com/btcpayserver/btcpayserver/discussions/6296), we will prioritize support for instances that experienced problems during migration
 - If you use **plugins in BTCPay**, not all of them are 2.0 compatible yet. We automatically deactivate the incompatible plugins (communicate this to a plugin dev and kindly ask them to update their plugins, once they’re compatible you can update them)
