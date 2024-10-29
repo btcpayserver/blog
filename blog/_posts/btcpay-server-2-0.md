@@ -23,7 +23,7 @@ BTCPay Server 2.0 realigns the internal architecture with the lessons we’ve le
 - New sidebar-only navigation
 - New onboarding flow for new users and Point Of Sale
 - Three new e-commerce integrations (Wix, Odoo & BigCommerce)
-- Checkout v2 default (depreciation of the legacy checkout)
+- Checkout v2 default (removal of the legacy checkout)
 - Branding enhancements
 
 Full changelog can be found [here](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.0.0).
@@ -56,7 +56,7 @@ Please note that the database migration might take a few minutes, depending on t
 - If you use **plugins in BTCPay**, not all of them are 2.0 compatible yet. We automatically deactivate the incompatible plugins (communicate this to a plugin dev and kindly ask them to update their plugins, once they’re compatible you can update them)
 - If you use **e-commerce integrations** (Woocommerce, Shopify, etc) update those plugins to their latest version in their dedicated stores as they ensure 2.0 compatibility
 - If you’re a **developer** leveraging BTCPay’s Greenfield API, check our [breaking changes](https://github.com/btcpayserver/btcpayserver/issues/5964) to ensure 2.0 compatibility 
-- If you’re a **plugin developer**, make sure your plugins are 2.0 compatible. To start, bump Bump plugin to 2.0 submodule and fix errors
+- If you’re a **plugin developer**, make sure your plugins are 2.0 compatible. To start, bump plugin to 2.0 submodule and fix errors
 - If you’re using **Translations**, report any missing strings [here](https://github.com/btcpayserver/btcpayserver/discussions/6295)
 
 ## 🌍 Interface localization
@@ -160,7 +160,6 @@ We strongly urge all developers to prioritize upgrading to version 2.0.
 List of currently incompatible plugins, at the time of publishing this blog post, **all other plugins are 2.0 compatible**. 
 
 - BTCPayServer.Plugins.Strike (1.3.2.0)
-- BTCPayServer.Plugins.LiquidPlus (1.1.4.0)
 - BTCPayServer.Plugins.B2PCentral (1.0.1.0)
 - BTCPayServer.Plugins.Trocador (1.2.5.0)
 
