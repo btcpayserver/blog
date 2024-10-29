@@ -44,10 +44,11 @@ During the transition from 1.0 to 2.0, larger instances may experience **a few m
 As an example, our mainnet demo database, containing around 400,000 invoices, took one to two minutes to start and about 15-20 minutes to fully update all invoices in the background.
 
 ## 🔄 Updating to 2.0
-Updating to version BTCPay Server 2.0 is a one-way process with no option for rolling back. Because of that, we're making it opt-in, requiring that you [SSH into your server](https://docs.btcpayserver.org/FAQ/ServerSettings/#how-to-ssh-into-my-btcpay-running-on-vps) and run two simple commands:
+Updating to BTCPay Server 2.0 is a one-way process with no option for rolling back. Because of that, we're making it opt-in, requiring that you [SSH into your server](https://docs.btcpayserver.org/FAQ/ServerSettings/#how-to-ssh-into-my-btcpay-running-on-vps) and run:
 
 ```ssh
-git fetch && git checkout 2.0
+git fetch
+git checkout 2.0
 btcpay-update.sh
 ```
 Please note that the database migration might take a few minutes, depending on the size of your installation. Enjoy BTCPay 2.0 and [let us know your thoughts](https://github.com/btcpayserver/btcpayserver/discussions/6294)!
