@@ -148,7 +148,7 @@ Additionally, our **PrestaShop** plugin received a [new update](https://github.c
 
 ## 🔌 Plugins
 
-If you use plugins with your BTCPay Server, you might notice that some are disabled after updates - we do that to prevent server crashes. If you rely heavily on plugins for your BTCPay operations, we recommend holding off on updating to version 2.0 for now. Keep an eye on announcements from developers of the plugins and give them a few more weeks to address compatibility issues and release updates.
+If you use plugins with your BTCPay Server, you may notice that some are disabled following updates - we do this to prevent server crashes. If you rely heavily on plugins for your BTCPay operations, we recommend that you double-check compatibility and look for announcements from plugin developers regarding their support for version 2.0 before proceeding with the upgrade.
 
 Plugin developers should update their submodules to 2.0 and fix any errors to ensure compatibility. Review the [example PR from Nicolas on Payroll plugin](https://github.com/rockstardev/BTCPayServerPlugins.RockstarDev/pull/45) or take a look at how [Boltz updated their plugin](https://github.com/BoltzExchange/boltz-btcpay-plugin/commit/326d13b7e600a81784b1c64cb7363b4566b1411a). After resolving issues and thoroughly testing their plugin, developers should publish an updated release on [plugin-builder.btcpayserver.org](https://plugin-builder.btcpayserver.org).
 
