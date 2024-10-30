@@ -6,10 +6,18 @@
     "description": "Official BTCPay Server Blog",
     "items": [
         {
+            "id": "https://blog.btcpayserver.org/btcpay-server-2-0/",
+            "url": "https://blog.btcpayserver.org/btcpay-server-2-0/",
+            "title": "BTCPay Server 2.0: our biggest update yet!",
+            "summary": "We are thrilled to announce the release of BTCPay Server 2.0, our most significant update since the project began in 2017!",
+            "image": "https://blog.btcpayserver.org/images/2-0-Translation.png",
+            "date_modified": "2024-10-29T00:00:00.000Z"
+        },
+        {
             "id": "https://blog.btcpayserver.org/case-study-bhb24-nostriga/",
             "url": "https://blog.btcpayserver.org/case-study-bhb24-nostriga/",
             "title": "Two Conferences, One MoE: €27,582 in Bitcoin Revenue from 2,998 Lightning Network Payments During Riga Bitcoin Week",
-            "summary": "The Baltic HoneyBadger conference, Europe’s longest-standing Bitcoin-only event, celebrated its 6th anniversary this year in Riga, Latvia. Joining the event was Nostriga, an unconference focused on the Nostr protocol. For the first time, the Nostr conference made its way to Europe, adding an exciting new approach and culture to the gathering. With both conferences joining forces, attendees were treated to an entire week of events, giving them plenty of opportunities to dive deep into Bitcoin, decentralized communications, and everything freedom tech. With the main focus being decentralization, conference organizers made sure that all payments were free of intermediaries, leaving attendees free to focus on collaboration, and sharing ideas that push innovation.",
+            "summary": "Whether attendees were grabbing coffee, a burger or buying merchandise, conference organizers wanted to ensure they could pay in bitcoin.",
             "image": "https://blog.btcpayserver.org/images/BHB24-1.png",
             "date_modified": "2024-09-25T00:00:00.000Z"
         },
