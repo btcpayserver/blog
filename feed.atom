@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.btcpayserver.org</id>
     <title>BTCPay Server Blog</title>
-    <updated>2024-10-30T14:39:54.134Z</updated>
+    <updated>2024-11-02T05:57:43.167Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://blog.btcpayserver.org"/>
     <link rel="self" href="https://blog.btcpayserver.org/feed.atom"/>
