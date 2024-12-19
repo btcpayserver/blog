@@ -4,7 +4,7 @@
         <title>BTCPay Server Blog</title>
         <link>https://blog.btcpayserver.org</link>
         <description>Official BTCPay Server Blog</description>
-        <lastBuildDate>Thu, 21 Nov 2024 15:53:53 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 19 Dec 2024 09:55:50 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://blog.btcpayserver.org/feed.atom" rel="self" type="application/rss+xml"/>
