@@ -46,14 +46,21 @@ As an example, our mainnet demo database, containing around 400,000 invoices, to
 
 ## 🔄 Updating to 2.0
 
-Updating to BTCPay Server 2.0 is a one-way process with no option for rolling back. Because of that, we're making it opt-in, requiring that you [SSH into your server](https://docs.btcpayserver.org/FAQ/ServerSettings/#how-to-ssh-into-my-btcpay-running-on-vps) and run:
+:::warning
+Update: As of December 23, 2024, users updating BTCPay Server will automatically migrate to version 2.0.
+There's no need to manually git checkout the 2.0 branch anymore. Users on the 2.0 branch will be seamlessly transferred back to the master branch during their next [regular update](https://docs.btcpayserver.org/FAQ/ServerSettings/#how-to-update-btcpay-server).
+:::
+
+**Paragraph below is now outdated!**
+
+*Updating to BTCPay Server 2.0 is a one-way process with no option for rolling back. Because of that, we're making it opt-in, requiring that you [SSH into your server](https://docs.btcpayserver.org/FAQ/ServerSettings/#how-to-ssh-into-my-btcpay-running-on-vps) and run:
 
 ```bash
 cd $BTCPAY_BASE_DIRECTORY/btcpayserver-docker
 git fetch -a
 git checkout 2.0
 ./btcpay-update.sh
-```
+```*
 
 Please note that the database migration might take a few minutes, depending on the size of your installation. Enjoy BTCPay 2.0 and [let us know your thoughts](https://github.com/btcpayserver/btcpayserver/discussions/6294)!
 
