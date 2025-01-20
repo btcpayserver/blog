@@ -6,10 +6,18 @@
     "description": "Official BTCPay Server Blog",
     "items": [
         {
+            "id": "https://blog.btcpayserver.org/2024-year-in-review/",
+            "url": "https://blog.btcpayserver.org/2024-year-in-review/",
+            "title": "Accelerating Bitcoin adoption: 2024 in review & 2025 ambitions",
+            "summary": "2024 marked one of the most transformative years in BTCPay Server's seven-year journey. Here we highlight our key achievements showcasing the progress made and detailing ambitions for the year ahead, that ensure BTCPay Server continues to lead the way in empowering merchants, developers, activists and local communities to embrace Bitcoin as a medium of exchange.",
+            "image": "https://blog.btcpayserver.org/images/btcpayday-24.jpeg",
+            "date_modified": "2025-01-21T00:00:00.000Z"
+        },
+        {
             "id": "https://blog.btcpayserver.org/case-study-namecheap/",
             "url": "https://blog.btcpayserver.org/case-study-namecheap/",
             "title": "Namecheap surpasses $73M in BTC revenue with 1.1m transactions through BTCPay Integration",
-            "summary": "Namecheap has been one of the world’s leading domain registrars for over two decades. Launched in 2000 to provide great domains at great prices, Namecheap has since expanded to become a platform with everything you need to get online for less. They offer hosting, security, managed WordPress, and more, always prioritizing customer service and data privacy above all else.",
+            "summary": "You can download a PDF of this case study on this link.",
             "image": "https://blog.btcpayserver.org/images/namecheap-1.png",
             "date_modified": "2024-11-21T00:00:00.000Z"
         },
