@@ -115,7 +115,7 @@ In the third quarter, our focus shifts to expanding features and improving usabi
 
 The final quarter of the year will be dedicated to stabilizing and polishing. BTCPay Server minor releases in that period will focus on removing outdated features from the core codebase while maintaining and improving existing integrations. The BTCPay App will enter its open beta testing phase, marking a significant milestone in our journey to make non-custodial Bitcoin payments more accessible for physical stores worldwide. This quarter will also feature a revamped website launch to showcase our evolving product range to the adequate user-groups.
 
-[![](https://img.youtube.com/vi/WZPN-SAO3U/mqdefault.jpg)](https://www.youtube.com/watch?v=WZPN-SAO3U)
+[![](https://img.youtube.com/vi/JWZPN-SAO3U&t=6421s-t/mqdefault.jpg)](https://www.youtube.com/watch?v=JWZPN-SAO3U&t=6421s)
 
 ## Summary
 
