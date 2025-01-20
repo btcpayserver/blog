@@ -70,13 +70,14 @@ We want to help transform the global financial landscape and make Bitcoin the un
    * Published detailed [guide](https://docs.btcpayserver.org/Conference-PoS-guide/) for setting up BoltCards, enabling broader adoption of Lightning NFC payments.  
    * [HereComesBitcoin](https://www.herecomesbitcoin.org) Plush toys: Together with Uncute.com and Spiral we’ve organized a campaign for Here Comes Bitcoin plush toys.
 
+[![](https://img.youtube.com/vi/j6CvwDPvfzQ/mqdefault.jpg)](https://www.youtube.com/watch?v=Z78ZbPcsc3g)
+
 ### Team growth and supporters
 
 1. **BTCPay Foundation Supporters**  
    * 2024 saw the conclusion of Baillie Gifford's and Strike support for the BTCPay Foundation.   
    * New supporters: Tether and Unbank.  
    * The following entities currently support BTCPay Foundation: Spiral, OpenSats, Tether, LunaNode, Wallet of Satoshi, CoinCards, iVPN, Unbank  
-   *   
 2. **Team structure**  
    * We welcomed new core member [TChukwuleta](https://x.com/TChileta/status/1866122460556333179), focusing on plugin development, documentation and education.  
    * Collaborated with Bitcoin Design and BitShala to onboard a new fellow designer, [Sanya Malhotra](https://x.com/SanyaMalhotraa) through the 6-months  BitShala Fellowship program.  
