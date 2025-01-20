@@ -70,7 +70,7 @@ We want to help transform the global financial landscape and make Bitcoin the un
    * Published detailed [guide](https://docs.btcpayserver.org/Conference-PoS-guide/) for setting up BoltCards, enabling broader adoption of Lightning NFC payments.  
    * [HereComesBitcoin](https://www.herecomesbitcoin.org) Plush toys: Together with Uncute.com and Spiral we’ve organized a campaign for Here Comes Bitcoin plush toys.
 
-[![](https://img.youtube.com/vi/j6CvwDPvfzQ/mqdefault.jpg)](https://www.youtube.com/watch?v=Z78ZbPcsc3g)
+[![](https://img.youtube.com/vi/Z78ZbPcsc3g/mqdefault.jpg)](https://www.youtube.com/watch?v=Z78ZbPcsc3g)
 
 ### Team growth and supporters
 
@@ -114,6 +114,8 @@ In the third quarter, our focus shifts to expanding features and improving usabi
 #### **Q4: Polishing and open beta**
 
 The final quarter of the year will be dedicated to stabilizing and polishing. BTCPay Server minor releases in that period will focus on removing outdated features from the core codebase while maintaining and improving existing integrations. The BTCPay App will enter its open beta testing phase, marking a significant milestone in our journey to make non-custodial Bitcoin payments more accessible for physical stores worldwide. This quarter will also feature a revamped website launch to showcase our evolving product range to the adequate user-groups.
+
+[![](https://img.youtube.com/vi/WZPN-SAO3U/mqdefault.jpg)](https://www.youtube.com/watch?v=WZPN-SAO3U)
 
 ## Summary
 
