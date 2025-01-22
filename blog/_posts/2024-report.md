@@ -1,6 +1,6 @@
 ---
 title: "Accelerating Bitcoin adoption: 2024 in review & 2025 ambitions"
-date: 2025-01-21
+date: 2025-01-22
 author: Pavlenex, r0ckstarDev
 category:
   - "releases"
