@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.btcpayserver.org</id>
     <title>BTCPay Server Blog</title>
-    <updated>2025-01-20T18:27:40.232Z</updated>
+    <updated>2025-01-22T11:38:07.312Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://blog.btcpayserver.org"/>
     <link rel="self" href="https://blog.btcpayserver.org/feed.atom"/>
@@ -12,7 +12,7 @@
         <id>https://blog.btcpayserver.org/2024-year-in-review/</id>
         <link href="https://blog.btcpayserver.org/2024-year-in-review/">
         </link>
-        <updated>2025-01-21T00:00:00.000Z</updated>
+        <updated>2025-01-22T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[2024 marked one of the most transformative years in BTCPay Server's seven-year journey. Here we highlight our key achievements showcasing the progress made and detailing ambitions for the year ahead, that ensure BTCPay Server continues to lead the way in empowering merchants, developers, activists and local communities to embrace Bitcoin as a medium of exchange.]]></summary>
     </entry>
     <entry>

@@ -4,7 +4,7 @@
         <title>BTCPay Server Blog</title>
         <link>https://blog.btcpayserver.org</link>
         <description>Official BTCPay Server Blog</description>
-        <lastBuildDate>Mon, 20 Jan 2025 18:27:40 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 Jan 2025 11:38:07 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://blog.btcpayserver.org/feed.atom" rel="self" type="application/rss+xml"/>
@@ -12,7 +12,7 @@
             <title><![CDATA[Accelerating Bitcoin adoption: 2024 in review & 2025 ambitions]]></title>
             <link>https://blog.btcpayserver.org/2024-year-in-review/</link>
             <guid>https://blog.btcpayserver.org/2024-year-in-review/</guid>
-            <pubDate>Tue, 21 Jan 2025 00:00:00 GMT</pubDate>
+            <pubDate>Wed, 22 Jan 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[2024 marked one of the most transformative years in BTCPay Server's seven-year journey. Here we highlight our key achievements showcasing the progress made and detailing ambitions for the year ahead, that ensure BTCPay Server continues to lead the way in empowering merchants, developers, activists and local communities to embrace Bitcoin as a medium of exchange.]]></description>
             <enclosure url="https://blog.btcpayserver.org/images/btcpayday-24.jpeg">
             </enclosure>
