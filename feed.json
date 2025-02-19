@@ -6,10 +6,18 @@
     "description": "Official BTCPay Server Blog",
     "items": [
         {
+            "id": "https://blog.btcpayserver.org/case-study-unbank/",
+            "url": "https://blog.btcpayserver.org/case-study-unbank/",
+            "title": "$40 Million Volume and 41,416 Bitcoin Transactions In Six Months: How Unbank Deploys BTCPay Server At Scale",
+            "summary": "Unbank, founded in 2014, is the oldest and most established Bitcoin ATM network in the U.S.",
+            "image": "https://blog.btcpayserver.org/images/unbank-1.png",
+            "date_modified": "2025-02-19T00:00:00.000Z"
+        },
+        {
             "id": "https://blog.btcpayserver.org/2024-year-in-review/",
             "url": "https://blog.btcpayserver.org/2024-year-in-review/",
             "title": "Accelerating Bitcoin adoption: 2024 in review & 2025 ambitions",
-            "summary": "2024 marked one of the most transformative years in BTCPay Server's seven-year journey. Here we highlight our key achievements showcasing the progress made and detailing ambitions for the year ahead, that ensure BTCPay Server continues to lead the way in empowering merchants, developers, activists and local communities to embrace Bitcoin as a medium of exchange.",
+            "summary": "We empower individuals and businesses with tools to accept Bitcoin payments directly, eliminating trusted third parties and fees. By creating open-source, privacy-focused infrastructure, we provide merchants, developers, and community leaders with solutions that break down geographic, political, and financial barriers, driving the global adoption of Bitcoin.",
             "image": "https://blog.btcpayserver.org/images/btcpayday-24.jpeg",
             "date_modified": "2025-01-22T00:00:00.000Z"
         },
@@ -17,7 +25,7 @@
             "id": "https://blog.btcpayserver.org/case-study-namecheap/",
             "url": "https://blog.btcpayserver.org/case-study-namecheap/",
             "title": "Namecheap surpasses $73M in BTC revenue with 1.1m transactions through BTCPay Integration",
-            "summary": "You can download a PDF of this case study on this link.",
+            "summary": "Furthermore, our customers specifically asked for it. BTCPay Server’s ethos of security,  privacy, and inclusion aligns with Namecheap’s own values. That, combined with easy integration for smaller merchants, made adopting BTCPay extra appealing.",
             "image": "https://blog.btcpayserver.org/images/namecheap-1.png",
             "date_modified": "2024-11-21T00:00:00.000Z"
         },
@@ -25,7 +33,7 @@
             "id": "https://blog.btcpayserver.org/btcpay-server-2-0/",
             "url": "https://blog.btcpayserver.org/btcpay-server-2-0/",
             "title": "BTCPay Server 2.0: our biggest update yet!",
-            "summary": "Full changelog can be found here.",
+            "summary": "For most, the transition to 2.0 will be seamless, but if you rely on custom integrations or plugins, you will need to update them to ensure compatibility with our 2.0 API.",
             "image": "https://blog.btcpayserver.org/images/2-0-Translation.png",
             "date_modified": "2024-10-29T00:00:00.000Z"
         },
