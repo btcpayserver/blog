@@ -77,7 +77,7 @@ The latest release introduces several new integrations designed to accelerate Bi
 
 [![Shopify Integration for BTCPay Server](https://img.youtube.com/vi/DxP-NLAoCiY?/mqdefault.jpg)](https://www.youtube.com/watch?v=DxP-NLAoCiY)
 
-​The launch of [Shopify V2](https://docs.btcpayserver.org/ShopifyV2/) integration is an overhaul of the [previous](https://docs.btcpayserver.org/Shopify/) Shopify plugin. The new version ensures compatibility with Shopify's upcoming API changes, which will affect all users by **August 2025**. Notably, the V1 integration ceased functioning for new merchants on **December 31, 2024**, and existing users should migrate to V2 before the August deadline to maintain seamless operations.​
+​The launch of [Shopify V2](https://docs.btcpayserver.org/ShopifyV2/) integration is an overhaul of the previous Shopify plugin. The new version ensures compatibility with Shopify's upcoming API changes, which will affect all users by **August 2025**. Notably, the V1 integration ceased functioning for new merchants on **December 31, 2024**, and existing users should migrate to V2 before the August deadline to maintain seamless operations.​
 
 Shopify stands as a leading e-commerce platform, powering over **4.6 million live websites** globally. With approximately **2.1 million daily active merchants**. 
 
