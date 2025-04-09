@@ -29,7 +29,7 @@ Full changelog can be found [here](https://github.com/btcpayserver/btcpayserver/
 
 ### Refined MultiSig support 
 
-<!-- [Add MultiSig video] -->
+[![MultiSig in BTCPay Server](https://img.youtube.com/vi/V95pLvVTAqM?/mqdefault.jpg)](https://www.youtube.com/watch?v=V95pLvVTAqM)
 
 BTCPay Server has supported multisig wallets for a while, but version 2.1.0 brings a complete redesign of the user experience and introduces powerful new features aimed at improving security, collaboration, and flexibility. 
 
@@ -55,7 +55,7 @@ While RBF is applied per transaction, CPFP allows merchants to **batch multiple 
 
 Check out the implementation [here](https://github.com/btcpayserver/btcpayserver/pull/6581).
 
-<!-- [Add Fee Bump video here] -->
+[![Fee acceleration in BTCPay Server](https://img.youtube.com/vi/PW7Vtc3J3o0?/mqdefault.jpg)](https://www.youtube.com/watch?v=PW7Vtc3J3o0)
 
 ### **Pluginizing ZCash and Monero**
 
@@ -75,7 +75,7 @@ The latest release introduces several new integrations designed to accelerate Bi
 
 #### Shopify V2
 
-[![Shopify Integration for BTCPay Server](https://img.youtube.com/vi/DxP-NLAoCiY?/mqdefault.jpg)](https://www.youtube.com/watch?v=DxP-NLAoCiY)
+[![Shopify Integration for BTCPay Server](https://img.youtube.com/vi/CtOCxBiN0pY?/mqdefault.jpg)](https://www.youtube.com/watch?v=CtOCxBiN0pY)
 
 ​The launch of [Shopify V2](https://docs.btcpayserver.org/ShopifyV2/) integration is an overhaul of the previous Shopify plugin. The new version ensures compatibility with Shopify's upcoming API changes, which will affect all users by **August 2025**. Notably, the V1 integration ceased functioning for new merchants on **December 31, 2024**, and existing users should migrate to V2 before the August deadline to maintain seamless operations.​
 
@@ -85,7 +85,7 @@ Shopify stands as a leading e-commerce platform, powering over **4.6 million liv
 
 #### Ghost 
 
-<!-- [Add Ghost video here] -->
+[![Ghost Blog Integration for BTCPay Server](https://img.youtube.com/vi/L61fs3gzXOw?/mqdefault.jpg)](https://www.youtube.com/watch?v=L61fs3gzXOw)
 
 ​Ghost is a modern, open-source publishing platform designed for professional publishing, with over **100 million installs to date**. Our new integration, enables content creators and publishers to seamlessly accept Bitcoin payments including:​
 
@@ -97,7 +97,7 @@ Shopify stands as a leading e-commerce platform, powering over **4.6 million liv
 
 The new **Ecwid integration**, allows merchants on this versatile e-commerce platform to seamlessly accept Bitcoin payments. Ecwid is known for its powerful **social media integrations**, enabling merchants to easily sell across platforms like Facebook, Instagram, and TikTok directly from their store. With over **665,000 live websites** using Ecwid, this integration potentially unlocks Bitcoin adoption for a broad user base.
 
-[![ECWID Integration for BTCPay Server](https://img.youtube.com/vi/WO6rzfz-SwI?/mqdefault.jpg)](https://www.youtube.com/watch?v=WO6rzfz-SwI)
+[![ECWID Integration for BTCPay Server](https://img.youtube.com/vi/5NOJBnQjsLc?/mqdefault.jpg)](https://www.youtube.com/watch?v=5NOJBnQjsLc)
 
 ### Removing Watch-Only wallet creation by default
 
