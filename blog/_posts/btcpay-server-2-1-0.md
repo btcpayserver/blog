@@ -1,6 +1,6 @@
 ---
 title: "BTCPay Server 2.1.0: New MultiSig, Fee Acceleration, 3 new integrations and more!"
-date: 2025-04-08
+date: 2025-04-10
 author: Pavlenex
 category:
   - "releases"
