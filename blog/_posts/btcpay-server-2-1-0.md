@@ -120,7 +120,7 @@ The next release of Plugin Builder will also include improvements to author veri
 As part of our ongoing efforts to improve the plugin ecosystem, we're excited to highlight several new plugins and important updates to widely-used ones:
 
 * **Cash Checkout** – Adds a cash payment option to the checkout, ideal for physical merchants using the BTCPay POS app.  
-* [**Satoshi Tickets**](https://github.com/TChukwuleta/BTCPayServerPlugins/tree/main/Plugins/BTCPayServer.Plugins.SimpleTicketSales) – Event organizers, conference hosts, and community managers can now create and manage events directly from their BTCPay Server instance, with built-in ticketing.  
+* [**Satoshi Tickets**](https://github.com/TChukwuleta/BTCPayServerPlugins/tree/main/Plugins/BTCPayServer.Plugins.SatoshiTickets) – Event organizers, conference hosts, and community managers can now create and manage events directly from their BTCPay Server instance, with built-in ticketing.  
 * [**Vendor Pay**](https://x.com/r0ckstardev/status/1780741047523381631) – Formerly known as Payroll, this plugin has been renamed to better reflect its purpose. Recent improvements include: email flows for invoice reminders and payment confirmations, support for multiple invoice/receipt uploads, new settings, improved CSV exports, and more.  
 * [**Xpub Extractor**](https://x.com/r0ckstardev/status/1899891677646774653) – A utility for easily extracting xpubs from hardware wallets via BTCPay Vault. Especially useful for multisig setups.  
 * **TicketTailor** – A new version of the plugin has been released to address a breaking API change that previously misrepresented ticket prices.  
