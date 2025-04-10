@@ -6,10 +6,18 @@
     "description": "Official BTCPay Server Blog",
     "items": [
         {
+            "id": "https://blog.btcpayserver.org/btcpay-server-2-1-0/",
+            "url": "https://blog.btcpayserver.org/btcpay-server-2-1-0/",
+            "title": "BTCPay Server 2.1.0: New MultiSig, Fee Acceleration, 3 new integrations and more!",
+            "summary": "After five minor releases since our last major update, we are excited to announce the release of BTCPay Server v2.1.0",
+            "image": "https://img.youtube.com/vi/V95pLvVTAqM?/mqdefault.jpg",
+            "date_modified": "2025-04-10T00:00:00.000Z"
+        },
+        {
             "id": "https://blog.btcpayserver.org/case-study-unbank/",
             "url": "https://blog.btcpayserver.org/case-study-unbank/",
             "title": "$40 Million Volume and 41,416 Bitcoin Transactions In Six Months: How Unbank Deploys BTCPay Server At Scale",
-            "summary": "Unbank, founded in 2014, is the oldest and most established Bitcoin ATM network in the U.S.",
+            "summary": "Bitcoin ATMs cater to the underserved population and those who prefer cash transactions. Through Unbank, individuals who want privacy and security can have instant access to bitcoin for various uses, including investments, transfers, or payments as an alternative financial solution.",
             "image": "https://blog.btcpayserver.org/images/unbank-1.png",
             "date_modified": "2025-02-19T00:00:00.000Z"
         },
@@ -17,7 +25,7 @@
             "id": "https://blog.btcpayserver.org/2024-year-in-review/",
             "url": "https://blog.btcpayserver.org/2024-year-in-review/",
             "title": "Accelerating Bitcoin adoption: 2024 in review & 2025 ambitions",
-            "summary": "We empower individuals and businesses with tools to accept Bitcoin payments directly, eliminating trusted third parties and fees. By creating open-source, privacy-focused infrastructure, we provide merchants, developers, and community leaders with solutions that break down geographic, political, and financial barriers, driving the global adoption of Bitcoin.",
+            "summary": "We want to help transform the global financial landscape and make Bitcoin the universal standard for payments. We aim to lead by example in this evolution by fostering innovation and adoption through open-source, censorship-resistant, and self-custodial technologies, building a future where tools for financial freedom are accessible to all.",
             "image": "https://blog.btcpayserver.org/images/btcpayday-24.jpeg",
             "date_modified": "2025-01-22T00:00:00.000Z"
         },
@@ -25,7 +33,7 @@
             "id": "https://blog.btcpayserver.org/case-study-namecheap/",
             "url": "https://blog.btcpayserver.org/case-study-namecheap/",
             "title": "Namecheap surpasses $73M in BTC revenue with 1.1m transactions through BTCPay Integration",
-            "summary": "Furthermore, our customers specifically asked for it. BTCPay Server’s ethos of security,  privacy, and inclusion aligns with Namecheap’s own values. That, combined with easy integration for smaller merchants, made adopting BTCPay extra appealing.",
+            "summary": "We deployed all the server parts manually instead of using the default method of deploying them on one machine based on docker images. Because of this, we had to make all the parts work together ourselves, working closely with the BTCPay team to ensure the service could function on remote servers.",
             "image": "https://blog.btcpayserver.org/images/namecheap-1.png",
             "date_modified": "2024-11-21T00:00:00.000Z"
         },
@@ -33,7 +41,7 @@
             "id": "https://blog.btcpayserver.org/btcpay-server-2-0/",
             "url": "https://blog.btcpayserver.org/btcpay-server-2-0/",
             "title": "BTCPay Server 2.0: our biggest update yet!",
-            "summary": "For most, the transition to 2.0 will be seamless, but if you rely on custom integrations or plugins, you will need to update them to ensure compatibility with our 2.0 API.",
+            "summary": "BTCPay Server started in 2017, and over the past seven years, we’ve learned a lot as a community. New protocols have emerged, and users have continuously requested new features. Throughout this journey, our main challenge in product development has been to move slowly and steadily, ensuring we avoid breaking changes for our users. Stability is critical because it allows merchants to focus on running their businesses without worrying about infrastructure or payment integrations.",
             "image": "https://blog.btcpayserver.org/images/2-0-Translation.png",
             "date_modified": "2024-10-29T00:00:00.000Z"
         },
@@ -41,7 +49,7 @@
             "id": "https://blog.btcpayserver.org/case-study-bhb24-nostriga/",
             "url": "https://blog.btcpayserver.org/case-study-bhb24-nostriga/",
             "title": "Two Conferences, One MoE: €27,582 in Bitcoin Revenue from 2,998 Lightning Network Payments During Riga Bitcoin Week",
-            "summary": "Download a PDF version of this case study.",
+            "summary": "For merchants, the focus was on providing an experience that matched the ease of traditional credit card payments, while reducing technical headaches, volatility of bitcoin, and ensuring no downtime.\nFor attendees, it was all about making the system easy to use, even for beginners who never had bitcoin. The priority was a fast, user-friendly effective experience that worked seamlessly in an environment where internet connection may not be reliable.",
             "image": "https://blog.btcpayserver.org/images/BHB24-1.png",
             "date_modified": "2024-09-25T00:00:00.000Z"
         },
@@ -49,7 +57,7 @@
             "id": "https://blog.btcpayserver.org/case-study-opensubtitles/",
             "url": "https://blog.btcpayserver.org/case-study-opensubtitles/",
             "title": "How OpenSubtitles, home to over 7 Million subtitles and 8,000 contributors, utilizes BTCPay to facilitate bitcoin payments for memberships and donations",
-            "summary": "To ensure sustainability, there are several ways in which users can help OpenSubtitles. Besides getting involved as a developer, users can donate or become VIP members, to ensure no ads and several other benefits. As a global website, it is important that any user, no matter where they’re from can send a payment without any friction. Bitcoin was an obvious choice for this, and as a reputable open-source project, BTCPay Server appeared on their radar.",
+            "summary": "The adoption of BTCPay Server by OpenSubtitles has significantly enhanced financial operations and user payment options. This integration allows OpenSubtitles to support several cryptocurrencies and payment networks, including Bitcoin, BTC Liquid, Bitcoin over the Lightning Network, and Monero, catering to the diverse preferences of its global audience.",
             "image": "https://blog.btcpayserver.org/images/opensubtitles-1.png",
             "date_modified": "2024-06-10T00:00:00.000Z"
         },
