@@ -9,7 +9,7 @@ tags:
   - "btcpay-server"
   - "release"
   - "2.2.0"
-coverImage: "/images/btcpay2-2-featured.png"
+coverImage: "/images/2-2/btcpay2-2-featured.png"
 ---
 
 We're excited to announce the release of [BTCPay Server 2.2.0](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.2.0). This major update improves accounting and coin management workflows, simplifies Lightning node management with the new LSP plugin, and brings significant enhancements to the plugin builder.
@@ -61,8 +61,6 @@ Plugins remain central to our [roadmap](https://blog.btcpayserver.org/2024-year-
 
 To view available BTCPay plugins, you'll be able to visit our [Plugin Builder website](https://plugin-builder.btcpayserver.org/public/plugins/) and explore what's offered:
 
-(insert gif from: https://private-user-images.githubusercontent.com/47084273/464104927-1b1ecc1d-71c3-4b27-a08d-37f44b5b9d0c.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTM4MDUzMDYsIm5iZiI6MTc1MzgwNTAwNiwicGF0aCI6Ii80NzA4NDI3My80NjQxMDQ5MjctMWIxZWNjMWQtNzFjMy00YjI3LWEwOGQtMzdmNDRiNWI5ZDBjLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzI5VDE2MDMyNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWVlMzllZDUwODY1ODg1Y2Y3N2YyNDkzNDZlYzg0NTkyYjFhYjliYmVkZGRiNGUzYjQ0N2E4NGQ2OGIzYWUyNTAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.YthdiwOnmac7DhnniJzBiobi\_jkI4sQobUXkJTmI8K4)
-
 Thanks to contributions from [TChukwuleta](https://github.com/TChukwuleta) and [Thgoo](https://github.com/thgO-O), we now have an automated CI system to support ongoing development of the Plugin Builder. This provides the foundation for continued UI/UX improvements \- especially now that each author can manage the public page of their plugins.
 
 Besides this, there are notable changes in existing, and a few new plugins.
@@ -100,7 +98,7 @@ Bitcoin switch, by [Kukks](https://github.com/Kukks), allows you to connect a BT
 
 ### **🎁 GiveWP Integration**
 
-[![GiveWP Bitcoin](v=xpjyTJd47tA/mqdefault.jpg)](https://www.youtube.com/v=xpjyTJd47tA)
+[![GiveWP Bitcoin](https://img.youtube.com/vi/xpjyTJd47tA/mqdefault.jpg)](https://www.youtube.com/watch?v=xpjyTJd47tA)
 
 Our new GiveWP integration allows **100 000+** GiveWP users to accept Bitcoin donations to their website, directly to their wallet, without fees. [GiveWP](https://givewp.com) is a top-rated donation plugin for WordPress, used by nonprofits and creators to raise money online.
 
