@@ -61,9 +61,11 @@ Combined with the multisig signing features [highlighted in earlier blog posts](
 
 Plugins remain central to our [roadmap](https://blog.btcpayserver.org/2024-year-in-review/#looking-ahead-to-2025). Aligned with the BTCPay Server 2.2.0 release, we're also finally releasing the public 1.0 of Plugin Builder.
 
+![2-0 Plugin Builder](/images/2-2/2-0-plugin-builder.gif)
+
 To view available BTCPay plugins, you'll be able to visit our [Plugin Builder website](https://plugin-builder.btcpayserver.org/public/plugins/) and explore what's offered:
 
-Thanks to contributions from [TChukwuleta](https://github.com/TChukwuleta) and [Thgoo](https://github.com/thgO-O), we now have an automated CI system to support ongoing development of the Plugin Builder. This provides the foundation for continued UI/UX improvements \- especially now that each author can manage the public page of their plugins.
+Thanks to contributions from [TChukwuleta](https://github.com/TChukwuleta) and [Thgoo](https://github.com/thgO-O), we now have an automated CI system to support ongoing development of the Plugin Builder. This provides the foundation for continued UI/UX improvements - especially now that each author can manage the public page of their plugins.
 
 Besides this, there are notable changes in existing, and a few new plugins.
 
