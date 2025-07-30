@@ -41,6 +41,8 @@ Streamlining your accounting workflow was our focus in this release. We’ve red
 * **Multi-currency accounting**: In your store settings, you can now specify additional currencies (e.g., USD or GBP) to track alongside your store’s default. These rates will be included as extra columns in both invoice and wallet reports.  
 * **Improved UI** allows easier access for different report types (Invoice, Payments, Payouts, Refunds, Sales, Wallet).
 
+![2-0 Reporting](/images/2-2/2-0-reporting.gif)
+
 ### **🔨 Bitcoin wallet improvements**
 
 Since our last major release, we've made significant strides in improving the Bitcoin wallet experience in BTCPay Server \- specifically around coin selection and address reservation.
