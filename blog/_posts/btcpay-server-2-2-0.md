@@ -65,6 +65,12 @@ Plugins remain central to our [roadmap](https://blog.btcpayserver.org/2024-year-
 
 To view available BTCPay plugins, you'll be able to visit our [Plugin Builder website](https://plugin-builder.btcpayserver.org/public/plugins/) and explore what's offered:
 
+To improve clarity and reduce confusion, we've made changes to how **plugins are displayed**.
+When you now navigate to the Manage Plugins page of your BTCPay Server, by default, only high-quality, open-source plugins are shown. Specifically those that have been tested by many users, promoted publicly, and created by authors who have verified their contact emails. This helps users focus on well-maintained, production-ready options.
+
+All other plugins are still available - just type their name into the search bar to find them.
+If you're a plugin author and your plugin isn't showing by default (and you'd like it to be), please ensure source code for your plugin is available on GitHub and your Plugin Builder email + GitHub is verified. Then reach out to us on [chat.btcpayserver.org](http://chat.btcpayserver.org).
+
 Thanks to contributions from [TChukwuleta](https://github.com/TChukwuleta) and [Thgoo](https://github.com/thgO-O), we now have an automated CI system to support ongoing development of the Plugin Builder. This provides the foundation for continued UI/UX improvements - especially now that each author can manage the public page of their plugins.
 
 Besides this, there are notable changes in existing, and a few new plugins.
