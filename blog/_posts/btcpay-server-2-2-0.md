@@ -12,7 +12,7 @@ tags:
 coverImage: "/images/2-2/btcpay2-2-featured.png"
 ---
 
-We're excited to announce the release of [BTCPay Server 2.2.0](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.2.0). This major update improves accounting and coin management workflows, simplifies Lightning node management with the new LSP plugin, and brings significant enhancements to the plugin builder.
+We're excited to announce the release of [BTCPay Server 2.2.0](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.2.0). This major update improves accounting and coin management workflows, simplifies Lightning node management with the new LSP plugin, and brings significant enhancements to the plugin builder. It includes numerous performance and security bugfixes, and we plan for it to be the stable release upon which further updates will be built. We **strongly encourage you to update** as soon as possible to take advantage of all the improvements.
 
 ## **🚨Breaking Changes**
 
