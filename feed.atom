@@ -2,18 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.btcpayserver.org</id>
     <title>BTCPay Server Blog</title>
-    <updated>2025-07-24T13:06:51.131Z</updated>
+    <updated>2025-07-31T11:51:27.829Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://blog.btcpayserver.org"/>
     <link rel="self" href="https://blog.btcpayserver.org/feed.atom"/>
     <subtitle>Official BTCPay Server Blog</subtitle>
+    <entry>
+        <title type="html"><![CDATA[BTCPay Server 2.2.0: Enhanced Reporting, Public Plugin Builder, Miniscript Support, LSP Plugin & GiveWP Integration]]></title>
+        <id>https://blog.btcpayserver.org/btcpay-server-2-2-0/</id>
+        <link href="https://blog.btcpayserver.org/btcpay-server-2-2-0/">
+        </link>
+        <updated>2025-07-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We're excited to announce the release of BTCPay Server 2.2.0. This major update improves accounting and coin management workflows, simplifies Lightning node management with the new LSP plugin, and brings significant enhancements to the plugin builder. It includes numerous performance and security bugfixes, and we plan for it to be the stable release upon which further updates will be built. We strongly encourage you to update as soon as possible to take advantage of all the improvements.]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[BTCPay Server's Nicolas Dorier Shares His Journey on Bitcoin News]]></title>
         <id>https://blog.btcpayserver.org/nicolas-interview/</id>
         <link href="https://blog.btcpayserver.org/nicolas-interview/">
         </link>
         <updated>2025-07-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[BTCPay Server's Nicolas Dorier Shares His Journey on Bitcoin News]]></summary>
+        <summary type="html"><![CDATA[BTCPay Server is a free, open-source, self-hosted bitcoin payment processor that empowers individuals and businesses to accept bitcoin (and Lightning) without intermediaries, fees, or KYC. Built for privacy, security, and full control, BTCPay Server lets users process payments directly into their own wallets.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[BTCPay Server 2.1.0: New MultiSig, Fee Acceleration, 3 new integrations and more!]]></title>
@@ -21,7 +29,7 @@
         <link href="https://blog.btcpayserver.org/btcpay-server-2-1-0/">
         </link>
         <updated>2025-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This update brings in a redesigned interface for MultiSig wallets, removing ZCash and Monero from the core codebase and turning them into plugins, improved fee-acceleration capabilities and 3 new e-commerce integrations (Shopify V2, Ghost & ECWID).]]></summary>
+        <summary type="html"><![CDATA[Here are the highlights:]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[$40 Million Volume and 41,416 Bitcoin Transactions In Six Months: How Unbank Deploys BTCPay Server At Scale]]></title>
@@ -29,7 +37,7 @@
         <link href="https://blog.btcpayserver.org/case-study-unbank/">
         </link>
         <updated>2025-02-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Unbank offers a large array of payment methods. The main volume driver is cash transactions through three different channels: purchases on Unbank’s own ATMs, purchases at retail registers, and finally cash-outs at partner ATMs.]]></summary>
+        <summary type="html"><![CDATA[Unbank’s key benchmarks for software were reliability, scalability, and cost. But further, the team was in search of a non-custodial and secure software that would seamlessly integrate into existing user flows.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Accelerating Bitcoin adoption: 2024 in review & 2025 ambitions]]></title>

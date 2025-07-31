@@ -6,17 +6,25 @@
     "description": "Official BTCPay Server Blog",
     "items": [
         {
+            "id": "https://blog.btcpayserver.org/btcpay-server-2-2-0/",
+            "url": "https://blog.btcpayserver.org/btcpay-server-2-2-0/",
+            "title": "BTCPay Server 2.2.0: Enhanced Reporting, Public Plugin Builder, Miniscript Support, LSP Plugin & GiveWP Integration",
+            "summary": "We're excited to announce the release of BTCPay Server 2.2.0. This major update improves accounting and coin management workflows, simplifies Lightning node management with the new LSP plugin, and brings significant enhancements to the plugin builder. It includes numerous performance and security bugfixes, and we plan for it to be the stable release upon which further updates will be built. We strongly encourage you to update as soon as possible to take advantage of all the improvements.",
+            "image": "https://img.youtube.com/vi/bBkwVfELgjI/mqdefault.jpg",
+            "date_modified": "2025-07-31T00:00:00.000Z"
+        },
+        {
             "id": "https://blog.btcpayserver.org/nicolas-interview/",
             "url": "https://blog.btcpayserver.org/nicolas-interview/",
             "title": "BTCPay Server's Nicolas Dorier Shares His Journey on Bitcoin News",
-            "summary": "BTCPay Server's Nicolas Dorier Shares His Journey on Bitcoin News",
+            "summary": "BTCPay Server is a free, open-source, self-hosted bitcoin payment processor that empowers individuals and businesses to accept bitcoin (and Lightning) without intermediaries, fees, or KYC. Built for privacy, security, and full control, BTCPay Server lets users process payments directly into their own wallets.",
             "date_modified": "2025-07-24T00:00:00.000Z"
         },
         {
             "id": "https://blog.btcpayserver.org/btcpay-server-2-1-0/",
             "url": "https://blog.btcpayserver.org/btcpay-server-2-1-0/",
             "title": "BTCPay Server 2.1.0: New MultiSig, Fee Acceleration, 3 new integrations and more!",
-            "summary": "This update brings in a redesigned interface for MultiSig wallets, removing ZCash and Monero from the core codebase and turning them into plugins, improved fee-acceleration capabilities and 3 new e-commerce integrations (Shopify V2, Ghost & ECWID).",
+            "summary": "Here are the highlights:",
             "image": "https://img.youtube.com/vi/V95pLvVTAqM?/mqdefault.jpg",
             "date_modified": "2025-04-10T00:00:00.000Z"
         },
@@ -24,7 +32,7 @@
             "id": "https://blog.btcpayserver.org/case-study-unbank/",
             "url": "https://blog.btcpayserver.org/case-study-unbank/",
             "title": "$40 Million Volume and 41,416 Bitcoin Transactions In Six Months: How Unbank Deploys BTCPay Server At Scale",
-            "summary": "Unbank offers a large array of payment methods. The main volume driver is cash transactions through three different channels: purchases on Unbank’s own ATMs, purchases at retail registers, and finally cash-outs at partner ATMs.",
+            "summary": "Unbank’s key benchmarks for software were reliability, scalability, and cost. But further, the team was in search of a non-custodial and secure software that would seamlessly integrate into existing user flows.",
             "image": "https://blog.btcpayserver.org/images/unbank-1.png",
             "date_modified": "2025-02-19T00:00:00.000Z"
         },
@@ -321,7 +329,7 @@
             "url": "https://blog.btcpayserver.org/bitpaint-btcpay-server-stories/",
             "title": "Bitpaint - BTCPay Server Stories",
             "summary": "Well I was selling stuff on on my webshop with a Woocommerce plugin. I was running on Opennode, not BTCPay Server.\nBut then our friends at the “KYC” special unit said to Opennode:\n\\- You must KYC all the merchants.\nNo way I KYC this little online shop. At this point I really had to run the payment processor myself. So I switched to my own BTCPay Server instance hosted on Lunanode within 48hours. It was so easy to setup, amazing service by Lunanode, I recommend it to everybody.",
-            "image": "https://blog.btcpayserver.org/images/BitPaint_Profil.gif%20%22Bitpaint%20dancing%20for%20the%20BTCPay%20Server%20gods%22",
+            "image": "https://blog.btcpayserver.org/images/BitPaint_Profil.gif \"Bitpaint dancing for the BTCPay Server gods\"",
             "date_modified": "2020-11-06T00:00:00.000Z"
         },
         {
@@ -329,7 +337,7 @@
             "url": "https://blog.btcpayserver.org/brian-harrington-btcpay-server-stories/",
             "title": "Brian Harrington - BTCPay Server Stories",
             "summary": "In the same period I watched the panel between Open Node and BTCPay Server at Baltic Honeybadger 2019 I think on Youtube and I had met the Open Node team at a meet up out here so I had loosely heard about BTCPay Server and was up to speed on the whole thing from an observer perspective.",
-            "image": "https://blog.btcpayserver.org/images/Brian_Harrington.jpg%20%22Brian%20Harrington%20-%20BTCPay%20Server%20Stories%22",
+            "image": "https://blog.btcpayserver.org/images/Brian_Harrington.jpg \"Brian Harrington - BTCPay Server Stories\"",
             "date_modified": "2020-10-10T00:00:00.000Z"
         },
         {
