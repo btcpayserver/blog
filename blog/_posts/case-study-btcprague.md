@@ -21,7 +21,7 @@ This case study explores how the project came together, what it meant for the ve
 
 You can [download a PDF of this case study on this link](https://btcpayserver.org/case-studies/btcprague.pdf).
 
-**Background and Challenges**
+## **Background and Challenges**
 
 From the start, the BTCPrague team had an ambitious goal: **build a Bitcoin-native economy inside the venue**. Whether grabbing a cold drink, buying a t-shirt, or ordering lunch, attendees should be able to pay everything in bitcoin. It was a bold vision that aligned perfectly with the spirit of the event showcasing Bitcoin not just as an asset, but as **money ready for everyday use**.
 
