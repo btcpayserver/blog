@@ -19,6 +19,8 @@ Over the course of just four days, vendors processed **7,079 transactions** tota
 
 This case study explores how the project came together, what it meant for the vendors involved, and why it might just be a blueprint for everyday Bitcoin adoption.
 
+[![BTCPrague](https://img.youtube.com/vi/PJSVJkOHTR0/mqdefault.jpg)](https://www.youtube.com/watch?v=PJSVJkOHTR0)
+
 You can [download a PDF of this case study on this link](https://btcpayserver.org/case-studies/btcprague.pdf).
 
 ## **Background and Challenges**
