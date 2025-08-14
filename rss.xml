@@ -4,16 +4,25 @@
         <title>BTCPay Server Blog</title>
         <link>https://blog.btcpayserver.org</link>
         <description>Official BTCPay Server Blog</description>
-        <lastBuildDate>Thu, 31 Jul 2025 11:51:27 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 14 Aug 2025 15:45:42 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://blog.btcpayserver.org/feed.atom" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[BTCPrague: Onboarding 25 Merchants to Accept Bitcoin, Generating 1.3 Million CZK revenue and 7079 Transactions]]></title>
+            <link>https://blog.btcpayserver.org/case-study-btcprague/</link>
+            <guid>https://blog.btcpayserver.org/case-study-btcprague/</guid>
+            <pubDate>Thu, 14 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[In June 2025, BTCPrague conference returned bigger than ever, lighting up the Czech capital with thousands of Bitcoiners, ready to learn and network]]></description>
+            <enclosure url="https://img.youtube.com/vi/PJSVJkOHTR0/mqdefault.jpg">
+            </enclosure>
+        </item>
         <item>
             <title><![CDATA[BTCPay Server 2.2.0: Enhanced Reporting, Public Plugin Builder, Miniscript Support, LSP Plugin & GiveWP Integration]]></title>
             <link>https://blog.btcpayserver.org/btcpay-server-2-2-0/</link>
             <guid>https://blog.btcpayserver.org/btcpay-server-2-2-0/</guid>
             <pubDate>Thu, 31 Jul 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[We're excited to announce the release of BTCPay Server 2.2.0. This major update improves accounting and coin management workflows, simplifies Lightning node management with the new LSP plugin, and brings significant enhancements to the plugin builder. It includes numerous performance and security bugfixes, and we plan for it to be the stable release upon which further updates will be built. We strongly encourage you to update as soon as possible to take advantage of all the improvements.]]></description>
+            <description><![CDATA[In this version, we've renamed and reordered columns in what was previously known as the Legacy Invoice Export (now simply called the Invoice Export). This change introduces clearer terminology and improved structure. We understand that it may affect existing automated workflows or integrations reliant on the old format. If you need to maintain compatibility, you can easily restore the legacy version by installing the Legacy Invoice Export plugin. We encourage transitioning to the new export for its added benefits, but this option ensures a smooth upgrade path.]]></description>
             <enclosure url="https://img.youtube.com/vi/bBkwVfELgjI/mqdefault.jpg">
             </enclosure>
         </item>
@@ -22,14 +31,13 @@
             <link>https://blog.btcpayserver.org/nicolas-interview/</link>
             <guid>https://blog.btcpayserver.org/nicolas-interview/</guid>
             <pubDate>Thu, 24 Jul 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[BTCPay Server is a free, open-source, self-hosted bitcoin payment processor that empowers individuals and businesses to accept bitcoin (and Lightning) without intermediaries, fees, or KYC. Built for privacy, security, and full control, BTCPay Server lets users process payments directly into their own wallets.]]></description>
         </item>
         <item>
             <title><![CDATA[BTCPay Server 2.1.0: New MultiSig, Fee Acceleration, 3 new integrations and more!]]></title>
             <link>https://blog.btcpayserver.org/btcpay-server-2-1-0/</link>
             <guid>https://blog.btcpayserver.org/btcpay-server-2-1-0/</guid>
             <pubDate>Thu, 10 Apr 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Here are the highlights:]]></description>
+            <description><![CDATA[After five minor releases since our last major update, we are excited to announce the release of BTCPay Server v2.1.0]]></description>
             <enclosure url="https://img.youtube.com/vi/V95pLvVTAqM?/mqdefault.jpg">
             </enclosure>
         </item>
@@ -38,7 +46,7 @@
             <link>https://blog.btcpayserver.org/case-study-unbank/</link>
             <guid>https://blog.btcpayserver.org/case-study-unbank/</guid>
             <pubDate>Wed, 19 Feb 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Unbank’s key benchmarks for software were reliability, scalability, and cost. But further, the team was in search of a non-custodial and secure software that would seamlessly integrate into existing user flows.]]></description>
+            <description><![CDATA[Bitcoin ATMs cater to the underserved population and those who prefer cash transactions. Through Unbank, individuals who want privacy and security can have instant access to bitcoin for various uses, including investments, transfers, or payments as an alternative financial solution.]]></description>
             <enclosure url="https://blog.btcpayserver.org/images/unbank-1.png">
             </enclosure>
         </item>
@@ -47,13 +55,7 @@
             <link>https://blog.btcpayserver.org/2024-year-in-review/</link>
             <guid>https://blog.btcpayserver.org/2024-year-in-review/</guid>
             <pubDate>Wed, 22 Jan 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[We  helped support Bitcoin adoption at several industry events, and showcased Bitcoin’s usability in real-world settings throughout numerous case-studies:
-     Namecheap: surpasses $73M in BTC revenue with 1.1m transactions
-     Bitcoin People built a mobile app on top of BTCPay’s API to scale bitcoin to 270 merchants in Italy with a total of €406,283 in transaction volumes
-     Bitcoin Atlantis Conference: €115,100 from 8,750 Transactions in 3 Days
-     $34,000 processed at Bitcoin Nashville in partnership with Strike
-     €27,582 in Bitcoin from 2,998 Lightning payments at Nostriga and Baltic HoneyBadger
-     OpenSubtitles, showcasing how they leveraged BTCPay to facilitate Bitcoin payments.]]></description>
+            <description><![CDATA[We want to help transform the global financial landscape and make Bitcoin the universal standard for payments. We aim to lead by example in this evolution by fostering innovation and adoption through open-source, censorship-resistant, and self-custodial technologies, building a future where tools for financial freedom are accessible to all.]]></description>
             <enclosure url="https://blog.btcpayserver.org/images/btcpayday-24.jpeg">
             </enclosure>
         </item>
@@ -62,7 +64,7 @@
             <link>https://blog.btcpayserver.org/case-study-namecheap/</link>
             <guid>https://blog.btcpayserver.org/case-study-namecheap/</guid>
             <pubDate>Thu, 21 Nov 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Adding BTCPay to Namecheap’s Bitcoin payment repertoire has been a success overall. Although we experienced minor challenges during implementation, these were quickly worked out thanks to BTCPay’s excellent customer service. Namecheap is dedicated to delivering an exceptional customer experience and protecting the freedom and privacy of our users. BTCPay Server has helped us achieve that and will continue to do so in the foreseeable future.]]></description>
+            <description><![CDATA[We deployed all the server parts manually instead of using the default method of deploying them on one machine based on docker images. Because of this, we had to make all the parts work together ourselves, working closely with the BTCPay team to ensure the service could function on remote servers.]]></description>
             <enclosure url="https://blog.btcpayserver.org/images/namecheap-1.png">
             </enclosure>
         </item>
@@ -71,7 +73,7 @@
             <link>https://blog.btcpayserver.org/btcpay-server-2-0/</link>
             <guid>https://blog.btcpayserver.org/btcpay-server-2-0/</guid>
             <pubDate>Tue, 29 Oct 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[BTCPay 2.0 introduces a full interface translation. While customer-facing parts of the UI have been multilingual for some time, this update allows you to translate the entire BTCPay Server back office with ease. All translation strings are in a single text box, easy to copy over to AI tools like ChatGPT, making the process of translating strings and pasting them back super-easy. This gives you full control to localize your BTCPay Server in any language quickly and efficiently.]]></description>
+            <description><![CDATA[BTCPay Server started in 2017, and over the past seven years, we’ve learned a lot as a community. New protocols have emerged, and users have continuously requested new features. Throughout this journey, our main challenge in product development has been to move slowly and steadily, ensuring we avoid breaking changes for our users. Stability is critical because it allows merchants to focus on running their businesses without worrying about infrastructure or payment integrations.]]></description>
             <enclosure url="https://blog.btcpayserver.org/images/2-0-Translation.png">
             </enclosure>
         </item>
@@ -80,7 +82,8 @@
             <link>https://blog.btcpayserver.org/case-study-bhb24-nostriga/</link>
             <guid>https://blog.btcpayserver.org/case-study-bhb24-nostriga/</guid>
             <pubDate>Wed, 25 Sep 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[One of the standout improvements in user experience was the introduction of BoltCards. These NFC  cards functioned like debit cards, allowing conference organizers to preload them with Bitcoin and distribute them to attendees. This provided an easy, tap-to-pay method for things like coffee, lunch, and other purchases, making Bitcoin accessible to even those unfamiliar with the technology. A key advantage of BoltCards was that they could be used without an internet connection, further simplifying the experience.]]></description>
+            <description><![CDATA[For merchants, the focus was on providing an experience that matched the ease of traditional credit card payments, while reducing technical headaches, volatility of bitcoin, and ensuring no downtime.
+For attendees, it was all about making the system easy to use, even for beginners who never had bitcoin. The priority was a fast, user-friendly effective experience that worked seamlessly in an environment where internet connection may not be reliable.]]></description>
             <enclosure url="https://blog.btcpayserver.org/images/BHB24-1.png">
             </enclosure>
         </item>
@@ -89,6 +92,7 @@
             <link>https://blog.btcpayserver.org/case-study-opensubtitles/</link>
             <guid>https://blog.btcpayserver.org/case-study-opensubtitles/</guid>
             <pubDate>Mon, 10 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[The adoption of BTCPay Server by OpenSubtitles has significantly enhanced financial operations and user payment options. This integration allows OpenSubtitles to support several cryptocurrencies and payment networks, including Bitcoin, BTC Liquid, Bitcoin over the Lightning Network, and Monero, catering to the diverse preferences of its global audience.]]></description>
             <enclosure url="https://blog.btcpayserver.org/images/opensubtitles-1.png">
             </enclosure>
         </item>
@@ -97,7 +101,6 @@
             <link>https://blog.btcpayserver.org/btcpay-documentary-my-trust-in-you-is-broken/</link>
             <guid>https://blog.btcpayserver.org/btcpay-documentary-my-trust-in-you-is-broken/</guid>
             <pubDate>Thu, 04 Apr 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[For years there has been an un-answered post in r/bitcoin, where is the blocksize wars documentary? My Trust In You Is Broken is an attempt to answer a part of that history by telling Nicolas Dorier’s story of starting BTCPay Server.]]></description>
             <enclosure url="https://blog.btcpayserver.org/images/2024-btcpay-documentary/blocksizewars-post.png">
             </enclosure>
         </item>
@@ -106,7 +109,7 @@
             <link>https://blog.btcpayserver.org/btcpay-server-1-13-0/</link>
             <guid>https://blog.btcpayserver.org/btcpay-server-1-13-0/</guid>
             <pubDate>Thu, 28 Mar 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Full changelog can be found here.]]></description>
+            <description><![CDATA[We're thrilled to announce the release of the new BTCPay Server version 1.13.0! This major release introduces several brand-new features, improvements, bug fixes and stands ready for immediate usage!]]></description>
             <enclosure url="https://blog.btcpayserver.org/images/1-13-0ServerBrandingSettings.png">
             </enclosure>
         </item>
@@ -115,7 +118,6 @@
             <link>https://blog.btcpayserver.org/case-study-bitcoin-atlantis/</link>
             <guid>https://blog.btcpayserver.org/case-study-bitcoin-atlantis/</guid>
             <pubDate>Wed, 20 Mar 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[You can download a PDF of this case study on this link.]]></description>
             <enclosure url="https://img.youtube.com/vi/9xDPJRgdZhs/mqdefault.jpg">
             </enclosure>
         </item>
@@ -124,7 +126,7 @@
             <link>https://blog.btcpayserver.org/case-study-bitcoin-people/</link>
             <guid>https://blog.btcpayserver.org/case-study-bitcoin-people/</guid>
             <pubDate>Thu, 08 Feb 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[The company made a choice to build an in-house native app which  allows them to streamline the payment process for clients they are onboarding.]]></description>
+            <description><![CDATA[You can download a PDF of this case study on this link.]]></description>
             <enclosure url="https://blog.btcpayserver.org/images/BitcoinPeople-1.png">
             </enclosure>
         </item>
@@ -133,6 +135,7 @@
             <link>https://blog.btcpayserver.org/bitcoin-2024-the-year-of-ambassadors/</link>
             <guid>https://blog.btcpayserver.org/bitcoin-2024-the-year-of-ambassadors/</guid>
             <pubDate>Thu, 18 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[At BTCPay our mission is to enable anyone to accept Bitcoin, unhindered by geographic, political, or financial barriers. As we step into 2024, we’re dedicated to helping individuals and businesses build circular economies on top of Bitcoin. We’re not here to just provide the technology; we're here to nurture relationships and offer dedicated support to those who share our vision. We believe in the power of collective effort and that local communities can have a global impact.]]></description>
             <enclosure url="https://img.youtube.com/vi/NOeGlqefi-A/mqdefault.jpg">
             </enclosure>
         </item>

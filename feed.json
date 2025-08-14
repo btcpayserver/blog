@@ -6,10 +6,18 @@
     "description": "Official BTCPay Server Blog",
     "items": [
         {
+            "id": "https://blog.btcpayserver.org/case-study-btcprague/",
+            "url": "https://blog.btcpayserver.org/case-study-btcprague/",
+            "title": "BTCPrague: Onboarding 25 Merchants to Accept Bitcoin, Generating 1.3 Million CZK revenue and 7079 Transactions",
+            "summary": "In June 2025, BTCPrague conference returned bigger than ever, lighting up the Czech capital with thousands of Bitcoiners, ready to learn and network",
+            "image": "https://img.youtube.com/vi/PJSVJkOHTR0/mqdefault.jpg",
+            "date_modified": "2025-08-14T00:00:00.000Z"
+        },
+        {
             "id": "https://blog.btcpayserver.org/btcpay-server-2-2-0/",
             "url": "https://blog.btcpayserver.org/btcpay-server-2-2-0/",
             "title": "BTCPay Server 2.2.0: Enhanced Reporting, Public Plugin Builder, Miniscript Support, LSP Plugin & GiveWP Integration",
-            "summary": "We're excited to announce the release of BTCPay Server 2.2.0. This major update improves accounting and coin management workflows, simplifies Lightning node management with the new LSP plugin, and brings significant enhancements to the plugin builder. It includes numerous performance and security bugfixes, and we plan for it to be the stable release upon which further updates will be built. We strongly encourage you to update as soon as possible to take advantage of all the improvements.",
+            "summary": "In this version, we've renamed and reordered columns in what was previously known as the Legacy Invoice Export (now simply called the Invoice Export). This change introduces clearer terminology and improved structure. We understand that it may affect existing automated workflows or integrations reliant on the old format. If you need to maintain compatibility, you can easily restore the legacy version by installing the Legacy Invoice Export plugin. We encourage transitioning to the new export for its added benefits, but this option ensures a smooth upgrade path.",
             "image": "https://img.youtube.com/vi/bBkwVfELgjI/mqdefault.jpg",
             "date_modified": "2025-07-31T00:00:00.000Z"
         },
@@ -17,14 +25,13 @@
             "id": "https://blog.btcpayserver.org/nicolas-interview/",
             "url": "https://blog.btcpayserver.org/nicolas-interview/",
             "title": "BTCPay Server's Nicolas Dorier Shares His Journey on Bitcoin News",
-            "summary": "BTCPay Server is a free, open-source, self-hosted bitcoin payment processor that empowers individuals and businesses to accept bitcoin (and Lightning) without intermediaries, fees, or KYC. Built for privacy, security, and full control, BTCPay Server lets users process payments directly into their own wallets.",
             "date_modified": "2025-07-24T00:00:00.000Z"
         },
         {
             "id": "https://blog.btcpayserver.org/btcpay-server-2-1-0/",
             "url": "https://blog.btcpayserver.org/btcpay-server-2-1-0/",
             "title": "BTCPay Server 2.1.0: New MultiSig, Fee Acceleration, 3 new integrations and more!",
-            "summary": "Here are the highlights:",
+            "summary": "After five minor releases since our last major update, we are excited to announce the release of BTCPay Server v2.1.0",
             "image": "https://img.youtube.com/vi/V95pLvVTAqM?/mqdefault.jpg",
             "date_modified": "2025-04-10T00:00:00.000Z"
         },
@@ -32,7 +39,7 @@
             "id": "https://blog.btcpayserver.org/case-study-unbank/",
             "url": "https://blog.btcpayserver.org/case-study-unbank/",
             "title": "$40 Million Volume and 41,416 Bitcoin Transactions In Six Months: How Unbank Deploys BTCPay Server At Scale",
-            "summary": "Unbank’s key benchmarks for software were reliability, scalability, and cost. But further, the team was in search of a non-custodial and secure software that would seamlessly integrate into existing user flows.",
+            "summary": "Bitcoin ATMs cater to the underserved population and those who prefer cash transactions. Through Unbank, individuals who want privacy and security can have instant access to bitcoin for various uses, including investments, transfers, or payments as an alternative financial solution.",
             "image": "https://blog.btcpayserver.org/images/unbank-1.png",
             "date_modified": "2025-02-19T00:00:00.000Z"
         },
@@ -40,7 +47,7 @@
             "id": "https://blog.btcpayserver.org/2024-year-in-review/",
             "url": "https://blog.btcpayserver.org/2024-year-in-review/",
             "title": "Accelerating Bitcoin adoption: 2024 in review & 2025 ambitions",
-            "summary": "We  helped support Bitcoin adoption at several industry events, and showcased Bitcoin’s usability in real-world settings throughout numerous case-studies:\n     Namecheap: surpasses $73M in BTC revenue with 1.1m transactions\n     Bitcoin People built a mobile app on top of BTCPay’s API to scale bitcoin to 270 merchants in Italy with a total of €406,283 in transaction volumes\n     Bitcoin Atlantis Conference: €115,100 from 8,750 Transactions in 3 Days\n     $34,000 processed at Bitcoin Nashville in partnership with Strike\n     €27,582 in Bitcoin from 2,998 Lightning payments at Nostriga and Baltic HoneyBadger\n     OpenSubtitles, showcasing how they leveraged BTCPay to facilitate Bitcoin payments.",
+            "summary": "We want to help transform the global financial landscape and make Bitcoin the universal standard for payments. We aim to lead by example in this evolution by fostering innovation and adoption through open-source, censorship-resistant, and self-custodial technologies, building a future where tools for financial freedom are accessible to all.",
             "image": "https://blog.btcpayserver.org/images/btcpayday-24.jpeg",
             "date_modified": "2025-01-22T00:00:00.000Z"
         },
@@ -48,7 +55,7 @@
             "id": "https://blog.btcpayserver.org/case-study-namecheap/",
             "url": "https://blog.btcpayserver.org/case-study-namecheap/",
             "title": "Namecheap surpasses $73M in BTC revenue with 1.1m transactions through BTCPay Integration",
-            "summary": "Adding BTCPay to Namecheap’s Bitcoin payment repertoire has been a success overall. Although we experienced minor challenges during implementation, these were quickly worked out thanks to BTCPay’s excellent customer service. Namecheap is dedicated to delivering an exceptional customer experience and protecting the freedom and privacy of our users. BTCPay Server has helped us achieve that and will continue to do so in the foreseeable future.",
+            "summary": "We deployed all the server parts manually instead of using the default method of deploying them on one machine based on docker images. Because of this, we had to make all the parts work together ourselves, working closely with the BTCPay team to ensure the service could function on remote servers.",
             "image": "https://blog.btcpayserver.org/images/namecheap-1.png",
             "date_modified": "2024-11-21T00:00:00.000Z"
         },
@@ -56,7 +63,7 @@
             "id": "https://blog.btcpayserver.org/btcpay-server-2-0/",
             "url": "https://blog.btcpayserver.org/btcpay-server-2-0/",
             "title": "BTCPay Server 2.0: our biggest update yet!",
-            "summary": "BTCPay 2.0 introduces a full interface translation. While customer-facing parts of the UI have been multilingual for some time, this update allows you to translate the entire BTCPay Server back office with ease. All translation strings are in a single text box, easy to copy over to AI tools like ChatGPT, making the process of translating strings and pasting them back super-easy. This gives you full control to localize your BTCPay Server in any language quickly and efficiently.",
+            "summary": "BTCPay Server started in 2017, and over the past seven years, we’ve learned a lot as a community. New protocols have emerged, and users have continuously requested new features. Throughout this journey, our main challenge in product development has been to move slowly and steadily, ensuring we avoid breaking changes for our users. Stability is critical because it allows merchants to focus on running their businesses without worrying about infrastructure or payment integrations.",
             "image": "https://blog.btcpayserver.org/images/2-0-Translation.png",
             "date_modified": "2024-10-29T00:00:00.000Z"
         },
@@ -64,7 +71,7 @@
             "id": "https://blog.btcpayserver.org/case-study-bhb24-nostriga/",
             "url": "https://blog.btcpayserver.org/case-study-bhb24-nostriga/",
             "title": "Two Conferences, One MoE: €27,582 in Bitcoin Revenue from 2,998 Lightning Network Payments During Riga Bitcoin Week",
-            "summary": "One of the standout improvements in user experience was the introduction of BoltCards. These NFC  cards functioned like debit cards, allowing conference organizers to preload them with Bitcoin and distribute them to attendees. This provided an easy, tap-to-pay method for things like coffee, lunch, and other purchases, making Bitcoin accessible to even those unfamiliar with the technology. A key advantage of BoltCards was that they could be used without an internet connection, further simplifying the experience.",
+            "summary": "For merchants, the focus was on providing an experience that matched the ease of traditional credit card payments, while reducing technical headaches, volatility of bitcoin, and ensuring no downtime.\nFor attendees, it was all about making the system easy to use, even for beginners who never had bitcoin. The priority was a fast, user-friendly effective experience that worked seamlessly in an environment where internet connection may not be reliable.",
             "image": "https://blog.btcpayserver.org/images/BHB24-1.png",
             "date_modified": "2024-09-25T00:00:00.000Z"
         },
@@ -72,6 +79,7 @@
             "id": "https://blog.btcpayserver.org/case-study-opensubtitles/",
             "url": "https://blog.btcpayserver.org/case-study-opensubtitles/",
             "title": "How OpenSubtitles, home to over 7 Million subtitles and 8,000 contributors, utilizes BTCPay to facilitate bitcoin payments for memberships and donations",
+            "summary": "The adoption of BTCPay Server by OpenSubtitles has significantly enhanced financial operations and user payment options. This integration allows OpenSubtitles to support several cryptocurrencies and payment networks, including Bitcoin, BTC Liquid, Bitcoin over the Lightning Network, and Monero, catering to the diverse preferences of its global audience.",
             "image": "https://blog.btcpayserver.org/images/opensubtitles-1.png",
             "date_modified": "2024-06-10T00:00:00.000Z"
         },
@@ -79,7 +87,6 @@
             "id": "https://blog.btcpayserver.org/btcpay-documentary-my-trust-in-you-is-broken/",
             "url": "https://blog.btcpayserver.org/btcpay-documentary-my-trust-in-you-is-broken/",
             "title": "MY TRUST IN YOU IS BROKEN, BTCPay Server Feature Documentary Premiere",
-            "summary": "For years there has been an un-answered post in r/bitcoin, where is the blocksize wars documentary? My Trust In You Is Broken is an attempt to answer a part of that history by telling Nicolas Dorier’s story of starting BTCPay Server.",
             "image": "https://blog.btcpayserver.org/images/2024-btcpay-documentary/blocksizewars-post.png",
             "date_modified": "2024-04-04T00:00:00.000Z"
         },
@@ -87,7 +94,7 @@
             "id": "https://blog.btcpayserver.org/btcpay-server-1-13-0/",
             "url": "https://blog.btcpayserver.org/btcpay-server-1-13-0/",
             "title": "BTCPay Server 1.13.0 - Easy user onboarding, admin store view, new store roles & keypad item mode",
-            "summary": "Full changelog can be found here.",
+            "summary": "We're thrilled to announce the release of the new BTCPay Server version 1.13.0! This major release introduces several brand-new features, improvements, bug fixes and stands ready for immediate usage!",
             "image": "https://blog.btcpayserver.org/images/1-13-0ServerBrandingSettings.png",
             "date_modified": "2024-03-28T00:00:00.000Z"
         },
@@ -95,7 +102,6 @@
             "id": "https://blog.btcpayserver.org/case-study-bitcoin-atlantis/",
             "url": "https://blog.btcpayserver.org/case-study-bitcoin-atlantis/",
             "title": "Bitcoin Atlantis Conference: €115,100 from 8,750 Transactions in 3 Days, Showcasing Bitcoin's Role as a Payment Method",
-            "summary": "You can download a PDF of this case study on this link.",
             "image": "https://img.youtube.com/vi/9xDPJRgdZhs/mqdefault.jpg",
             "date_modified": "2024-03-20T00:00:00.000Z"
         },
@@ -103,7 +109,7 @@
             "id": "https://blog.btcpayserver.org/case-study-bitcoin-people/",
             "url": "https://blog.btcpayserver.org/case-study-bitcoin-people/",
             "title": "Bitcoin People built a mobile app on top of BTCPay’s API to scale bitcoin to 270 merchants in Italy with a total of €406,283 in transaction volumes",
-            "summary": "The company made a choice to build an in-house native app which  allows them to streamline the payment process for clients they are onboarding.",
+            "summary": "You can download a PDF of this case study on this link.",
             "image": "https://blog.btcpayserver.org/images/BitcoinPeople-1.png",
             "date_modified": "2024-02-08T00:00:00.000Z"
         },
@@ -111,6 +117,7 @@
             "id": "https://blog.btcpayserver.org/bitcoin-2024-the-year-of-ambassadors/",
             "url": "https://blog.btcpayserver.org/bitcoin-2024-the-year-of-ambassadors/",
             "title": "BTCPay Server 2024, The Year of Ambassadors",
+            "summary": "At BTCPay our mission is to enable anyone to accept Bitcoin, unhindered by geographic, political, or financial barriers. As we step into 2024, we’re dedicated to helping individuals and businesses build circular economies on top of Bitcoin. We’re not here to just provide the technology; we're here to nurture relationships and offer dedicated support to those who share our vision. We believe in the power of collective effort and that local communities can have a global impact.",
             "image": "https://img.youtube.com/vi/NOeGlqefi-A/mqdefault.jpg",
             "date_modified": "2024-01-18T00:00:00.000Z"
         },
