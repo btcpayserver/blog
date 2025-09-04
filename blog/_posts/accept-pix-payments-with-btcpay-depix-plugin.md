@@ -1,7 +1,7 @@
 ---
 title: "Accept Pix Payments with BTCPay: Introducing the DePix Plugin"
 date: 2025-09-04
-author: r0ckstardev, thgoo
+author: thgo-o, r0ckstardev
 category:
   - "announcements"
 tags:
@@ -28,7 +28,7 @@ Seamless by design: the plugin adds Pix and DePix as payment methods directly wi
 
 ## Technical details
 
-GitHub repo: [btcpayserver-plugin-depix](https://github.com/thgO-O/btcpayserver-plugin-depix)
+Plugin is fully open source - review the README and code at GitHub repo: [btcpayserver-plugin-depix](https://github.com/thgO-O/btcpayserver-plugin-depix)
 
 ### Setup flow
 
