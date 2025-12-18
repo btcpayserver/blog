@@ -92,7 +92,9 @@ Store email rules are now more flexible than ever. New conditions allow emails t
 
 Server email rules now include several important preconfigured templates that can be easily customized. For example, password reset and welcome emails can now be tailored more easily to match your server’s communication needs.
 
-*Changes to email rules in 2.3 may break older versions of some plugins (Vendor Pay, TicketTailor and legacy Subscription [plugin](https://github.com/Kukks/BTCPayServerPlugins/tree/master/Plugins/BTCPayServer.Plugins.Subscriptions)). While compatibility has been preserved where possible, any affected plugins will be **automatically disabled** after upgrading to 2.3. To continue using them, simply update the disabled plugins to the latest version. If you notice that any of your other plugins are affected, please inform the plugin author.*
+:::warning
+Changes to email rules in 2.3 may break older versions of some plugins (Vendor Pay, TicketTailor and legacy Subscription [plugin](https://github.com/Kukks/BTCPayServerPlugins/tree/master/Plugins/BTCPayServer.Plugins.Subscriptions)). While compatibility has been preserved where possible, any affected plugins will be **automatically disabled** after upgrading to 2.3. To continue using them, simply update the disabled plugins to the latest version. If you notice that any of your other plugins are affected, please inform the plugin author.
+:::
 
 ## 💸Payment Requests redesigned
 
