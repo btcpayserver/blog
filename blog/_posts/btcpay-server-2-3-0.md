@@ -38,7 +38,7 @@ Customers manage everything through a **subscription management portal**, a page
 
 If your server email is configured, subscriptions can also send **automated emails** based on subscription events. This includes things like payment reminders or expiration notices, helping customers stay subscribed without surprises.
 
-Subscriptions are available starting with BTCPay Server 2.3 and are designed to scale from simple memberships to fully integrated SaaS products. If you want to explore the full setup, concepts, and API access, see the [documentation](https://docs.btcpayserver.org/subscriptions).
+Subscriptions are available starting with BTCPay Server 2.3 and are designed to scale from simple memberships to fully integrated SaaS products. If you want to explore the full setup, concepts, and API access, see the [documentation](https://docs.btcpayserver.org/Subscriptions/).
 
 ## 🤑Monetization
 
@@ -62,7 +62,7 @@ Monetization also works for existing server users. Admins can optionally **migra
 
 The current release focuses on periodic subscriptions, but it lays the foundation for more advanced models such as revenue based pricing and finer grained permissions. We are releasing monetization early because we want feedback from the people who will actually use it: local operators, educators, and community builders who are actively orange pilling merchants around the world.
 
-If you are running BTCPay Server for others, this release is an invitation. Try monetization, charge for the value you provide, and help us shape it further.
+If you are running BTCPay Server for others, this release is an invitation. [Try monetization](https://docs.btcpayserver.org/Monetization/), charge for the value you provide, and help us shape it further.
 
 ## 🔌Plugin Builder 1.0
 
