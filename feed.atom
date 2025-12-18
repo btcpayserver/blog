@@ -2,11 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.btcpayserver.org</id>
     <title>BTCPay Server Blog</title>
-    <updated>2025-09-04T16:10:53.931Z</updated>
+    <updated>2025-12-18T14:01:32.340Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://blog.btcpayserver.org"/>
     <link rel="self" href="https://blog.btcpayserver.org/feed.atom"/>
     <subtitle>Official BTCPay Server Blog</subtitle>
+    <entry>
+        <title type="html"><![CDATA[BTCPay Server 2.3.0: Subscriptions, Server Monetization, Plugin Builder, Drupal 11 and EDD integrations]]></title>
+        <id>https://blog.btcpayserver.org/btcpay-server-2-3-0/</id>
+        <link href="https://blog.btcpayserver.org/btcpay-server-2-3-0/">
+        </link>
+        <updated>2025-12-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re releasing BTCPay Server 2.3, a major update introducing subscriptions, a long-awaited system for managing recurring payments, and monetization, a new feature built on top of it, that allows administrators to enable paid access to their BTCPay Server with a single click, making it possible for local Bitcoin community champions to sustainably support and onboard merchants while getting paid for the services they provide.]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Accept Pix Payments with BTCPay: Introducing the DePix Plugin]]></title>
         <id>https://blog.btcpayserver.org/depix-plugin/</id>
@@ -21,7 +29,7 @@
         <link href="https://blog.btcpayserver.org/case-study-btcprague/">
         </link>
         <updated>2025-08-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In June 2025, BTCPrague conference returned bigger than ever, lighting up the Czech capital with thousands of Bitcoiners, ready to learn and network]]></summary>
+        <summary type="html"><![CDATA[This case study explores how the project came together, what it meant for the vendors involved, and why it might just be a blueprint for everyday Bitcoin adoption.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[BTCPay Server 2.2.0: Enhanced Reporting, Public Plugin Builder, Miniscript Support, LSP Plugin & GiveWP Integration]]></title>
@@ -29,7 +37,13 @@
         <link href="https://blog.btcpayserver.org/btcpay-server-2-2-0/">
         </link>
         <updated>2025-07-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this version, we've renamed and reordered columns in what was previously known as the Legacy Invoice Export (now simply called the Invoice Export). This change introduces clearer terminology and improved structure. We understand that it may affect existing automated workflows or integrations reliant on the old format. If you need to maintain compatibility, you can easily restore the legacy version by installing the Legacy Invoice Export plugin. We encourage transitioning to the new export for its added benefits, but this option ensures a smooth upgrade path.]]></summary>
+        <summary type="html"><![CDATA[Reporting & accounting improvements
+Bitcoin wallet improvements
+Plugin Builder Improvements
+LSP Plugin
+NGU to BTC plugin
+Miniscript Support
+GiveWP integration]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[BTCPay Server's Nicolas Dorier Shares His Journey on Bitcoin News]]></title>
