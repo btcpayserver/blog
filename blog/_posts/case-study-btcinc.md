@@ -13,9 +13,9 @@ coverImage: "/images/case-study-btcinc/photo-featured.jpg"
 ---
 
 [BTC Inc](https://b.tc), the company behind [Bitcoin Magazine](https://bitcoinmagazine.com) and organizer of the
-industry's largest Bitcoin conferences, has been mission-driven from day one. Since its humble beginnings, the
-organization has sought to operate on a Bitcoin standard, envisioning Bitcoin not merely as a reserve asset but as the
-functional backbone of its entire enterprise.
+industry's [largest Bitcoin conferences](https://x.com/TheBitcoinConf), has been mission-driven from day one. Since its
+humble beginnings, the organization has sought to operate on a Bitcoin standard, envisioning Bitcoin not merely as
+a reserve asset but as the functional backbone of its entire enterprise.
 
 [![BTC Inc x BTCPay Server Case Study Trailer](https://img.youtube.com/vi/zbCeN_pLArE/mqdefault.jpg)](https://www.youtube.com/watch?v=zbCeN_pLArE)
 
@@ -102,10 +102,9 @@ The breakthrough moment came in Las Vegas. With improved infrastructure, Bolt Ca
 BTC Inc set
 a [Guinness World Record](https://www.guinnessworldrecords.com/world-records/776977-most-cryptocurrency-point-of-sale-transactions-in-8-hours).
 
-Record: Most cryptocurrency point-of-sale transactions in 8 hours
-
-Total transactions: 4,187
-Date: May 28, 2025
+* **Record:** Most cryptocurrency point-of-sale transactions in 8 hours
+* Total transactions: 4,187
+* Date: May 28, 2025
 
 Attendees used NFC Bolt Cards and Lightning to make contactless NFC payments for merchandise, food, beverages, and other
 items throughout the venue. This demonstrated that Bitcoin could support high-traffic, real-time commerce at a level
