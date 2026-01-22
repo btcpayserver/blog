@@ -60,7 +60,7 @@ These integrations and plugins have helped establish stronger working relationsh
 
 ## **Adoption and education**
 
-Adoption in 2025 reflected BTCPay Server’s continued use as production payment infrastructure across a wide range of use-case. Bitcoin was embraced by established organizations such as the [European Squash Federation](https://x.com/SatoshiConsult/status/1883973446138265650?s=20) and Oslo Airport’s [TaxFree service](https://x.com/SatoshiConsult/status/2001610418586779653?s=20), as well as the largest datacenter provider in Costa Rica [integrating](https://x.com/Boltzhq/status/1925116813550985670?s=20) Bitcoin payments into operations.
+Adoption in 2025 reflected BTCPay Server’s continued use as production payment infrastructure across a wide range of use-case. Bitcoin was embraced by established organizations such as the [European Squash Federation](https://x.com/SatoshiConsult/status/1883973446138265650?s=20) and [Oslo Airport’s TaxFree](https://x.com/SatoshiConsult/status/2001610418586779653?s=20) service, as well as the largest datacenter provider in Costa Rica [integrating](https://x.com/Boltzhq/status/1925116813550985670?s=20) Bitcoin payments into operations.
 
 Community-led merchant onboarding remained an important driver of adoption. In Prague, coordinated efforts resulted in more than [25 in-person merchants accepting Bitcoin](https://x.com/BtcpayServer/status/1956022540423327982?s=20) using BTCPay.
 
@@ -76,9 +76,11 @@ Community engagement in 2025 focused on sustained presence and local circular ec
 
 A notable highlight was [BTCPay Day in Prague,](https://x.com/BtcpayServer/status/1936870817352339632) which brought together over **130 attendees** for a full day dedicated to our project, with guests across the industry such as Samson Mow, Francis Pouliot and Kilian Rausch.
 
+[![](https://img.youtube.com/vi/WqyNp7W1TEQ/mqdefault.jpg)](https://www.youtube.com/watch?v=WqyNp7W1TEQ)
+
 Workshops and hands-on sessions played an important role, enabling local communities to deploy BTCPay Server in [real environments](https://www.youtube.com/watch?v=PJSVJkOHTR0) and adapt it to regional needs. Ongoing presence builds trust, transfers knowledge, and keeps us focused on real-world use cases. It ensures that development priorities continue to be informed by how BTCPay Server is actually used, rather than by abstract assumptions.
 
-![](/images/Report2025/Report-5.png)
+[![](https://img.youtube.com/vi/sXO3NU-67rs/mqdefault.jpg)](https://www.youtube.com/watch?v=sXO3NU-67rs)
 
 ## **Summary** 
 
