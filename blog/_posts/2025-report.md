@@ -8,7 +8,7 @@ tags:
   - "btcpay-server"
   - "roadmap"
   - "report"
-coverImage: "/images/2025-report-featured.png"
+coverImage: "/images/Report2025/2025-report-featured.png"
 permalink: /2025-report
 ---
 
