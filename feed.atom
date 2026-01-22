@@ -2,21 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.btcpayserver.org</id>
     <title>BTCPay Server Blog</title>
-    <updated>2026-01-07T13:52:45.689Z</updated>
+    <updated>2026-01-22T16:24:08.726Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://blog.btcpayserver.org"/>
     <link rel="self" href="https://blog.btcpayserver.org/feed.atom"/>
     <subtitle>Official BTCPay Server Blog</subtitle>
+    <entry>
+        <title type="html"><![CDATA[BTCPay Server 2025 Progress Report]]></title>
+        <id>https://blog.btcpayserver.org/2025-report/</id>
+        <link href="https://blog.btcpayserver.org/2025-report/">
+        </link>
+        <updated>2026-01-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This report outlines our progress over the past year. We remain focused on building free, open source payment infrastructure that enables businesses and individuals to embrace Bitcoin payments, regardless of geographic, political, or financial barriers.]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Built on Bitcoin: How BTC Inc Runs on BTCPay Server]]></title>
         <id>https://blog.btcpayserver.org/case-study-btcinc/</id>
         <link href="https://blog.btcpayserver.org/case-study-btcinc/">
         </link>
         <updated>2026-01-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[BTC Inc, the company behind Bitcoin Magazine and organizer of the
-industry's largest Bitcoin conferences, has been mission-driven from day one. Since its
-humble beginnings, the organization has sought to operate on a Bitcoin standard, envisioning Bitcoin not merely as
-a reserve asset but as the functional backbone of its entire enterprise.]]></summary>
+        <summary type="html"><![CDATA[a reserve asset but as the functional backbone of its entire enterprise.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[BTCPay Server 2.3.0: Subscriptions, Server Monetization, Plugin Builder, Drupal 11 and EDD integrations]]></title>

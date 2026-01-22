@@ -6,10 +6,18 @@
     "description": "Official BTCPay Server Blog",
     "items": [
         {
+            "id": "https://blog.btcpayserver.org/2025-report/",
+            "url": "https://blog.btcpayserver.org/2025-report/",
+            "title": "BTCPay Server 2025 Progress Report",
+            "summary": "This report outlines our progress over the past year. We remain focused on building free, open source payment infrastructure that enables businesses and individuals to embrace Bitcoin payments, regardless of geographic, political, or financial barriers.",
+            "image": "https://blog.btcpayserver.org/images/Report2025/Report-1.jpg",
+            "date_modified": "2026-01-22T00:00:00.000Z"
+        },
+        {
             "id": "https://blog.btcpayserver.org/case-study-btcinc/",
             "url": "https://blog.btcpayserver.org/case-study-btcinc/",
             "title": "Built on Bitcoin: How BTC Inc Runs on BTCPay Server",
-            "summary": "BTC Inc, the company behind Bitcoin Magazine and organizer of the\nindustry's largest Bitcoin conferences, has been mission-driven from day one. Since its\nhumble beginnings, the organization has sought to operate on a Bitcoin standard, envisioning Bitcoin not merely as\na reserve asset but as the functional backbone of its entire enterprise.",
+            "summary": "a reserve asset but as the functional backbone of its entire enterprise.",
             "image": "https://img.youtube.com/vi/zbCeN_pLArE/mqdefault.jpg",
             "date_modified": "2026-01-07T00:00:00.000Z"
         },
