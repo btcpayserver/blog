@@ -88,3 +88,35 @@ No. This is why it is important to change the minimum BTCPay Server version requ
 We invite you to read the [blog post announcement of .NET 9.0](https://devblogs.microsoft.com/dotnet/announcing-dotnet-9/) and [of .NET 10.0](https://devblogs.microsoft.com/dotnet/announcing-dotnet-10/) for more details.
 
 Our personal experience is that running BTCPay Server in Debug is now starting significantly faster.
+
+### `PendingModelChangesWarning` is thrown when starting a .NET 8.0 plugin
+
+Example:
+```
+An error was generated for warning 'Microsoft.EntityFrameworkCore.Migrations.PendingModelChangesWarning': The model for context 'DatabaseContextTest' has pending changes. Add a new migration before updating the database. See https://aka.ms/efcore-docs-pending-changes. This exception can be suppressed or logged by passing event ID 'RelationalEventId.PendingModelChangesWarning' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+```
+
+You can suppress this error by adding the following when configuring your `DbContext`:
+
+```csharp
+builder.ConfigureWarnings(w => w.Ignore(RelationalEventId.PendingModelChangesWarning));
+```
+
+However, we do not recommend suppressing this warning. It usually indicates a real bug in your application: your Entity Framework entities and your database schema are no longer synchronized, which can cause runtime failures later.
+
+Instead, bring them back in sync by creating a new migration:
+
+```bash
+dotnet ef migrations add migration_name
+```
+
+### Route access worked in 2.3.6, now returns 400 Bad Request
+
+During development of 2.3.6, security analysis tools identified many controllers that were potentially vulnerable to CSRF attacks.
+
+To improve BTCPay Server security, [this PR](https://github.com/btcpayserver/btcpayserver/pull/7199) enabled CSRF protection by default on all UI controllers.
+
+In most cases, this is not a breaking change because ASP.NET Core handles the anti-forgery mechanism automatically.
+
+However, if your code includes `fetch`/`AJAX` calls from JavaScript to your UI controllers, those requests may start failing.
+If that happens, you can selectively disable CSRF protection for a route with `[IgnoreAntiforgeryTokenAttribute]`.
