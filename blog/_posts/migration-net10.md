@@ -56,7 +56,7 @@ In your `XXXPlugin.cs` file, bump the minimum required BTCPay Server version.
 
 ```diff
 - new() { Identifier = nameof(BTCPayServer), Condition = ">=2.1.0" }
-+ new() { Identifier = nameof(BTCPayServer), Condition = ">=2.3.6" }
++ new() { Identifier = nameof(BTCPayServer), Condition = ">=2.3.7" }
 ```
 
 Do not forget to pull the latest version of BTCPay Server in your submodule (typically `submodules/btcpayserver`).
@@ -131,9 +131,9 @@ Instead, bring them back in sync by creating a new migration:
 dotnet ef migrations add migration_name
 ```
 
-### Route access worked in 2.3.6 but now returns 400 Bad Request
+### Route access worked in 2.3.7 but now returns 400 Bad Request
 
-During development of 2.3.6, security analysis tools identified many controllers that were potentially vulnerable to CSRF attacks.
+During development of 2.3.7, security analysis tools identified many controllers that were potentially vulnerable to CSRF attacks.
 
 To improve BTCPay Server security, [this PR](https://github.com/btcpayserver/btcpayserver/pull/7199) enabled CSRF protection by default on all UI controllers.
 
