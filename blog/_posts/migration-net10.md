@@ -1,7 +1,7 @@
 ---
 title: Migrating from .NET 8 to .NET 10
 author: NicolasDorier
-date: 2026-02-21
+date: 2026-03-24
 category: guides
 tags:
   - "migration"
@@ -131,9 +131,9 @@ Instead, bring them back in sync by creating a new migration:
 dotnet ef migrations add migration_name
 ```
 
-### Route access worked in 2.3.7 but now returns 400 Bad Request
+### Route access worked in 2.3.5 but now returns 400 Bad Request
 
-During development of 2.3.7, security analysis tools identified many controllers that were potentially vulnerable to CSRF attacks.
+During the development of 2.3.6, security analysis tools identified many controllers that were potentially vulnerable to CSRF attacks.
 
 To improve BTCPay Server security, [this PR](https://github.com/btcpayserver/btcpayserver/pull/7199) enabled CSRF protection by default on all UI controllers.
 
