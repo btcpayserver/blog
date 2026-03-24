@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.btcpayserver.org</id>
     <title>BTCPay Server Blog</title>
-    <updated>2026-03-24T23:42:28.909Z</updated>
+    <updated>2026-03-24T23:48:48.132Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://blog.btcpayserver.org"/>
     <link rel="self" href="https://blog.btcpayserver.org/feed.atom"/>
@@ -12,7 +12,7 @@
         <id>https://blog.btcpayserver.org/migrating-to-net10/</id>
         <link href="https://blog.btcpayserver.org/migrating-to-net10/">
         </link>
-        <updated>2026-02-21T00:00:00.000Z</updated>
+        <updated>2026-03-24T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[This blog post is mainly intended for plugin developers and anyone building BTCPay Server from source. Normal users and merchants are not impacted and can safely ignore this post.]]></summary>
     </entry>
     <entry>

@@ -4,7 +4,7 @@
         <title>BTCPay Server Blog</title>
         <link>https://blog.btcpayserver.org</link>
         <description>Official BTCPay Server Blog</description>
-        <lastBuildDate>Tue, 24 Mar 2026 23:42:28 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 24 Mar 2026 23:48:48 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://blog.btcpayserver.org/feed.atom" rel="self" type="application/rss+xml"/>
@@ -12,7 +12,7 @@
             <title><![CDATA[Migrating from .NET 8 to .NET 10]]></title>
             <link>https://blog.btcpayserver.org/migrating-to-net10/</link>
             <guid>https://blog.btcpayserver.org/migrating-to-net10/</guid>
-            <pubDate>Sat, 21 Feb 2026 00:00:00 GMT</pubDate>
+            <pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[This blog post is mainly intended for plugin developers and anyone building BTCPay Server from source. Normal users and merchants are not impacted and can safely ignore this post.]]></description>
         </item>
         <item>
