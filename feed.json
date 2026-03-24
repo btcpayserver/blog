@@ -6,10 +6,17 @@
     "description": "Official BTCPay Server Blog",
     "items": [
         {
+            "id": "https://blog.btcpayserver.org/migrating-to-net10/",
+            "url": "https://blog.btcpayserver.org/migrating-to-net10/",
+            "title": "Migrating from .NET 8 to .NET 10",
+            "summary": "This blog post is mainly intended for plugin developers and anyone building BTCPay Server from source. Normal users and merchants are not impacted and can safely ignore this post.",
+            "date_modified": "2026-02-21T00:00:00.000Z"
+        },
+        {
             "id": "https://blog.btcpayserver.org/2025-report/",
             "url": "https://blog.btcpayserver.org/2025-report/",
             "title": "BTCPay Server 2025 Progress Report",
-            "summary": "This report outlines our progress over the past year. We remain focused on building free, open source payment infrastructure that enables businesses and individuals to embrace Bitcoin payments, regardless of geographic, political, or financial barriers.",
+            "summary": "Our team grew to nine members this year, including a new full time contributor, Thg0.0, and a renewed grant for Tobses. Both roles were made possible through co-funding partnerships: Tobses is supported together with Btrust, and Thg0.0 together with Vinteum. CodeInVenis received a grant to work on BTCPay localization and deployments in India by BitShala.",
             "image": "https://blog.btcpayserver.org/images/Report2025/Report-1.jpg",
             "date_modified": "2026-01-22T00:00:00.000Z"
         },
@@ -17,7 +24,7 @@
             "id": "https://blog.btcpayserver.org/case-study-btcinc/",
             "url": "https://blog.btcpayserver.org/case-study-btcinc/",
             "title": "Built on Bitcoin: How BTC Inc Runs on BTCPay Server",
-            "summary": "a reserve asset but as the functional backbone of its entire enterprise.",
+            "summary": "was clear: BTC Inc needed infrastructure that could vertically integrate these flows across different continents,\nminimizing coordination overhead and eliminating the delays and fees of traditional payment systems. The solution also\nhad to support instant payments while giving the company full control over its funds through self-custody.",
             "image": "https://img.youtube.com/vi/zbCeN_pLArE/mqdefault.jpg",
             "date_modified": "2026-01-07T00:00:00.000Z"
         },
@@ -25,7 +32,7 @@
             "id": "https://blog.btcpayserver.org/btcpay-server-2-3-0/",
             "url": "https://blog.btcpayserver.org/btcpay-server-2-3-0/",
             "title": "BTCPay Server 2.3.0: Subscriptions, Server Monetization, Plugin Builder, Drupal 11 and EDD integrations",
-            "summary": "In addition, 2.3 delivers Plugin Builder 1.0, improving plugin discovery, reviews, verification, and release security processes, along with refinements to email rules, 14 new language packs, Easy Digital Downloads and Drupal 11 integrations.",
+            "summary": "Recurring payments are easy in credit card based systems, a service can simply pull out funds out of customers account. Bitcoin operates differently, as a push mechanism that requires authorization (signature). There is no single, reliable way to automatically charge customers on a schedule, especially across multiple payment methods that we support. Instead of a traditional model, subscriptions are designed to be explicit and transparent, while still offering customers a smooth renewal experience.",
             "image": "https://img.youtube.com/vi/CV5wckX7x80/mqdefault.jpg",
             "date_modified": "2025-12-18T00:00:00.000Z"
         },
@@ -41,7 +48,7 @@
             "id": "https://blog.btcpayserver.org/case-study-btcprague/",
             "url": "https://blog.btcpayserver.org/case-study-btcprague/",
             "title": "BTCPrague: Onboarding 25 Merchants to Accept Bitcoin, Generating 1.3 Million CZK revenue and 7079 Transactions",
-            "summary": "You can download a PDF of this case study on this link.",
+            "summary": "Making Bitcoin payments work at BTCPrague required a coordinated effort across multiple teams  BTCPay Server, Blink, and NiceHash  with each group solving different parts of the puzzle.",
             "image": "https://img.youtube.com/vi/PJSVJkOHTR0/mqdefault.jpg",
             "date_modified": "2025-08-14T00:00:00.000Z"
         },
@@ -49,7 +56,7 @@
             "id": "https://blog.btcpayserver.org/btcpay-server-2-2-0/",
             "url": "https://blog.btcpayserver.org/btcpay-server-2-2-0/",
             "title": "BTCPay Server 2.2.0: Enhanced Reporting, Public Plugin Builder, Miniscript Support, LSP Plugin & GiveWP Integration",
-            "summary": "Reporting & accounting improvements\nBitcoin wallet improvements\nPlugin Builder Improvements\nLSP Plugin\nNGU to BTC plugin\nMiniscript Support\nGiveWP integration",
+            "summary": "Transaction Fee and Rate. The Transaction Fee column displays the cost of the transaction, while the Rate column shows the exchange rate at the time the transaction occurred. Both of these new columns are visible in the “Wallet report”.\nAutomatic Exchange Rate Tracking for Transactions: Exchange rates are now captured automatically when a transaction is detected. If the transaction is linked to an invoice, it uses the invoice's rate. Otherwise, it records the rate at the moment of receipt, ensuring precise historical data. Exchange rate details are now available in the wallet transaction list, wallet report and invoice report, providing a unified view that complements the new metadata exports.\nMulti-currency accounting: In your store settings, you can now specify additional currencies (e.g., USD or GBP) to track alongside your store’s default. These rates will be included as extra columns in both invoice and wallet reports.\nImproved UI allows easier access for different report types (Invoice, Payments, Payouts, Refunds, Sales, Wallet).",
             "image": "https://img.youtube.com/vi/bBkwVfELgjI/mqdefault.jpg",
             "date_modified": "2025-07-31T00:00:00.000Z"
         },

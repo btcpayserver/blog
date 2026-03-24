@@ -2,18 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.btcpayserver.org</id>
     <title>BTCPay Server Blog</title>
-    <updated>2026-01-22T16:24:08.726Z</updated>
+    <updated>2026-03-24T23:42:28.909Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://blog.btcpayserver.org"/>
     <link rel="self" href="https://blog.btcpayserver.org/feed.atom"/>
     <subtitle>Official BTCPay Server Blog</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Migrating from .NET 8 to .NET 10]]></title>
+        <id>https://blog.btcpayserver.org/migrating-to-net10/</id>
+        <link href="https://blog.btcpayserver.org/migrating-to-net10/">
+        </link>
+        <updated>2026-02-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This blog post is mainly intended for plugin developers and anyone building BTCPay Server from source. Normal users and merchants are not impacted and can safely ignore this post.]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[BTCPay Server 2025 Progress Report]]></title>
         <id>https://blog.btcpayserver.org/2025-report/</id>
         <link href="https://blog.btcpayserver.org/2025-report/">
         </link>
         <updated>2026-01-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This report outlines our progress over the past year. We remain focused on building free, open source payment infrastructure that enables businesses and individuals to embrace Bitcoin payments, regardless of geographic, political, or financial barriers.]]></summary>
+        <summary type="html"><![CDATA[Our team grew to nine members this year, including a new full time contributor, Thg0.0, and a renewed grant for Tobses. Both roles were made possible through co-funding partnerships: Tobses is supported together with Btrust, and Thg0.0 together with Vinteum. CodeInVenis received a grant to work on BTCPay localization and deployments in India by BitShala.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Built on Bitcoin: How BTC Inc Runs on BTCPay Server]]></title>
@@ -21,7 +29,9 @@
         <link href="https://blog.btcpayserver.org/case-study-btcinc/">
         </link>
         <updated>2026-01-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[a reserve asset but as the functional backbone of its entire enterprise.]]></summary>
+        <summary type="html"><![CDATA[was clear: BTC Inc needed infrastructure that could vertically integrate these flows across different continents,
+minimizing coordination overhead and eliminating the delays and fees of traditional payment systems. The solution also
+had to support instant payments while giving the company full control over its funds through self-custody.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[BTCPay Server 2.3.0: Subscriptions, Server Monetization, Plugin Builder, Drupal 11 and EDD integrations]]></title>
@@ -29,7 +39,7 @@
         <link href="https://blog.btcpayserver.org/btcpay-server-2-3-0/">
         </link>
         <updated>2025-12-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In addition, 2.3 delivers Plugin Builder 1.0, improving plugin discovery, reviews, verification, and release security processes, along with refinements to email rules, 14 new language packs, Easy Digital Downloads and Drupal 11 integrations.]]></summary>
+        <summary type="html"><![CDATA[Recurring payments are easy in credit card based systems, a service can simply pull out funds out of customers account. Bitcoin operates differently, as a push mechanism that requires authorization (signature). There is no single, reliable way to automatically charge customers on a schedule, especially across multiple payment methods that we support. Instead of a traditional model, subscriptions are designed to be explicit and transparent, while still offering customers a smooth renewal experience.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Accept Pix Payments with BTCPay: Introducing the DePix Plugin]]></title>
@@ -45,7 +55,7 @@
         <link href="https://blog.btcpayserver.org/case-study-btcprague/">
         </link>
         <updated>2025-08-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[You can download a PDF of this case study on this link.]]></summary>
+        <summary type="html"><![CDATA[Making Bitcoin payments work at BTCPrague required a coordinated effort across multiple teams  BTCPay Server, Blink, and NiceHash  with each group solving different parts of the puzzle.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[BTCPay Server 2.2.0: Enhanced Reporting, Public Plugin Builder, Miniscript Support, LSP Plugin & GiveWP Integration]]></title>
@@ -53,13 +63,10 @@
         <link href="https://blog.btcpayserver.org/btcpay-server-2-2-0/">
         </link>
         <updated>2025-07-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Reporting & accounting improvements
-Bitcoin wallet improvements
-Plugin Builder Improvements
-LSP Plugin
-NGU to BTC plugin
-Miniscript Support
-GiveWP integration]]></summary>
+        <summary type="html"><![CDATA[Transaction Fee and Rate. The Transaction Fee column displays the cost of the transaction, while the Rate column shows the exchange rate at the time the transaction occurred. Both of these new columns are visible in the “Wallet report”.
+Automatic Exchange Rate Tracking for Transactions: Exchange rates are now captured automatically when a transaction is detected. If the transaction is linked to an invoice, it uses the invoice's rate. Otherwise, it records the rate at the moment of receipt, ensuring precise historical data. Exchange rate details are now available in the wallet transaction list, wallet report and invoice report, providing a unified view that complements the new metadata exports.
+Multi-currency accounting: In your store settings, you can now specify additional currencies (e.g., USD or GBP) to track alongside your store’s default. These rates will be included as extra columns in both invoice and wallet reports.
+Improved UI allows easier access for different report types (Invoice, Payments, Payouts, Refunds, Sales, Wallet).]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[BTCPay Server's Nicolas Dorier Shares His Journey on Bitcoin News]]></title>
