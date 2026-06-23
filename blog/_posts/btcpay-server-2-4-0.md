@@ -11,7 +11,7 @@ tags:
 coverImage: "/images/btcpay-2-4-featured.png"
 ---
 
-We are excited to announce the release of **BTCPay Server 2.4.0**! This release introduces a new global search bar, clearer navigation, passwordless passkey authentication, a guided multisig wallet setup flow, more granular wallet permissions, subscription improvements, Point of Sale tax controls, new Lightspeed and Jumpseller integrations, wallet transaction filters, Shopify and Lightning Network updates and several smaller user-facing improvements.
+We are excited to announce the release of **BTCPay Server 2.4.0**! This release introduces a new global search bar, clearer navigation, passwordless passkey authentication, a guided multisig wallet setup flow, more granular wallet permissions, subscription improvements, Point of Sale tax controls, new Lightspeed and Jumpseller integrations, wallet transaction filters and a lot of other improvements.
 
 For a complete list of changes, see the [full release notes](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.4.0).
 
@@ -55,9 +55,7 @@ Passkeys work alongside existing login methods, so you can adopt them gradually.
 
 ## 🛡️ Guided Multisig Wallet Setup
 
-BTCPay Server has supported multisig wallets for a while, and in 2.1.0 we redesigned the multisig signing experience. In 2.4.0, we are making the setup process much easier.
-
-The new guided multisig wallet setup helps store owners create a multisig wallet directly inside BTCPay Server without coordinating everything manually outside the app. You can start a setup, choose the signing policy, invite other store users to provide their signer keys, review generated addresses and create the wallet once all required signer keys have been collected.
+The new guided multisig wallet setup helps store owners create a multisig wallet directly inside BTCPay Server without coordinating everything manually. You can start a setup, choose the signing policy, invite other store users to provide their signer keys, review generated addresses and create the wallet once all required signer keys have been collected.
 
 Signer keys can be submitted manually or through BTCPay Server Vault, which makes the flow easier for teams using hardware wallets. BTCPay also shows multisig setups in progress on the dashboard and wallet list, so it is clear when a wallet is still waiting for participants.
 
@@ -71,8 +69,6 @@ As more businesses use BTCPay Server with teams, integrations and plugins, walle
 
 BTCPay Server 2.4.0 adds more granular permissions for wallet management, making it easier to separate responsibilities. Viewing wallet data, creating transactions, signing transactions, broadcasting through BTCPay Server, and managing wallet settings can now be controlled more carefully.
 
-This matters for real operational setups. A team member may need to review wallet transactions without being able to sign. An integration may need to create a transaction but should not have broader wallet management access. A trusted operator may be allowed to broadcast, while settings remain restricted to owners or administrators.
-
 The Greenfield API now follows the wallet permission model more closely as well, aligning API access with what users can do in the BTCPay interface. This gives store owners and server administrators better control when delegating wallet-related actions to team members, apps and external systems.
 
 ## 🔄 Subscription Improvements
@@ -84,22 +80,6 @@ Store owners can now issue **credit refunds through Pull Payments**. This is use
 Subscribers and customers can also manage their **notification email** in the subscription portal. This is a small but important usability improvement. The email address a customer uses for subscription reminders is not always the same one they used during checkout, and customers should be able to keep that information up to date without contacting the merchant.
 
 These changes make subscriptions feel more complete as a real customer-management system, not just a billing schedule. Merchants get better tools for handling support cases, while customers get more control over how they receive important subscription updates.
-
-## 🛒 E-commerce and Point of Sale Integrations
-
-BTCPay Server's reach continues to grow with two new integrations that bring Bitcoin payments to more merchants where they already sell.
-
-### Lightspeed
-
-The new Lightspeed integration lets merchants accept Bitcoin and Lightning payments directly at the Lightspeed Retail Point of Sale. For physical shops already running one of the most widely used retail POS systems, this means adding Bitcoin at the counter without changing how they operate, with funds settling straight to their own wallet.
-
-### Jumpseller
-
-The new Jumpseller integration brings the same to online stores. Merchants running a Jumpseller storefront can now accept Bitcoin through BTCPay Server. This extends BTCPay's e-commerce coverage to another established storefront platform and the merchants who rely on it.
-
-### Shopify Plugin Update
-
-If you are using Shopify with BTCPay Server, this release includes a breaking change for the Shopify integration. To continue operation after upgrading to BTCPay Server 2.4.0, you will need to update the Shopify plugin to the latest version.
 
 ## 🧾 Point of Sale Tax Improvements
 
@@ -121,15 +101,29 @@ The result is a wallet view that is easier to work with when you need to find a 
 
 ## ⚡ Lightning Network Updates
 
-BTCPay Server 2.4.0 also updates the Lightning Network implementations used by supported deployments:
+BTCPay Server 2.4.0 also updates supported Lightning Network implementations:
 
 - **LND** is updated from `v0.19.3-beta` to `v0.21.0-beta`
 - **Core Lightning** is updated from `v25.05` to `v26.06.1`
 - **phoenixd** is updated from `0.6.3` to `0.8.0`
 
-These updates bring BTCPay Server in line with newer Lightning releases, but there is one important compatibility note: the newer CLN and LND versions do not work properly on BTCPay Server 2.3.9 because of deprecated routes that were still being used there.
+These updates bring BTCPay Server in line with newer releases, but there is one important compatibility note: the newer CLN and LND versions do not work properly on BTCPay Server 2.3.9 because of deprecated routes that were still being used there. We recommend users using Lightning to update to BTCPay 2.4 to resolve any of these issues.
 
-If you run LND or CLN through BTCPay Server, update BTCPay Server to 2.4.0 before or together with these Lightning updates.
+## 🛒 E-commerce and Point of Sale Integrations
+
+BTCPay Server's reach continues to grow with two new integrations that bring Bitcoin payments to more merchants where they already sell.
+
+### Shopify Plugin Update
+
+If you are using [Shopify with BTCPay Server](https://docs.btcpayserver.org/ShopifyV2/), this release includes a breaking change for the Shopify integration. To continue operation after upgrading to BTCPay Server 2.4.0, you will need to update the Shopify plugin to the latest version.
+
+### Lightspeed
+
+The new Lightspeed integration lets merchants accept Bitcoin and Lightning payments directly at the Lightspeed Retail Point of Sale. For physical shops already running one of the most widely used retail POS systems, this means adding Bitcoin at the counter without changing how they operate, with funds settling straight to their own wallet.
+
+### Jumpseller
+
+The new Jumpseller integration brings the same to online stores. Merchants running a Jumpseller storefront can now accept Bitcoin through BTCPay Server. This extends BTCPay's e-commerce coverage to another established storefront platform and the merchants who rely on it.
 
 ## 🛠️ Other Improvements
 
