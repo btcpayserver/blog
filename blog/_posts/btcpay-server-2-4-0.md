@@ -11,7 +11,7 @@ tags:
 coverImage: "/images/btcpay-2-4-featured.png"
 ---
 
-We are excited to announce the release of **BTCPay Server 2.4.0**!  This release introduces a new global search bar, clearer navigation, passwordless passkey authentication, a guided multisig wallet setup flow, more granular wallet permissions, subscription improvements, Point of Sale tax controls, wallet transaction filters, Shopify and Lightning Network updates and several smaller user-facing improvements.
+We are excited to announce the release of **BTCPay Server 2.4.0**! This release introduces a new global search bar, clearer navigation, passwordless passkey authentication, a guided multisig wallet setup flow, more granular wallet permissions, subscription improvements, Point of Sale tax controls, wallet transaction filters, Shopify and Lightning Network updates and several smaller user-facing improvements.
 
 For a complete list of changes, see the [full release notes](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.4.0).
 
@@ -86,8 +86,6 @@ These changes make subscriptions feel more complete as a real customer-managemen
 
 ## 🧾 Point of Sale Tax Improvements
 
-Point of Sale usage keeps teaching us how much small details matter in real retail environments. Tax handling is one of those details where local rules and business practices vary a lot, and BTCPay needs to stay flexible enough for different merchants.
-
 BTCPay Server 2.4.0 adds configuration for **tax on tips**. Merchants can decide whether tips should be included in the taxable amount, helping restaurants, cafes and service businesses match the way they are required to handle taxes in their jurisdiction.
 
 This release also adds support for configuring whether Point of Sale prices are **tax-inclusive or tax-exclusive**. Some merchants enter prices that already include tax. Others prefer to enter a base amount and have tax added on top. The keypad Point of Sale can now better support both workflows.
@@ -108,8 +106,6 @@ The result is a wallet view that is easier to work with when you need to find a 
 
 If you are using Shopify with BTCPay Server, this release includes a breaking change for the Shopify integration. To continue operation after upgrading to BTCPay Server 2.4.0, you will need to update the Shopify plugin to the latest version.
 
-This should be a straightforward plugin update, but it is important enough to call out separately. Merchants relying on Shopify should update the BTCPay Server Shopify plugin as part of their 2.4.0 upgrade checklist to avoid interruptions in checkout processing.
-
 ## ⚡ Lightning Network Updates
 
 BTCPay Server 2.4.0 also updates the Lightning Network implementations used by supported deployments:
@@ -120,19 +116,17 @@ BTCPay Server 2.4.0 also updates the Lightning Network implementations used by s
 
 These updates bring BTCPay Server in line with newer Lightning releases, but there is one important compatibility note: the newer CLN and LND versions do not work properly on BTCPay Server 2.3.9 because of deprecated routes that were still being used there.
 
-If you run LND or CLN through BTCPay Server, update BTCPay Server to 2.4.0 before or together with these Lightning updates. This keeps your node management flow aligned with the routes and behavior expected by the newer versions.
+If you run LND or CLN through BTCPay Server, update BTCPay Server to 2.4.0 before or together with these Lightning updates.
 
 ## 🛠️ Other Improvements
 
-BTCPay Server 2.4.0 also includes a number of smaller improvements and fixes across the product.
+As always, this release includes many smaller bug fixes, UI refinements and internal improvements that make BTCPay Server more stable for everyone.
 
 Server administrators can now set the **maximum number of stores per user**, which is useful for hosted instances and community servers that need clearer resource limits. Admins using server monetization also get more control over whether invited users should subscribe to monetization during onboarding.
 
 Developers and integrators get a separate `CanSendStoreEmail` permission for the store email API, making email-related access more explicit. The 403 page now shows missing permissions, which should make troubleshooting access issues easier for users, admins and plugin developers.
 
 We also added a new **Bitcoin.co.ke** rate provider, updated Bylls branding to Bull Bitcoin in rate sources, fixed invalid Yadio rate handling, improved iOS behavior on Keypad Point of Sale item buttons, fixed invoice archiving with custom range filters, and removed the deprecated Shopify Scripts integration.
-
-As always, this release includes many smaller bug fixes, UI refinements and internal improvements that make BTCPay Server more stable for everyone.
 
 ## 💚 Thank You
 
