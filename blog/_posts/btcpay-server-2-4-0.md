@@ -11,7 +11,7 @@ tags:
 coverImage: "/images/btcpay-2-4-featured.png"
 ---
 
-We are excited to announce the release of **BTCPay Server 2.4.0**! This release introduces a new global search bar, clearer navigation, passwordless passkey authentication, a guided multisig wallet setup flow, more granular wallet permissions, subscription improvements, Point of Sale tax controls, wallet transaction filters, Shopify and Lightning Network updates and several smaller user-facing improvements.
+We are excited to announce the release of **BTCPay Server 2.4.0**! This release introduces a new global search bar, clearer navigation, passwordless passkey authentication, a guided multisig wallet setup flow, more granular wallet permissions, subscription improvements, Point of Sale tax controls, new Lightspeed and Jumpseller integrations, wallet transaction filters, Shopify and Lightning Network updates and several smaller user-facing improvements.
 
 For a complete list of changes, see the [full release notes](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.4.0).
 
@@ -24,6 +24,7 @@ For a complete list of changes, see the [full release notes](https://github.com/
 - More granular wallet management permissions
 - Subscription refunds and notification email improvements
 - Point of Sale tax configuration for tips and tax-inclusive pricing
+- New e-commerce and Point of Sale integrations
 - Wallet transaction search and date filters
 - Shopify plugin update required
 - Lightning Network component updates
@@ -84,6 +85,22 @@ Subscribers and customers can also manage their **notification email** in the su
 
 These changes make subscriptions feel more complete as a real customer-management system, not just a billing schedule. Merchants get better tools for handling support cases, while customers get more control over how they receive important subscription updates.
 
+## 🛒 E-commerce and Point of Sale Integrations
+
+BTCPay Server's reach continues to grow with two new integrations that bring Bitcoin payments to more merchants where they already sell.
+
+### Lightspeed
+
+The new Lightspeed integration lets merchants accept Bitcoin and Lightning payments directly at the Lightspeed Retail Point of Sale. For physical shops already running one of the most widely used retail POS systems, this means adding Bitcoin at the counter without changing how they operate, with funds settling straight to their own wallet.
+
+### Jumpseller
+
+The new Jumpseller integration brings the same to online stores. Merchants running a Jumpseller storefront can now accept Bitcoin through BTCPay Server. This extends BTCPay's e-commerce coverage to another established storefront platform and the merchants who rely on it.
+
+### Shopify Plugin Update
+
+If you are using Shopify with BTCPay Server, this release includes a breaking change for the Shopify integration. To continue operation after upgrading to BTCPay Server 2.4.0, you will need to update the Shopify plugin to the latest version.
+
 ## 🧾 Point of Sale Tax Improvements
 
 BTCPay Server 2.4.0 adds configuration for **tax on tips**. Merchants can decide whether tips should be included in the taxable amount, helping restaurants, cafes and service businesses match the way they are required to handle taxes in their jurisdiction.
@@ -101,10 +118,6 @@ Wallet histories can grow quickly, especially for busy stores and long-running s
 You can now search wallet transactions by transaction ID and related metadata, and use filters for labels, unlabeled transactions and incoming or outgoing direction. Date filters make it easier to review recent activity, narrow down a custom period or prepare exports for accounting.
 
 The result is a wallet view that is easier to work with when you need to find a specific payment, investigate a transaction or export a filtered set of wallet activity.
-
-## 🛍️ Shopify Plugin Update
-
-If you are using Shopify with BTCPay Server, this release includes a breaking change for the Shopify integration. To continue operation after upgrading to BTCPay Server 2.4.0, you will need to update the Shopify plugin to the latest version.
 
 ## ⚡ Lightning Network Updates
 
@@ -130,7 +143,7 @@ We also added a new **Bitcoin.co.ke** rate provider, updated Bylls branding to B
 
 ## 💚 Thank You
 
-A huge thank you to everyone who contributed to BTCPay Server 2.4.0, including thgO-O, NicolasDorier, bitcoinbrisbane, TChukwuleta, Sup3rlativ3, Abhijay007, sixside, teamssUTXO, BuffaloDyl, Wiredancer, BullishNode and everyone who tested, reviewed, translated, reported issues or gave feedback.
+A huge thank you to everyone who contributed to BTCPay Server 2.4.0, including Abhijay007, bitcoinbrisbane, BuffaloDyl, BullishNode, NicolasDorier, sixside, Sup3rlativ3, TChukwuleta, teamssUTXO, thgO-O, Wiredancer and everyone who tested, reviewed, translated, reported issues or gave feedback.
 
 Most of all, thank you for using BTCPay Server, sharing feedback, building plugins, running community instances and helping merchants accept Bitcoin on their own terms. Join the conversation in our community [channels](https://t.me/btcpayserver) and let us know what you would like to see next.
 
