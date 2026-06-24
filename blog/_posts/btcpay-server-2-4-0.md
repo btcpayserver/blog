@@ -91,6 +91,16 @@ Together, these improvements make the Point of Sale app more practical for every
 
 ## 🌍 Improved Translation System and New Language Packs
 
+BTCPay Server speaks more languages than ever, and 2.4.0 makes managing them far simpler.
+
+A redesigned Translations page - The Translations page has been rebuilt so you can see every supported language at a glance and install a language pack with one click. Each language also shows its maintainer, making it clear who keeps it accurate.
+
+Languages can now have a dedicated maintainer. Contributors can claim a language directly in the translator repository, giving the community a clear, low-barrier way to keep BTCPay Server accurate in their own language. Several languages already have maintainers, including French, Spanish, Portuguese (Brazil) & Serbian.
+
+Language packs are now distributed through a manifest that BTCPay Server reads directly, so packs stay in sync as new strings are added across the app. For 2.4.0, every existing language pack was reviewed and refreshed against the current strings.
+
+If you can help with a language we do not cover yet, or want to improve an existing one, contribute at the [translator repository](https://github.com/btcpayserver/btcpayserver-translator/issues).
+
 ## 🔍 Wallet Transaction Search and Filters
 
 Wallet histories can grow quickly, especially for busy stores and long-running servers. In 2.4.0, wallet transactions get search and date filtering improvements that bring the wallet view closer to the experience already available in invoices and payment requests.
