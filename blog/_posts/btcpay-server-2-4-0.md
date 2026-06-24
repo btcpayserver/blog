@@ -128,9 +128,19 @@ The new major update also upgrades supported Lightning Network implementations:
 
   The newer CLN and LND versions do not work properly on BTCPay Server 2.3.9 because of deprecated routes that were still being used. We recommend users using Lightning to update to BTCPay 2.4 to resolve any of these issues.
 
-## 🛒 Plugin updates
+## 🛒 Plugins
 
 The plugin ecosystem continues to mature and remains central to how BTCPay Server grows. Plugins allow new functionality to be developed and shipped independently of BTCPay Server core, making it easier for contributors to experiment, for merchants to get specialized tools, and for users to discover integrations through the [Plugin Builder](https://plugin-builder.btcpayserver.org/public/plugins).
+
+### Plugin Builder & Directory
+
+The Plugin Builder has grown over the past few months. You can now build plugins straight from GitLab. Until now the plugin builder was GitHub-only; GitLab is now a supported source provider, so authors hosting their plugins there can publish through the builder just like everyone else.
+
+The Plugin Builder now has a documented API, with a full OpenAPI spec and browsable Redocly docs, plus new endpoints for managing version releases and listing builds, and a health endpoint for monitoring.
+
+Plugins can now specify the range of BTCPay Server versions they support. The directory shows this on each plugin's page, so before you install you can check whether a plugin works with the version you're on or download the specific version that does.
+
+Plugin authors can now add videos and screenshots to their listings, write a short description that appears on the main directory page, and upload SVG logos that stay sharp at any size giving people a clearer view of what each plugin actually does.
 
 ### OpenPatreon
 
