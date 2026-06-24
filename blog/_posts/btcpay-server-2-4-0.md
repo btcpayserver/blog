@@ -11,7 +11,7 @@ tags:
 coverImage: "/images/btcpay-2-4-featured.png"
 ---
 
-We are excited to announce the release of **BTCPay Server 2.4.0**! This release introduces a new global search bar, clearer navigation, passwordless passkey authentication, a guided multisig wallet setup flow, more granular wallet permissions, subscription improvements, Point of Sale tax controls, new Lightspeed and Jumpseller integrations, wallet transaction filters and a lot of other improvements.
+We are excited to announce the release of **BTCPay Server 2.4.0**! This release introduces a new global search bar, clearer navigation, passkey authentication, a guided multisig wallet setup flow, more granular wallet permissions and a lot of other improvements.
 
 For a complete list of changes, see the [full release notes](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.4.0).
 
@@ -25,6 +25,7 @@ For a complete list of changes, see the [full release notes](https://github.com/
 - Subscription refunds and notification email improvements
 - Point of Sale tax configuration for tips and tax-inclusive pricing
 - New e-commerce and Point of Sale integrations
+- Easier Bitcoin node implementation switching
 - Wallet transaction search and date filters
 - Shopify plugin update required
 - Lightning Network component updates
@@ -45,7 +46,7 @@ The goal is simple: if you know what you are looking for, BTCPay should help you
 
 ## 🔐 Passkey Authentication
 
-BTCPay Server 2.4.0 introduces **passkey authentication**, giving users a faster and safer way to sign in without typing a password.
+BTCPay Server 2.4.0 introduces **passkey authentication**, giving users a faster and safer way to sign in without typing a password or email.
 
 With passkeys, you can log in using the same method you already use to unlock your device, such as Face ID, Touch ID, Windows Hello, Android biometrics or a hardware security key. Instead of remembering another password, your trusted device confirms that it is really you.
 
@@ -93,7 +94,7 @@ Together, these improvements make the Point of Sale app more practical for every
 
 BTCPay Server speaks more languages than ever, and 2.4.0 makes managing them far simpler.
 
-A redesigned Translations page - The Translations page has been rebuilt so you can see every supported language at a glance and install a language pack with one click. Each language also shows its maintainer, making it clear who keeps it accurate.
+The Translations page has been rebuilt so you can see every supported language at a glance and install a language pack with one click. Each language also shows its maintainer, making it clear who keeps it accurate.
 
 Languages can now have a dedicated maintainer. Contributors can claim a language directly in the translator repository, giving the community a clear, low-barrier way to keep BTCPay Server accurate in their own language. Several languages already have maintainers, including French, Spanish, Portuguese (Brazil) & Serbian.
 
@@ -109,6 +110,18 @@ You can now search wallet transactions by transaction ID and related metadata, a
 
 The result is a wallet view that is easier to work with when you need to find a specific payment, investigate a transaction or export a filtered set of wallet activity.
 
+## ₿ Bitcoin Node Implementation
+
+With BTCPay Server 2.4.0, server administrators can choose and switch between supported Bitcoin node implementations.
+
+The new `switch-node.sh` tool lets admins switch their deployment with a single command:
+
+- `switch-node.sh default` uses the Bitcoin node implementation selected by the BTCPay Server team. This is currently Bitcoin Core 29, and is planned to move to Bitcoin Core 31+ in the next major release, BTCPay Server 2.5.0.
+- `switch-node.sh bitcoincore` pins your deployment to latest Bitcoin Core. (Currently 31)
+- `switch-node.sh bitcoinknots` pins your deployment to Bitcoin Knots.
+
+You can run the same script again to switch back between implementations, making it easier to test, compare, or settle on the node implementation you prefer without manually editing deployment settings.
+
 ## ⚡ Lightning Network Updates
 
 BTCPay Server 2.4.0 also updates supported Lightning Network implementations:
@@ -119,9 +132,13 @@ BTCPay Server 2.4.0 also updates supported Lightning Network implementations:
 
 These updates bring BTCPay Server in line with newer releases, but there is one important compatibility note: the newer CLN and LND versions do not work properly on BTCPay Server 2.3.9 because of deprecated routes that were still being used there. We recommend users using Lightning to update to BTCPay 2.4 to resolve any of these issues.
 
-## 🛒 E-commerce and Point of Sale Integrations
+## 🛒 Plugin updates
 
-BTCPay Server's reach continues to grow with two new integrations that bring Bitcoin payments to more merchants where they already sell.
+The plugin ecosystem continues to mature and remains central to how BTCPay Server grows. Plugins allow new functionality to be developed and shipped independently of BTCPay Server core, making it easier for contributors to experiment, for merchants to get specialized tools, and for users to discover integrations through the [Plugin Builder](https://plugin-builder.btcpayserver.org/public/plugins).
+
+### OpenPatreon
+
+OpenPatreon is a new plugin for building self-hosted sponsor pages directly inside BTCPay Server. You can start from a predefined template, then customize the page by dragging and dropping different layouts. It supports one-time contributions and recurring sponsorships, integrating directly with [Subscriptions](https://docs.btcpayserver.org/Subscriptions/) so supporters can back your work through a polished, self-hosted page.
 
 ### Shopify Plugin Update
 
@@ -129,21 +146,17 @@ If you are using [Shopify with BTCPay Server](https://docs.btcpayserver.org/Shop
 
 ### Lightspeed
 
-The new Lightspeed integration lets merchants accept Bitcoin and Lightning payments directly at the Lightspeed Retail Point of Sale. For physical shops already running one of the most widely used retail POS systems, this means adding Bitcoin at the counter without changing how they operate, with funds settling straight to their own wallet.
+The new [Lightspeed plugin](https://plugin-builder.btcpayserver.org/public/plugins/lightspeed) lets merchants accept Bitcoin and Lightning payments directly at the Lightspeed Retail Point of Sale. For physical shops already running one of the most widely used retail POS systems, this means adding Bitcoin at the counter without changing how they operate, with funds settling straight to their own wallet.
 
 ### Jumpseller
 
-The new Jumpseller integration brings the same to online stores. Merchants running a Jumpseller storefront can now accept Bitcoin through BTCPay Server. This extends BTCPay's e-commerce coverage to another established storefront platform and the merchants who rely on it.
+The new [Jumpseller plugin](https://plugin-builder.btcpayserver.org/public/plugins/jumpseller) brings the same to online stores. Merchants running a Jumpseller storefront can now accept Bitcoin through BTCPay Server. This extends BTCPay's e-commerce coverage to another established storefront platform and the merchants who rely on it.
 
 ## 🛠️ Other Improvements
-
-As always, this release includes many smaller bug fixes, UI refinements and internal improvements that make BTCPay Server more stable for everyone.
 
 Server administrators can now set the **maximum number of stores per user**, which is useful for hosted instances and community servers that need clearer resource limits. Admins using server monetization also get more control over whether invited users should subscribe to monetization during onboarding.
 
 Developers and integrators get a separate `CanSendStoreEmail` permission for the store email API, making email-related access more explicit. The 403 page now shows missing permissions, which should make troubleshooting access issues easier for users, admins and plugin developers.
-
-We also added a new **Bitcoin.co.ke** rate provider, updated Bylls branding to Bull Bitcoin in rate sources, fixed invalid Yadio rate handling, improved iOS behavior on Keypad Point of Sale item buttons, fixed invoice archiving with custom range filters, and removed the deprecated Shopify Scripts integration.
 
 ## 💚 Thank You
 
