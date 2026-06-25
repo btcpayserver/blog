@@ -1,6 +1,6 @@
 ---
 title: "BTCPay Server 2.4.0: Global Search, Passkeys, New Multisig Setup Flow, Wallet Permissions"
-date: 2026-06-23
+date: 2026-06-25
 author: Pavlenex
 category:
   - "releases"
@@ -32,6 +32,8 @@ For a complete list of changes, see the [full release notes](https://github.com/
 
 ## 🔎 Global Search and Navigation
 
+[![](https://img.youtube.com/vi/1VIH3wUCQRc/mqdefault.jpg)](https://www.youtube.com/watch?v=1VIH3wUCQRc)
+
 BTCPay Server keeps getting more powerful, but with that comes a familiar challenge: finding the exact setting, invoice or feature you need should not depend on remembering where exactly it lives.
 
 That is especially true for users who are both **store operators** and **server administrators**. Store settings, account settings, server settings and plugin management all have different scopes, but they have historically competed for the same navigation sidebar space.
@@ -46,6 +48,8 @@ The goal is simple: if you know what you are looking for, BTCPay should help you
 
 ## 🔐 Passkey Authentication
 
+[![](https://img.youtube.com/vi/ziuWrnFvX5s/mqdefault.jpg)](https://www.youtube.com/watch?v=ziuWrnFvX5s)
+
 BTCPay Server 2.4.0 introduces **passkey authentication**, giving users a faster and safer way to sign in without typing a password or email.
 
 With passkeys, you can log in using the same method you already use to unlock your device, such as Face ID, Touch ID, Windows Hello, Android biometrics or a hardware security key. Instead of remembering another password, your trusted device confirms that it is really you.
@@ -56,9 +60,13 @@ Passkeys work alongside existing login methods, so you can adopt them gradually.
 
 ## 🛡️ Guided Multisig Wallet Setup
 
+![Multisig](/images/2-4/multisig-1.png)
+
 The new guided multisig wallet setup helps store owners create a multisig wallet directly inside BTCPay Server without coordinating everything manually. You can start a setup, choose the signing policy, invite other store users to provide their signer keys, review generated addresses and broadcast the transaction once all required signer keys have been collected.
 
 Signer keys can be submitted manually or through [BTCPay Server Vault](https://docs.btcpayserver.org/HardwareWalletIntegration/), which makes the flow easier for teams using hardware wallets. BTCPay also shows multisig setups in progress on the dashboard and wallet list, so it is clear when a wallet is still waiting for participants action.
+
+![Multisig](/images/2-4/multisig-2.png)
 
 Email notifications help everyone stay in sync during the process. Participants can be notified when their signer key is requested, when keys are submitted, when the wallet is created and when multisig transaction signatures are pending.
 
@@ -72,6 +80,8 @@ BTCPay Server 2.4.0 adds more **granular permissions for wallet management**, ma
 
 The Greenfield API now follows the wallet permission model more closely as well, aligning API access with what users can do in the BTCPay interface. This gives store owners and server administrators better control when delegating wallet-related actions to team members, apps and external systems.
 
+![Permissions Wallet](/images/2-4/wallet-permission.png)
+
 ## 🔄 Subscription Improvements
 
 Subscriptions were introduced in BTCPay Server [2.3.0](https://blog.btcpayserver.org/btcpay-server-2-3-0/) as a native way to manage recurring payments, memberships, recurring donations, SaaS access and [server monetization](https://docs.btcpayserver.org/Monetization/). In 2.4.0, we are continuing to improve the practical day-to-day flows around them.
@@ -80,13 +90,17 @@ Store owners can now issue **credit refunds through Pull Payments**. This is use
 
 Subscribers and customers can also manage their **notification email** in the subscription portal. This is a small but important usability improvement. The email address a customer uses for subscription reminders is not always the same one they used during checkout, and customers should be able to keep that information up to date without contacting the merchant.
 
-These changes make subscriptions feel more complete as a real customer-management system, not just a billing schedule. Merchants get better tools for handling support cases, while customers get more control over how they receive important subscription updates.
+![Permissions Wallet](/images/2-4/subscription-management.png)
+
 
 ## 🧾 Point of Sale Tax Improvements
 
 BTCPay Server 2.4.0 adds configuration for **tax on tips**. Merchants can decide whether tips should be included in the taxable amount, helping restaurants, cafes and service businesses match the way they are required to handle taxes in their jurisdiction.
 
 This release also adds support for configuring whether Point of Sale prices are **tax-inclusive or tax-exclusive**. Some merchants enter prices that already include tax. Others prefer to enter a base amount and have tax added on top. The keypad Point of Sale can now better support both workflows.
+
+![POS Tax](/images/2-4/pos-tax.png)
+
 
 ## 🌍 Improved Translation System and New Language Packs
 
@@ -95,6 +109,8 @@ BTCPay Server speaks more languages than ever, and 2.4.0 makes managing them far
 The Translations page has been rebuilt so you can see every supported language at a glance and install a language pack with one click. Each language also shows its maintainer, making it clear who keeps it accurate.
 
 Languages can now have a dedicated maintainer. Contributors can claim a language directly in the translator repository, giving the community a clear, low-barrier way to keep BTCPay Server accurate in their own language. Several languages already have maintainers, including French, Spanish, Portuguese (Brazil) & Serbian.
+
+![Translations](/images/2-4/translations.jpg)
 
 Language packs are now distributed through a manifest that BTCPay Server reads directly, so packs stay in sync as new strings are added across the app. For 2.4.0, every existing language pack was reviewed and refreshed against the current strings.
 
@@ -126,13 +142,15 @@ The new major update also upgrades supported Lightning Network implementations:
 - **Core Lightning** is updated from `v25.05` to `v26.06.1`
 - **phoenixd** is updated from `0.6.3` to `0.8.0`
 
-  The newer CLN and LND versions do not work properly on BTCPay Server 2.3.9 because of deprecated routes that were still being used. We recommend users using Lightning to update to BTCPay 2.4 to resolve any of these issues.
+The newer CLN and LND versions do not work properly on BTCPay Server 2.3.9 because of deprecated routes that were still being used. We recommend users using Lightning to update to BTCPay 2.4 to resolve any of these issues.
 
 ## 🛒 Plugins
 
 The plugin ecosystem continues to mature and remains central to how BTCPay Server grows. Plugins allow new functionality to be developed and shipped independently of BTCPay Server core, making it easier for contributors to experiment, for merchants to get specialized tools, and for users to discover integrations through the [Plugin Builder](https://plugin-builder.btcpayserver.org/public/plugins).
 
 ### Plugin Builder & Directory
+
+![Translations](/images/2-4/plugin-directory.png)
 
 The Plugin Builder has grown over the past few months. You can now build plugins straight from GitLab. Until now the plugin builder was GitHub-only; GitLab is now a supported source provider, so authors hosting their plugins there can publish through the builder just like everyone else.
 
@@ -144,6 +162,8 @@ Plugin authors can now add videos and screenshots to their listings, write a sho
 
 ### OpenPatreon
 
+[![](https://img.youtube.com/vi/DiugrBthMY8/mqdefault.jpg)](https://www.youtube.com/watch?v=DiugrBthMY8)
+
 OpenPatreon is a new plugin for building self-hosted sponsor pages directly inside BTCPay Server. You can start from a predefined template, then customize the page by dragging and dropping different layouts. It supports one-time contributions and recurring sponsorships, integrating directly with [Subscriptions](https://docs.btcpayserver.org/Subscriptions/) so supporters can back your work through a polished, self-hosted page.
 
 ### Shopify Plugin Update
@@ -152,9 +172,13 @@ If you are using [Shopify with BTCPay Server](https://docs.btcpayserver.org/Shop
 
 ### Lightspeed
 
+[![](https://img.youtube.com/vi/wYDMfW_UTz4/mqdefault.jpg)](https://www.youtube.com/watch?v=wYDMfW_UTz4)
+
 The new [Lightspeed plugin](https://plugin-builder.btcpayserver.org/public/plugins/lightspeed) lets merchants accept Bitcoin and Lightning payments directly at the Lightspeed Retail Point of Sale. For physical shops already running one of the most widely used retail POS systems, this means adding Bitcoin at the counter without changing how they operate, with funds settling straight to their own wallet.
 
 ### Jumpseller
+
+[![](https://img.youtube.com/vi/IP7WPGyG10g/mqdefault.jpg)](https://www.youtube.com/watch?v=IP7WPGyG10g)
 
 The new [Jumpseller plugin](https://plugin-builder.btcpayserver.org/public/plugins/jumpseller) brings the same to online stores. Merchants running a Jumpseller storefront can now accept Bitcoin through BTCPay Server. This extends BTCPay's e-commerce coverage to another established storefront platform and the merchants who rely on it.
 
