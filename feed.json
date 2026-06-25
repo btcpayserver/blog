@@ -6,17 +6,25 @@
     "description": "Official BTCPay Server Blog",
     "items": [
         {
+            "id": "https://blog.btcpayserver.org/btcpay-server-2-4-0/",
+            "url": "https://blog.btcpayserver.org/btcpay-server-2-4-0/",
+            "title": "BTCPay Server 2.4.0: Global Search, Passkeys, New Multisig Setup Flow, Wallet Permissions",
+            "summary": "We are excited to announce the release of BTCPay Server 2.4.0! This update introduces a new global search bar, clearer navigation, passkey authentication, a guided multisig wallet setup flow, new language packs, more granular wallet permissions and a more features, integrations, plugins and bug fixes.",
+            "image": "https://img.youtube.com/vi/1VIH3wUCQRc/mqdefault.jpg",
+            "date_modified": "2026-06-25T00:00:00.000Z"
+        },
+        {
             "id": "https://blog.btcpayserver.org/migrating-to-net10/",
             "url": "https://blog.btcpayserver.org/migrating-to-net10/",
             "title": "Migrating from .NET 8 to .NET 10",
-            "summary": "This blog post is mainly intended for plugin developers and anyone building BTCPay Server from source. Normal users and merchants are not impacted and can safely ignore this post.",
+            "summary": "This will soon be the case for .NET 8.0 (LTS), which reaches end of support in November 2026 (support policy).",
             "date_modified": "2026-03-24T00:00:00.000Z"
         },
         {
             "id": "https://blog.btcpayserver.org/2025-report/",
             "url": "https://blog.btcpayserver.org/2025-report/",
             "title": "BTCPay Server 2025 Progress Report",
-            "summary": "Our team grew to nine members this year, including a new full time contributor, Thg0.0, and a renewed grant for Tobses. Both roles were made possible through co-funding partnerships: Tobses is supported together with Btrust, and Thg0.0 together with Vinteum. CodeInVenis received a grant to work on BTCPay localization and deployments in India by BitShala.",
+            "summary": "We are also grateful to our supporting partners: Spiral, OpenSats, Tether, Human Rights Foundation, LunaNode, Wallet of Satoshi, Coincards, IVPN, and Unbank. Every supporter renewed their commitment in 2025, and we did not lose any supporters. As a result, we are in a strong financial position and expect to remain sustainable through the coming year.",
             "image": "https://blog.btcpayserver.org/images/Report2025/Report-1.jpg",
             "date_modified": "2026-01-22T00:00:00.000Z"
         },
@@ -24,7 +32,7 @@
             "id": "https://blog.btcpayserver.org/case-study-btcinc/",
             "url": "https://blog.btcpayserver.org/case-study-btcinc/",
             "title": "Built on Bitcoin: How BTC Inc Runs on BTCPay Server",
-            "summary": "was clear: BTC Inc needed infrastructure that could vertically integrate these flows across different continents,\nminimizing coordination overhead and eliminating the delays and fees of traditional payment systems. The solution also\nhad to support instant payments while giving the company full control over its funds through self-custody.",
+            "summary": "BTCPay Server met all of these requirements. As an open-source, self-hosted project, it gave\nBTC Inc a way to unify every Bitcoin payment stream under one roof without relying on custodians or third-party\nprocessors. Before settling on BTCPay, the team explored several external solutions but ran into friction. Custodial\nsetups introduced risk. Regulatory hurdles in different jurisdictions added complexity and slowed things down.\nOff-the-shelf platforms made it difficult to adapt payment flows to the unique pace and structure of the business. It\nbecame clear that a vertically integrated system, built with open tools and full control, was the only way to scale.",
             "image": "https://img.youtube.com/vi/zbCeN_pLArE/mqdefault.jpg",
             "date_modified": "2026-01-07T00:00:00.000Z"
         },
@@ -32,7 +40,7 @@
             "id": "https://blog.btcpayserver.org/btcpay-server-2-3-0/",
             "url": "https://blog.btcpayserver.org/btcpay-server-2-3-0/",
             "title": "BTCPay Server 2.3.0: Subscriptions, Server Monetization, Plugin Builder, Drupal 11 and EDD integrations",
-            "summary": "Recurring payments are easy in credit card based systems, a service can simply pull out funds out of customers account. Bitcoin operates differently, as a push mechanism that requires authorization (signature). There is no single, reliable way to automatically charge customers on a schedule, especially across multiple payment methods that we support. Instead of a traditional model, subscriptions are designed to be explicit and transparent, while still offering customers a smooth renewal experience.",
+            "summary": "Our subscriptions start with a simple structure. You create an offering, which represents what you sell, for example access to a newsletter. Under that offering, you define one or more plans such as Basic, Pro, or Enterprise. Plans let you set pricing, billing frequency, and access rules, and they give you a clean way to segment your users as your product grows.",
             "image": "https://img.youtube.com/vi/CV5wckX7x80/mqdefault.jpg",
             "date_modified": "2025-12-18T00:00:00.000Z"
         },
@@ -48,7 +56,7 @@
             "id": "https://blog.btcpayserver.org/case-study-btcprague/",
             "url": "https://blog.btcpayserver.org/case-study-btcprague/",
             "title": "BTCPrague: Onboarding 25 Merchants to Accept Bitcoin, Generating 1.3 Million CZK revenue and 7079 Transactions",
-            "summary": "Making Bitcoin payments work at BTCPrague required a coordinated effort across multiple teams  BTCPay Server, Blink, and NiceHash  with each group solving different parts of the puzzle.",
+            "summary": "Lightning Network via Blink: To handle the high volume and instant settlement volume, payments ran over the Lightning Network, with Blink acting as the backend wallet infrastructure. Instead of requiring merchants to run their own node or manage liquidity, BTCPay’s plugin connected each store to a Blink wallet. That meant payments were routed reliably and arrived directly in the merchant’s Blink wallet in real time. Merchants had the option to auto-convert incoming bitcoin to “StableSats”, a USD-pegged balance inside Blink. This gave them a safety net from Bitcoin’s price volatility; they could lock in fiat value on the fly and cash out later via local exchanges if they chose. Several vendors opted to stay fully in BTC throughout the event.\nPoint of Sale Hardware: To streamline the setup, each vendor received a Sunmi V2 Android payment terminal, courtesy of NiceHash. These devices came preloaded and stress-tested, ensuring they were production-ready. A select group of vendors also participated in the beta testing of the new BTCPay App, a mobile point-of-sale solution currently in development. This marked one of the app’s first real-world field trials, and early feedback from merchants was encouraging.\nTraining & Onboarding: Recognizing that most merchants were new to Bitcoin, organizers hosted a hands-on training session before the conference. This covered the basics of using the BTCPay point-of-sale and how to troubleshoot common issues. Merchants rated the session 4.1 out of 5 on average, indicating it helped build confidence.\nOn-site support: During the event, a “response team” made up of BTCPay contributors and NiceHash staff and conference volunteers actively roamed the vendor area, checking in, answering questions, and solving problems as they came up. A dedicated WhatsApp group was also created, allowing merchants to request support instantly if they ran into issues.  This dual approach worked well; merchants rated live support 4.4 out of 5, and several called it the most reassuring part of the experience.",
             "image": "https://img.youtube.com/vi/PJSVJkOHTR0/mqdefault.jpg",
             "date_modified": "2025-08-14T00:00:00.000Z"
         },
@@ -56,7 +64,7 @@
             "id": "https://blog.btcpayserver.org/btcpay-server-2-2-0/",
             "url": "https://blog.btcpayserver.org/btcpay-server-2-2-0/",
             "title": "BTCPay Server 2.2.0: Enhanced Reporting, Public Plugin Builder, Miniscript Support, LSP Plugin & GiveWP Integration",
-            "summary": "Transaction Fee and Rate. The Transaction Fee column displays the cost of the transaction, while the Rate column shows the exchange rate at the time the transaction occurred. Both of these new columns are visible in the “Wallet report”.\nAutomatic Exchange Rate Tracking for Transactions: Exchange rates are now captured automatically when a transaction is detected. If the transaction is linked to an invoice, it uses the invoice's rate. Otherwise, it records the rate at the moment of receipt, ensuring precise historical data. Exchange rate details are now available in the wallet transaction list, wallet report and invoice report, providing a unified view that complements the new metadata exports.\nMulti-currency accounting: In your store settings, you can now specify additional currencies (e.g., USD or GBP) to track alongside your store’s default. These rates will be included as extra columns in both invoice and wallet reports.\nImproved UI allows easier access for different report types (Invoice, Payments, Payouts, Refunds, Sales, Wallet).",
+            "summary": "To view available BTCPay plugins, you'll be able to visit our Plugin Builder website and explore what's offered:",
             "image": "https://img.youtube.com/vi/bBkwVfELgjI/mqdefault.jpg",
             "date_modified": "2025-07-31T00:00:00.000Z"
         },
