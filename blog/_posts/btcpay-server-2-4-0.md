@@ -132,8 +132,6 @@ The new `switch-node.sh` tool lets admins switch their deployment with a single 
 - `switch-node.sh bitcoincore` pins your deployment to latest Bitcoin Core. (Currently 31)
 - `switch-node.sh bitcoinknots` pins your deployment to Bitcoin Knots.
 
-You can run the same script again to switch back between implementations, making it easier to test, compare, or settle on the node implementation you prefer without manually editing deployment settings.
-
 ## ⚡ Lightning Network Updates
 
 The new major update also upgrades supported Lightning Network implementations:
