@@ -4,16 +4,23 @@
         <title>BTCPay Server Blog</title>
         <link>https://blog.btcpayserver.org</link>
         <description>Official BTCPay Server Blog</description>
-        <lastBuildDate>Thu, 25 Jun 2026 12:55:12 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 07 Aug 2026 23:00:56 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://blog.btcpayserver.org/feed.atom" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Security Advisory: Update BTCPay Server to 2.4.2 Immediately]]></title>
+            <link>https://blog.btcpayserver.org/security-advisory-btcpay-server-2-4-2/</link>
+            <guid>https://blog.btcpayserver.org/security-advisory-btcpay-server-2-4-2/</guid>
+            <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[If you use LND and run a BTCPay Server version prior to 2.4.2, including a 2.4.2 release candidate, update to version 2.4.2 now.]]></description>
+        </item>
         <item>
             <title><![CDATA[BTCPay Server 2.4.0: Global Search, Passkeys, New Multisig Setup Flow, Wallet Permissions]]></title>
             <link>https://blog.btcpayserver.org/btcpay-server-2-4-0/</link>
             <guid>https://blog.btcpayserver.org/btcpay-server-2-4-0/</guid>
             <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[We are excited to announce the release of BTCPay Server 2.4.0! This update introduces a new global search bar, clearer navigation, passkey authentication, a guided multisig wallet setup flow, new language packs, more granular wallet permissions and a more features, integrations, plugins and bug fixes.]]></description>
+            <description><![CDATA[For a complete list of changes, see the full release notes.]]></description>
             <enclosure url="https://img.youtube.com/vi/1VIH3wUCQRc/mqdefault.jpg">
             </enclosure>
         </item>
@@ -22,7 +29,7 @@
             <link>https://blog.btcpayserver.org/migrating-to-net10/</link>
             <guid>https://blog.btcpayserver.org/migrating-to-net10/</guid>
             <pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[This will soon be the case for .NET 8.0 (LTS), which reaches end of support in November 2026 (support policy).]]></description>
+            <description><![CDATA[If you are building BTCPay Server from source, you will now need to use the .NET 10 SDK.]]></description>
         </item>
         <item>
             <title><![CDATA[BTCPay Server 2025 Progress Report]]></title>

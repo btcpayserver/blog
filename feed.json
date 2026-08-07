@@ -6,10 +6,17 @@
     "description": "Official BTCPay Server Blog",
     "items": [
         {
+            "id": "https://blog.btcpayserver.org/security-advisory-btcpay-server-2-4-2/",
+            "url": "https://blog.btcpayserver.org/security-advisory-btcpay-server-2-4-2/",
+            "title": "Security Advisory: Update BTCPay Server to 2.4.2 Immediately",
+            "summary": "If you use LND and run a BTCPay Server version prior to 2.4.2, including a 2.4.2 release candidate, update to version 2.4.2 now.",
+            "date_modified": "2026-08-07T00:00:00.000Z"
+        },
+        {
             "id": "https://blog.btcpayserver.org/btcpay-server-2-4-0/",
             "url": "https://blog.btcpayserver.org/btcpay-server-2-4-0/",
             "title": "BTCPay Server 2.4.0: Global Search, Passkeys, New Multisig Setup Flow, Wallet Permissions",
-            "summary": "We are excited to announce the release of BTCPay Server 2.4.0! This update introduces a new global search bar, clearer navigation, passkey authentication, a guided multisig wallet setup flow, new language packs, more granular wallet permissions and a more features, integrations, plugins and bug fixes.",
+            "summary": "For a complete list of changes, see the full release notes.",
             "image": "https://img.youtube.com/vi/1VIH3wUCQRc/mqdefault.jpg",
             "date_modified": "2026-06-25T00:00:00.000Z"
         },
@@ -17,7 +24,7 @@
             "id": "https://blog.btcpayserver.org/migrating-to-net10/",
             "url": "https://blog.btcpayserver.org/migrating-to-net10/",
             "title": "Migrating from .NET 8 to .NET 10",
-            "summary": "This will soon be the case for .NET 8.0 (LTS), which reaches end of support in November 2026 (support policy).",
+            "summary": "If you are building BTCPay Server from source, you will now need to use the .NET 10 SDK.",
             "date_modified": "2026-03-24T00:00:00.000Z"
         },
         {
