@@ -13,17 +13,17 @@ coverImage: "/images/btcpay-security-advisory-2-4-2.jpg"
 
 ## Immediate action required
 
-If you use **LND** and run BTCPay Server 2.0.0 through 2.4.1 or a 2.4.2 release candidate, **update to version 2.4.2 now**.
+If you use **LND** and run a BTCPay Server version prior to 2.4.2, including a 2.4.2 release candidate, **update to version 2.4.2 now**.
 
 If you use another Lightning implementation or do not use Lightning, you are not exposed to the LND credential risk. We still strongly encourage you to update.
 
 ## What happened
 
-We fixed a critical security vulnerability in BTCPay Server **2.4.2**. The vulnerability is present in versions **2.0.0 through 2.4.1**, including the 2.4.2 release candidates.
+BTCPay Server **2.4.2** fixes a critical security vulnerability that affects all prior versions, including the 2.4.2 release candidates.
 
 The issue could allow an unauthenticated remote attacker to obtain `.macaroon` credential files for **LND, an implementation of the Lightning Network**. Those credentials could be used to take control of an LND node and move funds. The attacks we reviewed targeted only files with the `.macaroon` extension.
 
-In our initial communications, out of an abundance of caution, we advised users to move funds out of their BTCPay Server on-chain wallets. After further review, we confirmed that only LND is impacted. BTCPay Server's on-chain wallets are not affected. Funds held in LND's own on-chain wallet are part of the affected LND node and may still be at risk.
+In our initial communications, out of an abundance of caution, we advised users to move funds out of their BTCPay Server on-chain wallets. After further review, we confirmed that only LND is impacted.
 
 We have confirmed that attackers exploited this vulnerability. Users were affected and funds were stolen. We are not publishing technical details yet because operators still need time to update.
 
@@ -31,20 +31,19 @@ We have confirmed that attackers exploited this vulnerability. Users were affect
 
 | Version | Status |
 | --- | --- |
-| 1.x | ✅ Not affected |
-| 2.0.0 through 2.4.1 | ❌ Contains the vulnerability. LND users must update immediately |
-| 2.4.2 release candidates | ❌ Contains the vulnerability. LND users must update immediately |
+| All versions prior to 2.4.2, including 2.4.2 release candidates | ❌ Contains the vulnerability. LND users must update immediately |
 | 2.4.2 | ✅ Fixed |
 
-- The vulnerability is present in every BTCPay Server instance running version 2.0.0 through 2.4.1 and in the 2.4.2 release candidates.
+- The vulnerability is present in every BTCPay Server version prior to 2.4.2, including the 2.4.2 release candidates.
 - The risk of exposed `.macaroon` credentials and stolen funds applies specifically to deployments using LND. Users of other Lightning implementations and users who do not use Lightning do not need to update to address this LND credential risk, but we strongly encourage them to update BTCPay Server.
+- BTCPay Server's on-chain wallets, including hot wallets, are not affected. Funds held in LND's own on-chain wallet are part of the affected LND node and may still be at risk.
 - If you use LND, treat its credentials as potentially exposed and check the node for unauthorized activity.
 
 ## How to mitigate the risk
 
 ### 1. Update to BTCPay Server 2.4.2 and LND 0.21.1
 
-If you use LND, update immediately. All other users on versions 2.0.0 through 2.4.1 are strongly encouraged to update.
+If you use LND, update immediately. All other users running a BTCPay Server version prior to 2.4.2 are strongly encouraged to update.
 
 For a standard BTCPay Server installation, go to:
 
@@ -65,7 +64,7 @@ If you use LND:
 - Compare your on-chain and channel balances with your own records.
 - Investigate any activity you do not recognize.
 
-We updated LND to version 0.21.1, which automatically generates new macaroons. You do not need to rotate your credentials manually unless your LND node is exposed through a route you configured yourself.
+The update also upgrades LND to version 0.21.1 and automatically regenerates its macaroons. You can also rotate your macaroons manually.
 
 If you expose your LND node through your own reverse proxy, Tor service, forwarded port, or another route outside BTCPay Server, rotate its credentials now. Updating BTCPay Server does not close access paths that you manage separately.
 
@@ -77,9 +76,9 @@ We made this change to protect LND nodes while the incident is ongoing. We plan 
 
 ## Summary
 
-If you use LND and run **BTCPay Server 2.0.0 through 2.4.1, update to 2.4.2 now**.
+If you use LND and run **a BTCPay Server version prior to 2.4.2, update to 2.4.2 now**.
 
-The vulnerability is present in all BTCPay Server instances running version 2.0.0 through 2.4.1. Other Lightning implementations and deployments that do not use Lightning are not exposed to the LND credential risk and do not need to update for this specific issue, but we strongly encourage them to install the update.
+The vulnerability is present in all BTCPay Server versions prior to 2.4.2. Other Lightning implementations and deployments that do not use Lightning are not exposed to the LND credential risk and do not need to update for this specific issue, but we strongly encourage them to install the update. BTCPay Server's on-chain wallets, including hot wallets, are not affected.
 
 If you use LND, check your node and balances for activity you do not recognize. If you cannot update now, take the server offline until you can.
 
