@@ -63,7 +63,7 @@ Until then, do not manually expose LND's API through your own reverse proxy. If 
 
 Our Plugin Builder server was compromised on August 28. We detected the intrusion on September 2.
 
-We identified the attack method and patched it. We also rotated all access tokens and temporarily disabled new Plugin Builder registrations while we complete additional security hardening, both in our own code and with our hosting provider. Although we believe the server is now safe, registrations will remain closed until this work is complete.
+We identified the attack method and patched it. We also rotated all access tokens and temporarily disabled new Plugin Builder registrations and plugin builds while we complete additional security hardening, both in our own code and with our hosting provider. Although we believe the server is now safe, registrations and builds will remain disabled until this work is complete.
 
 Fortunately, the damage was largely contained. The attacker appeared to use AI-driven automation and may not have targeted BTCPay Server specifically. Their activity left many traces, which helped us investigate what happened.
 
