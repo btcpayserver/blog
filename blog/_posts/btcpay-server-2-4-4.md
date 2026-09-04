@@ -19,6 +19,14 @@ We are releasing **BTCPay Server 2.4.4**, an update focused on security hardenin
 
 The release strengthens permissions and validation around invoices, API keys, server administration and other sensitive operations. It also includes several fixes and smaller improvements.
 
+This release includes several breaking changes:
+
+- **Checkout:** NFC payments are now disabled by default. They can be enabled under Store Settings > Checkout Experience.
+- **Invoices:** Zero-amount invoices are now blocked by default. Stores can allow them in their settings.
+- **Boltcards:** The desktop smartcard setup has been removed. BTCPay Server now opens the Boltcard app instead.
+- **Store users:** Invited users must accept their invitation before joining a store.
+- **Point of Sale:** The per-request `notificationUrl` has been removed. Invoices now use the notification URL configured for the app.
+
 We recommend that all server administrators update. For a standard BTCPay Server installation, go to **Server Settings > Maintenance > Update**.
 
 For a complete list of changes, see the [full release notes](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.4.4).
@@ -30,6 +38,12 @@ We also updated important parts of the standard Docker deployment:
 - **Bitcoin Core** is updated from 29.2 to 31.1. Bitcoin Core 29.2 is already about one year old, so moving to the current release keeps the deployment on a maintained version with the latest fixes and improvements. ([details](https://github.com/btcpayserver/btcpayserver-docker/pull/1091))
 - **LND** is updated to 0.21.3-beta. ([details](https://github.com/btcpayserver/btcpayserver/pull/7547))
 - **Bitcoin Knots** support has been removed after Knots followed a chain that forked away from Bitcoin's main chain. The standard deployment now uses Bitcoin Core. ([details](https://github.com/btcpayserver/btcpayserver-docker/pull/1085))
+
+### Restricted host management
+
+BTCPay Server needs limited access to its Docker host for actions such as updates, restarts and domain changes. Previously, the application container received broader SSH access than it needed. If the application were compromised, that access could increase the damage an attacker could cause.
+
+The Docker deployment now uses a restricted `btcpay-host` interface. A dedicated key can only call a small set of approved administration commands, keeping these features available while reducing the access granted to the application container. ([details](https://github.com/btcpayserver/btcpayserver-docker/pull/1081))
 
 ### Ongoing attempts to target BTCPay Server's LND integration
 
