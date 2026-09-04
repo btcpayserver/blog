@@ -25,6 +25,18 @@ This release updates important parts of the standard BTCPay Server Docker deploy
 - **LND** is updated to 0.21.3-beta. ([details](https://github.com/btcpayserver/btcpayserver/pull/7547))
 - **Bitcoin Knots** support has been removed from the Docker deployment after Knots followed a chain that forked away from Bitcoin's main chain. BTCPay Server's standard deployment now uses Bitcoin Core. ([details](https://github.com/btcpayserver/btcpayserver-docker/pull/1085))
 
+## Plugin Builder security incident
+
+Our Plugin Builder server was compromised on August 28. We detected the intrusion on September 2.
+
+We identified the attack method and patched it. We also rotated all access tokens and temporarily disabled new Plugin Builder registrations while we complete additional security hardening, both in our own code and with our hosting provider. Although we believe the server is now safe, registrations will remain closed until this work is complete.
+
+Fortunately, the damage was largely contained. The attacker appeared to use AI-driven automation and may not have targeted BTCPay Server specifically. Their activity left many traces, which helped us investigate what happened.
+
+- **Published plugins remained safe.** We found no attempt to replace them with malicious versions.
+- **All access tokens were rotated.**
+- **Registered email addresses were likely exposed.** Plugin Builder users should be cautious of unexpected emails and phishing attempts.
+
 ## Ongoing attempts to target LND
 
 Following the recent [LND security incident](https://blog.btcpayserver.org/security-advisory-btcpay-server-2-4-2/), we disabled external access to the LND API in the standard Docker deployment.
