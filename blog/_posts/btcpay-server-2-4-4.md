@@ -27,7 +27,7 @@ This release includes several breaking changes:
 - **Store users:** Invited users must accept their invitation before joining a store.
 - **Point of Sale:** The per-request `notificationUrl` has been removed. Invoices now use the notification URL configured for the app.
 
-We recommend that all server administrators update. For a standard BTCPay Server installation, go to **Server Settings > Maintenance > Update**.
+We recommend that all server administrators update. For a BTCPay Server docker deployment installation, go to **Server Settings > Maintenance > Update**.
 
 For a complete list of changes, see the [full release notes](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.4.4).
 
