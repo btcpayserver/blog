@@ -22,9 +22,9 @@ The release strengthens permissions and validation around invoices, API keys, se
 This release includes several breaking changes:
 
 - **Checkout:** NFC payments are now disabled by default. They can be enabled under Store Settings > Checkout Experience.
-- **Invoices:** Zero-amount invoices are now blocked by default. Stores can allow them in their settings.
+- **Invoices:** Zero-amount invoices are now blocked by default. Stores can allow them in their settings. ([details and screenshot](https://github.com/btcpayserver/btcpayserver/pull/7514))
 - **Boltcards:** The desktop smartcard setup has been removed. BTCPay Server now opens the Boltcard app instead.
-- **Store users:** Invited users must accept their invitation before joining a store.
+- **Store users:** Invited users must accept their invitation before joining a store. ([details and screenshots](https://github.com/btcpayserver/btcpayserver/pull/7519))
 - **Point of Sale:** The per-request `notificationUrl` has been removed. Invoices now use the notification URL configured for the app.
 
 We recommend that all server administrators update. For a BTCPay Server docker deployment installation, go to **Server Settings > Maintenance > Update**.
