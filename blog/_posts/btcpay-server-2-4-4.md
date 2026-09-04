@@ -51,7 +51,7 @@ Our new LND image no longer creates wallets with a shared default password. Ever
 
 The Docker deployment also blocks LND's unauthenticated wallet setup and unlock routes at BTCPay Server's reverse proxy. This removes the brief restart window from the standard public network path. ([details](https://github.com/btcpayserver/btcpayserver-docker/commit/4f2f56dc21f4593936727fc4fe539092ad642bef))
 
-### External Lightning access is coming back
+### External Lightning access is coming back this week
 
 We know that some users rely on external access to LND or Core Lightning for mobile wallets and other tools.
 
