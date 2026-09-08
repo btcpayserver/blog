@@ -1,6 +1,6 @@
 ---
-title: "BTCPay Server 2.4.4: Security Hardening"
-date: 2026-09-04
+title: "BTCPay Server 2.4.4: Security Update"
+date: 2026-09-08
 author: BTCPay Server
 category:
   - "releases"
@@ -9,31 +9,31 @@ tags:
   - "release"
   - "security"
   - "2.4.4"
+coverImage: "/images/2-4-4-featured.png"
 ---
 
-This update covers three separate areas: the BTCPay Server 2.4.4 release, changes to our standard Docker deployment and an incident involving the Plugin Builder server.
+We are releasing **BTCPay Server 2.4.4**, a new security-focused update that continues our work to harden the codebase.
 
-## 1. BTCPay Server 2.4.4
-
-We are releasing **BTCPay Server 2.4.4**, an update focused on security hardening.
+## What's new in BTCPay Server 2.4.4
 
 The release strengthens permissions and validation around invoices, API keys, server administration and other sensitive operations. It also includes several fixes and smaller improvements.
 
-This release includes several breaking changes:
+The new update comes with several breaking changes:
 
 - **Checkout:** NFC payments are now disabled by default. They can be enabled under Store Settings > Checkout Experience.
 - **Invoices:** Zero-amount invoices are now blocked by default. Stores can allow them in their settings. ([details and screenshot](https://github.com/btcpayserver/btcpayserver/pull/7514))
 - **Boltcards:** The desktop smartcard setup has been removed. BTCPay Server now opens the Boltcard app instead.
+- **WHMCS plugin:** With 2.4.4 [WHMCS integration](https://github.com/btcpayserver/whmcs-plugin) will stop working due to a breaking change. To continue using the plugin with 2.4.4 please update the plugin to v4.0.0 and [follow the instructions](https://github.com/btcpayserver/whmcs-plugin/blob/master/GUIDE.md#using-the-btcpay-server-payment-plugin-for-whmcs) on how to re-generate new Greenfield API key.
 - **Store users:** Invited users must accept their invitation before joining a store. ([details and screenshots](https://github.com/btcpayserver/btcpayserver/pull/7519))
 - **Point of Sale:** The per-request `notificationUrl` has been removed. Invoices now use the notification URL configured for the app.
 
-We recommend that all server administrators update. For a BTCPay Server docker deployment installation, go to **Server Settings > Maintenance > Update**.
+We recommend that all server administrators [update](https://docs.btcpayserver.org/FAQ/ServerSettings/#maintenance). For a BTCPay Server Docker deployment installation, go to **Server Settings > Maintenance > Update**.
 
 For a complete list of changes, see the [full release notes](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.4.4).
 
-## 2. BTCPay Server Docker deployment
+## BTCPay Server Docker deployment
 
-We also updated important parts of the standard Docker deployment:
+We updated important parts of the standard Docker deployment:
 
 - **Bitcoin Core** is updated from 29.2 to 31.1. Bitcoin Core 29.2 is already about one year old, so moving to the current release keeps the deployment on a maintained version with the latest fixes and improvements. ([details](https://github.com/btcpayserver/btcpayserver-docker/pull/1091))
 - **LND** is updated to 0.21.3-beta. ([details](https://github.com/btcpayserver/btcpayserver/pull/7547))
@@ -57,31 +57,33 @@ This route does not require a macaroon while an LND wallet is still locked. Olde
 
 We are blocking this attack on two fronts.
 
-### A unique password for every LND wallet
+#### A unique password for every LND wallet
 
 Our new LND image no longer creates wallets with a shared default password. Every new wallet receives a random password unique to that instance. Existing wallets using the old default are migrated automatically when they start. ([details](https://github.com/btcpayserver/lnd/pull/13))
 
-### Blocking unauthenticated routes at the network edge
+#### Blocking unauthenticated routes at the network edge
 
 The Docker deployment also blocks LND's unauthenticated wallet setup and unlock routes at BTCPay Server's reverse proxy. This removes the brief restart window from the standard public network path. ([details](https://github.com/btcpayserver/btcpayserver-docker/commit/4f2f56dc21f4593936727fc4fe539092ad642bef))
 
-### External Lightning access is coming back this week
+#### External Lightning access is coming back this week
 
 We know that some users rely on external access to LND or Core Lightning for mobile wallets and other tools.
 
-During this week, we plan to add a new option to the BTCPay Server Docker deployment that will let administrators explicitly reactivate these external routes. We will share instructions on our [Twitter/X account](https://x.com/BtcpayServer) in the next few days.
+This week, we plan to restore external access to LND and Core Lightning through a new option in the BTCPay Server Docker deployment. **External access will remain disabled by default. Administrators who need it will have to explicitly enable it.** We will share instructions on our [Twitter/X account](https://x.com/BtcpayServer) in the next few days.
 
 Until then, do not manually expose LND's API through your own reverse proxy. If you already did, remove that access and update your server.
 
-## 3. Plugin Builder server incident
+## Plugin Builder server incident
 
-Our Plugin Builder server was compromised on August 28. We detected the intrusion on September 2.
+During development of 2.4.4, our own self-hosted Plugin Builder server was compromised. We detected the intrusion on September 2.
 
-We identified the attack method and patched it. We also rotated all access tokens and temporarily disabled new Plugin Builder registrations and plugin builds while we complete additional security hardening, both in our own code and with our hosting provider. Although we believe the server is now safe, registrations and builds will remain disabled until this work is complete.
+**This incident affects only plugin developers using the Plugin Builder. BTCPay Server users, including those using its plugins, are not affected.**
 
-Fortunately, the damage was largely contained. The attacker appeared to use AI-driven automation and may not have targeted BTCPay Server specifically. Their activity left many traces, which helped us investigate what happened.
+We identified the attack method and patched it. New registrations and plugin builds remain temporarily disabled while we complete further security hardening in our code and with our hosting provider. Plugin developers who need to build a new plugin version should contact us directly at `security@btcpayserver.org` in the meantime.
 
-- **Published plugins remained safe.** We found no attempt to replace them with malicious versions.
+What we found and what we have done:
+
+- **Published plugins:** We found no attempt to replace them with malicious versions.
 - **All access tokens were rotated.**
 - **Registered email addresses were likely exposed.** Plugin Builder users should be cautious of unexpected emails and phishing attempts.
 
