@@ -4,23 +4,30 @@
         <title>BTCPay Server Blog</title>
         <link>https://blog.btcpayserver.org</link>
         <description>Official BTCPay Server Blog</description>
-        <lastBuildDate>Mon, 10 Aug 2026 17:58:03 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 08 Sep 2026 11:50:43 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://blog.btcpayserver.org/feed.atom" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[BTCPay Server 2.4.4: Security Update]]></title>
+            <link>https://blog.btcpayserver.org/btcpay-server-2-4-4/</link>
+            <guid>https://blog.btcpayserver.org/btcpay-server-2-4-4/</guid>
+            <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[We are releasing BTCPay Server 2.4.4, a new security-focused update that continues our work to harden the codebase.]]></description>
+        </item>
         <item>
             <title><![CDATA[BTCPay Server Security Incident: Our Response and Next Steps]]></title>
             <link>https://blog.btcpayserver.org/btcpay-server-security-incident-response-and-next-steps/</link>
             <guid>https://blog.btcpayserver.org/btcpay-server-security-incident-response-and-next-steps/</guid>
             <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[A recently disclosed vulnerability in BTCPay Server was exploited to steal funds from some users. The vulnerability allowed an attacker to obtain LND admin macaroon credentials from affected instances and use them to access connected LND wallets.]]></description>
+            <description><![CDATA[We published the technical details and remediation steps in our security advisory.]]></description>
         </item>
         <item>
             <title><![CDATA[Security Advisory: Update BTCPay Server to 2.4.2 Immediately]]></title>
             <link>https://blog.btcpayserver.org/security-advisory-btcpay-server-2-4-2/</link>
             <guid>https://blog.btcpayserver.org/security-advisory-btcpay-server-2-4-2/</guid>
             <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[BTCPay Server 2.4.2 fixes a critical security vulnerability that affects all prior versions, including the 2.4.2 release candidates.]]></description>
+            <description><![CDATA[The issue could allow an unauthenticated remote attacker to obtain .macaroon credential files for LND, an implementation of the Lightning Network. Those credentials could be used to take control of an LND node and move funds. The attacks we reviewed targeted only files with the .macaroon extension.]]></description>
         </item>
         <item>
             <title><![CDATA[BTCPay Server 2.4.0: Global Search, Passkeys, New Multisig Setup Flow, Wallet Permissions]]></title>

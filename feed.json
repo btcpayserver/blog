@@ -6,17 +6,24 @@
     "description": "Official BTCPay Server Blog",
     "items": [
         {
+            "id": "https://blog.btcpayserver.org/btcpay-server-2-4-4/",
+            "url": "https://blog.btcpayserver.org/btcpay-server-2-4-4/",
+            "title": "BTCPay Server 2.4.4: Security Update",
+            "summary": "We are releasing BTCPay Server 2.4.4, a new security-focused update that continues our work to harden the codebase.",
+            "date_modified": "2026-09-08T00:00:00.000Z"
+        },
+        {
             "id": "https://blog.btcpayserver.org/btcpay-server-security-incident-response-and-next-steps/",
             "url": "https://blog.btcpayserver.org/btcpay-server-security-incident-response-and-next-steps/",
             "title": "BTCPay Server Security Incident: Our Response and Next Steps",
-            "summary": "A recently disclosed vulnerability in BTCPay Server was exploited to steal funds from some users. The vulnerability allowed an attacker to obtain LND admin macaroon credentials from affected instances and use them to access connected LND wallets.",
+            "summary": "We published the technical details and remediation steps in our security advisory.",
             "date_modified": "2026-08-10T00:00:00.000Z"
         },
         {
             "id": "https://blog.btcpayserver.org/security-advisory-btcpay-server-2-4-2/",
             "url": "https://blog.btcpayserver.org/security-advisory-btcpay-server-2-4-2/",
             "title": "Security Advisory: Update BTCPay Server to 2.4.2 Immediately",
-            "summary": "BTCPay Server 2.4.2 fixes a critical security vulnerability that affects all prior versions, including the 2.4.2 release candidates.",
+            "summary": "The issue could allow an unauthenticated remote attacker to obtain .macaroon credential files for LND, an implementation of the Lightning Network. Those credentials could be used to take control of an LND node and move funds. The attacks we reviewed targeted only files with the .macaroon extension.",
             "date_modified": "2026-08-07T00:00:00.000Z"
         },
         {
