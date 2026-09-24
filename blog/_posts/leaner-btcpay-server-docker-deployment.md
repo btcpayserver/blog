@@ -79,7 +79,7 @@ These removals delete the integration from `btcpayserver-docker`; they do not de
 - Bitcoin Gold LND: `kamigawabul/btglnd:latest`
 - Viacoin: `romanornr/docker-viacoin:0.15.2`
 
-The same cleanup removed the old Ethereum configuration because current BTCPay Server versions no longer support ETH or ERC-20 payments. Litecoin remains supported.
+The same cleanup removed the old Ethereum configuration because BTCPay Server does not natively support ETH or ERC-20 payments; support for them requires a plugin.
 
 ### Unmaintained infrastructure and wallet tools
 
