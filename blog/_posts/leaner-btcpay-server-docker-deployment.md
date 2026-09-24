@@ -81,6 +81,8 @@ These removals delete the integration from `btcpayserver-docker`; they do not de
 
 The same cleanup removed the old Ethereum configuration because BTCPay Server does not natively support ETH or ERC-20 payments; support for them requires a plugin.
 
+Feathercoin, Groestlcoin and Monacoin remain available for now, but need active maintainers in `btcpayserver-docker`. Unless maintainers step forward to keep these integrations current by January 24, 2027, we plan to remove them as well.
+
 ### Unmaintained infrastructure and wallet tools
 
 - [Traefik](https://github.com/btcpayserver/btcpayserver-docker/pull/1100): `traefik:v2.6`
