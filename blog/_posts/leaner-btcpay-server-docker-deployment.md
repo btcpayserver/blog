@@ -24,7 +24,7 @@ The RTL and Tor change described below is proposed in [PR #1167](https://github.
 
 Following the security hardening in BTCPay Server 2.4.2, the standard Docker deployment stopped exposing LND and Core Lightning APIs publicly by default. Some operators still need these endpoints for tools such as Zeus or other remote node-management software, but editing Nginx configuration manually is difficult to audit and easy to get wrong.
 
-The new [`btcpay-routes`](https://github.com/btcpayserver/btcpayserver-docker/pull/1104) command lets server administrators explicitly manage these optional routes. See the [Docker networking documentation](https://docs.btcpayserver.org/Docker/networking/#expose-bitcoin-lnd-apis) for setup instructions and security guidance. Only enable endpoints you need and protect their credentials.
+The new [`btcpay-routes`](https://github.com/btcpayserver/btcpayserver-docker/pull/1104) command lets server administrators explicitly manage these optional routes. See the [Docker networking documentation](https://docs.btcpayserver.org/Docker/networking/#lnd-rest-and-grpc-apis) for setup instructions and security guidance. Only enable endpoints you need and protect their credentials.
 
 ## RTL and Tor are becoming opt-in
 
