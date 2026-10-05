@@ -19,17 +19,9 @@ Alongside the release, we are simplifying our standard Docker deployment and ret
 
 ## What's new in BTCPay Server 2.4.5
 
-In 2.4.5, we added more checks when connecting to external Lightning nodes and fetching LNURL payment details. These checks help prevent someone from using those connections to read files on your server or access private services on its network.
-
-Invoice searches now return results only from the current store. We also tightened permission checks for Lightning settings and legacy access tokens. Password-reset and store-invitation links now use the server address configured by the administrator.
-
-Invoices are created faster, and refund calculations now count only payments that have settled. Developers can also generate store reports through the Greenfield API.
-
-If you use custom store roles to manage legacy BitPay-compatible access tokens, grant them the new **Manage access tokens** permission. For new integrations, use the [Greenfield API](https://docs.btcpayserver.org/API/Greenfield/v1/).
+BTCPay Server 2.4.5 adds security hardening around Lightning and LNURL, along with performance improvements that make invoices faster to generate. See the [full release notes](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.4.5) for all changes.
 
 We recommend that all server administrators [update](https://docs.btcpayserver.org/FAQ/ServerSettings/#maintenance). For a standard Docker installation, go to **Server Settings > Maintenance > Update**. If you rely on Tor or an integration listed below, review the deployment changes before updating.
-
-For a complete list of changes, see the [full release notes](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.4.5).
 
 ## BTCPay Server Docker deployment
 
@@ -108,6 +100,16 @@ Several of these integrations had not received upstream maintenance for years. O
 Self-hosting does not mean every feature should run on every server. A smaller default deployment is easier to understand, easier to maintain and exposes fewer components that operators may not know are present.
 
 We will continue to support useful optional services when they have active maintainers and a safe integration path. At the same time, we will keep removing abandoned integrations and turning unnecessary defaults into explicit choices.
+
+## Plugin Builder is open again
+
+In the [2.4.4 release post](https://blog.btcpayserver.org/btcpay-server-2-4-4/), we disclosed the Plugin Builder server compromise and paused registrations and builds. **Registrations and builds are now open again.**
+
+Each build now runs in a temporary sandbox, separate from the application and without access to its credentials. Build output is validated before publication. We also added admin audit logs, alerts for new accounts and builds, and a limit of two unfinished builds per account.
+
+**For plugin developers:** Repositories must be public and use HTTPS on GitHub or GitLab. Builds can only download from GitHub, GitLab and NuGet. Downloads from other sources will fail.
+
+See [Build isolation](https://github.com/btcpayserver/btcpayserver-plugin-builder/blob/master/docs/build-isolation.md) for the full design.
 
 Thank you to everyone contributing fixes, reviewing changes, reporting issues and helping us strengthen BTCPay Server. Special thanks goes to independent security researchers, [Project Loupe](https://www.projectloupe.org), [Prem AI](https://www.premai.io), [BugBunny AI](https://bugbunny.ai), and [Magic Grants](https://magicgrants.org/) who help us with continued scanning and investigation across our codebase.
 
