@@ -10,6 +10,7 @@ tags:
   - "docker"
   - "security"
   - "2.4.5"
+coverImage: "/images/2-4-5-featured.png"
 ---
 
 We are releasing **BTCPay Server 2.4.5**, another security hardening update that continues our work to strengthen the codebase.
