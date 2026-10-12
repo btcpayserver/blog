@@ -101,6 +101,26 @@ Self-hosting does not mean every feature should run on every server. A smaller d
 
 We will continue to support useful optional services when they have active maintainers and a safe integration path. At the same time, we will keep removing abandoned integrations and turning unnecessary defaults into explicit choices.
 
+## Update: LND wallets locked after a September update
+
+_Added on October 12, 2026._
+
+Some Docker deployments running LND could no longer unlock their Lightning wallet after updating between **September 11 and September 14, 2026**. A macaroon rotation we added to the Docker deployment ran together with the migration away from LND's old default wallet password. On nodes that still used that default password and had not updated since before September 4, the wallet password was changed, but the new password was never saved, so BTCPay Server could no longer unlock LND.
+
+We removed the macaroon rotation on September 14 ([btcpayserver-docker#1112](https://github.com/btcpayserver/btcpayserver-docker/issues/1112)), but nodes that were already locked stay locked until they are recovered. Updating to 2.4.5 does not unlock them.
+
+**Your funds are not lost.** The wallet can be rebuilt from its seed with a new password, keeping your channels.
+
+If Lightning has not worked on your server since mid-September, check the LND logs:
+
+```bash
+docker logs --tail 40 btcpayserver_lnd_bitcoin
+```
+
+If they show `invalid passphrase for master public key`, follow [the recovery guide in our documentation](https://docs.btcpayserver.org/FAQ/LightningNetwork/#lnd-wallet-stays-locked-invalid-passphrase-for-master-public-key).
+
+Thank you to AirHache for reporting the problem, and to damanic for sharing the recovery steps the guide builds on. We are sorry for the trouble this caused.
+
 ## Plugin Builder is open again
 
 In the [2.4.4 release post](https://blog.btcpayserver.org/btcpay-server-2-4-4/), we disclosed the Plugin Builder server compromise and paused registrations and builds. **Registrations and builds are now open again.**
