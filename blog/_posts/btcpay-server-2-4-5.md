@@ -103,8 +103,6 @@ We will continue to support useful optional services when they have active maint
 
 ## Update: LND wallets locked after a September update
 
-_Added on October 12, 2026._
-
 Some Docker deployments running LND could no longer unlock their Lightning wallet after updating between **September 11 and September 14, 2026**. A macaroon rotation we added to the Docker deployment ran together with the migration away from LND's old default wallet password. On nodes that still used that default password and had not updated since before September 4, the wallet password was changed, but the new password was never saved, so BTCPay Server could no longer unlock LND.
 
 We removed the macaroon rotation on September 14 ([btcpayserver-docker#1112](https://github.com/btcpayserver/btcpayserver-docker/issues/1112)), but nodes that were already locked stay locked until they are recovered. Updating to 2.4.5 does not unlock them.
