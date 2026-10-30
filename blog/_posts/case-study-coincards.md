@@ -30,7 +30,7 @@ Coincards was already on the lookout for a better payment solution when they stu
 
 As Coincards transitioned from Mycelium gear to BTCPay Server, it was a deliberate decision driven by their **evolving business needs**. Mycelium gear was falling short, especially with its complicated and buggy address reuse systems. Coincards didn't just jump on the BTCPay Server bandwagon; they were hands-on from the get-go, suggesting features and improvements to make the platform even better for merchants like themselves.
 
-Notably: Coincards was the [first to fully integrate BTCPay Server](https://blog.btcpayserver.org/mike-olthoff-coincards/) into their operations. The sheer volume of transactions they funneled through BTCPay in the initial month could have easily overwhelmed previous systems. But BTCPay Server and its dedicated team, spearheaded by Nicolas, were more than capable. They were deeply committed to resolving any new issues that cropped up, fine-tuning the system for scalability, and quickly rolling out updates, all of which ensured that Coincards ran smoothly with hardly any interruptions.
+Notably: Coincards was the first to fully integrate BTCPay Server into their operations. The sheer volume of transactions they funneled through BTCPay in the initial month could have easily overwhelmed previous systems. But BTCPay Server and its dedicated team, spearheaded by Nicolas, were more than capable. They were deeply committed to resolving any new issues that cropped up, fine-tuning the system for scalability, and quickly rolling out updates, all of which ensured that Coincards ran smoothly with hardly any interruptions.
 
 ## Challenges: 
 
