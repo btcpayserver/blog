@@ -669,14 +669,6 @@
             "date_modified": "2019-03-09T00:00:00.000Z"
         },
         {
-            "id": "https://blog.btcpayserver.org/mike-olthoff-coincards/",
-            "url": "https://blog.btcpayserver.org/mike-olthoff-coincards/",
-            "title": "Mike Olthoff from CoinCards.ca is the first ever merchant to use BTCPay. This is his story.",
-            "summary": "Nicolas was able to get a really good product up and running very quickly. At the same time, Mycelium gear decided they would be instituting a “post-pay” fee on all transactions. Since their server barely worked, we made the switch pretty quickly to BTCPay and never looked back.",
-            "image": "https://blog.btcpayserver.org/images/Screen-Shot-2019-03-05-at-11.03.52.png",
-            "date_modified": "2019-03-05T00:00:00.000Z"
-        },
-        {
             "id": "https://blog.btcpayserver.org/payment-requests/",
             "url": "https://blog.btcpayserver.org/payment-requests/",
             "title": "Introducing Pay Request - Get paid in BTC by sharing a link",

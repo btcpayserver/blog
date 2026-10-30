@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.btcpayserver.org</id>
     <title>BTCPay Server Blog</title>
-    <updated>2026-10-14T18:59:44.386Z</updated>
+    <updated>2026-10-30T19:20:34.558Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://blog.btcpayserver.org"/>
     <link rel="self" href="https://blog.btcpayserver.org/feed.atom"/>
@@ -692,14 +692,6 @@ No way I KYC this little online shop. At this point I really had to run the paym
         </link>
         <updated>2019-03-09T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Easily set up fees for your channels:]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mike Olthoff from CoinCards.ca is the first ever merchant to use BTCPay. This is his story.]]></title>
-        <id>https://blog.btcpayserver.org/mike-olthoff-coincards/</id>
-        <link href="https://blog.btcpayserver.org/mike-olthoff-coincards/">
-        </link>
-        <updated>2019-03-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Nicolas was able to get a really good product up and running very quickly. At the same time, Mycelium gear decided they would be instituting a “post-pay” fee on all transactions. Since their server barely worked, we made the switch pretty quickly to BTCPay and never looked back.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Introducing Pay Request - Get paid in BTC by sharing a link]]></title>

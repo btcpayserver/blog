@@ -4,7 +4,7 @@
         <title>BTCPay Server Blog</title>
         <link>https://blog.btcpayserver.org</link>
         <description>Official BTCPay Server Blog</description>
-        <lastBuildDate>Wed, 14 Oct 2026 18:59:44 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 30 Oct 2026 19:20:34 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://blog.btcpayserver.org/feed.atom" rel="self" type="application/rss+xml"/>
@@ -750,15 +750,6 @@ No way I KYC this little online shop. At this point I really had to run the paym
             <pubDate>Sat, 09 Mar 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Easily set up fees for your channels:]]></description>
             <enclosure url="https://blog.btcpayserver.org/images/BTCPay-Ride-The-Lightning-RTL-Interface.png">
-            </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[Mike Olthoff from CoinCards.ca is the first ever merchant to use BTCPay. This is his story.]]></title>
-            <link>https://blog.btcpayserver.org/mike-olthoff-coincards/</link>
-            <guid>https://blog.btcpayserver.org/mike-olthoff-coincards/</guid>
-            <pubDate>Tue, 05 Mar 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[Nicolas was able to get a really good product up and running very quickly. At the same time, Mycelium gear decided they would be instituting a “post-pay” fee on all transactions. Since their server barely worked, we made the switch pretty quickly to BTCPay and never looked back.]]></description>
-            <enclosure url="https://blog.btcpayserver.org/images/Screen-Shot-2019-03-05-at-11.03.52.png">
             </enclosure>
         </item>
         <item>
