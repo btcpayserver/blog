@@ -43,11 +43,11 @@ The distinction matters: **2.4.2 fixed the vulnerability, but our explanation of
 
 ## What we know—and what we do not
 
-Among the cases investigated so far, all affected instances were running versions older than 2.4.2. We have not received reports of this exploit affecting instances already running 2.4.2 or later. These are findings from the reports and investigation to date, not a guarantee that any particular server is uncompromised.
+Among the cases investigated so far, all affected instances were running versions older than 2.4.2. We have not received reports of this exploit affecting instances already running 2.4.2 or later.
 
 One question remains: why are we seeing these on-chain hot-wallet thefts now, when the vulnerability was patched in August?
 
-Earlier attacks focused on LND credentials. It is possible that attackers only later recognized the opportunity to steal from other hot wallets, but **we have not established that explanation**. The absence of earlier reports does not prove when attackers understood or first used the vulnerability's broader capabilities.
+Earlier attacks focused on LND credentials. It is possible that attackers only later recognized the opportunity to steal from other hot wallets.
 
 ## What operators should do
 
