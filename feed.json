@@ -6,37 +6,45 @@
     "description": "Official BTCPay Server Blog",
     "items": [
         {
+            "id": "https://blog.btcpayserver.org/btcpay-server-security-incident-2-4-1-and-earlier/",
+            "url": "https://blog.btcpayserver.org/btcpay-server-security-incident-2-4-1-and-earlier/",
+            "title": "Security Incident Affecting BTCPay Server 2.4.1 and Earlier",
+            "summary": "On 1 November 2026, we received reports of Bitcoin and Litecoin being stolen from hot wallets on BTCPay Server. A hot wallet stores the keys needed to spend funds on the server itself.",
+            "date_modified": "2026-11-02T00:00:00.000Z"
+        },
+        {
             "id": "https://blog.btcpayserver.org/btcpay-server-2-4-5/",
             "url": "https://blog.btcpayserver.org/btcpay-server-2-4-5/",
             "title": "BTCPay Server 2.4.5: Security Hardening and a Leaner Docker Deployment",
-            "summary": "We are releasing BTCPay Server 2.4.5, another security hardening update that continues our work to strengthen the codebase.",
+            "summary": "BTCPay Server 2.4.5 adds security hardening around Lightning and LNURL, along with performance improvements that make invoices faster to generate. See the full release notes for all changes.",
             "date_modified": "2026-10-05T00:00:00.000Z"
         },
         {
             "id": "https://blog.btcpayserver.org/btcpay-server-2-4-4/",
             "url": "https://blog.btcpayserver.org/btcpay-server-2-4-4/",
             "title": "BTCPay Server 2.4.4: Security Update",
-            "summary": "The release strengthens permissions and validation around invoices, API keys, server administration and other sensitive operations. It also includes several fixes and smaller improvements.",
+            "summary": "We recommend that all server administrators update. For a BTCPay Server Docker deployment installation, go to Server Settings > Maintenance > Update.",
             "date_modified": "2026-09-08T00:00:00.000Z"
         },
         {
             "id": "https://blog.btcpayserver.org/btcpay-server-security-incident-response-and-next-steps/",
             "url": "https://blog.btcpayserver.org/btcpay-server-security-incident-response-and-next-steps/",
             "title": "BTCPay Server Security Incident: Our Response and Next Steps",
-            "summary": "If you have not yet updated, please do so immediately. Updating to BTCPay Server 2.4.2 now also updates LND and regenerates its admin macaroon. If you are unsure whether your instance was updated correctly, run the update again through the user interface or with btcpay-update.sh.",
+            "summary": "We want to share our appreciation for all the security teams from exchanges, blockchain analytics providers, and law enforcement authorities who reached out and provided their help during these challenging times.",
             "date_modified": "2026-08-10T00:00:00.000Z"
         },
         {
             "id": "https://blog.btcpayserver.org/security-advisory-btcpay-server-2-4-2/",
             "url": "https://blog.btcpayserver.org/security-advisory-btcpay-server-2-4-2/",
             "title": "Security Advisory: Update BTCPay Server to 2.4.2 Immediately",
-            "summary": "In our initial communications, out of an abundance of caution, we advised users to move funds out of their BTCPay Server on-chain wallets. After further review, we confirmed that only LND is impacted.",
+            "summary": "For a standard BTCPay Server installation, go to:",
             "date_modified": "2026-08-07T00:00:00.000Z"
         },
         {
             "id": "https://blog.btcpayserver.org/btcpay-server-2-4-0/",
             "url": "https://blog.btcpayserver.org/btcpay-server-2-4-0/",
             "title": "BTCPay Server 2.4.0: Global Search, Passkeys, New Multisig Setup Flow, Wallet Permissions",
+            "summary": "The goal is simple: if you know what you are looking for, BTCPay should help you get there quickly. We expect this area to keep improving as more features and plugins become searchable, and we are looking forward to hearing how it works in real usage.",
             "image": "https://img.youtube.com/vi/1VIH3wUCQRc/mqdefault.jpg",
             "date_modified": "2026-06-25T00:00:00.000Z"
         },
@@ -51,7 +59,7 @@
             "id": "https://blog.btcpayserver.org/2025-report/",
             "url": "https://blog.btcpayserver.org/2025-report/",
             "title": "BTCPay Server 2025 Progress Report",
-            "summary": "Version 2.1 introduced a redesigned multisig experience, making collaborative custody easier, alongside improvements to fee acceleration and new e-commerce integrations (Shopify V2, ECWID and Ghost).\nVersion 2.2 followed with reporting and accounting improvements, based on real-world feedback, Miniscript support, and the introduction of a brand new plugin builder, laying the groundwork for a more sustainable and lean development through a modular plugin ecosystem.\nVersion 2.3 was the largest release of the year and marked a major milestone for the project, introducing subscriptions and the ability for operators to monetize their BTCPay Server instances, 14 language packs and new integrations.",
+            "summary": "The plugin ecosystem continued to mature in 2025 and remains central to our 2026 roadmap. Plugins allow new functionality to be developed and shipped independently of BTCPay Server core, making iteration faster and lowering the barrier for experimentation. This approach enables developers to build on top of BTCPay without being constrained by our development cycles, while still benefiting from immediate validation from an established user base.",
             "image": "https://blog.btcpayserver.org/images/Report2025/Report-1.jpg",
             "date_modified": "2026-01-22T00:00:00.000Z"
         },
@@ -59,7 +67,7 @@
             "id": "https://blog.btcpayserver.org/case-study-btcinc/",
             "url": "https://blog.btcpayserver.org/case-study-btcinc/",
             "title": "Built on Bitcoin: How BTC Inc Runs on BTCPay Server",
-            "summary": "conferences. Each event brings together tens of thousands of attendees and more than a dozen vendors, creating a live\nenvironment where Bitcoin is expected to work as a practical medium of exchange.",
+            "summary": "method and helped establish BTCPay as a complete reporting tool, not just a Bitcoin checkout. What began as a conference\npayment solution quickly proved itself as core infrastructure. The team saw that BTCPay was not just solving one\nproblem - it was unlocking a new operating model. It was the first step in building a payment stack where Bitcoin felt\nnative to the entire business.",
             "image": "https://img.youtube.com/vi/zbCeN_pLArE/mqdefault.jpg",
             "date_modified": "2026-01-07T00:00:00.000Z"
         },
@@ -67,7 +75,7 @@
             "id": "https://blog.btcpayserver.org/btcpay-server-2-3-0/",
             "url": "https://blog.btcpayserver.org/btcpay-server-2-3-0/",
             "title": "BTCPay Server 2.3.0: Subscriptions, Server Monetization, Plugin Builder, Drupal 11 and EDD integrations",
-            "summary": "If your server email is configured, subscriptions can also send automated emails based on subscription events. This includes things like payment reminders or expiration notices, helping customers stay subscribed without surprises.",
+            "summary": "BTCPay Server has always been built to be shared. From the beginning, it was designed so a single instance could serve many merchants, not just one business.",
             "image": "https://img.youtube.com/vi/CV5wckX7x80/mqdefault.jpg",
             "date_modified": "2025-12-18T00:00:00.000Z"
         },
@@ -83,7 +91,7 @@
             "id": "https://blog.btcpayserver.org/case-study-btcprague/",
             "url": "https://blog.btcpayserver.org/case-study-btcprague/",
             "title": "BTCPrague: Onboarding 25 Merchants to Accept Bitcoin, Generating 1.3 Million CZK revenue and 7079 Transactions",
-            "summary": "Training & Onboarding: Recognizing that most merchants were new to Bitcoin, organizers hosted a hands-on training session before the conference. This covered the basics of using the BTCPay point-of-sale and how to troubleshoot common issues. Merchants rated the session 4.1 out of 5 on average, indicating it helped build confidence.\nOn-site support: During the event, a “response team” made up of BTCPay contributors and NiceHash staff and conference volunteers actively roamed the vendor area, checking in, answering questions, and solving problems as they came up. A dedicated WhatsApp group was also created, allowing merchants to request support instantly if they ran into issues.  This dual approach worked well; merchants rated live support 4.4 out of 5, and several called it the most reassuring part of the experience.",
+            "summary": "One vendor summed it up best:",
             "image": "https://img.youtube.com/vi/PJSVJkOHTR0/mqdefault.jpg",
             "date_modified": "2025-08-14T00:00:00.000Z"
         },
