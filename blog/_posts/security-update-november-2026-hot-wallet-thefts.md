@@ -1,5 +1,6 @@
 ---
-title: "Security Update: Hot-Wallet Thefts and a Correction to Our 2.4.2 Advisory"
+title: "Security Incident Affecting BTCPay Server 2.4.1 and Earlier"
+permalink: /btcpay-server-security-incident-2-4-1-and-earlier/
 date: 2026-11-02
 author: BTCPay Server
 category:
@@ -7,66 +8,47 @@ category:
 tags:
   - "security"
   - "btcpay-server"
+coverImage: "/images/november-2026-security-incident.png"
 ---
 
-## Immediate action required
+On 1 November 2026, we received reports of Bitcoin and Litecoin being stolen from hot wallets on BTCPay Server. A hot wallet stores the keys needed to spend funds on the server itself.
 
-We have received multiple reports of Bitcoin and Litecoin on-chain hot wallets being drained on BTCPay Server instances. **Among the cases investigated so far, every affected instance was running a version older than BTCPay Server 2.4.2.**
+Our investigation found that these attacks targeted servers running **BTCPay Server 2.4.1 (released on 23 July 2026) or earlier**. The attackers used a different method to exploit the vulnerability fixed in **2.4.2, released on 7 August 2026**.
 
-The vulnerability was fixed in **2.4.2, released on 7 August 2026**, but our assessment of its impact was incomplete. Contrary to our [August advisory](https://blog.btcpayserver.org/security-advisory-btcpay-server-2-4-2/), the vulnerability was not limited to exposing LND credentials: it could be used to read arbitrary files on the BTCPay Server instance and enable escalation to full remote control of the machine.
+Since our [August advisory](https://blog.btcpayserver.org/security-advisory-btcpay-server-2-4-2/), we have released several further security updates. We wish we had done more to reach users still running older versions and alert them to the importance of updating.
 
-**The earlier assurance that BTCPay Server's on-chain hot wallets were unaffected was incorrect. We are sorry for that assessment error and for the harm suffered by affected users.**
+## What you should do
 
-**To check your current version, log in to your BTCPay Server instance and look for the version number in the footer at the bottom of the page.**
+To check your version, log in and look at the bottom of the page.
 
-- **If you are still running a version older than 2.4.2:** update to the latest supported release immediately. If you cannot do so promptly, take the server offline. This applies whether or not you use LND or Lightning.
-- **If your server has been exploited:** consider the entire machine compromised. Updating or attempting to clean it up is not sufficient. Keep it offline and rebuild on a clean system, replacing exposed credentials and wallet keys as described below.
-- **If you updated before these attacks:** we have not received reports of this exploit affecting instances already running 2.4.2 or later. However, an update does not undo a compromise that occurred beforehand.
+- **If you were already running 2.4.2 or later when we issued our warning on 1 November:** we have seen no impact from these attacks on those servers.
+- **If you are running 2.4.1 or earlier:** we strongly recommend [moving to a fresh server](#moving-to-a-fresh-server) with a new wallet, after sweeping any remaining funds from the existing hot wallet. This applies even if you have not noticed a theft, and also if you updated from one of these versions after the 1 November warning.
+- **If funds were stolen or you see signs of unauthorized access:** treat the entire machine and its secrets as compromised and follow the same recovery steps, even if you have already updated since the attack.
 
-## What happened
+Funds in wallets whose spending keys are held off the server, including hardware wallets, were unaffected by these thefts. Accepting payments into these wallets remains our recommended practice. The recommendation to rebuild an older server still applies even if you keep wallet keys elsewhere.
 
-The reports describe hot-wallet drains from **1 November 2026 at 13:46 UTC** (22:46 in Japan). This is the incident time reported in those accounts, not an established starting time for exploitation. We have not established when exploitation first began.
+## Moving to a fresh server
 
-After receiving multiple reports, we [issued a public warning on X](https://x.com/BtcpayServer/status/2117020340815819262) on **1 November 2026 at 22:25:56 UTC**, asking operators to shut down their instances while we investigated.
+As explained in our [recovery guidance](https://x.com/MrKukks/status/2117131261458219471), updating alone cannot remove access an attacker may already have gained. An unchanged wallet balance does not rule out an earlier attack.
 
-We also notified hosting provider LunaNode and asked for servers to be shut down as soon as possible to help prevent further losses during the investigation.
+1. **Create a new wallet and sweep any remaining hot-wallet funds into it.** Use a trusted device and a new seed. Reusing the old seed on a new server leaves those funds at risk.
+2. **Take the old server offline.** Preserve relevant logs and transaction records for the investigation before replacing it.
+3. **Provision a fresh virtual machine.** Install the latest supported BTCPay Server release from trusted sources and connect the new wallet. Do not restore the entire old server onto the new machine.
+4. **Replace potentially exposed passwords and access keys.** From a trusted device, revoke and replace credentials the old server could access, including applicable hosting, SSH, application, API, and Lightning credentials. Do not enter new credentials on the old machine.
 
-Our investigation found that all affected instances examined so far were still running versions older than 2.4.2. The fix for this vulnerability has been available since [7 August 2026](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.4.2).
+## What happened and when
 
-## Correcting our earlier assessment
+All times below are in UTC.
 
-In August, the attacks we reviewed targeted LND `.macaroon` credential files. Our advisory described the vulnerability as exposing those credentials and stated that BTCPay Server's on-chain wallets, including hot wallets, were not affected.
+- **7 August:** [BTCPay Server 2.4.2 was released](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.4.2), fixing the vulnerability.
+- **August–October:** we continued to publish security updates, including [2.4.4](https://blog.btcpayserver.org/btcpay-server-2-4-4/) and [2.4.5](https://blog.btcpayserver.org/btcpay-server-2-4-5/).
+- **1 November, 13:46:** a wallet drain described in the incident reports occurred. We have not established when attackers first began exploiting the vulnerability.
+- **1 November, 20:56:** we received the first email reporting a theft.
+- **1 November:** we contacted VPS hosting providers, including LunaNode, and asked them to take BTCPay Server instances offline as a precaution to protect their customers.
+- **1 November, 22:25:** we [warned the community on X](https://x.com/BtcpayServer/status/2117020340815819262) and asked operators to shut down their servers while we investigated.
+- **2 November:** we [published an investigation update](https://x.com/BtcpayServer/status/2117106238123123008) identifying 2.4.1 and earlier as the affected versions. We also [reported that LunaNode and other hosting providers had taken instances offline as a precaution](https://x.com/BtcpayServer/status/2117106240098611681).
 
-That assessment was too narrow. **The same vulnerability could be used to read arbitrary files on the instance, not just macaroons.** Its consequences therefore extend beyond control of an LND node: exposed files and secrets can enable theft from on-chain hot wallets and escalation to full remote control of the machine.
-
-The distinction matters: **2.4.2 fixed the vulnerability, but our explanation of its possible impact was wrong.** Operators who did not use LND should not have been reassured that their on-chain hot wallets were outside its scope.
-
-## What we know—and what we do not
-
-Among the cases investigated so far, all affected instances were running versions older than 2.4.2. We have not received reports of this exploit affecting instances already running 2.4.2 or later.
-
-One question remains: why are we seeing these on-chain hot-wallet thefts now, when the vulnerability was patched in August?
-
-Earlier attacks focused on LND credentials. It is possible that attackers only later recognized the opportunity to steal from other hot wallets.
-
-## What operators should do
-
-### If you are running a vulnerable version
-
-Update to the latest supported BTCPay Server release. For standard docker installations, use **Server Settings → Maintenance → Update**, then verify the installed version. For other deployments, follow your usual update process.
-
-Review your wallet transactions, server activity, accounts, and credentials for signs of unauthorized access. **An update closes this vulnerability; it does not establish that the server was never compromised.** If you find evidence of exploitation, follow the compromised-server guidance below. A lack of obvious suspicious activity is not proof of safety.
-
-### If your server has been exploited
-
-**Do not try to clean up the existing installation and put it back into service. Treat the entire machine and the secrets stored on it as compromised.**
-
-1. **Isolate the machine.** Keep it offline. Preserve relevant logs and transaction records for investigation before decommissioning it, without reconnecting it to production.
-2. **Rebuild on a clean system.** Use trusted installation sources and the latest supported releases. Do not restore the compromised system wholesale or copy executables and configuration back without review.
-3. **Replace exposed secrets from a trusted device.** Revoke and replace credentials the server could access, including applicable hosting, SSH, application, API, and Lightning credentials. Never enter replacement secrets on the compromised machine.
-4. **Stop using compromised wallet keys.** Create replacement wallets with new seeds on a trusted device. If funds remain under exposed keys, arrange their transfer to the new wallets from a trusted environment as urgently as possible. Restoring the same seed on a new server does not make those keys safe again.
-
-Updating after a theft does not remove an attacker's access or invalidate secrets they already copied.
+We thank the hosting providers for their quick response. If your hosted server was running 2.4.1 or earlier, contact your provider for help moving to a fresh VM.
 
 ## Reported destination addresses
 
@@ -75,18 +57,20 @@ The following addresses were identified in the incident reports:
 - **Bitcoin:** [`bc1p0f7wmcnesrapznymf9ljdn04pudgmh96sqtrm9vmgqxdh666fh8qvn63r7`](https://mempool.space/address/bc1p0f7wmcnesrapznymf9ljdn04pudgmh96sqtrm9vmgqxdh666fh8qvn63r7)
 - **Litecoin:** [`ltc1qp49tmfdueyaqrmgrx0uyx4uegyygt8yt02whee`](https://live.blockcypher.com/ltc/address/ltc1qp49tmfdueyaqrmgrx0uyx4uegyygt8yt02whee/)
 
-These addresses have activity predating the reported incident time above. Their complete transaction histories and balances should not be interpreted as a tally of losses from this incident, and an address appearing here does not establish the circumstances of every transaction involving it.
+Some activity at these addresses appears to predate the thefts described in the reports we have received so far. We have not established the full timeline or which transactions are linked to this incident, so their balances and transaction histories should not be treated as a confirmed total of losses.
 
 ## Reporting an incident
 
-If you believe your instance was affected, contact [security@btcpayserver.org](mailto:security@btcpayserver.org). Include the BTCPay Server version running at the time, when you noticed the incident with its timezone, and relevant public transaction IDs and addresses. If you updated recently, include when the update occurred and which version you were previously running.
+We are responding to affected users and reviewing incident reports. If you lost funds or noticed unauthorized activity, email [security@btcpayserver.org](mailto:security@btcpayserver.org). Include:
 
-**Never send seed phrases, private keys, passwords, macaroons, or other credentials.** Do not send unredacted configuration files or logs containing secrets. We cannot promise recovery of stolen funds.
+- The BTCPay Server version you were running at the time, plus when you last updated and the previous version, if known.
+- When you noticed the incident, including your timezone.
+- Relevant public transaction IDs and addresses.
 
-## Keeping hot-wallet exposure limited
+If funds were stolen, also report the theft to your local authorities.
 
-We are continuing to address vulnerabilities in BTCPay Server and its dependencies. We also need to communicate the limits of our findings more carefully: fixing a vulnerability and correctly assessing its full impact are separate responsibilities.
+**Never send seed phrases, private keys, passwords, or other credentials.** Remove secrets from any logs or configuration files before sharing them.
 
-AI-assisted vulnerability discovery adds pressure to an already asymmetric security problem: attackers need one exploitable weakness, while maintainers must defend a large attack surface.
+With the rise in automated attacks using AI, we ask all users to be diligent about installing BTCPay Server updates as they are released. We regularly announce new releases on our [X profile](https://x.com/BtcpayServer) and in our [Telegram community chat](https://t.me/btcpayserver).
 
-Please update regularly, keep only the funds needed for operations in hot wallets, and move excess funds to cold storage whose signing keys are not held on the server.
+If you need a hot wallet for daily operations, keep only the funds needed for those operations on the server and move the rest to a wallet whose spending keys are held off the server.
